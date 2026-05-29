@@ -6,6 +6,7 @@ import { MCQ } from '@/components/MCQ'
 import { QuizBar } from '@/components/QuizBar'
 import { useTimer } from '@/engine/useTimer'
 import { buildPlacementQuestions } from './questions'
+import { PlacementListeningAudio } from './PlacementListeningAudio'
 
 export function PlacementFlow({ onDone }: { onDone: () => void }) {
   const { completePlacement } = useStore()
@@ -76,12 +77,41 @@ export function PlacementFlow({ onDone }: { onDone: () => void }) {
 
         <QuizBar index={qi} total={questions.length} timeMs={ms} combo={0} />
 
+        {q.module === 'reading' && q.passage && (
+          <div className="card passage-card">
+            {q.sub && <div className="runner-title placement-passage-title">{q.sub}</div>}
+            <div className="passage-text">{q.passage}</div>
+          </div>
+        )}
+
+        {q.module === 'listening' && (
+          <PlacementListeningAudio
+            key={q.id}
+            audioUrl={q.audioUrl}
+            sentences={q.sentences}
+            transcript={q.transcript}
+            revealed={revealed}
+            title={q.sub}
+          />
+        )}
+
         <div className="card q-card">
           <span className="pill placement-tag">{q.tag}</span>
-          <div className="vocab-prompt">
-            <div className="vocab-prompt-word">{q.prompt}</div>
-            {q.sub && <div className="vocab-prompt-sub">{q.sub}</div>}
-          </div>
+
+          {q.module === 'vocabulary' ? (
+            <div className="vocab-prompt">
+              <div className="vocab-prompt-word">{q.prompt}</div>
+              {q.sub && <div className="vocab-prompt-sub">{q.sub}</div>}
+            </div>
+          ) : (
+            <>
+              {q.sub && q.module !== 'reading' && q.module !== 'listening' && (
+                <div className="vocab-prompt-sub">{q.sub}</div>
+              )}
+              <div className="q-stem">{q.prompt}</div>
+            </>
+          )}
+
           <MCQ
             options={q.options}
             selected={selected}

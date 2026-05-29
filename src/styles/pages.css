@@ -1979,6 +1979,17 @@
 .placement-tag {
   margin-bottom: 10px;
 }
+.placement-passage-title,
+.placement-listen-title {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.placement-transcript {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 14px;
+}
 .home-quick-row {
   display: flex;
   gap: 10px;

@@ -17,6 +17,14 @@ export interface PlacementQuestion {
   options: string[]
   answerIndex: number
   difficulty: number
+  /** reading: full article text */
+  passage?: string
+  /** listening: real audio file if available */
+  audioUrl?: string
+  /** listening: sentence-by-sentence TTS script */
+  sentences?: string[]
+  /** listening: full transcript (shown after answer) */
+  transcript?: string
 }
 
 function vocabQuestions(): PlacementQuestion[] {
@@ -49,7 +57,8 @@ function readingQuestions(): PlacementQuestion[] {
       module: 'reading',
       tag: '阅读',
       prompt: q.stem,
-      sub: item.title.slice(0, 24) + '…',
+      sub: item.title,
+      passage: item.passage,
       options: opts,
       answerIndex: opts.indexOf(q.options[q.answerIndex]),
       difficulty: item.difficulty,
@@ -70,7 +79,10 @@ function listeningQuestions(): PlacementQuestion[] {
       module: 'listening',
       tag: '听力',
       prompt: q.stem,
-      sub: '根据材料选择最佳答案',
+      sub: item.title,
+      audioUrl: item.audioUrl,
+      sentences: item.sentences,
+      transcript: item.transcript,
       options: opts,
       answerIndex: opts.indexOf(q.options[q.answerIndex]),
       difficulty: item.difficulty,
