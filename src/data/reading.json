@@ -1,0 +1,544 @@
+[
+  {
+    "id": "rd-remote-work",
+    "module": "reading",
+    "kind": "careful",
+    "title": "仔细阅读 · 远程办公",
+    "difficulty": 3,
+    "category": "社会",
+    "tags": ["仔细阅读", "社会"],
+    "passage": "When the pandemic forced millions of employees to work from home, many companies assumed that productivity would collapse. The opposite happened. Freed from long commutes and constant office interruptions, a surprising number of workers reported getting more done in less time. Yet the picture is not entirely rosy. Researchers warn that remote work blurs the line between professional and personal life, making it harder for employees to switch off at the end of the day. Some report working longer hours than ever, simply because the office is always a few steps away. Companies are now experimenting with hybrid models, allowing staff to split their week between home and the office. Supporters argue that this approach combines the flexibility of remote work with the social benefits of being together. Critics, however, point out that hybrid schedules can create a two-tier workforce, in which those who show up in person receive more attention and faster promotions than equally capable colleagues who stay home.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "What did many companies expect when employees began working from home?",
+        "options": [
+          "That productivity would decline sharply",
+          "That commuting costs would rise",
+          "That employees would demand higher pay",
+          "That office space would be wasted"
+        ],
+        "answerIndex": 0,
+        "explanation": "首句指出 many companies assumed that productivity would collapse，即预期效率会大幅下降，与 A 一致。"
+      },
+      {
+        "id": "q2",
+        "stem": "According to researchers, one drawback of remote work is that it",
+        "options": [
+          "reduces the quality of work produced",
+          "makes it difficult to separate work from personal life",
+          "increases the cost of office equipment",
+          "weakens employees' computer skills"
+        ],
+        "answerIndex": 1,
+        "explanation": "文中 remote work blurs the line between professional and personal life，对应 B 项「难以区分工作与生活」。"
+      },
+      {
+        "id": "q3",
+        "stem": "Critics worry that hybrid schedules may",
+        "options": [
+          "eliminate the need for offices",
+          "lower overall company profits",
+          "create unfair differences between employees",
+          "force everyone back to the office"
+        ],
+        "answerIndex": 2,
+        "explanation": "Critics 指出 hybrid 会形成 two-tier workforce，到岗者更受关注、晋升更快，即对员工不公平，选 C。"
+      }
+    ]
+  },
+  {
+    "id": "rd-sleep",
+    "module": "reading",
+    "kind": "careful",
+    "title": "仔细阅读 · 睡眠与健康",
+    "difficulty": 4,
+    "category": "健康",
+    "tags": ["仔细阅读", "健康"],
+    "passage": "For decades, sleep was treated as a kind of luxury—something to be sacrificed in the pursuit of success. High achievers boasted about how little they slept, as if exhaustion were a badge of honour. Recent science tells a very different story. During sleep, the brain consolidates memories, clears out harmful waste products, and repairs cells throughout the body. Chronic sleep deprivation has been linked to weakened immunity, poor concentration, and a higher risk of heart disease and depression. Perhaps most worrying, people who are short on sleep are notoriously bad at judging their own impairment; they believe they are functioning normally even as their performance steadily declines. Experts now recommend that adults aim for seven to nine hours a night and treat sleep not as wasted time but as an investment in everything they do while awake.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "In the past, sleeping very little was often seen as a sign of",
+        "options": ["weakness", "illness", "success and dedication", "poor planning"],
+        "answerIndex": 2,
+        "explanation": "文中 High achievers boasted about how little they slept，把缺觉当作荣誉勋章，即成功与拼搏的象征，选 C。"
+      },
+      {
+        "id": "q2",
+        "stem": "What does the passage say happens in the brain during sleep?",
+        "options": [
+          "It stops working to save energy",
+          "It consolidates memories and clears waste",
+          "It grows new sense organs",
+          "It permanently deletes old information"
+        ],
+        "answerIndex": 1,
+        "explanation": "原文 the brain consolidates memories, clears out harmful waste products，对应 B。"
+      },
+      {
+        "id": "q3",
+        "stem": "Why is sleep deprivation described as especially worrying?",
+        "options": [
+          "It cannot be cured",
+          "People underestimate how impaired they are",
+          "It only affects older adults",
+          "It makes people sleep too much later"
+        ],
+        "answerIndex": 1,
+        "explanation": "原文指出缺觉的人 bad at judging their own impairment，意识不到自己状态变差，选 B。"
+      }
+    ]
+  },
+  {
+    "id": "rd-careful-ai",
+    "module": "reading",
+    "kind": "careful",
+    "title": "仔细阅读 · 人工智能伦理",
+    "difficulty": 4,
+    "category": "科技",
+    "tags": ["仔细阅读", "科技"],
+    "passage": "As artificial intelligence systems grow more powerful, governments and tech companies face mounting pressure to ensure that these tools are used responsibly. One major concern is bias: if an AI model is trained on data that reflects historical inequalities, it may reproduce those inequalities in hiring, lending, or policing decisions. Another challenge is transparency. Many advanced models operate as 'black boxes,' making it difficult even for their creators to explain why a particular decision was reached. Advocates of regulation argue that clear standards are needed before AI is deployed in sensitive areas such as healthcare and criminal justice. Critics of heavy-handed rules warn that excessive regulation could slow innovation and push research to countries with weaker oversight. The debate is unlikely to be settled quickly, but most experts agree that some form of accountability will be essential.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "What problem related to training data is mentioned in the passage?",
+        "options": [
+          "Data is too expensive to collect",
+          "Models may perpetuate existing unfairness",
+          "Computers cannot store enough information",
+          "Scientists refuse to share their datasets"
+        ],
+        "answerIndex": 1,
+        "explanation": "文中指出若训练数据反映历史不平等，AI 可能在招聘、贷款等决策中 reproduce those inequalities，选 B。"
+      },
+      {
+        "id": "q2",
+        "stem": "The phrase 'black boxes' suggests that advanced AI models",
+        "options": [
+          "are physically dark in colour",
+          "cannot be opened for repair",
+          "make decisions that are hard to explain",
+          "are no longer used in industry"
+        ],
+        "answerIndex": 2,
+        "explanation": "black boxes 指难以解释决策原因，even creators 也难以说明，选 C。"
+      }
+    ]
+  },
+  {
+    "id": "rd-wordbank-volunteer",
+    "module": "reading",
+    "kind": "word_bank",
+    "title": "选词填空 · 志愿服务",
+    "difficulty": 3,
+    "category": "社会",
+    "tags": ["选词填空", "社会"],
+    "passage": "Volunteering has become increasingly (1) among university students in recent years. Rather than spending all their free time on entertainment, many young people now choose to (2) their weekends helping others. They teach in rural schools, care for the elderly, and protect the (3). Such activities not only benefit society but also help volunteers (4) valuable skills and a stronger sense of responsibility. Employers, too, increasingly (5) candidates who have a record of community service, seeing it as evidence of character and commitment.",
+    "wordBank": [
+      { "word": "popular", "pos": "adj." },
+      { "word": "devote", "pos": "v." },
+      { "word": "environment", "pos": "n." },
+      { "word": "develop", "pos": "v." },
+      { "word": "value", "pos": "v." },
+      { "word": "rarely", "pos": "adv." },
+      { "word": "destroy", "pos": "v." },
+      { "word": "ignore", "pos": "v." }
+    ],
+    "blanks": [
+      { "answer": 0, "explanation": "become + adj.，且语义为「受欢迎」，选 popular。" },
+      { "answer": 1, "explanation": "devote ... helping，固定搭配 devote time to (doing)，此处省略形式表示投入周末做志愿。" },
+      { "answer": 2, "explanation": "protect the environment，保护环境，名词作宾语。" },
+      { "answer": 3, "explanation": "help volunteers develop skills，培养技能，及物动词。" },
+      { "answer": 4, "explanation": "Employers value candidates，雇主看重应聘者，及物动词。" }
+    ]
+  },
+  {
+    "id": "rd-wordbank-reading-habit",
+    "module": "reading",
+    "kind": "word_bank",
+    "title": "选词填空 · 阅读习惯",
+    "difficulty": 4,
+    "category": "教育",
+    "tags": ["选词填空", "教育"],
+    "passage": "In an age of short videos and endless notifications, the ability to read deeply is becoming (1). Many people find it hard to (2) on a single book for more than a few minutes. Yet research suggests that deep reading (3) our capacity for empathy and critical thinking. To rebuild this habit, experts (4) setting aside a fixed time each day, far from any screen. Over time, even a modest daily routine can (5) a lifelong love of reading.",
+    "wordBank": [
+      { "word": "rare", "pos": "adj." },
+      { "word": "concentrate", "pos": "v." },
+      { "word": "strengthens", "pos": "v." },
+      { "word": "recommend", "pos": "v." },
+      { "word": "restore", "pos": "v." },
+      { "word": "common", "pos": "adj." },
+      { "word": "weakens", "pos": "v." },
+      { "word": "forbid", "pos": "v." }
+    ],
+    "blanks": [
+      { "answer": 0, "explanation": "深度阅读「越来越稀有」，becoming rare，与下文困难相呼应。" },
+      { "answer": 1, "explanation": "concentrate on，专注于一本书，固定搭配。" },
+      { "answer": 2, "explanation": "deep reading strengthens our capacity，主语第三人称单数加 s。" },
+      { "answer": 3, "explanation": "experts recommend (doing)，专家建议，及物动词。" },
+      { "answer": 4, "explanation": "restore a love of reading，重拾/恢复阅读的热爱。" }
+    ]
+  },
+  {
+    "id": "rd-wordbank-climate",
+    "module": "reading",
+    "kind": "word_bank",
+    "title": "选词填空 · 气候变化",
+    "difficulty": 3,
+    "category": "环境",
+    "tags": ["选词填空", "环境"],
+    "passage": "Scientists warn that climate change is no longer a distant (1). Rising sea levels, extreme heat, and more frequent storms are already affecting millions of people worldwide. Governments have pledged to (2) carbon emissions, but progress remains uneven. Renewable energy is becoming more (3), yet fossil fuels still account for the majority of global power. Individuals can also make a difference by reducing waste, using public transport, and (4) energy at home. Without collective action, experts (5) that the worst effects may arrive sooner than expected.",
+    "wordBank": [
+      { "word": "threat", "pos": "n." },
+      { "word": "cut", "pos": "v." },
+      { "word": "affordable", "pos": "adj." },
+      { "word": "saving", "pos": "v." },
+      { "word": "fear", "pos": "v." },
+      { "word": "benefit", "pos": "n." },
+      { "word": "ignore", "pos": "v." },
+      { "word": "delay", "pos": "v." }
+    ],
+    "blanks": [
+      { "answer": 0, "explanation": "no longer a distant threat，不再是遥远威胁，名词 threat。" },
+      { "answer": 1, "explanation": "pledged to cut carbon emissions，承诺削减碳排放。" },
+      { "answer": 2, "explanation": "Renewable energy is becoming more affordable，越来越可负担。" },
+      { "answer": 3, "explanation": "by ... saving energy at home，介词后动名词。" },
+      { "answer": 4, "explanation": "experts fear that...，专家担心，及物动词。" }
+    ]
+  },
+  {
+    "id": "rd-paragraph-startup",
+    "module": "reading",
+    "kind": "paragraph",
+    "title": "长篇阅读 · 创业生态",
+    "difficulty": 3,
+    "category": "经济",
+    "tags": ["长篇阅读", "经济"],
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "In recent years, startup accelerators have spread from Silicon Valley to cities around the world, promising founders mentorship, funding, and valuable connections in exchange for a small stake in their companies."
+      },
+      {
+        "label": "B",
+        "text": "Critics argue that the accelerator model favors founders who already have strong networks, leaving behind talented entrepreneurs from less privileged backgrounds who cannot afford to relocate or work without pay for months."
+      },
+      {
+        "label": "C",
+        "text": "Despite these concerns, many graduates of top programs report that the intense schedule forced them to refine their business models quickly and avoid costly mistakes later."
+      },
+      {
+        "label": "D",
+        "text": "Governments in several countries have begun funding public incubators that charge no equity, hoping to broaden access while still providing the coaching that young companies need."
+      }
+    ],
+    "statements": [
+      {
+        "id": "s1",
+        "text": "Some people believe accelerators mainly help those who already have advantages.",
+        "answer": "B",
+        "explanation": "B 段 Critics argue that the model favors founders who already have strong networks。"
+      },
+      {
+        "id": "s2",
+        "text": "Public programs have been created to make startup support more inclusive.",
+        "answer": "D",
+        "explanation": "D 段 governments funding public incubators ... broaden access。"
+      },
+      {
+        "id": "s3",
+        "text": "Participants say the fast pace helped them improve their plans early on.",
+        "answer": "C",
+        "explanation": "C 段 graduates report the intense schedule forced them to refine business models。"
+      }
+    ]
+  },
+  {
+    "id": "rd-paragraph-museum",
+    "module": "reading",
+    "kind": "paragraph",
+    "title": "长篇阅读 · 博物馆数字化",
+    "difficulty": 4,
+    "category": "文化",
+    "tags": ["长篇阅读", "文化"],
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "When the pandemic closed museum doors, curators rushed to put collections online, creating virtual tours that allowed visitors to explore galleries from their living rooms."
+      },
+      {
+        "label": "B",
+        "text": "Museum directors soon discovered that digital exhibits attracted audiences who had never set foot in a physical building, including students in remote areas and elderly viewers with limited mobility."
+      },
+      {
+        "label": "C",
+        "text": "Not everyone welcomed the shift. Some scholars worried that screen-based viewing could never replace the emotional impact of standing before an original painting or ancient artifact."
+      },
+      {
+        "label": "D",
+        "text": "Today, many institutions pursue a hybrid strategy, using online content to spark curiosity while still encouraging in-person visits for the full sensory experience."
+      },
+      {
+        "label": "E",
+        "text": "Funding remains a challenge, as digitization requires skilled staff, updated software, and ongoing maintenance that small museums struggle to afford."
+      }
+    ],
+    "statements": [
+      {
+        "id": "s1",
+        "text": "Online exhibitions reached people who could not easily visit museums in person.",
+        "answer": "B",
+        "explanation": "B 段 attracted audiences who had never set foot in a physical building，包括偏远学生与行动不便者。"
+      },
+      {
+        "id": "s2",
+        "text": "Certain experts doubt that digital viewing matches the power of seeing originals.",
+        "answer": "C",
+        "explanation": "C 段 scholars worried screen-based viewing could never replace the emotional impact。"
+      },
+      {
+        "id": "s3",
+        "text": "Many museums now combine online outreach with physical attendance.",
+        "answer": "D",
+        "explanation": "D 段 hybrid strategy，online content + in-person visits。"
+      }
+    ]
+  },
+  {
+    "id": "rd-paragraph-food-waste",
+    "module": "reading",
+    "kind": "paragraph",
+    "title": "长篇阅读 · 食物浪费",
+    "difficulty": 3,
+    "category": "社会",
+    "tags": ["长篇阅读", "社会"],
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Roughly one-third of all food produced for human consumption is lost or wasted each year, according to United Nations estimates, a figure that shocks both environmentalists and economists."
+      },
+      {
+        "label": "B",
+        "text": "In wealthy nations, much of the waste occurs at the retail and household level, where consumers discard items that are still safe to eat because of confusing date labels or cosmetic standards."
+      },
+      {
+        "label": "C",
+        "text": "In contrast, losses in developing countries often happen earlier in the supply chain, when crops spoil for lack of refrigeration or efficient transport."
+      },
+      {
+        "label": "D",
+        "text": "Several startups now connect restaurants and supermarkets with apps that sell surplus meals at a discount, turning potential waste into affordable food for budget-conscious customers."
+      }
+    ],
+    "statements": [
+      {
+        "id": "s1",
+        "text": "A large share of global food never reaches people's plates.",
+        "answer": "A",
+        "explanation": "A 段 one-third of all food ... is lost or wasted。"
+      },
+      {
+        "id": "s2",
+        "text": "Rich countries waste a lot of food after it reaches shops and homes.",
+        "answer": "B",
+        "explanation": "B 段 In wealthy nations, waste occurs at retail and household level。"
+      },
+      {
+        "id": "s3",
+        "text": "Technology is being used to sell extra food instead of throwing it away.",
+        "answer": "D",
+        "explanation": "D 段 startups connect restaurants ... sell surplus meals at a discount。"
+      }
+    ]
+  },
+  {
+    "id": "rd-mcq-cloze-friendship",
+    "module": "reading",
+    "kind": "mcq_cloze",
+    "title": "完形填空 · 友谊",
+    "difficulty": 3,
+    "category": "社会",
+    "tags": ["完形填空", "社会"],
+    "passage": "True friendship is built on trust and mutual respect. When we face difficult times, friends who stand by us without judgment can make all the (1). Research shows that people with close social ties tend to live longer and report higher levels of happiness. However, maintaining friendships requires (2); busy schedules and long distances can slowly weaken even the strongest bonds. Experts suggest scheduling regular check-ins, even if they are brief, to show that we still (3) about one another. In the digital age, a thoughtful message can sometimes matter as much as an in-person visit. Ultimately, quality matters more than (4): a few loyal friends often provide more support than a large network of casual (5).",
+    "blanks": [
+      {
+        "options": ["difference", "money", "noise", "risk"],
+        "answerIndex": 0,
+        "explanation": "make all the difference 固定搭配，意为「产生重大影响」。"
+      },
+      {
+        "options": ["effort", "luck", "silence", "debate"],
+        "answerIndex": 0,
+        "explanation": "maintaining friendships requires effort，维持友谊需要付出努力。"
+      },
+      {
+        "options": ["care", "complain", "forget", "doubt"],
+        "answerIndex": 0,
+        "explanation": "show that we still care about one another，表明我们仍彼此关心。"
+      },
+      {
+        "options": ["quantity", "speed", "price", "weight"],
+        "answerIndex": 0,
+        "explanation": "quality matters more than quantity，质重于量。"
+      },
+      {
+        "options": ["acquaintances", "enemies", "strangers", "rivals"],
+        "answerIndex": 0,
+        "explanation": "casual acquaintances 泛泛之交，与 loyal friends 形成对比。"
+      }
+    ]
+  },
+  {
+    "id": "rd-mcq-cloze-exercise",
+    "module": "reading",
+    "kind": "mcq_cloze",
+    "title": "完形填空 · 运动习惯",
+    "difficulty": 3,
+    "category": "健康",
+    "tags": ["完形填空", "健康"],
+    "passage": "Doctors have long advised adults to exercise regularly, yet many people struggle to turn good intentions into lasting habits. One common mistake is setting goals that are too (1) at the start, which leads to burnout and discouragement. A more effective approach is to begin with small, manageable steps—such as a ten-minute walk after dinner—and gradually increase the (2). Finding an activity you genuinely enjoy also makes it easier to stay (3). Some people prefer team sports, while others favor solitary activities like swimming or jogging. Whatever the choice, consistency matters more than intensity in the early stages. Over time, regular movement can improve mood, strengthen the heart, and reduce the (4) of chronic disease. The key is to treat exercise not as a punishment but as a form of self-(5).",
+    "blanks": [
+      {
+        "options": ["ambitious", "cheap", "silent", "random"],
+        "answerIndex": 0,
+        "explanation": "goals that are too ambitious，目标过于雄心勃勃导致 burnout。"
+      },
+      {
+        "options": ["duration", "cost", "weight", "drama"],
+        "answerIndex": 0,
+        "explanation": "gradually increase the duration，逐步增加时长。"
+      },
+      {
+        "options": ["motivated", "confused", "absent", "passive"],
+        "answerIndex": 0,
+        "explanation": "stay motivated，保持动力。"
+      },
+      {
+        "options": ["risk", "beauty", "speed", "honor"],
+        "answerIndex": 0,
+        "explanation": "reduce the risk of chronic disease，降低慢性病风险。"
+      },
+      {
+        "options": ["care", "pity", "doubt", "denial"],
+        "answerIndex": 0,
+        "explanation": "a form of self-care，自我关爱的一种方式。"
+      }
+    ]
+  },
+  {
+    "id": "rd-mcq-cloze-innovation",
+    "module": "reading",
+    "kind": "mcq_cloze",
+    "title": "完形填空 · 创新文化",
+    "difficulty": 4,
+    "category": "科技",
+    "tags": ["完形填空", "科技"],
+    "passage": "Innovation rarely happens in isolation. Breakthrough ideas often emerge when people from different disciplines share problems and compare perspectives. Companies that encourage experimentation—even when projects fail—tend to stay more (1) in competitive markets. Failure, in this context, is not something to hide but something to (2) from. Leaders who punish honest mistakes may unintentionally create a culture of fear, where employees hesitate to propose bold solutions. By contrast, organizations that celebrate learning treat each setback as data that can guide the next (3). Of course, not every risk is worth taking; wise managers balance creativity with clear (4). Still, the most successful firms understand that today's small experiment may become tomorrow's major (5).",
+    "blanks": [
+      {
+        "options": ["adaptive", "passive", "fragile", "hostile"],
+        "answerIndex": 0,
+        "explanation": "stay more adaptive，更具适应力，与鼓励实验相对应。"
+      },
+      {
+        "options": ["learn", "hide", "profit", "escape"],
+        "answerIndex": 0,
+        "explanation": "something to learn from，从中学习。"
+      },
+      {
+        "options": ["attempt", "argument", "payment", "holiday"],
+        "answerIndex": 0,
+        "explanation": "guide the next attempt，指导下一次尝试。"
+      },
+      {
+        "options": ["priorities", "decorations", "excuses", "mirrors"],
+        "answerIndex": 0,
+        "explanation": "balance creativity with clear priorities，创意与明确优先级并重。"
+      },
+      {
+        "options": ["breakthrough", "barrier", "delay", "tradition"],
+        "answerIndex": 0,
+        "explanation": "tomorrow's major breakthrough，明天的重大突破。"
+      }
+    ]
+  },
+  {
+    "id": "rd-seven-five-teamwork",
+    "module": "reading",
+    "kind": "seven_five",
+    "title": "七选五 · 团队合作",
+    "difficulty": 3,
+    "category": "职场",
+    "tags": ["七选五", "职场"],
+    "passage": "Effective teamwork is essential in modern workplaces. When members communicate openly, projects tend to move forward smoothly. (1) Without clear roles, however, even talented groups can waste time on duplicated effort. (2) Regular meetings help, but they should have a focused agenda rather than vague discussion. (3) Trust also plays a central role: people share ideas more freely when they feel respected. (4) Leaders who listen carefully often discover practical solutions that had been overlooked. (5) In the end, strong teams combine diverse skills with shared goals.",
+    "options": [
+      "Everyone should understand who is responsible for each task.",
+      "Open communication allows problems to surface early.",
+      "Micromanaging every detail can reduce motivation.",
+      "Mutual respect encourages honest feedback.",
+      "A clear agenda keeps meetings productive.",
+      "Competition between departments always improves results.",
+      "Shared goals align individual effort with group success."
+    ],
+    "blanks": [
+      { "answer": 1, "explanation": "(1) 后文讲无明确分工会重复劳动，(1) 应引出沟通顺畅，选 B Open communication。" },
+      { "answer": 0, "explanation": "(2) 承接 without clear roles，选 A 明确各自职责。" },
+      { "answer": 4, "explanation": "(3) 讨论会议，选 E 清晰议程。" },
+      { "answer": 3, "explanation": "(4) 讲 trust 与 respect，选 D Mutual respect。" },
+      { "answer": 6, "explanation": "(5) 结尾总结 shared goals，选 G。" }
+    ]
+  },
+  {
+    "id": "rd-seven-five-travel",
+    "module": "reading",
+    "kind": "seven_five",
+    "title": "七选五 · 旅行规划",
+    "difficulty": 3,
+    "category": "生活",
+    "tags": ["七选五", "生活"],
+    "passage": "Planning a trip can be as exciting as the journey itself. Start by deciding how much time and money you can realistically spend. (1) Researching destinations online helps you compare weather, costs, and local customs. (2) Booking flights early may save money, though flexible dates can offer even better deals. (3) Accommodation choices range from hostels to boutique hotels, depending on your comfort level. (4) Packing light reduces stress and leaves room for souvenirs. (5) With thoughtful preparation, travel becomes less about worry and more about discovery.",
+    "options": [
+      "Travel insurance can protect you from unexpected medical bills.",
+      "A realistic budget prevents unpleasant surprises later.",
+      "Heavy luggage makes public transport difficult.",
+      "Reading reviews from other travelers provides useful tips.",
+      "Spontaneous trips never require any planning at all.",
+      "Flexible dates sometimes lower airfare significantly.",
+      "Local customs may differ greatly from your own."
+    ],
+    "blanks": [
+      { "answer": 1, "explanation": "(1) 承接 time and money，选 B realistic budget。" },
+      { "answer": 6, "explanation": "(2) 承接 compare ... local customs，选 G。" },
+      { "answer": 5, "explanation": "(3) 讨论订票与日期灵活，选 F flexible dates。" },
+      { "answer": 2, "explanation": "(4) 承接 packing light，选 C heavy luggage 反面论证。" },
+      { "answer": 0, "explanation": "(5) 总结前可补充保险等准备；结合语境选 A 作为额外准备建议，与 worry 呼应。" }
+    ]
+  },
+  {
+    "id": "rd-seven-five-education",
+    "module": "reading",
+    "kind": "seven_five",
+    "title": "七选五 · 终身学习",
+    "difficulty": 4,
+    "category": "教育",
+    "tags": ["七选五", "教育"],
+    "passage": "The idea that education ends at graduation is increasingly outdated. In a rapidly changing economy, workers must update their skills throughout their careers. (1) Online courses have made learning more accessible, allowing people to study after work or on weekends. (2) Employers also benefit when staff bring fresh knowledge back to the office. (3) Curiosity remains the most reliable driver of lifelong learning. (4) Communities that value learning tend to adapt more quickly to technological change. (5) Treating education as a continuous journey rather than a one-time event opens doors at every stage of life.",
+    "options": [
+      "Some people assume degrees guarantee permanent success.",
+      "Accessible online resources lower barriers to entry.",
+      "Closed-minded cultures resist new ideas.",
+      "Curious minds seek out new challenges naturally.",
+      "Employers gain when employees keep upgrading skills.",
+      "Learning stops completely once you receive a diploma.",
+      "Communities that learn together adapt faster."
+    ],
+    "blanks": [
+      { "answer": 1, "explanation": "(1) 引出 online courses accessible，选 B。" },
+      { "answer": 4, "explanation": "(2) Employers also benefit，选 E 同义复述。" },
+      { "answer": 3, "explanation": "(3) Curiosity remains，选 D curious minds。" },
+      { "answer": 6, "explanation": "(4) Communities that value learning，选 G。" },
+      { "answer": 5, "explanation": "(5) 结尾对比 one-time event，选 F 与 opening 的 outdated idea 呼应。" }
+    ]
+  }
+]

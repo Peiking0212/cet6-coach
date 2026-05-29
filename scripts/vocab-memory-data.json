@@ -1,0 +1,1278 @@
+{
+  "v-abundant": {
+    "collocations": [
+      "abundant in natural resources",
+      "abundant supply of food",
+      "abundant evidence"
+    ],
+    "memoryTip": "联想 abound（大量存在），abundant 就是\"多到满溢\"的丰富。"
+  },
+  "v-accelerate": {
+    "collocations": [
+      "accelerate economic growth",
+      "accelerate the pace of reform",
+      "accelerate the process"
+    ],
+    "memoryTip": "celer 是\"快\"（同 celerity），ac- 加强→让事情跑得更快=加速。"
+  },
+  "v-accommodate": {
+    "collocations": [
+      "accommodate up to 500 guests",
+      "accommodate different needs",
+      "accommodate schedule changes"
+    ],
+    "memoryTip": "commod 是\"方便\"（同 commodity），ac- 加强→使方便=容纳、适应。"
+  },
+  "v-accomplish": {
+    "root": "ac-(加强) + compl(完成) + -ish",
+    "collocations": [
+      "accomplish a difficult task",
+      "accomplish one's goal",
+      "accomplish great things"
+    ],
+    "memoryTip": "complete 是\"完成\"，accomplish 强调经过努力终于完成。"
+  },
+  "v-accumulate": {
+    "collocations": [
+      "accumulate wealth over time",
+      "accumulate evidence",
+      "accumulate experience"
+    ],
+    "memoryTip": "cumul 是\"堆\"，ac- 加强→不断往上堆=积累。"
+  },
+  "v-adequate": {
+    "root": "ad-(向) + equ(相等) + -ate",
+    "collocations": [
+      "adequate resources",
+      "adequate preparation",
+      "adequate for the purpose"
+    ],
+    "memoryTip": "equal 是\"相等\"，adequate 就是\"数量/程度刚好够\"=充足、适当。"
+  },
+  "v-advocate": {
+    "collocations": [
+      "advocate for reform",
+      "advocate a balanced diet",
+      "advocate human rights"
+    ],
+    "memoryTip": "voc 是\"说\"（同 voice），advocate 就是\"用声音支持\"=提倡、倡导。"
+  },
+  "v-ambiguous": {
+    "collocations": [
+      "ambiguous statement",
+      "ambiguous meaning",
+      "remain ambiguous"
+    ],
+    "memoryTip": "ambi- 是\"两边\"，两边都能走=模棱两可、含糊不清。"
+  },
+  "v-anticipate": {
+    "collocations": [
+      "anticipate strong demand",
+      "anticipate problems",
+      "widely anticipated"
+    ],
+    "memoryTip": "anti- 是\"前\"，cip 是\"拿\"→提前拿到=预期、预料。"
+  },
+  "v-apparent": {
+    "root": "ap-(向) + par(出现) + -ent",
+    "collocations": [
+      "become apparent",
+      "for no apparent reason",
+      "apparent contradiction"
+    ],
+    "memoryTip": "appear 是\"出现\"，apparent 就是\"一眼就能看出来\"=明显的。"
+  },
+  "v-appropriate": {
+    "root": "ap-(向) + propri(自己的) + -ate",
+    "collocations": [
+      "appropriate behavior",
+      "appropriate measures",
+      "appropriate for the occasion"
+    ],
+    "memoryTip": "property 是\"自己的东西\"，appropriate 就是\"拿对了、用得对\"=适当的。"
+  },
+  "v-arbitrary": {
+    "collocations": [
+      "arbitrary decision",
+      "arbitrary rule",
+      "seem arbitrary"
+    ],
+    "memoryTip": "arbit 是\"裁决\"（同 arbiter），任意裁决=武断的、任意的。"
+  },
+  "v-assess": {
+    "root": "as-(向) + sess(坐)；坐旁边评估",
+    "collocations": [
+      "assess the situation",
+      "assess the damage",
+      "assess students' progress"
+    ],
+    "memoryTip": "联想 session（会议），assess 像\"坐下来仔细估量\"=评估。"
+  },
+  "v-assume": {
+    "collocations": [
+      "assume responsibility",
+      "assume that",
+      "safely assume"
+    ],
+    "memoryTip": "sum 是\"拿\"，as- 加强→\"拿过来当成真的\"=假定、承担。"
+  },
+  "v-attribute": {
+    "collocations": [
+      "attribute success to hard work",
+      "attribute the decline to",
+      "personal attributes"
+    ],
+    "memoryTip": "tribute 是\"给予\"，attribute 就是\"把原因归给某人/某事\"。"
+  },
+  "v-authentic": {
+    "root": "aut(自己) + -ent + -ic",
+    "collocations": [
+      "authentic materials",
+      "authentic experience",
+      "authentic signature"
+    ],
+    "memoryTip": "author 是\"作者/源头\"，authentic 就是\"来自真源头\"=真正的、可靠的。"
+  },
+  "v-comprehensive": {
+    "collocations": [
+      "comprehensive study",
+      "comprehensive plan",
+      "comprehensive coverage"
+    ],
+    "memoryTip": "prehens 是\"抓\"，com- 全部→全部抓住=全面的。"
+  },
+  "v-consequence": {
+    "collocations": [
+      "face the consequences",
+      "serious consequences",
+      "as a consequence of"
+    ],
+    "memoryTip": "sequ 是\"跟随\"，con- 一起→随之而来的=后果。"
+  },
+  "v-conserve": {
+    "collocations": [
+      "conserve energy",
+      "conserve natural resources",
+      "conserve water"
+    ],
+    "memoryTip": "serv 是\"保持\"，con- 加强→一起保住=保护、节约。"
+  },
+  "v-contemporary": {
+    "collocations": [
+      "contemporary art",
+      "contemporary society",
+      "contemporary issues"
+    ],
+    "memoryTip": "tempor 是\"时间\"，con- 共同→同一时间的=当代的。"
+  },
+  "v-controversial": {
+    "collocations": [
+      "controversial issue",
+      "highly controversial",
+      "controversial decision"
+    ],
+    "memoryTip": "contra- 相反 + vers 转→意见转向对立=有争议的。"
+  },
+  "v-conventional": {
+    "root": "con-(共同) + vent(来) + -ion + -al",
+    "collocations": [
+      "conventional methods",
+      "conventional wisdom",
+      "conventional approach"
+    ],
+    "memoryTip": "convention 是\"大家一起来定的规矩\"→传统的、常规的。"
+  },
+  "v-crucial": {
+    "collocations": [
+      "crucial role",
+      "crucial moment",
+      "crucial to success"
+    ],
+    "memoryTip": "cruc 是\"十字路口\"→处在关键路口=至关重要的。"
+  },
+  "v-cultivate": {
+    "collocations": [
+      "cultivate good habits",
+      "cultivate talent",
+      "cultivate relationships"
+    ],
+    "memoryTip": "cult 是\"耕种\"（同 culture）→像种地一样精心培养。"
+  },
+  "v-deliberate": {
+    "root": "de-(完全) + liber(秤) + -ate",
+    "collocations": [
+      "deliberate attempt",
+      "deliberate decision",
+      "deliberate pace"
+    ],
+    "memoryTip": "libra 是\"秤\"，deliberate 像\"在秤上反复权衡\"→故意的、深思熟虑的。"
+  },
+  "v-demonstrate": {
+    "collocations": [
+      "demonstrate the ability",
+      "demonstrate clearly",
+      "demonstrate against"
+    ],
+    "memoryTip": "monstr 是\"显示\"→展示出来=证明、演示。"
+  },
+  "v-diminish": {
+    "collocations": [
+      "diminish in importance",
+      "diminish rapidly",
+      "diminish the risk"
+    ],
+    "memoryTip": "mini 是\"小\"，di- 加强→变小=减少、削弱。"
+  },
+  "v-distinct": {
+    "root": "dis-(分开) + stinct(刺)；分开标记",
+    "collocations": [
+      "distinct difference",
+      "two distinct groups",
+      "distinct from"
+    ],
+    "memoryTip": "distinct 像\"用刺分开标记\"→截然不同的、清晰的。"
+  },
+  "v-diverse": {
+    "collocations": [
+      "diverse backgrounds",
+      "diverse range of",
+      "culturally diverse"
+    ],
+    "memoryTip": "di- 分开 + vers 转→转向各方=多种多样的。"
+  },
+  "v-dominate": {
+    "collocations": [
+      "dominate the market",
+      "dominate the conversation",
+      "dominate the industry"
+    ],
+    "memoryTip": "domin 是\"主人\"→当主人=支配、主导。"
+  },
+  "v-eliminate": {
+    "collocations": [
+      "eliminate poverty",
+      "eliminate the possibility",
+      "eliminate waste"
+    ],
+    "memoryTip": "limin 是\"门槛\"，e- 出→赶出门外=消除、淘汰。"
+  },
+  "v-emerge": {
+    "collocations": [
+      "emerge from crisis",
+      "emerge as a leader",
+      "new trends emerge"
+    ],
+    "memoryTip": "merg 是\"沉\"，e- 出→从水中浮出=出现、浮现。"
+  },
+  "v-emphasize": {
+    "root": "em-(进入) + phas(显示) + -ize",
+    "collocations": [
+      "emphasize the importance",
+      "emphasize the need for",
+      "strongly emphasize"
+    ],
+    "memoryTip": "phase 是\"阶段/显现\"，emphasize 就是\"把重点显示出来\"=强调。"
+  },
+  "v-enhance": {
+    "root": "en-(使) + hanc(高, 同 height)",
+    "collocations": [
+      "enhance performance",
+      "enhance quality",
+      "enhance reputation"
+    ],
+    "memoryTip": "height 是\"高\"，enhance 就是\"使变高变强\"=提高、增强。"
+  },
+  "v-evident": {
+    "collocations": [
+      "evident that",
+      "become evident",
+      "evident sign"
+    ],
+    "memoryTip": "vid 是\"看\"，e- 出→一看就明白=明显的。"
+  },
+  "v-exaggerate": {
+    "root": "ex-(出) + agger(堆) + -ate",
+    "collocations": [
+      "exaggerate the problem",
+      "greatly exaggerated",
+      "exaggerate the risk"
+    ],
+    "memoryTip": "agger 是\"堆\"，ex- 出→堆得比实际多=夸大、夸张。"
+  },
+  "v-exceed": {
+    "collocations": [
+      "exceed expectations",
+      "exceed the limit",
+      "exceed the budget"
+    ],
+    "memoryTip": "ceed 是\"走\"，ex- 出→走出界限=超过。"
+  },
+  "v-exploit": {
+    "root": "ex-(出) + plic(折) + -it",
+    "collocations": [
+      "exploit natural resources",
+      "exploit a loophole",
+      "fully exploit"
+    ],
+    "memoryTip": "exploit 本义\"展开利用\"，考试常考\"利用\"和\"剥削\"两个方向。"
+  },
+  "v-facilitate": {
+    "collocations": [
+      "facilitate communication",
+      "facilitate learning",
+      "facilitate trade"
+    ],
+    "memoryTip": "facil 是\"容易\"→使变容易=促进、使便利。"
+  },
+  "v-feasible": {
+    "root": "feas(做) + -ible",
+    "collocations": [
+      "feasible plan",
+      "economically feasible",
+      "feasible solution"
+    ],
+    "memoryTip": "feas 是\"做\"（同 affair），-ible 能…的→做得出来的=可行的。"
+  },
+  "v-fundamental": {
+    "collocations": [
+      "fundamental principle",
+      "fundamental change",
+      "fundamental rights"
+    ],
+    "memoryTip": "fund 是\"底/基础\"→最底层的=基本的、根本的。"
+  },
+  "v-genuine": {
+    "root": "gen(产生) + -uine",
+    "collocations": [
+      "genuine concern",
+      "genuine leather",
+      "genuine interest"
+    ],
+    "memoryTip": "gen 是\"产生\"，genuine 就是\"天然产生的真货\"=真正的、真诚的。"
+  },
+  "v-implement": {
+    "root": "im-(进入) + ple(满) + -ment",
+    "collocations": [
+      "implement a policy",
+      "implement the plan",
+      "implement reforms"
+    ],
+    "memoryTip": "implement 本义\"填满、完成\"，引申为把计划落到实处=实施。"
+  },
+  "v-inevitable": {
+    "collocations": [
+      "inevitable result",
+      "seem inevitable",
+      "inevitable consequence"
+    ],
+    "memoryTip": "in- 不 + evit 避免→无法避免=不可避免的。"
+  },
+  "v-integrate": {
+    "collocations": [
+      "integrate into society",
+      "integrate technology",
+      "integrate data"
+    ],
+    "memoryTip": "integr 是\"完整\"→使完整合一=整合、结合。"
+  },
+  "v-justify": {
+    "collocations": [
+      "justify the decision",
+      "justify one's actions",
+      "hard to justify"
+    ],
+    "memoryTip": "just 是\"公正\"，justify 就是\"证明是正当的\"=为…辩护。"
+  },
+  "v-perceive": {
+    "collocations": [
+      "perceive a threat",
+      "widely perceived as",
+      "perceive the difference"
+    ],
+    "memoryTip": "ceive 是\"拿\"，per- 完全→完全把握=察觉、感知。"
+  },
+  "v-phenomenon": {
+    "root": "pheno(显现) + -menon",
+    "collocations": [
+      "natural phenomenon",
+      "social phenomenon",
+      "a rare phenomenon"
+    ],
+    "memoryTip": "pheno 是\"显现\"（同 phase），phenomenon 就是\"显现出来的事\"=现象。"
+  },
+  "v-prominent": {
+    "collocations": [
+      "prominent figure",
+      "prominent feature",
+      "play a prominent role"
+    ],
+    "memoryTip": "min 是\"突出\"，pro- 向前→向前突出=杰出的、显著的。"
+  },
+  "v-undermine": {
+    "collocations": [
+      "undermine confidence",
+      "undermine authority",
+      "undermine efforts"
+    ],
+    "memoryTip": "under 下 + mine 挖→从下面挖墙脚=暗中削弱、破坏。"
+  },
+  "v-abolish": {
+    "root": "ab-(离开) + ol(生长) + -ish",
+    "collocations": [
+      "abolish slavery",
+      "abolish the law",
+      "abolish a system"
+    ],
+    "memoryTip": "ol 是\"生长/延续\"，ab- 离开→不让它继续存在=废除。"
+  },
+  "v-abstract": {
+    "collocations": [
+      "abstract concept",
+      "abstract art",
+      "in the abstract"
+    ],
+    "memoryTip": "tract 是\"拉\"，abs- 离开→从具体中抽离=抽象的。"
+  },
+  "v-acknowledge": {
+    "root": "ac-(加强) + knowledge(知识)",
+    "collocations": [
+      "acknowledge the problem",
+      "acknowledge receipt",
+      "widely acknowledged"
+    ],
+    "memoryTip": "knowledge 是\"知道\"，acknowledge 就是\"正式承认知道\"=承认、致谢。"
+  },
+  "v-acquire": {
+    "collocations": [
+      "acquire skills",
+      "acquire knowledge",
+      "acquire a company"
+    ],
+    "memoryTip": "quir 是\"寻求\"（同 require），ac- 加强→寻求并得到=获得。"
+  },
+  "v-adapt": {
+    "collocations": [
+      "adapt to change",
+      "adapt the novel for film",
+      "adapt quickly"
+    ],
+    "memoryTip": "apt 是\"适合\"，ad- 向→使适合=适应、改编。"
+  },
+  "v-allocate": {
+    "collocations": [
+      "allocate resources",
+      "allocate funds",
+      "allocate time"
+    ],
+    "memoryTip": "loc 是\"地方\"，allocate 就是\"分到各个地方\"=分配。"
+  },
+  "v-alternative": {
+    "root": "alter(改变) + -native",
+    "collocations": [
+      "alternative approach",
+      "have no alternative",
+      "alternative energy"
+    ],
+    "memoryTip": "alter 是\"改变\"，alternative 就是\"换一条路\"=替代选择。"
+  },
+  "v-analyze": {
+    "collocations": [
+      "analyze data",
+      "analyze the causes",
+      "carefully analyze"
+    ],
+    "memoryTip": "ana- 分开 + lyze 松解→拆开来看=分析。"
+  },
+  "v-appeal": {
+    "root": "ap-(向) + peal(呼叫)",
+    "collocations": [
+      "appeal to young people",
+      "appeal for help",
+      "lose the appeal"
+    ],
+    "memoryTip": "peal 是\"呼叫\"，appeal 就是\"向某人发出呼唤\"→呼吁、有吸引力。"
+  },
+  "v-approximate": {
+    "collocations": [
+      "approximate cost",
+      "approximate value",
+      "approximate to"
+    ],
+    "memoryTip": "proxim 是\"接近\"→大约的、接近。"
+  },
+  "v-aspect": {
+    "collocations": [
+      "every aspect of",
+      "important aspect",
+      "from every aspect"
+    ],
+    "memoryTip": "spect 是\"看\"，a- 加强→看的一个角度=方面。"
+  },
+  "v-assemble": {
+    "root": "as-(加强) + sembl(类似)；聚在一起",
+    "collocations": [
+      "assemble a team",
+      "assemble the parts",
+      "assemble evidence"
+    ],
+    "memoryTip": "resemble 是\"相似\"，assemble 是\"把相似的东西聚到一起\"=集合、组装。"
+  },
+  "v-assign": {
+    "root": "as-(向) + sign(标记)",
+    "collocations": [
+      "assign a task",
+      "assign responsibility",
+      "assign seats"
+    ],
+    "memoryTip": "sign 是\"标记\"，assign 就是\"标记给某人\"=分配、指派。"
+  },
+  "v-bias": {
+    "root": "来自法语 biais(斜的)；斜向一边→偏见",
+    "collocations": [
+      "gender bias",
+      "media bias",
+      "bias against"
+    ],
+    "memoryTip": "bias 像\"斜着站\"→偏向一边=偏见。"
+  },
+  "v-boost": {
+    "root": "来自古北欧语，本义\"推上去\"",
+    "collocations": [
+      "boost sales",
+      "boost confidence",
+      "boost the economy"
+    ],
+    "memoryTip": "boost 发音像\"蹦一下往上推\"→促进、提高。"
+  },
+  "v-capable": {
+    "collocations": [
+      "capable of doing",
+      "highly capable",
+      "capable leader"
+    ],
+    "memoryTip": "cap 是\"拿\"，-able 能…的→拿得起的=有能力的。"
+  },
+  "v-capacity": {
+    "root": "cap(拿) + -acity",
+    "collocations": [
+      "production capacity",
+      "seating capacity",
+      "capacity for learning"
+    ],
+    "memoryTip": "cap 是\"拿/容纳\"，capacity 就是\"能拿多少\"=容量、能力。"
+  },
+  "v-cease": {
+    "root": "cess(走) 变体；停止前进",
+    "collocations": [
+      "cease fire",
+      "cease operations",
+      "cease to exist"
+    ],
+    "memoryTip": "cess 是\"走\"（同 process），cease 就是\"不再走了\"=停止。"
+  },
+  "v-circumstance": {
+    "collocations": [
+      "under the circumstances",
+      "in no circumstance",
+      "financial circumstances"
+    ],
+    "memoryTip": "circum- 周围 + st 站→站在周围的情况=环境、情况。"
+  },
+  "v-cite": {
+    "root": "cit(召唤, 同 excite) 变体",
+    "collocations": [
+      "cite an example",
+      "cite a study",
+      "frequently cited"
+    ],
+    "memoryTip": "cite 像\"把证据召唤出来\"→引用、举例。"
+  },
+  "v-coherent": {
+    "collocations": [
+      "coherent argument",
+      "coherent explanation",
+      "coherent policy"
+    ],
+    "memoryTip": "here 是\"粘\"，co- 一起→粘在一起=连贯的。"
+  },
+  "v-collapse": {
+    "collocations": [
+      "economic collapse",
+      "collapse under pressure",
+      "building collapse"
+    ],
+    "memoryTip": "lapse 是\"滑落\"，col- 一起→一起滑落=倒塌、崩溃。"
+  },
+  "v-commit": {
+    "root": "com-(共) + mit(送)",
+    "collocations": [
+      "commit a crime",
+      "commit to a plan",
+      "commit resources"
+    ],
+    "memoryTip": "mit 是\"送\"（同 submit），commit 是\"一起送出去/交出去\"→犯(罪)、承诺。"
+  },
+  "v-compatible": {
+    "collocations": [
+      "compatible with",
+      "mutually compatible",
+      "compatible devices"
+    ],
+    "memoryTip": "pat 是\"感受\"，com- 共→感受一致=兼容的。"
+  },
+  "v-compensate": {
+    "collocations": [
+      "compensate for the loss",
+      "compensate victims",
+      "compensate employees"
+    ],
+    "memoryTip": "pens 是\"称量\"→称量后补平=补偿、弥补。"
+  },
+  "v-component": {
+    "root": "com-(共) + pon(放) + -ent",
+    "collocations": [
+      "key component",
+      "essential component",
+      "component parts"
+    ],
+    "memoryTip": "pon 是\"放\"（同 position），component 就是\"放在一起的部分\"=组成部分。"
+  },
+  "v-conceive": {
+    "collocations": [
+      "conceive an idea",
+      "conceive a plan",
+      "hard to conceive"
+    ],
+    "memoryTip": "ceive 是\"拿\"，con- 一起→在脑中抓住=构想、想出。"
+  },
+  "v-confront": {
+    "collocations": [
+      "confront the issue",
+      "confront reality",
+      "confront challenges"
+    ],
+    "memoryTip": "front 是\"前面\"，con- 一起→站到前面=面对、对抗。"
+  },
+  "v-consistent": {
+    "root": "con-(一起) + sist(站) + -ent",
+    "collocations": [
+      "consistent with",
+      "consistent results",
+      "remain consistent"
+    ],
+    "memoryTip": "sist 是\"站\"，consistent 就是\"始终站在一起\"=一致的。"
+  },
+  "v-constitute": {
+    "root": "con-(共同) + stitu(建立) + -e",
+    "collocations": [
+      "constitute a threat",
+      "constitute the majority",
+      "constitute evidence"
+    ],
+    "memoryTip": "stitu 是\"建立\"（同 institute），constitute 就是\"共同建立成整体\"=构成。"
+  },
+  "v-contradict": {
+    "collocations": [
+      "contradict each other",
+      "contradict the evidence",
+      "contradict oneself"
+    ],
+    "memoryTip": "contra- 相反 + dict 说→说相反的话=反驳、矛盾。"
+  },
+  "v-convey": {
+    "collocations": [
+      "convey a message",
+      "convey meaning",
+      "convey information"
+    ],
+    "memoryTip": "vey 是\"路\"（同 voyage）→沿路运送=传达、运送。"
+  },
+  "v-cope": {
+    "root": "cope(罩子, 斗篷)；用罩子应对→应付",
+    "collocations": [
+      "cope with stress",
+      "cope with change",
+      "cope well with"
+    ],
+    "memoryTip": "cope 原指\"斗篷\"，引申为\"用工具罩住问题\"=应付、处理。"
+  },
+  "v-correspond": {
+    "collocations": [
+      "correspond to",
+      "correspond with each other",
+      "correspond by email"
+    ],
+    "memoryTip": "respond 是\"回应\"，cor- 共同→相互回应一致=相符、通信。"
+  },
+  "v-decline": {
+    "collocations": [
+      "decline sharply",
+      "decline an invitation",
+      "in decline"
+    ],
+    "memoryTip": "clin 是\"倾斜\"，de- 下→向下倾斜=下降、婉拒。"
+  },
+  "v-dedicate": {
+    "root": "de-(强调) + dic(宣告) + -ate",
+    "collocations": [
+      "dedicate oneself to",
+      "dedicate time to",
+      "dedicate one's life"
+    ],
+    "memoryTip": "dict 是\"说/宣告\"，dedicate 就是\"正式宣告投入\"=致力于、奉献。"
+  },
+  "v-deficiency": {
+    "collocations": [
+      "vitamin deficiency",
+      "deficiency in skills",
+      "immune deficiency"
+    ],
+    "memoryTip": "fic 是\"做\"，de- 不够→做得不够=缺乏、不足。"
+  },
+  "v-deprive": {
+    "collocations": [
+      "deprive of freedom",
+      "deprive someone of rights",
+      "sleep-deprived"
+    ],
+    "memoryTip": "prive 是\"私有\"，de- 去掉→拿走私有物=剥夺。"
+  },
+  "v-derive": {
+    "collocations": [
+      "derive from",
+      "derive pleasure from",
+      "derive benefits"
+    ],
+    "memoryTip": "rive 是\"河流\"，de- 从→从河流源头流出=源自、得到。"
+  },
+  "v-deteriorate": {
+    "root": "deterior(更坏) + -ate",
+    "collocations": [
+      "deteriorate rapidly",
+      "conditions deteriorate",
+      "health deteriorates"
+    ],
+    "memoryTip": "deterior 是\"更坏\"，deteriorate 就是\"往更坏的方向走\"=恶化。"
+  },
+  "v-devise": {
+    "root": "de-(分开) + vis(看)",
+    "collocations": [
+      "devise a strategy",
+      "devise a plan",
+      "devise a method"
+    ],
+    "memoryTip": "vis 是\"看\"（同 vision），devise 像\"分开审视后想出来\"=设计、想出。"
+  },
+  "v-dilemma": {
+    "collocations": [
+      "face a dilemma",
+      "moral dilemma",
+      "in a dilemma"
+    ],
+    "memoryTip": "di- 二 + lemma 假设→两条路只能选一条=进退两难。"
+  },
+  "v-discard": {
+    "root": "dis-(分开) + card(卡片)；扔掉",
+    "collocations": [
+      "discard outdated ideas",
+      "discard waste",
+      "discard the plan"
+    ],
+    "memoryTip": "card 本义\"卡片/牌\"，discard 就是\"把牌扔掉\"=丢弃、抛弃。"
+  },
+  "v-dispute": {
+    "collocations": [
+      "settle a dispute",
+      "territorial dispute",
+      "dispute the claim"
+    ],
+    "memoryTip": "put 是\"思考\"，dis- 分开→分开各想各的=争论。"
+  },
+  "v-distribute": {
+    "collocations": [
+      "distribute resources",
+      "distribute evenly",
+      "distribute leaflets"
+    ],
+    "memoryTip": "tribute 是\"给\"，dis- 分开→分开给予=分发、分配。"
+  },
+  "v-elaborate": {
+    "collocations": [
+      "elaborate plan",
+      "elaborate on the point",
+      "elaborate design"
+    ],
+    "memoryTip": "labor 是\"劳动\"，e- 加强→下功夫做=详尽的、详述。"
+  },
+  "v-endure": {
+    "collocations": [
+      "endure hardship",
+      "endure pain",
+      "endure for centuries"
+    ],
+    "memoryTip": "dur 是\"持久\"（同 durable）→持久撑下去=忍受、持续。"
+  },
+  "v-essential": {
+    "root": "ess(存在) + -ential",
+    "collocations": [
+      "essential skills",
+      "essential for survival",
+      "essential element"
+    ],
+    "memoryTip": "ess 是\"存在\"（同 essence），essential 就是\"存在的根本\"=必不可少的。"
+  },
+  "v-evolve": {
+    "collocations": [
+      "evolve over time",
+      "evolve into",
+      "evolve rapidly"
+    ],
+    "memoryTip": "volve 是\"转\"，e- 出→转出来=逐渐发展、进化。"
+  },
+  "v-exclude": {
+    "collocations": [
+      "exclude from consideration",
+      "exclude the possibility",
+      "mutually exclusive"
+    ],
+    "memoryTip": "clud 是\"关\"，ex- 出→关在外面=排除。"
+  },
+  "v-explicit": {
+    "collocations": [
+      "explicit instructions",
+      "make it explicit",
+      "explicit consent"
+    ],
+    "memoryTip": "plic 是\"折\"，ex- 摊开→摊开说清=明确的。"
+  },
+  "v-fluctuate": {
+    "collocations": [
+      "prices fluctuate",
+      "fluctuate wildly",
+      "fluctuate between"
+    ],
+    "memoryTip": "fluct 是\"波/流\"→像波浪一样起伏=波动。"
+  },
+  "v-foster": {
+    "root": "fost(喂养, 同 food)",
+    "collocations": [
+      "foster innovation",
+      "foster cooperation",
+      "foster growth"
+    ],
+    "memoryTip": "foster 本义\"喂养\"，像喂养孩子一样=培养、促进。"
+  },
+  "v-generate": {
+    "collocations": [
+      "generate electricity",
+      "generate income",
+      "generate interest"
+    ],
+    "memoryTip": "gener 是\"产生\"→产生出来=生成。"
+  },
+  "v-hinder": {
+    "root": "hind(后面) + -er",
+    "collocations": [
+      "hinder progress",
+      "hinder development",
+      "hinder efforts"
+    ],
+    "memoryTip": "hind 是\"后面\"→跟在后面拖后腿=阻碍。"
+  },
+  "v-identical": {
+    "root": "ident(相同) + -ical",
+    "collocations": [
+      "identical twins",
+      "virtually identical",
+      "identical to"
+    ],
+    "memoryTip": "ident 是\"相同\"（同 identity），identical 就是\"完全一样的\"。"
+  },
+  "v-illustrate": {
+    "collocations": [
+      "illustrate the point",
+      "illustrate with examples",
+      "clearly illustrate"
+    ],
+    "memoryTip": "lustr 是\"光\"→用光照亮=说明、举例说明。"
+  },
+  "v-immense": {
+    "collocations": [
+      "immense pressure",
+      "immense value",
+      "immense popularity"
+    ],
+    "memoryTip": "mens 是\"测量\"，im- 不→无法测量=巨大的。"
+  },
+  "v-impose": {
+    "collocations": [
+      "impose restrictions",
+      "impose a tax",
+      "impose on someone"
+    ],
+    "memoryTip": "pose 是\"放\"，im- 上→强放上去=强加、征收。"
+  },
+  "v-incentive": {
+    "root": "in-(进入) + cent(唱) + -ive",
+    "collocations": [
+      "financial incentive",
+      "provide an incentive",
+      "strong incentive"
+    ],
+    "memoryTip": "cent 是\"唱\"（同 chant），incentive 像\"唱进去的动力\"=激励。"
+  },
+  "v-indispensable": {
+    "collocations": [
+      "indispensable part",
+      "indispensable tool",
+      "indispensable to"
+    ],
+    "memoryTip": "in- 不 + dispens 免除→不能免除的=不可或缺的。"
+  },
+  "v-initiate": {
+    "collocations": [
+      "initiate a project",
+      "initiate reforms",
+      "initiate contact"
+    ],
+    "memoryTip": "init 是\"进入\"（同 initial）→进入开端=开始、发起。"
+  },
+  "v-innovation": {
+    "collocations": [
+      "technological innovation",
+      "drive innovation",
+      "foster innovation"
+    ],
+    "memoryTip": "nov 是\"新\"（同 novel）→出新=创新。"
+  },
+  "v-intense": {
+    "root": "in-(加强) + tens(伸展) + -e",
+    "collocations": [
+      "intense competition",
+      "intense pressure",
+      "intense heat"
+    ],
+    "memoryTip": "tense 是\"拉紧\"，intense 就是\"拉到极致\"=强烈的、紧张的。"
+  },
+  "v-intervene": {
+    "collocations": [
+      "intervene in the dispute",
+      "intervene early",
+      "government intervene"
+    ],
+    "memoryTip": "vene 是\"来\"，inter- 之间→来到中间=干预。"
+  },
+  "v-isolate": {
+    "collocations": [
+      "isolate the virus",
+      "feel isolated",
+      "isolate from others"
+    ],
+    "memoryTip": "isol 是\"岛\"→像岛一样隔开=隔离、孤立。"
+  },
+  "v-legitimate": {
+    "collocations": [
+      "legitimate concern",
+      "legitimate business",
+      "legitimate reason"
+    ],
+    "memoryTip": "legi 是\"法律\"（同 legal）→合法的、合理的。"
+  },
+  "v-manipulate": {
+    "collocations": [
+      "manipulate data",
+      "manipulate public opinion",
+      "manipulate the market"
+    ],
+    "memoryTip": "mani 是\"手\"（同 manual）→用手操控=操纵。"
+  },
+  "v-modify": {
+    "collocations": [
+      "modify the design",
+      "modify behavior",
+      "slightly modify"
+    ],
+    "memoryTip": "mod 是\"方式\"（同 mode）→改方式=修改。"
+  },
+  "v-motivate": {
+    "collocations": [
+      "motivate employees",
+      "motivate students",
+      "highly motivated"
+    ],
+    "memoryTip": "mot 是\"动\"（同 motion）→使动起来=激励。"
+  },
+  "v-notion": {
+    "root": "not(知道) + -ion",
+    "collocations": [
+      "have no notion of",
+      "popular notion",
+      "abstract notion"
+    ],
+    "memoryTip": "not 是\"知道\"（同 note），notion 就是\"知道的一点\"=概念、观念。"
+  },
+  "v-obstacle": {
+    "collocations": [
+      "overcome obstacles",
+      "major obstacle",
+      "obstacle to progress"
+    ],
+    "memoryTip": "ob- 对着 + sta 站→挡在前面=障碍。"
+  },
+  "v-optimistic": {
+    "root": "optim(最好) + -istic",
+    "collocations": [
+      "optimistic outlook",
+      "remain optimistic",
+      "optimistic about the future"
+    ],
+    "memoryTip": "optim 是\"最好\"→往最好的方向想=乐观的。"
+  },
+  "v-overwhelm": {
+    "root": "over-(上) + whelm(淹没)",
+    "collocations": [
+      "overwhelmed by work",
+      "overwhelm the enemy",
+      "overwhelming support"
+    ],
+    "memoryTip": "whelm 是\"淹没\"，over- 在上→从上面淹没=压倒、使不知所措。"
+  },
+  "v-participate": {
+    "collocations": [
+      "participate in activities",
+      "actively participate",
+      "participate fully"
+    ],
+    "memoryTip": "part 部分 + cip 拿→分得一份=参与。"
+  },
+  "v-persist": {
+    "collocations": [
+      "persist in doing",
+      "symptoms persist",
+      "persist despite difficulties"
+    ],
+    "memoryTip": "per- 始终 + sist 站→始终站着不倒=坚持、持续。"
+  },
+  "v-portray": {
+    "root": "por-(向前) + tray(描绘, 同 portrait)",
+    "collocations": [
+      "portray a character",
+      "portray life accurately",
+      "as portrayed in the media"
+    ],
+    "memoryTip": "portrait 是\"肖像\"，portray 就是\"画出来/刻画出来\"=描绘。"
+  },
+  "v-precise": {
+    "root": "pre-(前) + cis(切)",
+    "collocations": [
+      "precise measurements",
+      "precise definition",
+      "to be precise"
+    ],
+    "memoryTip": "cis 是\"切\"（同 decide），precise 像\"提前切准\"=精确的。"
+  },
+  "v-prevail": {
+    "collocations": [
+      "prevail over",
+      "justice will prevail",
+      "prevailing view"
+    ],
+    "memoryTip": "vail 是\"强\"（同 value），pre- 在前→站在前面=盛行、获胜。"
+  },
+  "v-prohibit": {
+    "collocations": [
+      "strictly prohibit",
+      "prohibit smoking",
+      "prohibit the use of"
+    ],
+    "memoryTip": "hibit 是\"拿住\"，pro- 在前→挡在前面不让过=禁止。"
+  },
+  "v-prosperity": {
+    "root": "pro-(向前) + sper(希望) + -ity",
+    "collocations": [
+      "economic prosperity",
+      "shared prosperity",
+      "era of prosperity"
+    ],
+    "memoryTip": "sper 是\"希望\"（同 despair 的 spair），prosperity 就是\"希望向前\"=繁荣。"
+  },
+  "v-provoke": {
+    "collocations": [
+      "provoke anger",
+      "provoke a reaction",
+      "provoke debate"
+    ],
+    "memoryTip": "vok 是\"叫\"（同 voice），pro- 向前→向前叫喊=激起、挑衅。"
+  },
+  "v-reinforce": {
+    "collocations": [
+      "reinforce the message",
+      "reinforce security",
+      "reinforce learning"
+    ],
+    "memoryTip": "re- 再 + in + force 力量→再次注入力量=加强。"
+  },
+  "v-reluctant": {
+    "root": "re-(反) + luct(挣扎) + -ant",
+    "collocations": [
+      "reluctant to admit",
+      "reluctant agreement",
+      "reluctant hero"
+    ],
+    "memoryTip": "luct 是\"挣扎\"，reluctant 像\"内心挣扎不愿\"=不情愿的。"
+  },
+  "v-restrain": {
+    "collocations": [
+      "restrain oneself",
+      "restrain growth",
+      "restrain inflation"
+    ],
+    "memoryTip": "strain 是\"拉紧\"，re- 回→拉回来=抑制、制止。"
+  },
+  "v-retain": {
+    "collocations": [
+      "retain information",
+      "retain employees",
+      "retain moisture"
+    ],
+    "memoryTip": "tain 是\"拿住\"，re- 回→拿回来留住=保留。"
+  },
+  "v-reveal": {
+    "collocations": [
+      "reveal the truth",
+      "reveal a secret",
+      "reveal significant findings"
+    ],
+    "memoryTip": "veal 是\"面纱\"，re- 反→揭开面纱=揭示。"
+  },
+  "v-rigorous": {
+    "root": "rig(严格) + -orous",
+    "collocations": [
+      "rigorous standards",
+      "rigorous testing",
+      "rigorous analysis"
+    ],
+    "memoryTip": "rig 是\"严格/硬\"，rigorous 就是\"硬标准\"=严格的、严谨的。"
+  },
+  "v-sophisticated": {
+    "root": "soph(智慧) + -isticated",
+    "collocations": [
+      "sophisticated technology",
+      "sophisticated taste",
+      "highly sophisticated"
+    ],
+    "memoryTip": "soph 是\"智慧\"（同 philosophy），sophisticated 是\"很有智慧的\"→精密的、老练的。"
+  },
+  "v-spontaneous": {
+    "root": "spon(自发, 承诺) + -aneous",
+    "collocations": [
+      "spontaneous reaction",
+      "spontaneous applause",
+      "spontaneous decision"
+    ],
+    "memoryTip": "spon 本义\"自愿承诺\"，spontaneous 就是\"自然涌出的\"=自发的。"
+  },
+  "v-subtle": {
+    "root": "sub-(下) + -tle；在表面之下→细微的",
+    "collocations": [
+      "subtle difference",
+      "subtle hint",
+      "subtle change"
+    ],
+    "memoryTip": "sub- 是\"下\"，subtle 是\"藏在表面之下的\"=微妙的、细微的。"
+  },
+  "v-suspend": {
+    "collocations": [
+      "suspend operations",
+      "suspend judgment",
+      "suspend a sentence"
+    ],
+    "memoryTip": "pend 是\"挂\"，sus- 下→挂起来暂停=暂停、悬挂。"
+  },
+  "v-sustain": {
+    "collocations": [
+      "sustain growth",
+      "sustain life",
+      "sustain injuries"
+    ],
+    "memoryTip": "tain 是\"拿住\"，sus- 下→从下面托住=维持、支撑。"
+  },
+  "v-tedious": {
+    "root": "tedi(厌倦) + -ous",
+    "collocations": [
+      "tedious process",
+      "tedious task",
+      "tedious details"
+    ],
+    "memoryTip": "tedi 是\"厌倦\"，tedious 就是\"让人厌倦的\"=冗长乏味的。"
+  },
+  "v-thrive": {
+    "root": "thriv(抓取, 兴旺)",
+    "collocations": [
+      "thrive in competition",
+      "business thrives",
+      "thrive on challenge"
+    ],
+    "memoryTip": "thrive 像\"抓住机会往上长\"→茁壮成长、兴旺。"
+  },
+  "v-transform": {
+    "collocations": [
+      "transform society",
+      "transform the economy",
+      "transform into"
+    ],
+    "memoryTip": "trans- 跨 + form 形态→跨越形态=彻底改变。"
+  },
+  "v-trigger": {
+    "root": "trig(拉) + -er",
+    "collocations": [
+      "trigger a debate",
+      "trigger an alarm",
+      "trigger a crisis"
+    ],
+    "memoryTip": "trigger 本义\"扳机\"，扣扳机→引发、触发。"
+  },
+  "v-versatile": {
+    "root": "vers(转) + -atile",
+    "collocations": [
+      "versatile actor",
+      "versatile tool",
+      "versatile application"
+    ],
+    "memoryTip": "vers 是\"转\"（同 convert），versatile 就是\"能转各种角色\"=多才多艺的。"
+  },
+  "v-vivid": {
+    "collocations": [
+      "vivid description",
+      "vivid colors",
+      "vivid memory"
+    ],
+    "memoryTip": "viv 是\"生命\"→有生命力的=生动的、鲜艳的。"
+  },
+  "v-vulnerable": {
+    "root": "vuln(伤害) + -erable",
+    "collocations": [
+      "vulnerable to attack",
+      "vulnerable groups",
+      "economically vulnerable"
+    ],
+    "memoryTip": "vuln 是\"伤害\"（同 wound），vulnerable 就是\"容易受伤的\"=脆弱的。"
+  },
+  "v-withstand": {
+    "collocations": [
+      "withstand pressure",
+      "withstand earthquakes",
+      "withstand criticism"
+    ],
+    "memoryTip": "with- 对抗 + stand 站→站着对抗=经受住。"
+  },
+  "v-yield": {
+    "root": "古英语 gieldan(给予)；产出/屈服",
+    "collocations": [
+      "yield high returns",
+      "yield to pressure",
+      "crop yield"
+    ],
+    "memoryTip": "yield 两个核心义：产出（投资 yield 回报）和屈服（yield to 让步）。"
+  }
+}

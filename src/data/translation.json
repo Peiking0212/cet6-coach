@@ -1,0 +1,156 @@
+[
+  {
+    "id": "tr-solar-terms",
+    "module": "translation",
+    "title": "二十四节气",
+    "difficulty": 3,
+    "category": "文化",
+    "tags": ["文化", "历史", "真题改编"],
+    "cn": "二十四节气是中国古代用来指导农事的补充历法，是中华民族悠久历史文化的重要组成部分。它最初是根据北斗七星斗柄的指向制定的。如今，二十四节气依然在影响着人们的生活，并于2016年被列入联合国教科文组织人类非物质文化遗产代表作名录。",
+    "en": "The 24 solar terms are a supplementary calendar used in ancient China to guide farming, and they are an important part of the Chinese nation's long history and culture. They were originally established according to the direction in which the handle of the Big Dipper points. Today, the 24 solar terms still influence people's lives and were inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in 2016.",
+    "notes": "节气译为 solar terms；非物质文化遗产 intangible cultural heritage。",
+    "sentences": [
+      {
+        "cn": "二十四节气是中国古代用来指导农事的补充历法，是中华民族悠久历史文化的重要组成部分。",
+        "en": "The 24 solar terms are a supplementary calendar used in ancient China to guide farming, and they are an important part of the Chinese nation's long history and culture.",
+        "keyWords": [
+          { "word": "solar terms", "hint": "节气" },
+          { "word": "supplementary calendar", "hint": "补充历法" },
+          { "word": "guide farming", "hint": "指导农事" }
+        ]
+      },
+      {
+        "cn": "它最初是根据北斗七星斗柄的指向制定的。",
+        "en": "They were originally established according to the direction in which the handle of the Big Dipper points.",
+        "keyWords": [
+          { "word": "originally", "hint": "最初" },
+          { "word": "Big Dipper", "hint": "北斗七星" }
+        ]
+      },
+      {
+        "cn": "如今，二十四节气依然在影响着人们的生活，并于2016年被列入联合国教科文组织人类非物质文化遗产代表作名录。",
+        "en": "Today, the 24 solar terms still influence people's lives and were inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in 2016.",
+        "keyWords": [
+          { "word": "influence", "hint": "影响" },
+          { "word": "intangible cultural heritage", "hint": "非物质文化遗产" },
+          { "word": "inscribed", "hint": "被列入" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tr-digital-economy",
+    "module": "translation",
+    "title": "数字经济",
+    "difficulty": 4,
+    "category": "经济",
+    "tags": ["经济", "预测题"],
+    "cn": "近年来，数字经济已成为中国经济增长的重要引擎。随着互联网和人工智能的快速发展，越来越多的传统产业开始数字化转型。专家预测，数字经济将在未来十年继续推动高质量发展，并创造大量新的就业机会。",
+    "en": "In recent years, the digital economy has become an important engine of China's economic growth. With the rapid development of the Internet and artificial intelligence, more and more traditional industries have begun their digital transformation. Experts predict that the digital economy will continue to drive high-quality development over the next decade and create a large number of new jobs.",
+    "notes": "数字经济 digital economy；数字化转型 digital transformation。",
+    "sentences": [
+      {
+        "cn": "近年来，数字经济已成为中国经济增长的重要引擎。",
+        "en": "In recent years, the digital economy has become an important engine of China's economic growth.",
+        "keyWords": [
+          { "word": "digital economy", "hint": "数字经济" },
+          { "word": "engine", "hint": "引擎" },
+          { "word": "economic growth", "hint": "经济增长" }
+        ]
+      },
+      {
+        "cn": "随着互联网和人工智能的快速发展，越来越多的传统产业开始数字化转型。",
+        "en": "With the rapid development of the Internet and artificial intelligence, more and more traditional industries have begun their digital transformation.",
+        "keyWords": [
+          { "word": "artificial intelligence", "hint": "人工智能" },
+          { "word": "traditional industries", "hint": "传统产业" },
+          { "word": "digital transformation", "hint": "数字化转型" }
+        ]
+      },
+      {
+        "cn": "专家预测，数字经济将在未来十年继续推动高质量发展，并创造大量新的就业机会。",
+        "en": "Experts predict that the digital economy will continue to drive high-quality development over the next decade and create a large number of new jobs.",
+        "keyWords": [
+          { "word": "predict", "hint": "预测" },
+          { "word": "high-quality development", "hint": "高质量发展" },
+          { "word": "jobs", "hint": "就业机会" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tr-new-energy",
+    "module": "translation",
+    "title": "新能源汽车",
+    "difficulty": 4,
+    "category": "科技",
+    "tags": ["科技", "预测题"],
+    "cn": "中国已成为全球最大的新能源汽车市场。政府出台了一系列政策来鼓励消费者购买电动汽车，以减少空气污染和对石油的依赖。许多人相信，新能源汽车代表着未来交通的发展方向。",
+    "en": "China has become the world's largest market for new energy vehicles. The government has introduced a series of policies to encourage consumers to buy electric cars in order to reduce air pollution and dependence on oil. Many people believe that new energy vehicles represent the direction of future transportation.",
+    "notes": "新能源汽车 new energy vehicles；对石油的依赖 dependence on oil。",
+    "sentences": [
+      {
+        "cn": "中国已成为全球最大的新能源汽车市场。",
+        "en": "China has become the world's largest market for new energy vehicles.",
+        "keyWords": [
+          { "word": "new energy vehicles", "hint": "新能源汽车" },
+          { "word": "largest market", "hint": "最大的市场" }
+        ]
+      },
+      {
+        "cn": "政府出台了一系列政策来鼓励消费者购买电动汽车，以减少空气污染和对石油的依赖。",
+        "en": "The government has introduced a series of policies to encourage consumers to buy electric cars in order to reduce air pollution and dependence on oil.",
+        "keyWords": [
+          { "word": "introduced", "hint": "出台" },
+          { "word": "electric cars", "hint": "电动汽车" },
+          { "word": "dependence on oil", "hint": "对石油的依赖" }
+        ]
+      },
+      {
+        "cn": "许多人相信，新能源汽车代表着未来交通的发展方向。",
+        "en": "Many people believe that new energy vehicles represent the direction of future transportation.",
+        "keyWords": [
+          { "word": "represent", "hint": "代表" },
+          { "word": "future transportation", "hint": "未来交通" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tr-tea-culture",
+    "module": "translation",
+    "title": "中国茶文化",
+    "difficulty": 3,
+    "category": "文化",
+    "tags": ["文化"],
+    "cn": "茶在中国有着悠久的历史，是中国传统文化的重要象征。中国人喜欢用茶来招待客人，也常把饮茶视为一种修身养性的方式。如今，中国茶已经传播到世界各地，受到许多外国人的喜爱。",
+    "en": "Tea has a long history in China and is an important symbol of traditional Chinese culture. Chinese people like to use tea to entertain guests and often regard drinking tea as a way to cultivate the mind. Today, Chinese tea has spread all over the world and is loved by many foreigners.",
+    "notes": "招待客人 entertain guests；修身养性 cultivate the mind。",
+    "sentences": [
+      {
+        "cn": "茶在中国有着悠久的历史，是中国传统文化的重要象征。",
+        "en": "Tea has a long history in China and is an important symbol of traditional Chinese culture.",
+        "keyWords": [
+          { "word": "a long history", "hint": "悠久的历史" },
+          { "word": "symbol", "hint": "象征" }
+        ]
+      },
+      {
+        "cn": "中国人喜欢用茶来招待客人，也常把饮茶视为一种修身养性的方式。",
+        "en": "Chinese people like to use tea to entertain guests and often regard drinking tea as a way to cultivate the mind.",
+        "keyWords": [
+          { "word": "entertain guests", "hint": "招待客人" },
+          { "word": "cultivate the mind", "hint": "修身养性" }
+        ]
+      },
+      {
+        "cn": "如今，中国茶已经传播到世界各地，受到许多外国人的喜爱。",
+        "en": "Today, Chinese tea has spread all over the world and is loved by many foreigners.",
+        "keyWords": [
+          { "word": "spread", "hint": "传播" },
+          { "word": "all over the world", "hint": "世界各地" }
+        ]
+      }
+    ]
+  }
+]

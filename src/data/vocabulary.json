@@ -1,0 +1,3633 @@
+[
+  {
+    "id": "v-abundant",
+    "word": "abundant",
+    "phonetic": "/əˈbʌndənt/",
+    "pos": "adj.",
+    "meaning": "丰富的，大量的",
+    "example": "The region is abundant in natural resources.",
+    "exampleCn": "这个地区自然资源丰富。",
+    "synonyms": [
+      "plentiful",
+      "ample"
+    ],
+    "root": "abund-(满溢) + -ant；联想 abound 大量存在",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "abundant in natural resources",
+      "abundant supply of food",
+      "abundant evidence"
+    ],
+    "memoryTip": "联想 abound（大量存在），abundant 就是\"多到满溢\"的丰富。"
+  },
+  {
+    "id": "v-accelerate",
+    "word": "accelerate",
+    "phonetic": "/əkˈseləreɪt/",
+    "pos": "v.",
+    "meaning": "加速；促进",
+    "example": "New policies helped accelerate economic growth.",
+    "exampleCn": "新政策有助于加速经济增长。",
+    "synonyms": [
+      "speed up",
+      "hasten"
+    ],
+    "root": "ac-(加强) + celer(快, 同 celerity) + -ate",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "accelerate economic growth",
+      "accelerate the pace of reform",
+      "accelerate the process"
+    ],
+    "memoryTip": "celer 是\"快\"（同 celerity），ac- 加强→让事情跑得更快=加速。"
+  },
+  {
+    "id": "v-accommodate",
+    "word": "accommodate",
+    "phonetic": "/əˈkɒmədeɪt/",
+    "pos": "v.",
+    "meaning": "容纳；适应；为…提供住宿",
+    "example": "The hall can accommodate up to 500 people.",
+    "exampleCn": "大厅最多可容纳 500 人。",
+    "synonyms": [
+      "hold",
+      "house"
+    ],
+    "root": "ac- + commod(方便, 同 commodity) + -ate",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "accommodate up to 500 guests",
+      "accommodate different needs",
+      "accommodate schedule changes"
+    ],
+    "memoryTip": "commod 是\"方便\"（同 commodity），ac- 加强→使方便=容纳、适应。"
+  },
+  {
+    "id": "v-accomplish",
+    "word": "accomplish",
+    "phonetic": "/əˈkʌmplɪʃ/",
+    "pos": "v.",
+    "meaning": "完成，实现",
+    "example": "She accomplished her goal through years of effort.",
+    "exampleCn": "她通过多年的努力实现了目标。",
+    "synonyms": [
+      "achieve",
+      "fulfill"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "ac-(加强) + compl(完成) + -ish",
+    "collocations": [
+      "accomplish a difficult task",
+      "accomplish one's goal",
+      "accomplish great things"
+    ],
+    "memoryTip": "complete 是\"完成\"，accomplish 强调经过努力终于完成。"
+  },
+  {
+    "id": "v-accumulate",
+    "word": "accumulate",
+    "phonetic": "/əˈkjuːmjəleɪt/",
+    "pos": "v.",
+    "meaning": "积累，积聚",
+    "example": "Dust had accumulated on the old books.",
+    "exampleCn": "旧书上积满了灰尘。",
+    "synonyms": [
+      "gather",
+      "pile up"
+    ],
+    "root": "ac- + cumul(堆) + -ate",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "accumulate wealth over time",
+      "accumulate evidence",
+      "accumulate experience"
+    ],
+    "memoryTip": "cumul 是\"堆\"，ac- 加强→不断往上堆=积累。"
+  },
+  {
+    "id": "v-adequate",
+    "word": "adequate",
+    "phonetic": "/ˈædɪkwət/",
+    "pos": "adj.",
+    "meaning": "充足的；适当的",
+    "example": "The supplies were adequate for the whole trip.",
+    "exampleCn": "这些补给足够整个行程使用。",
+    "synonyms": [
+      "sufficient",
+      "enough"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "ad-(向) + equ(相等) + -ate",
+    "collocations": [
+      "adequate resources",
+      "adequate preparation",
+      "adequate for the purpose"
+    ],
+    "memoryTip": "equal 是\"相等\"，adequate 就是\"数量/程度刚好够\"=充足、适当。"
+  },
+  {
+    "id": "v-advocate",
+    "word": "advocate",
+    "phonetic": "/ˈædvəkeɪt/",
+    "pos": "v./n.",
+    "meaning": "提倡，主张；倡导者",
+    "example": "Many experts advocate a balanced diet.",
+    "exampleCn": "许多专家提倡均衡饮食。",
+    "synonyms": [
+      "promote",
+      "support"
+    ],
+    "root": "ad- + voc(说, call) + -ate；用声音支持",
+    "tags": [
+      "高频"
+    ],
+    "collocations": [
+      "advocate for reform",
+      "advocate a balanced diet",
+      "advocate human rights"
+    ],
+    "memoryTip": "voc 是\"说\"（同 voice），advocate 就是\"用声音支持\"=提倡、倡导。"
+  },
+  {
+    "id": "v-ambiguous",
+    "word": "ambiguous",
+    "phonetic": "/æmˈbɪɡjuəs/",
+    "pos": "adj.",
+    "meaning": "模棱两可的，含糊不清的",
+    "example": "His ambiguous reply confused everyone.",
+    "exampleCn": "他模棱两可的回答让所有人都困惑。",
+    "synonyms": [
+      "vague",
+      "unclear"
+    ],
+    "root": "ambi-(两边) + -guous(走)；两边走=不明确",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "ambiguous statement",
+      "ambiguous meaning",
+      "remain ambiguous"
+    ],
+    "memoryTip": "ambi- 是\"两边\"，两边都能走=模棱两可、含糊不清。"
+  },
+  {
+    "id": "v-anticipate",
+    "word": "anticipate",
+    "phonetic": "/ænˈtɪsɪpeɪt/",
+    "pos": "v.",
+    "meaning": "预期，预料",
+    "example": "We anticipate strong demand for the new product.",
+    "exampleCn": "我们预计新产品需求会很旺盛。",
+    "synonyms": [
+      "expect",
+      "foresee"
+    ],
+    "root": "anti-(前) + cip(拿) + -ate；提前拿到",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "anticipate strong demand",
+      "anticipate problems",
+      "widely anticipated"
+    ],
+    "memoryTip": "anti- 是\"前\"，cip 是\"拿\"→提前拿到=预期、预料。"
+  },
+  {
+    "id": "v-apparent",
+    "word": "apparent",
+    "phonetic": "/əˈpærənt/",
+    "pos": "adj.",
+    "meaning": "明显的；表面上的",
+    "example": "It became apparent that the plan would fail.",
+    "exampleCn": "很明显这个计划会失败。",
+    "synonyms": [
+      "obvious",
+      "evident"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "ap-(向) + par(出现) + -ent",
+    "collocations": [
+      "become apparent",
+      "for no apparent reason",
+      "apparent contradiction"
+    ],
+    "memoryTip": "appear 是\"出现\"，apparent 就是\"一眼就能看出来\"=明显的。"
+  },
+  {
+    "id": "v-appropriate",
+    "word": "appropriate",
+    "phonetic": "/əˈprəʊpriət/",
+    "pos": "adj.",
+    "meaning": "适当的，恰当的",
+    "example": "Please wear appropriate clothing for the interview.",
+    "exampleCn": "面试请穿着得体的服装。",
+    "synonyms": [
+      "suitable",
+      "proper"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "ap-(向) + propri(自己的) + -ate",
+    "collocations": [
+      "appropriate behavior",
+      "appropriate measures",
+      "appropriate for the occasion"
+    ],
+    "memoryTip": "property 是\"自己的东西\"，appropriate 就是\"拿对了、用得对\"=适当的。"
+  },
+  {
+    "id": "v-arbitrary",
+    "word": "arbitrary",
+    "phonetic": "/ˈɑːbɪtrəri/",
+    "pos": "adj.",
+    "meaning": "武断的；任意的",
+    "example": "The decision seemed completely arbitrary.",
+    "exampleCn": "这个决定看起来完全是武断的。",
+    "synonyms": [
+      "random",
+      "subjective"
+    ],
+    "root": "arbit(裁决, 同 arbiter) + -ary",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "arbitrary decision",
+      "arbitrary rule",
+      "seem arbitrary"
+    ],
+    "memoryTip": "arbit 是\"裁决\"（同 arbiter），任意裁决=武断的、任意的。"
+  },
+  {
+    "id": "v-assess",
+    "word": "assess",
+    "phonetic": "/əˈses/",
+    "pos": "v.",
+    "meaning": "评估，估价",
+    "example": "Teachers assess students' progress regularly.",
+    "exampleCn": "老师定期评估学生的进步。",
+    "synonyms": [
+      "evaluate",
+      "appraise"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "as-(向) + sess(坐)；坐旁边评估",
+    "collocations": [
+      "assess the situation",
+      "assess the damage",
+      "assess students' progress"
+    ],
+    "memoryTip": "联想 session（会议），assess 像\"坐下来仔细估量\"=评估。"
+  },
+  {
+    "id": "v-assume",
+    "word": "assume",
+    "phonetic": "/əˈsjuːm/",
+    "pos": "v.",
+    "meaning": "假定，认为；承担",
+    "example": "We cannot simply assume that he is guilty.",
+    "exampleCn": "我们不能想当然地认为他有罪。",
+    "synonyms": [
+      "suppose",
+      "presume"
+    ],
+    "root": "as- + sum(拿) ；拿过来当成",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "assume responsibility",
+      "assume that",
+      "safely assume"
+    ],
+    "memoryTip": "sum 是\"拿\"，as- 加强→\"拿过来当成真的\"=假定、承担。"
+  },
+  {
+    "id": "v-attribute",
+    "word": "attribute",
+    "phonetic": "/əˈtrɪbjuːt/",
+    "pos": "v./n.",
+    "meaning": "把…归因于；属性，特质",
+    "example": "She attributes her success to hard work.",
+    "exampleCn": "她把成功归因于努力。",
+    "synonyms": [
+      "ascribe",
+      "credit"
+    ],
+    "root": "at- + tribute(给予)；归给某原因",
+    "tags": [
+      "高频"
+    ],
+    "collocations": [
+      "attribute success to hard work",
+      "attribute the decline to",
+      "personal attributes"
+    ],
+    "memoryTip": "tribute 是\"给予\"，attribute 就是\"把原因归给某人/某事\"。"
+  },
+  {
+    "id": "v-authentic",
+    "word": "authentic",
+    "phonetic": "/ɔːˈθentɪk/",
+    "pos": "adj.",
+    "meaning": "真正的，真实可靠的",
+    "example": "The museum displays authentic ancient relics.",
+    "exampleCn": "博物馆展出真正的古代文物。",
+    "synonyms": [
+      "genuine",
+      "real"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "aut(自己) + -ent + -ic",
+    "collocations": [
+      "authentic materials",
+      "authentic experience",
+      "authentic signature"
+    ],
+    "memoryTip": "author 是\"作者/源头\"，authentic 就是\"来自真源头\"=真正的、可靠的。"
+  },
+  {
+    "id": "v-comprehensive",
+    "word": "comprehensive",
+    "phonetic": "/ˌkɒmprɪˈhensɪv/",
+    "pos": "adj.",
+    "meaning": "全面的，综合的",
+    "example": "The report gives a comprehensive overview of the issue.",
+    "exampleCn": "这份报告对该问题做了全面的概述。",
+    "synonyms": [
+      "thorough",
+      "complete"
+    ],
+    "root": "com-(全) + prehens(抓) ；全部抓住",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "comprehensive study",
+      "comprehensive plan",
+      "comprehensive coverage"
+    ],
+    "memoryTip": "prehens 是\"抓\"，com- 全部→全部抓住=全面的。"
+  },
+  {
+    "id": "v-consequence",
+    "word": "consequence",
+    "phonetic": "/ˈkɒnsɪkwəns/",
+    "pos": "n.",
+    "meaning": "结果，后果",
+    "example": "He had to face the consequences of his actions.",
+    "exampleCn": "他必须承担其行为的后果。",
+    "synonyms": [
+      "result",
+      "outcome"
+    ],
+    "root": "con- + sequ(跟随) ；随之而来",
+    "tags": [
+      "高频",
+      "名词"
+    ],
+    "collocations": [
+      "face the consequences",
+      "serious consequences",
+      "as a consequence of"
+    ],
+    "memoryTip": "sequ 是\"跟随\"，con- 一起→随之而来的=后果。"
+  },
+  {
+    "id": "v-conserve",
+    "word": "conserve",
+    "phonetic": "/kənˈsɜːv/",
+    "pos": "v.",
+    "meaning": "保护；节约",
+    "example": "We must conserve water during the drought.",
+    "exampleCn": "干旱期间我们必须节约用水。",
+    "synonyms": [
+      "preserve",
+      "save"
+    ],
+    "root": "con- + serv(保持)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "conserve energy",
+      "conserve natural resources",
+      "conserve water"
+    ],
+    "memoryTip": "serv 是\"保持\"，con- 加强→一起保住=保护、节约。"
+  },
+  {
+    "id": "v-contemporary",
+    "word": "contemporary",
+    "phonetic": "/kənˈtemprəri/",
+    "pos": "adj./n.",
+    "meaning": "当代的；同时代的人",
+    "example": "The gallery features contemporary art.",
+    "exampleCn": "这家画廊主打当代艺术。",
+    "synonyms": [
+      "modern",
+      "current"
+    ],
+    "root": "con-(共同) + tempor(时间) ；同一时间",
+    "tags": [
+      "高频"
+    ],
+    "collocations": [
+      "contemporary art",
+      "contemporary society",
+      "contemporary issues"
+    ],
+    "memoryTip": "tempor 是\"时间\"，con- 共同→同一时间的=当代的。"
+  },
+  {
+    "id": "v-controversial",
+    "word": "controversial",
+    "phonetic": "/ˌkɒntrəˈvɜːʃl/",
+    "pos": "adj.",
+    "meaning": "有争议的",
+    "example": "The new law remains highly controversial.",
+    "exampleCn": "这项新法律仍然极具争议。",
+    "synonyms": [
+      "disputed",
+      "debatable"
+    ],
+    "root": "contra-(相反) + vers(转) ；意见相对",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "controversial issue",
+      "highly controversial",
+      "controversial decision"
+    ],
+    "memoryTip": "contra- 相反 + vers 转→意见转向对立=有争议的。"
+  },
+  {
+    "id": "v-conventional",
+    "word": "conventional",
+    "phonetic": "/kənˈvenʃənl/",
+    "pos": "adj.",
+    "meaning": "传统的，常规的",
+    "example": "Conventional methods no longer work here.",
+    "exampleCn": "常规方法在这里已不再奏效。",
+    "synonyms": [
+      "traditional",
+      "standard"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "con-(共同) + vent(来) + -ion + -al",
+    "collocations": [
+      "conventional methods",
+      "conventional wisdom",
+      "conventional approach"
+    ],
+    "memoryTip": "convention 是\"大家一起来定的规矩\"→传统的、常规的。"
+  },
+  {
+    "id": "v-crucial",
+    "word": "crucial",
+    "phonetic": "/ˈkruːʃl/",
+    "pos": "adj.",
+    "meaning": "至关重要的，决定性的",
+    "example": "Sleep is crucial to good health.",
+    "exampleCn": "睡眠对健康至关重要。",
+    "synonyms": [
+      "vital",
+      "critical"
+    ],
+    "root": "cruc(十字路口) ；关键路口",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "crucial role",
+      "crucial moment",
+      "crucial to success"
+    ],
+    "memoryTip": "cruc 是\"十字路口\"→处在关键路口=至关重要的。"
+  },
+  {
+    "id": "v-cultivate",
+    "word": "cultivate",
+    "phonetic": "/ˈkʌltɪveɪt/",
+    "pos": "v.",
+    "meaning": "培养；耕作",
+    "example": "Reading helps cultivate critical thinking.",
+    "exampleCn": "阅读有助于培养批判性思维。",
+    "synonyms": [
+      "develop",
+      "foster"
+    ],
+    "root": "cult(耕种, 同 culture)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "cultivate good habits",
+      "cultivate talent",
+      "cultivate relationships"
+    ],
+    "memoryTip": "cult 是\"耕种\"（同 culture）→像种地一样精心培养。"
+  },
+  {
+    "id": "v-deliberate",
+    "word": "deliberate",
+    "phonetic": "/dɪˈlɪbərət/",
+    "pos": "adj.",
+    "meaning": "故意的；深思熟虑的",
+    "example": "It was a deliberate attempt to mislead us.",
+    "exampleCn": "那是蓄意误导我们的行为。",
+    "synonyms": [
+      "intentional",
+      "planned"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "de-(完全) + liber(秤) + -ate",
+    "collocations": [
+      "deliberate attempt",
+      "deliberate decision",
+      "deliberate pace"
+    ],
+    "memoryTip": "libra 是\"秤\"，deliberate 像\"在秤上反复权衡\"→故意的、深思熟虑的。"
+  },
+  {
+    "id": "v-demonstrate",
+    "word": "demonstrate",
+    "phonetic": "/ˈdemənstreɪt/",
+    "pos": "v.",
+    "meaning": "证明；演示；示威",
+    "example": "The study demonstrates a clear link between diet and health.",
+    "exampleCn": "该研究证明了饮食与健康之间的明确联系。",
+    "synonyms": [
+      "prove",
+      "show"
+    ],
+    "root": "de- + monstr(显示) + -ate",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "demonstrate the ability",
+      "demonstrate clearly",
+      "demonstrate against"
+    ],
+    "memoryTip": "monstr 是\"显示\"→展示出来=证明、演示。"
+  },
+  {
+    "id": "v-diminish",
+    "word": "diminish",
+    "phonetic": "/dɪˈmɪnɪʃ/",
+    "pos": "v.",
+    "meaning": "减少，削弱",
+    "example": "His influence gradually diminished.",
+    "exampleCn": "他的影响力逐渐减弱。",
+    "synonyms": [
+      "decrease",
+      "reduce"
+    ],
+    "root": "di- + mini(小) ；变小",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "diminish in importance",
+      "diminish rapidly",
+      "diminish the risk"
+    ],
+    "memoryTip": "mini 是\"小\"，di- 加强→变小=减少、削弱。"
+  },
+  {
+    "id": "v-distinct",
+    "word": "distinct",
+    "phonetic": "/dɪˈstɪŋkt/",
+    "pos": "adj.",
+    "meaning": "截然不同的；清晰的",
+    "example": "There are two distinct meanings of the word.",
+    "exampleCn": "这个词有两个截然不同的含义。",
+    "synonyms": [
+      "separate",
+      "clear"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "dis-(分开) + stinct(刺)；分开标记",
+    "collocations": [
+      "distinct difference",
+      "two distinct groups",
+      "distinct from"
+    ],
+    "memoryTip": "distinct 像\"用刺分开标记\"→截然不同的、清晰的。"
+  },
+  {
+    "id": "v-diverse",
+    "word": "diverse",
+    "phonetic": "/daɪˈvɜːs/",
+    "pos": "adj.",
+    "meaning": "多种多样的",
+    "example": "The city has a diverse population.",
+    "exampleCn": "这座城市人口多元。",
+    "synonyms": [
+      "varied",
+      "assorted"
+    ],
+    "root": "di-(分开) + vers(转) ；转向各方",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "diverse backgrounds",
+      "diverse range of",
+      "culturally diverse"
+    ],
+    "memoryTip": "di- 分开 + vers 转→转向各方=多种多样的。"
+  },
+  {
+    "id": "v-dominate",
+    "word": "dominate",
+    "phonetic": "/ˈdɒmɪneɪt/",
+    "pos": "v.",
+    "meaning": "支配，主导",
+    "example": "A few firms dominate the entire market.",
+    "exampleCn": "少数几家公司主导着整个市场。",
+    "synonyms": [
+      "control",
+      "govern"
+    ],
+    "root": "domin(主人, 同 dominant)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "dominate the market",
+      "dominate the conversation",
+      "dominate the industry"
+    ],
+    "memoryTip": "domin 是\"主人\"→当主人=支配、主导。"
+  },
+  {
+    "id": "v-eliminate",
+    "word": "eliminate",
+    "phonetic": "/ɪˈlɪmɪneɪt/",
+    "pos": "v.",
+    "meaning": "消除，排除；淘汰",
+    "example": "The new system eliminates unnecessary paperwork.",
+    "exampleCn": "新系统省去了不必要的文书工作。",
+    "synonyms": [
+      "remove",
+      "get rid of"
+    ],
+    "root": "e-(出) + limin(门槛) ；赶出门外",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "eliminate poverty",
+      "eliminate the possibility",
+      "eliminate waste"
+    ],
+    "memoryTip": "limin 是\"门槛\"，e- 出→赶出门外=消除、淘汰。"
+  },
+  {
+    "id": "v-emerge",
+    "word": "emerge",
+    "phonetic": "/iˈmɜːdʒ/",
+    "pos": "v.",
+    "meaning": "出现，浮现",
+    "example": "New evidence has emerged in the case.",
+    "exampleCn": "案件中出现了新的证据。",
+    "synonyms": [
+      "appear",
+      "surface"
+    ],
+    "root": "e-(出) + merg(沉) ；从水中浮出",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "emerge from crisis",
+      "emerge as a leader",
+      "new trends emerge"
+    ],
+    "memoryTip": "merg 是\"沉\"，e- 出→从水中浮出=出现、浮现。"
+  },
+  {
+    "id": "v-emphasize",
+    "word": "emphasize",
+    "phonetic": "/ˈemfəsaɪz/",
+    "pos": "v.",
+    "meaning": "强调，着重",
+    "example": "The teacher emphasized the importance of practice.",
+    "exampleCn": "老师强调了练习的重要性。",
+    "synonyms": [
+      "stress",
+      "highlight"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "em-(进入) + phas(显示) + -ize",
+    "collocations": [
+      "emphasize the importance",
+      "emphasize the need for",
+      "strongly emphasize"
+    ],
+    "memoryTip": "phase 是\"阶段/显现\"，emphasize 就是\"把重点显示出来\"=强调。"
+  },
+  {
+    "id": "v-enhance",
+    "word": "enhance",
+    "phonetic": "/ɪnˈhɑːns/",
+    "pos": "v.",
+    "meaning": "提高，增强",
+    "example": "Training can greatly enhance your skills.",
+    "exampleCn": "训练能极大地提升你的技能。",
+    "synonyms": [
+      "improve",
+      "boost"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "en-(使) + hanc(高, 同 height)",
+    "collocations": [
+      "enhance performance",
+      "enhance quality",
+      "enhance reputation"
+    ],
+    "memoryTip": "height 是\"高\"，enhance 就是\"使变高变强\"=提高、增强。"
+  },
+  {
+    "id": "v-evident",
+    "word": "evident",
+    "phonetic": "/ˈevɪdənt/",
+    "pos": "adj.",
+    "meaning": "明显的，显而易见的",
+    "example": "It was evident that she was nervous.",
+    "exampleCn": "显然她很紧张。",
+    "synonyms": [
+      "obvious",
+      "clear"
+    ],
+    "root": "e-(出) + vid(看) ；一看就明白",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "evident that",
+      "become evident",
+      "evident sign"
+    ],
+    "memoryTip": "vid 是\"看\"，e- 出→一看就明白=明显的。"
+  },
+  {
+    "id": "v-exaggerate",
+    "word": "exaggerate",
+    "phonetic": "/ɪɡˈzædʒəreɪt/",
+    "pos": "v.",
+    "meaning": "夸大，夸张",
+    "example": "Don't exaggerate the difficulty of the task.",
+    "exampleCn": "别夸大这项任务的难度。",
+    "synonyms": [
+      "overstate",
+      "magnify"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "ex-(出) + agger(堆) + -ate",
+    "collocations": [
+      "exaggerate the problem",
+      "greatly exaggerated",
+      "exaggerate the risk"
+    ],
+    "memoryTip": "agger 是\"堆\"，ex- 出→堆得比实际多=夸大、夸张。"
+  },
+  {
+    "id": "v-exceed",
+    "word": "exceed",
+    "phonetic": "/ɪkˈsiːd/",
+    "pos": "v.",
+    "meaning": "超过，超出",
+    "example": "The cost must not exceed the budget.",
+    "exampleCn": "费用不得超出预算。",
+    "synonyms": [
+      "surpass",
+      "go beyond"
+    ],
+    "root": "ex-(出) + ceed(走) ；走出界",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "exceed expectations",
+      "exceed the limit",
+      "exceed the budget"
+    ],
+    "memoryTip": "ceed 是\"走\"，ex- 出→走出界限=超过。"
+  },
+  {
+    "id": "v-exploit",
+    "word": "exploit",
+    "phonetic": "/ɪkˈsplɔɪt/",
+    "pos": "v./n.",
+    "meaning": "利用；剥削；功绩",
+    "example": "We should fully exploit renewable energy.",
+    "exampleCn": "我们应充分利用可再生能源。",
+    "synonyms": [
+      "utilize",
+      "make use of"
+    ],
+    "tags": [
+      "高频"
+    ],
+    "root": "ex-(出) + plic(折) + -it",
+    "collocations": [
+      "exploit natural resources",
+      "exploit a loophole",
+      "fully exploit"
+    ],
+    "memoryTip": "exploit 本义\"展开利用\"，考试常考\"利用\"和\"剥削\"两个方向。"
+  },
+  {
+    "id": "v-facilitate",
+    "word": "facilitate",
+    "phonetic": "/fəˈsɪlɪteɪt/",
+    "pos": "v.",
+    "meaning": "促进，使便利",
+    "example": "The app facilitates communication between teams.",
+    "exampleCn": "这款应用促进了团队间的沟通。",
+    "synonyms": [
+      "ease",
+      "assist"
+    ],
+    "root": "facil(容易, 同 facile) + -ate",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "facilitate communication",
+      "facilitate learning",
+      "facilitate trade"
+    ],
+    "memoryTip": "facil 是\"容易\"→使变容易=促进、使便利。"
+  },
+  {
+    "id": "v-feasible",
+    "word": "feasible",
+    "phonetic": "/ˈfiːzəbl/",
+    "pos": "adj.",
+    "meaning": "可行的，行得通的",
+    "example": "The plan is technically feasible.",
+    "exampleCn": "这个计划在技术上是可行的。",
+    "synonyms": [
+      "practical",
+      "viable"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "feas(做) + -ible",
+    "collocations": [
+      "feasible plan",
+      "economically feasible",
+      "feasible solution"
+    ],
+    "memoryTip": "feas 是\"做\"（同 affair），-ible 能…的→做得出来的=可行的。"
+  },
+  {
+    "id": "v-fundamental",
+    "word": "fundamental",
+    "phonetic": "/ˌfʌndəˈmentl/",
+    "pos": "adj.",
+    "meaning": "基本的，根本的",
+    "example": "Honesty is fundamental to any relationship.",
+    "exampleCn": "诚实是任何关系的根本。",
+    "synonyms": [
+      "basic",
+      "essential"
+    ],
+    "root": "fund(底, 基础, 同 fund)",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "fundamental principle",
+      "fundamental change",
+      "fundamental rights"
+    ],
+    "memoryTip": "fund 是\"底/基础\"→最底层的=基本的、根本的。"
+  },
+  {
+    "id": "v-genuine",
+    "word": "genuine",
+    "phonetic": "/ˈdʒenjuɪn/",
+    "pos": "adj.",
+    "meaning": "真正的；真诚的",
+    "example": "She showed genuine concern for the patients.",
+    "exampleCn": "她对病人表现出真诚的关心。",
+    "synonyms": [
+      "authentic",
+      "sincere"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "gen(产生) + -uine",
+    "collocations": [
+      "genuine concern",
+      "genuine leather",
+      "genuine interest"
+    ],
+    "memoryTip": "gen 是\"产生\"，genuine 就是\"天然产生的真货\"=真正的、真诚的。"
+  },
+  {
+    "id": "v-implement",
+    "word": "implement",
+    "phonetic": "/ˈɪmplɪment/",
+    "pos": "v./n.",
+    "meaning": "实施，执行；工具",
+    "example": "The government will implement the new policy next year.",
+    "exampleCn": "政府将于明年实施新政策。",
+    "synonyms": [
+      "carry out",
+      "execute"
+    ],
+    "tags": [
+      "高频"
+    ],
+    "root": "im-(进入) + ple(满) + -ment",
+    "collocations": [
+      "implement a policy",
+      "implement the plan",
+      "implement reforms"
+    ],
+    "memoryTip": "implement 本义\"填满、完成\"，引申为把计划落到实处=实施。"
+  },
+  {
+    "id": "v-inevitable",
+    "word": "inevitable",
+    "phonetic": "/ɪnˈevɪtəbl/",
+    "pos": "adj.",
+    "meaning": "不可避免的，必然的",
+    "example": "Change is inevitable in any organization.",
+    "exampleCn": "任何组织中变革都不可避免。",
+    "synonyms": [
+      "unavoidable",
+      "certain"
+    ],
+    "root": "in-(不) + evit(避免) + -able",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "inevitable result",
+      "seem inevitable",
+      "inevitable consequence"
+    ],
+    "memoryTip": "in- 不 + evit 避免→无法避免=不可避免的。"
+  },
+  {
+    "id": "v-integrate",
+    "word": "integrate",
+    "phonetic": "/ˈɪntɪɡreɪt/",
+    "pos": "v.",
+    "meaning": "整合，使结合",
+    "example": "The software integrates data from many sources.",
+    "exampleCn": "该软件整合了来自多个来源的数据。",
+    "synonyms": [
+      "combine",
+      "merge"
+    ],
+    "root": "integr(完整, 同 integer)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "integrate into society",
+      "integrate technology",
+      "integrate data"
+    ],
+    "memoryTip": "integr 是\"完整\"→使完整合一=整合、结合。"
+  },
+  {
+    "id": "v-justify",
+    "word": "justify",
+    "phonetic": "/ˈdʒʌstɪfaɪ/",
+    "pos": "v.",
+    "meaning": "证明…正当，为…辩护",
+    "example": "Nothing can justify such cruelty.",
+    "exampleCn": "没有什么能为如此残忍开脱。",
+    "synonyms": [
+      "defend",
+      "warrant"
+    ],
+    "root": "just(公正) + -ify",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "justify the decision",
+      "justify one's actions",
+      "hard to justify"
+    ],
+    "memoryTip": "just 是\"公正\"，justify 就是\"证明是正当的\"=为…辩护。"
+  },
+  {
+    "id": "v-perceive",
+    "word": "perceive",
+    "phonetic": "/pəˈsiːv/",
+    "pos": "v.",
+    "meaning": "察觉，感知；认为",
+    "example": "Children perceive the world differently from adults.",
+    "exampleCn": "儿童对世界的感知与成人不同。",
+    "synonyms": [
+      "sense",
+      "notice"
+    ],
+    "root": "per-(完全) + ceive(拿) ；完全把握",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "perceive a threat",
+      "widely perceived as",
+      "perceive the difference"
+    ],
+    "memoryTip": "ceive 是\"拿\"，per- 完全→完全把握=察觉、感知。"
+  },
+  {
+    "id": "v-phenomenon",
+    "word": "phenomenon",
+    "phonetic": "/fəˈnɒmɪnən/",
+    "pos": "n.",
+    "meaning": "现象（复数 phenomena）",
+    "example": "Global warming is a worrying phenomenon.",
+    "exampleCn": "全球变暖是一个令人担忧的现象。",
+    "synonyms": [
+      "occurrence",
+      "event"
+    ],
+    "tags": [
+      "高频",
+      "名词"
+    ],
+    "root": "pheno(显现) + -menon",
+    "collocations": [
+      "natural phenomenon",
+      "social phenomenon",
+      "a rare phenomenon"
+    ],
+    "memoryTip": "pheno 是\"显现\"（同 phase），phenomenon 就是\"显现出来的事\"=现象。"
+  },
+  {
+    "id": "v-prominent",
+    "word": "prominent",
+    "phonetic": "/ˈprɒmɪnənt/",
+    "pos": "adj.",
+    "meaning": "杰出的；显著的，突出的",
+    "example": "She is a prominent figure in the field of medicine.",
+    "exampleCn": "她是医学领域的杰出人物。",
+    "synonyms": [
+      "distinguished",
+      "notable"
+    ],
+    "root": "pro-(向前) + min(突出) ；向前突出",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "prominent figure",
+      "prominent feature",
+      "play a prominent role"
+    ],
+    "memoryTip": "min 是\"突出\"，pro- 向前→向前突出=杰出的、显著的。"
+  },
+  {
+    "id": "v-undermine",
+    "word": "undermine",
+    "phonetic": "/ˌʌndəˈmaɪn/",
+    "pos": "v.",
+    "meaning": "逐渐削弱，暗中破坏",
+    "example": "Constant criticism can undermine a child's confidence.",
+    "exampleCn": "不断的批评会逐渐削弱孩子的自信。",
+    "synonyms": [
+      "weaken",
+      "sabotage"
+    ],
+    "root": "under(下) + mine(挖) ；从下面挖墙脚",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "undermine confidence",
+      "undermine authority",
+      "undermine efforts"
+    ],
+    "memoryTip": "under 下 + mine 挖→从下面挖墙脚=暗中削弱、破坏。"
+  },
+  {
+    "id": "v-abolish",
+    "word": "abolish",
+    "phonetic": "/əˈbɒlɪʃ/",
+    "pos": "v.",
+    "meaning": "废除，取消（制度、法律等）",
+    "example": "The country abolished slavery in the 19th century.",
+    "exampleCn": "该国在 19 世纪废除了奴隶制。",
+    "synonyms": [
+      "eliminate",
+      "cancel"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "ab-(离开) + ol(生长) + -ish",
+    "collocations": [
+      "abolish slavery",
+      "abolish the law",
+      "abolish a system"
+    ],
+    "memoryTip": "ol 是\"生长/延续\"，ab- 离开→不让它继续存在=废除。"
+  },
+  {
+    "id": "v-abstract",
+    "word": "abstract",
+    "phonetic": "/ˈæbstrækt/",
+    "pos": "adj./n.",
+    "meaning": "抽象的；摘要",
+    "example": "Beauty is an abstract concept.",
+    "exampleCn": "美是一个抽象的概念。",
+    "synonyms": [
+      "theoretical",
+      "summary"
+    ],
+    "root": "abs-(离开) + tract(拉)；从具体中抽离",
+    "tags": [
+      "高频"
+    ],
+    "collocations": [
+      "abstract concept",
+      "abstract art",
+      "in the abstract"
+    ],
+    "memoryTip": "tract 是\"拉\"，abs- 离开→从具体中抽离=抽象的。"
+  },
+  {
+    "id": "v-acknowledge",
+    "word": "acknowledge",
+    "phonetic": "/əkˈnɒlɪdʒ/",
+    "pos": "v.",
+    "meaning": "承认；致谢",
+    "example": "He acknowledged that he had made a mistake.",
+    "exampleCn": "他承认自己犯了错误。",
+    "synonyms": [
+      "admit",
+      "recognize"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "ac-(加强) + knowledge(知识)",
+    "collocations": [
+      "acknowledge the problem",
+      "acknowledge receipt",
+      "widely acknowledged"
+    ],
+    "memoryTip": "knowledge 是\"知道\"，acknowledge 就是\"正式承认知道\"=承认、致谢。"
+  },
+  {
+    "id": "v-acquire",
+    "word": "acquire",
+    "phonetic": "/əˈkwaɪə/",
+    "pos": "v.",
+    "meaning": "获得，习得",
+    "example": "Children acquire language remarkably fast.",
+    "exampleCn": "儿童习得语言的速度非常快。",
+    "synonyms": [
+      "obtain",
+      "gain"
+    ],
+    "root": "ac- + quir(寻求, 同 require)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "acquire skills",
+      "acquire knowledge",
+      "acquire a company"
+    ],
+    "memoryTip": "quir 是\"寻求\"（同 require），ac- 加强→寻求并得到=获得。"
+  },
+  {
+    "id": "v-adapt",
+    "word": "adapt",
+    "phonetic": "/əˈdæpt/",
+    "pos": "v.",
+    "meaning": "适应；改编",
+    "example": "It takes time to adapt to a new environment.",
+    "exampleCn": "适应新环境需要时间。",
+    "synonyms": [
+      "adjust",
+      "modify"
+    ],
+    "root": "ad- + apt(适合)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "adapt to change",
+      "adapt the novel for film",
+      "adapt quickly"
+    ],
+    "memoryTip": "apt 是\"适合\"，ad- 向→使适合=适应、改编。"
+  },
+  {
+    "id": "v-allocate",
+    "word": "allocate",
+    "phonetic": "/ˈæləkeɪt/",
+    "pos": "v.",
+    "meaning": "分配，拨给",
+    "example": "The government allocated funds for the project.",
+    "exampleCn": "政府为该项目拨了款。",
+    "synonyms": [
+      "assign",
+      "distribute"
+    ],
+    "root": "al- + loc(地方, 同 local) + -ate",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "allocate resources",
+      "allocate funds",
+      "allocate time"
+    ],
+    "memoryTip": "loc 是\"地方\"，allocate 就是\"分到各个地方\"=分配。"
+  },
+  {
+    "id": "v-alternative",
+    "word": "alternative",
+    "phonetic": "/ɔːlˈtɜːnətɪv/",
+    "pos": "n./adj.",
+    "meaning": "替代选择；供选择的",
+    "example": "Is there an alternative to this approach?",
+    "exampleCn": "这种方法有别的替代方案吗？",
+    "synonyms": [
+      "option",
+      "substitute"
+    ],
+    "tags": [
+      "高频"
+    ],
+    "root": "alter(改变) + -native",
+    "collocations": [
+      "alternative approach",
+      "have no alternative",
+      "alternative energy"
+    ],
+    "memoryTip": "alter 是\"改变\"，alternative 就是\"换一条路\"=替代选择。"
+  },
+  {
+    "id": "v-analyze",
+    "word": "analyze",
+    "phonetic": "/ˈænəlaɪz/",
+    "pos": "v.",
+    "meaning": "分析",
+    "example": "Scientists analyzed the data carefully.",
+    "exampleCn": "科学家仔细分析了数据。",
+    "synonyms": [
+      "examine",
+      "study"
+    ],
+    "root": "ana-(分开) + lyze(松解)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "analyze data",
+      "analyze the causes",
+      "carefully analyze"
+    ],
+    "memoryTip": "ana- 分开 + lyze 松解→拆开来看=分析。"
+  },
+  {
+    "id": "v-appeal",
+    "word": "appeal",
+    "phonetic": "/əˈpiːl/",
+    "pos": "v./n.",
+    "meaning": "呼吁；上诉；有吸引力",
+    "example": "The design appeals to young customers.",
+    "exampleCn": "这种设计对年轻顾客有吸引力。",
+    "synonyms": [
+      "attract",
+      "plead"
+    ],
+    "tags": [
+      "高频"
+    ],
+    "root": "ap-(向) + peal(呼叫)",
+    "collocations": [
+      "appeal to young people",
+      "appeal for help",
+      "lose the appeal"
+    ],
+    "memoryTip": "peal 是\"呼叫\"，appeal 就是\"向某人发出呼唤\"→呼吁、有吸引力。"
+  },
+  {
+    "id": "v-approximate",
+    "word": "approximate",
+    "phonetic": "/əˈprɒksɪmət/",
+    "pos": "adj./v.",
+    "meaning": "大约的；接近",
+    "example": "The approximate cost is 200 dollars.",
+    "exampleCn": "大约的费用是 200 美元。",
+    "synonyms": [
+      "rough",
+      "estimate"
+    ],
+    "root": "ap- + proxim(接近, 同 proximity)",
+    "tags": [
+      "高频"
+    ],
+    "collocations": [
+      "approximate cost",
+      "approximate value",
+      "approximate to"
+    ],
+    "memoryTip": "proxim 是\"接近\"→大约的、接近。"
+  },
+  {
+    "id": "v-aspect",
+    "word": "aspect",
+    "phonetic": "/ˈæspekt/",
+    "pos": "n.",
+    "meaning": "方面；外观",
+    "example": "We must consider every aspect of the problem.",
+    "exampleCn": "我们必须考虑问题的每个方面。",
+    "synonyms": [
+      "facet",
+      "angle"
+    ],
+    "root": "a- + spect(看)",
+    "tags": [
+      "高频",
+      "名词"
+    ],
+    "collocations": [
+      "every aspect of",
+      "important aspect",
+      "from every aspect"
+    ],
+    "memoryTip": "spect 是\"看\"，a- 加强→看的一个角度=方面。"
+  },
+  {
+    "id": "v-assemble",
+    "word": "assemble",
+    "phonetic": "/əˈsembl/",
+    "pos": "v.",
+    "meaning": "集合；组装",
+    "example": "Workers assemble the cars on the line.",
+    "exampleCn": "工人在生产线上组装汽车。",
+    "synonyms": [
+      "gather",
+      "put together"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "as-(加强) + sembl(类似)；聚在一起",
+    "collocations": [
+      "assemble a team",
+      "assemble the parts",
+      "assemble evidence"
+    ],
+    "memoryTip": "resemble 是\"相似\"，assemble 是\"把相似的东西聚到一起\"=集合、组装。"
+  },
+  {
+    "id": "v-assign",
+    "word": "assign",
+    "phonetic": "/əˈsaɪn/",
+    "pos": "v.",
+    "meaning": "分配；指派",
+    "example": "The teacher assigned us a difficult task.",
+    "exampleCn": "老师给我们布置了一项难题。",
+    "synonyms": [
+      "allocate",
+      "appoint"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "as-(向) + sign(标记)",
+    "collocations": [
+      "assign a task",
+      "assign responsibility",
+      "assign seats"
+    ],
+    "memoryTip": "sign 是\"标记\"，assign 就是\"标记给某人\"=分配、指派。"
+  },
+  {
+    "id": "v-bias",
+    "word": "bias",
+    "phonetic": "/ˈbaɪəs/",
+    "pos": "n./v.",
+    "meaning": "偏见，偏向",
+    "example": "The report shows a clear bias against women.",
+    "exampleCn": "该报告显示出对女性的明显偏见。",
+    "synonyms": [
+      "prejudice",
+      "partiality"
+    ],
+    "tags": [
+      "高频",
+      "名词"
+    ],
+    "root": "来自法语 biais(斜的)；斜向一边→偏见",
+    "collocations": [
+      "gender bias",
+      "media bias",
+      "bias against"
+    ],
+    "memoryTip": "bias 像\"斜着站\"→偏向一边=偏见。"
+  },
+  {
+    "id": "v-boost",
+    "word": "boost",
+    "phonetic": "/buːst/",
+    "pos": "v./n.",
+    "meaning": "促进，提高",
+    "example": "The campaign boosted sales dramatically.",
+    "exampleCn": "这场宣传活动大幅提升了销量。",
+    "synonyms": [
+      "increase",
+      "enhance"
+    ],
+    "tags": [
+      "高频"
+    ],
+    "root": "来自古北欧语，本义\"推上去\"",
+    "collocations": [
+      "boost sales",
+      "boost confidence",
+      "boost the economy"
+    ],
+    "memoryTip": "boost 发音像\"蹦一下往上推\"→促进、提高。"
+  },
+  {
+    "id": "v-capable",
+    "word": "capable",
+    "phonetic": "/ˈkeɪpəbl/",
+    "pos": "adj.",
+    "meaning": "有能力的，能干的",
+    "example": "She is capable of handling the crisis.",
+    "exampleCn": "她有能力应对这场危机。",
+    "synonyms": [
+      "able",
+      "competent"
+    ],
+    "root": "cap(拿) + -able；拿得起",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "capable of doing",
+      "highly capable",
+      "capable leader"
+    ],
+    "memoryTip": "cap 是\"拿\"，-able 能…的→拿得起的=有能力的。"
+  },
+  {
+    "id": "v-capacity",
+    "word": "capacity",
+    "phonetic": "/kəˈpæsəti/",
+    "pos": "n.",
+    "meaning": "容量；能力",
+    "example": "The stadium has a capacity of 60,000.",
+    "exampleCn": "这座体育场可容纳 6 万人。",
+    "synonyms": [
+      "ability",
+      "volume"
+    ],
+    "tags": [
+      "高频",
+      "名词"
+    ],
+    "root": "cap(拿) + -acity",
+    "collocations": [
+      "production capacity",
+      "seating capacity",
+      "capacity for learning"
+    ],
+    "memoryTip": "cap 是\"拿/容纳\"，capacity 就是\"能拿多少\"=容量、能力。"
+  },
+  {
+    "id": "v-cease",
+    "word": "cease",
+    "phonetic": "/siːs/",
+    "pos": "v.",
+    "meaning": "停止，终止",
+    "example": "The factory ceased production last year.",
+    "exampleCn": "这家工厂去年停止了生产。",
+    "synonyms": [
+      "stop",
+      "halt"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "cess(走) 变体；停止前进",
+    "collocations": [
+      "cease fire",
+      "cease operations",
+      "cease to exist"
+    ],
+    "memoryTip": "cess 是\"走\"（同 process），cease 就是\"不再走了\"=停止。"
+  },
+  {
+    "id": "v-circumstance",
+    "word": "circumstance",
+    "phonetic": "/ˈsɜːkəmstəns/",
+    "pos": "n.",
+    "meaning": "情况，环境",
+    "example": "Under no circumstances should you give up.",
+    "exampleCn": "无论如何你都不应该放弃。",
+    "synonyms": [
+      "situation",
+      "condition"
+    ],
+    "root": "circum-(周围) + st(站)",
+    "tags": [
+      "高频",
+      "名词"
+    ],
+    "collocations": [
+      "under the circumstances",
+      "in no circumstance",
+      "financial circumstances"
+    ],
+    "memoryTip": "circum- 周围 + st 站→站在周围的情况=环境、情况。"
+  },
+  {
+    "id": "v-cite",
+    "word": "cite",
+    "phonetic": "/saɪt/",
+    "pos": "v.",
+    "meaning": "引用；举例",
+    "example": "She cited several studies to support her view.",
+    "exampleCn": "她引用了多项研究来支持自己的观点。",
+    "synonyms": [
+      "quote",
+      "mention"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "cit(召唤, 同 excite) 变体",
+    "collocations": [
+      "cite an example",
+      "cite a study",
+      "frequently cited"
+    ],
+    "memoryTip": "cite 像\"把证据召唤出来\"→引用、举例。"
+  },
+  {
+    "id": "v-coherent",
+    "word": "coherent",
+    "phonetic": "/kəʊˈhɪərənt/",
+    "pos": "adj.",
+    "meaning": "连贯的，条理清楚的",
+    "example": "He gave a clear and coherent explanation.",
+    "exampleCn": "他给出了清晰而连贯的解释。",
+    "synonyms": [
+      "logical",
+      "consistent"
+    ],
+    "root": "co- + here(粘)；粘在一起",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "coherent argument",
+      "coherent explanation",
+      "coherent policy"
+    ],
+    "memoryTip": "here 是\"粘\"，co- 一起→粘在一起=连贯的。"
+  },
+  {
+    "id": "v-collapse",
+    "word": "collapse",
+    "phonetic": "/kəˈlæps/",
+    "pos": "v./n.",
+    "meaning": "倒塌；崩溃",
+    "example": "The old bridge collapsed during the flood.",
+    "exampleCn": "那座旧桥在洪水中倒塌了。",
+    "synonyms": [
+      "fall down",
+      "break down"
+    ],
+    "root": "col- + lapse(滑落)",
+    "tags": [
+      "高频"
+    ],
+    "collocations": [
+      "economic collapse",
+      "collapse under pressure",
+      "building collapse"
+    ],
+    "memoryTip": "lapse 是\"滑落\"，col- 一起→一起滑落=倒塌、崩溃。"
+  },
+  {
+    "id": "v-commit",
+    "word": "commit",
+    "phonetic": "/kəˈmɪt/",
+    "pos": "v.",
+    "meaning": "犯（罪）；承诺；投入",
+    "example": "He committed himself to the cause.",
+    "exampleCn": "他全身心投入到这项事业中。",
+    "synonyms": [
+      "dedicate",
+      "perpetrate"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "com-(共) + mit(送)",
+    "collocations": [
+      "commit a crime",
+      "commit to a plan",
+      "commit resources"
+    ],
+    "memoryTip": "mit 是\"送\"（同 submit），commit 是\"一起送出去/交出去\"→犯(罪)、承诺。"
+  },
+  {
+    "id": "v-compatible",
+    "word": "compatible",
+    "phonetic": "/kəmˈpætəbl/",
+    "pos": "adj.",
+    "meaning": "兼容的，相容的",
+    "example": "This software is compatible with most devices.",
+    "exampleCn": "这款软件与大多数设备兼容。",
+    "synonyms": [
+      "consistent",
+      "harmonious"
+    ],
+    "root": "com-(共) + pat(感受)；合得来",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "compatible with",
+      "mutually compatible",
+      "compatible devices"
+    ],
+    "memoryTip": "pat 是\"感受\"，com- 共→感受一致=兼容的。"
+  },
+  {
+    "id": "v-compensate",
+    "word": "compensate",
+    "phonetic": "/ˈkɒmpenseɪt/",
+    "pos": "v.",
+    "meaning": "补偿，弥补",
+    "example": "The company compensated victims for their losses.",
+    "exampleCn": "公司赔偿了受害者的损失。",
+    "synonyms": [
+      "make up for",
+      "repay"
+    ],
+    "root": "com- + pens(称量, 同 pension)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "compensate for the loss",
+      "compensate victims",
+      "compensate employees"
+    ],
+    "memoryTip": "pens 是\"称量\"→称量后补平=补偿、弥补。"
+  },
+  {
+    "id": "v-component",
+    "word": "component",
+    "phonetic": "/kəmˈpəʊnənt/",
+    "pos": "n.",
+    "meaning": "组成部分，部件",
+    "example": "Each component must be tested separately.",
+    "exampleCn": "每个部件都必须单独测试。",
+    "synonyms": [
+      "part",
+      "element"
+    ],
+    "tags": [
+      "高频",
+      "名词"
+    ],
+    "root": "com-(共) + pon(放) + -ent",
+    "collocations": [
+      "key component",
+      "essential component",
+      "component parts"
+    ],
+    "memoryTip": "pon 是\"放\"（同 position），component 就是\"放在一起的部分\"=组成部分。"
+  },
+  {
+    "id": "v-conceive",
+    "word": "conceive",
+    "phonetic": "/kənˈsiːv/",
+    "pos": "v.",
+    "meaning": "构想，想出；怀孕",
+    "example": "It is hard to conceive of life without the internet.",
+    "exampleCn": "很难想象没有互联网的生活。",
+    "synonyms": [
+      "imagine",
+      "devise"
+    ],
+    "root": "con- + ceive(拿)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "conceive an idea",
+      "conceive a plan",
+      "hard to conceive"
+    ],
+    "memoryTip": "ceive 是\"拿\"，con- 一起→在脑中抓住=构想、想出。"
+  },
+  {
+    "id": "v-confront",
+    "word": "confront",
+    "phonetic": "/kənˈfrʌnt/",
+    "pos": "v.",
+    "meaning": "面对，对抗",
+    "example": "We must confront the problem directly.",
+    "exampleCn": "我们必须直接面对这个问题。",
+    "synonyms": [
+      "face",
+      "tackle"
+    ],
+    "root": "con- + front(前面)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "confront the issue",
+      "confront reality",
+      "confront challenges"
+    ],
+    "memoryTip": "front 是\"前面\"，con- 一起→站到前面=面对、对抗。"
+  },
+  {
+    "id": "v-consistent",
+    "word": "consistent",
+    "phonetic": "/kənˈsɪstənt/",
+    "pos": "adj.",
+    "meaning": "一致的；始终如一的",
+    "example": "Her results are consistent with the theory.",
+    "exampleCn": "她的结果与该理论一致。",
+    "synonyms": [
+      "coherent",
+      "steady"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "con-(一起) + sist(站) + -ent",
+    "collocations": [
+      "consistent with",
+      "consistent results",
+      "remain consistent"
+    ],
+    "memoryTip": "sist 是\"站\"，consistent 就是\"始终站在一起\"=一致的。"
+  },
+  {
+    "id": "v-constitute",
+    "word": "constitute",
+    "phonetic": "/ˈkɒnstɪtjuːt/",
+    "pos": "v.",
+    "meaning": "构成，组成",
+    "example": "Women constitute half of the workforce.",
+    "exampleCn": "女性占劳动力的一半。",
+    "synonyms": [
+      "form",
+      "make up"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "con-(共同) + stitu(建立) + -e",
+    "collocations": [
+      "constitute a threat",
+      "constitute the majority",
+      "constitute evidence"
+    ],
+    "memoryTip": "stitu 是\"建立\"（同 institute），constitute 就是\"共同建立成整体\"=构成。"
+  },
+  {
+    "id": "v-contradict",
+    "word": "contradict",
+    "phonetic": "/ˌkɒntrəˈdɪkt/",
+    "pos": "v.",
+    "meaning": "反驳；与…矛盾",
+    "example": "His actions contradict his words.",
+    "exampleCn": "他的行为与他的言论相矛盾。",
+    "synonyms": [
+      "oppose",
+      "conflict with"
+    ],
+    "root": "contra-(相反) + dict(说)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "contradict each other",
+      "contradict the evidence",
+      "contradict oneself"
+    ],
+    "memoryTip": "contra- 相反 + dict 说→说相反的话=反驳、矛盾。"
+  },
+  {
+    "id": "v-convey",
+    "word": "convey",
+    "phonetic": "/kənˈveɪ/",
+    "pos": "v.",
+    "meaning": "传达；运送",
+    "example": "Words cannot convey how grateful I am.",
+    "exampleCn": "言语无法表达我的感激之情。",
+    "synonyms": [
+      "communicate",
+      "transport"
+    ],
+    "root": "con- + vey(路, 同 voyage)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "convey a message",
+      "convey meaning",
+      "convey information"
+    ],
+    "memoryTip": "vey 是\"路\"（同 voyage）→沿路运送=传达、运送。"
+  },
+  {
+    "id": "v-cope",
+    "word": "cope",
+    "phonetic": "/kəʊp/",
+    "pos": "v.",
+    "meaning": "（成功地）应付，处理",
+    "example": "She copes well with stress at work.",
+    "exampleCn": "她能很好地应对工作压力。",
+    "synonyms": [
+      "manage",
+      "deal with"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "cope(罩子, 斗篷)；用罩子应对→应付",
+    "collocations": [
+      "cope with stress",
+      "cope with change",
+      "cope well with"
+    ],
+    "memoryTip": "cope 原指\"斗篷\"，引申为\"用工具罩住问题\"=应付、处理。"
+  },
+  {
+    "id": "v-correspond",
+    "word": "correspond",
+    "phonetic": "/ˌkɒrəˈspɒnd/",
+    "pos": "v.",
+    "meaning": "相符；通信",
+    "example": "The figures correspond to last year's data.",
+    "exampleCn": "这些数字与去年的数据相符。",
+    "synonyms": [
+      "match",
+      "agree"
+    ],
+    "root": "cor- + respond(回应)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "correspond to",
+      "correspond with each other",
+      "correspond by email"
+    ],
+    "memoryTip": "respond 是\"回应\"，cor- 共同→相互回应一致=相符、通信。"
+  },
+  {
+    "id": "v-decline",
+    "word": "decline",
+    "phonetic": "/dɪˈklaɪn/",
+    "pos": "v./n.",
+    "meaning": "下降；婉拒",
+    "example": "Sales declined sharply this quarter.",
+    "exampleCn": "本季度销量急剧下降。",
+    "synonyms": [
+      "decrease",
+      "refuse"
+    ],
+    "root": "de-(下) + clin(倾斜)",
+    "tags": [
+      "高频"
+    ],
+    "collocations": [
+      "decline sharply",
+      "decline an invitation",
+      "in decline"
+    ],
+    "memoryTip": "clin 是\"倾斜\"，de- 下→向下倾斜=下降、婉拒。"
+  },
+  {
+    "id": "v-dedicate",
+    "word": "dedicate",
+    "phonetic": "/ˈdedɪkeɪt/",
+    "pos": "v.",
+    "meaning": "致力于；奉献",
+    "example": "He dedicated his life to medical research.",
+    "exampleCn": "他将一生献给了医学研究。",
+    "synonyms": [
+      "devote",
+      "commit"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "de-(强调) + dic(宣告) + -ate",
+    "collocations": [
+      "dedicate oneself to",
+      "dedicate time to",
+      "dedicate one's life"
+    ],
+    "memoryTip": "dict 是\"说/宣告\"，dedicate 就是\"正式宣告投入\"=致力于、奉献。"
+  },
+  {
+    "id": "v-deficiency",
+    "word": "deficiency",
+    "phonetic": "/dɪˈfɪʃnsi/",
+    "pos": "n.",
+    "meaning": "缺乏，不足；缺陷",
+    "example": "A vitamin deficiency can cause illness.",
+    "exampleCn": "维生素缺乏会引发疾病。",
+    "synonyms": [
+      "lack",
+      "shortage"
+    ],
+    "root": "de- + fic(做) ；做得不够",
+    "tags": [
+      "高频",
+      "名词"
+    ],
+    "collocations": [
+      "vitamin deficiency",
+      "deficiency in skills",
+      "immune deficiency"
+    ],
+    "memoryTip": "fic 是\"做\"，de- 不够→做得不够=缺乏、不足。"
+  },
+  {
+    "id": "v-deprive",
+    "word": "deprive",
+    "phonetic": "/dɪˈpraɪv/",
+    "pos": "v.",
+    "meaning": "剥夺，使丧失",
+    "example": "Prisoners are deprived of their freedom.",
+    "exampleCn": "囚犯被剥夺了自由。",
+    "synonyms": [
+      "strip",
+      "deny"
+    ],
+    "root": "de- + prive(私有)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "deprive of freedom",
+      "deprive someone of rights",
+      "sleep-deprived"
+    ],
+    "memoryTip": "prive 是\"私有\"，de- 去掉→拿走私有物=剥夺。"
+  },
+  {
+    "id": "v-derive",
+    "word": "derive",
+    "phonetic": "/dɪˈraɪv/",
+    "pos": "v.",
+    "meaning": "源自；得到",
+    "example": "Many English words derive from Latin.",
+    "exampleCn": "许多英语单词源自拉丁语。",
+    "synonyms": [
+      "originate",
+      "obtain"
+    ],
+    "root": "de- + rive(河流)；从源头流出",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "derive from",
+      "derive pleasure from",
+      "derive benefits"
+    ],
+    "memoryTip": "rive 是\"河流\"，de- 从→从河流源头流出=源自、得到。"
+  },
+  {
+    "id": "v-deteriorate",
+    "word": "deteriorate",
+    "phonetic": "/dɪˈtɪəriəreɪt/",
+    "pos": "v.",
+    "meaning": "恶化，变坏",
+    "example": "His health deteriorated rapidly.",
+    "exampleCn": "他的健康状况迅速恶化。",
+    "synonyms": [
+      "worsen",
+      "decline"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "deterior(更坏) + -ate",
+    "collocations": [
+      "deteriorate rapidly",
+      "conditions deteriorate",
+      "health deteriorates"
+    ],
+    "memoryTip": "deterior 是\"更坏\"，deteriorate 就是\"往更坏的方向走\"=恶化。"
+  },
+  {
+    "id": "v-devise",
+    "word": "devise",
+    "phonetic": "/dɪˈvaɪz/",
+    "pos": "v.",
+    "meaning": "设计，想出",
+    "example": "They devised a clever plan to escape.",
+    "exampleCn": "他们想出了一个巧妙的逃跑计划。",
+    "synonyms": [
+      "invent",
+      "design"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "de-(分开) + vis(看)",
+    "collocations": [
+      "devise a strategy",
+      "devise a plan",
+      "devise a method"
+    ],
+    "memoryTip": "vis 是\"看\"（同 vision），devise 像\"分开审视后想出来\"=设计、想出。"
+  },
+  {
+    "id": "v-dilemma",
+    "word": "dilemma",
+    "phonetic": "/dɪˈlemə/",
+    "pos": "n.",
+    "meaning": "困境，进退两难",
+    "example": "She faced a moral dilemma.",
+    "exampleCn": "她面临着道德上的两难选择。",
+    "synonyms": [
+      "predicament",
+      "quandary"
+    ],
+    "root": "di-(二) + lemma(假设)；两难",
+    "tags": [
+      "高频",
+      "名词"
+    ],
+    "collocations": [
+      "face a dilemma",
+      "moral dilemma",
+      "in a dilemma"
+    ],
+    "memoryTip": "di- 二 + lemma 假设→两条路只能选一条=进退两难。"
+  },
+  {
+    "id": "v-discard",
+    "word": "discard",
+    "phonetic": "/dɪsˈkɑːd/",
+    "pos": "v.",
+    "meaning": "丢弃，抛弃",
+    "example": "Please discard any damaged goods.",
+    "exampleCn": "请丢弃任何损坏的货物。",
+    "synonyms": [
+      "throw away",
+      "abandon"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "dis-(分开) + card(卡片)；扔掉",
+    "collocations": [
+      "discard outdated ideas",
+      "discard waste",
+      "discard the plan"
+    ],
+    "memoryTip": "card 本义\"卡片/牌\"，discard 就是\"把牌扔掉\"=丢弃、抛弃。"
+  },
+  {
+    "id": "v-dispute",
+    "word": "dispute",
+    "phonetic": "/dɪˈspjuːt/",
+    "pos": "n./v.",
+    "meaning": "争论，纠纷",
+    "example": "The two countries are in a trade dispute.",
+    "exampleCn": "两国正陷入贸易纠纷。",
+    "synonyms": [
+      "argument",
+      "quarrel"
+    ],
+    "root": "dis- + put(思考)",
+    "tags": [
+      "高频"
+    ],
+    "collocations": [
+      "settle a dispute",
+      "territorial dispute",
+      "dispute the claim"
+    ],
+    "memoryTip": "put 是\"思考\"，dis- 分开→分开各想各的=争论。"
+  },
+  {
+    "id": "v-distribute",
+    "word": "distribute",
+    "phonetic": "/dɪˈstrɪbjuːt/",
+    "pos": "v.",
+    "meaning": "分发，分配",
+    "example": "Volunteers distributed food to the poor.",
+    "exampleCn": "志愿者向穷人分发食物。",
+    "synonyms": [
+      "hand out",
+      "allocate"
+    ],
+    "root": "dis-(分开) + tribute(给)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "distribute resources",
+      "distribute evenly",
+      "distribute leaflets"
+    ],
+    "memoryTip": "tribute 是\"给\"，dis- 分开→分开给予=分发、分配。"
+  },
+  {
+    "id": "v-elaborate",
+    "word": "elaborate",
+    "phonetic": "/ɪˈlæbərət/",
+    "pos": "adj./v.",
+    "meaning": "详尽的；精心制作的；详述",
+    "example": "Could you elaborate on your proposal?",
+    "exampleCn": "你能详细说明一下你的提议吗？",
+    "synonyms": [
+      "detailed",
+      "expand on"
+    ],
+    "root": "e- + labor(劳动)；下功夫",
+    "tags": [
+      "高频"
+    ],
+    "collocations": [
+      "elaborate plan",
+      "elaborate on the point",
+      "elaborate design"
+    ],
+    "memoryTip": "labor 是\"劳动\"，e- 加强→下功夫做=详尽的、详述。"
+  },
+  {
+    "id": "v-endure",
+    "word": "endure",
+    "phonetic": "/ɪnˈdjʊə/",
+    "pos": "v.",
+    "meaning": "忍受；持续",
+    "example": "They endured great hardships during the war.",
+    "exampleCn": "战争期间他们忍受了巨大的苦难。",
+    "synonyms": [
+      "bear",
+      "tolerate"
+    ],
+    "root": "en- + dur(持久, 同 durable)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "endure hardship",
+      "endure pain",
+      "endure for centuries"
+    ],
+    "memoryTip": "dur 是\"持久\"（同 durable）→持久撑下去=忍受、持续。"
+  },
+  {
+    "id": "v-essential",
+    "word": "essential",
+    "phonetic": "/ɪˈsenʃl/",
+    "pos": "adj./n.",
+    "meaning": "必不可少的；要素",
+    "example": "Water is essential to all life.",
+    "exampleCn": "水对所有生命都必不可少。",
+    "synonyms": [
+      "crucial",
+      "vital"
+    ],
+    "tags": [
+      "高频"
+    ],
+    "root": "ess(存在) + -ential",
+    "collocations": [
+      "essential skills",
+      "essential for survival",
+      "essential element"
+    ],
+    "memoryTip": "ess 是\"存在\"（同 essence），essential 就是\"存在的根本\"=必不可少的。"
+  },
+  {
+    "id": "v-evolve",
+    "word": "evolve",
+    "phonetic": "/iˈvɒlv/",
+    "pos": "v.",
+    "meaning": "（使）逐渐发展，进化",
+    "example": "The company evolved from a small startup.",
+    "exampleCn": "这家公司由一家小型初创企业发展而来。",
+    "synonyms": [
+      "develop",
+      "grow"
+    ],
+    "root": "e-(出) + volve(转)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "evolve over time",
+      "evolve into",
+      "evolve rapidly"
+    ],
+    "memoryTip": "volve 是\"转\"，e- 出→转出来=逐渐发展、进化。"
+  },
+  {
+    "id": "v-exclude",
+    "word": "exclude",
+    "phonetic": "/ɪkˈskluːd/",
+    "pos": "v.",
+    "meaning": "排除，不包括",
+    "example": "The price excludes tax.",
+    "exampleCn": "该价格不含税。",
+    "synonyms": [
+      "leave out",
+      "bar"
+    ],
+    "root": "ex-(出) + clud(关)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "exclude from consideration",
+      "exclude the possibility",
+      "mutually exclusive"
+    ],
+    "memoryTip": "clud 是\"关\"，ex- 出→关在外面=排除。"
+  },
+  {
+    "id": "v-explicit",
+    "word": "explicit",
+    "phonetic": "/ɪkˈsplɪsɪt/",
+    "pos": "adj.",
+    "meaning": "明确的，清楚的",
+    "example": "She gave explicit instructions.",
+    "exampleCn": "她给出了明确的指示。",
+    "synonyms": [
+      "clear",
+      "definite"
+    ],
+    "root": "ex-(出) + plic(折)；摊开说清",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "explicit instructions",
+      "make it explicit",
+      "explicit consent"
+    ],
+    "memoryTip": "plic 是\"折\"，ex- 摊开→摊开说清=明确的。"
+  },
+  {
+    "id": "v-fluctuate",
+    "word": "fluctuate",
+    "phonetic": "/ˈflʌktʃueɪt/",
+    "pos": "v.",
+    "meaning": "波动，起伏",
+    "example": "Prices fluctuate with the season.",
+    "exampleCn": "价格随季节波动。",
+    "synonyms": [
+      "vary",
+      "swing"
+    ],
+    "root": "fluct(流, 波) + -ate",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "prices fluctuate",
+      "fluctuate wildly",
+      "fluctuate between"
+    ],
+    "memoryTip": "fluct 是\"波/流\"→像波浪一样起伏=波动。"
+  },
+  {
+    "id": "v-foster",
+    "word": "foster",
+    "phonetic": "/ˈfɒstə/",
+    "pos": "v.",
+    "meaning": "培养，促进；收养",
+    "example": "The school fosters a love of learning.",
+    "exampleCn": "这所学校培养学生的学习热情。",
+    "synonyms": [
+      "nurture",
+      "encourage"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "fost(喂养, 同 food)",
+    "collocations": [
+      "foster innovation",
+      "foster cooperation",
+      "foster growth"
+    ],
+    "memoryTip": "foster 本义\"喂养\"，像喂养孩子一样=培养、促进。"
+  },
+  {
+    "id": "v-generate",
+    "word": "generate",
+    "phonetic": "/ˈdʒenəreɪt/",
+    "pos": "v.",
+    "meaning": "产生，生成",
+    "example": "Solar panels generate electricity.",
+    "exampleCn": "太阳能板能发电。",
+    "synonyms": [
+      "produce",
+      "create"
+    ],
+    "root": "gener(产生, 同 generation)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "generate electricity",
+      "generate income",
+      "generate interest"
+    ],
+    "memoryTip": "gener 是\"产生\"→产生出来=生成。"
+  },
+  {
+    "id": "v-hinder",
+    "word": "hinder",
+    "phonetic": "/ˈhɪndə/",
+    "pos": "v.",
+    "meaning": "阻碍，妨碍",
+    "example": "Bad weather hindered the rescue effort.",
+    "exampleCn": "恶劣天气阻碍了救援工作。",
+    "synonyms": [
+      "hamper",
+      "obstruct"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "hind(后面) + -er",
+    "collocations": [
+      "hinder progress",
+      "hinder development",
+      "hinder efforts"
+    ],
+    "memoryTip": "hind 是\"后面\"→跟在后面拖后腿=阻碍。"
+  },
+  {
+    "id": "v-identical",
+    "word": "identical",
+    "phonetic": "/aɪˈdentɪkl/",
+    "pos": "adj.",
+    "meaning": "完全相同的",
+    "example": "The twins look identical.",
+    "exampleCn": "这对双胞胎长得一模一样。",
+    "synonyms": [
+      "same",
+      "alike"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "ident(相同) + -ical",
+    "collocations": [
+      "identical twins",
+      "virtually identical",
+      "identical to"
+    ],
+    "memoryTip": "ident 是\"相同\"（同 identity），identical 就是\"完全一样的\"。"
+  },
+  {
+    "id": "v-illustrate",
+    "word": "illustrate",
+    "phonetic": "/ˈɪləstreɪt/",
+    "pos": "v.",
+    "meaning": "说明，举例说明；加插图",
+    "example": "The chart illustrates the trend clearly.",
+    "exampleCn": "这张图表清楚地说明了趋势。",
+    "synonyms": [
+      "demonstrate",
+      "show"
+    ],
+    "root": "il- + lustr(光)；照亮说明",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "illustrate the point",
+      "illustrate with examples",
+      "clearly illustrate"
+    ],
+    "memoryTip": "lustr 是\"光\"→用光照亮=说明、举例说明。"
+  },
+  {
+    "id": "v-immense",
+    "word": "immense",
+    "phonetic": "/ɪˈmens/",
+    "pos": "adj.",
+    "meaning": "巨大的，极大的",
+    "example": "The project required immense effort.",
+    "exampleCn": "这个项目需要巨大的努力。",
+    "synonyms": [
+      "huge",
+      "enormous"
+    ],
+    "root": "im-(不) + mens(测量)；无法测量",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "immense pressure",
+      "immense value",
+      "immense popularity"
+    ],
+    "memoryTip": "mens 是\"测量\"，im- 不→无法测量=巨大的。"
+  },
+  {
+    "id": "v-impose",
+    "word": "impose",
+    "phonetic": "/ɪmˈpəʊz/",
+    "pos": "v.",
+    "meaning": "强加；征收",
+    "example": "The court imposed a heavy fine.",
+    "exampleCn": "法院处以重罚。",
+    "synonyms": [
+      "enforce",
+      "levy"
+    ],
+    "root": "im-(上) + pose(放)；强压上去",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "impose restrictions",
+      "impose a tax",
+      "impose on someone"
+    ],
+    "memoryTip": "pose 是\"放\"，im- 上→强放上去=强加、征收。"
+  },
+  {
+    "id": "v-incentive",
+    "word": "incentive",
+    "phonetic": "/ɪnˈsentɪv/",
+    "pos": "n.",
+    "meaning": "激励，动机",
+    "example": "Tax cuts provide an incentive to invest.",
+    "exampleCn": "减税为投资提供了激励。",
+    "synonyms": [
+      "motivation",
+      "stimulus"
+    ],
+    "tags": [
+      "高频",
+      "名词"
+    ],
+    "root": "in-(进入) + cent(唱) + -ive",
+    "collocations": [
+      "financial incentive",
+      "provide an incentive",
+      "strong incentive"
+    ],
+    "memoryTip": "cent 是\"唱\"（同 chant），incentive 像\"唱进去的动力\"=激励。"
+  },
+  {
+    "id": "v-indispensable",
+    "word": "indispensable",
+    "phonetic": "/ˌɪndɪˈspensəbl/",
+    "pos": "adj.",
+    "meaning": "不可或缺的",
+    "example": "Computers are indispensable in modern life.",
+    "exampleCn": "电脑在现代生活中不可或缺。",
+    "synonyms": [
+      "essential",
+      "vital"
+    ],
+    "root": "in-(不) + dispens(免除)+able；不能免",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "indispensable part",
+      "indispensable tool",
+      "indispensable to"
+    ],
+    "memoryTip": "in- 不 + dispens 免除→不能免除的=不可或缺的。"
+  },
+  {
+    "id": "v-initiate",
+    "word": "initiate",
+    "phonetic": "/ɪˈnɪʃieɪt/",
+    "pos": "v.",
+    "meaning": "开始，发起",
+    "example": "They initiated a new training program.",
+    "exampleCn": "他们发起了一项新的培训计划。",
+    "synonyms": [
+      "start",
+      "launch"
+    ],
+    "root": "init(进入, 同 initial)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "initiate a project",
+      "initiate reforms",
+      "initiate contact"
+    ],
+    "memoryTip": "init 是\"进入\"（同 initial）→进入开端=开始、发起。"
+  },
+  {
+    "id": "v-innovation",
+    "word": "innovation",
+    "phonetic": "/ˌɪnəˈveɪʃn/",
+    "pos": "n.",
+    "meaning": "创新，革新",
+    "example": "Innovation drives economic growth.",
+    "exampleCn": "创新驱动经济增长。",
+    "synonyms": [
+      "invention",
+      "novelty"
+    ],
+    "root": "in- + nov(新, 同 novel)",
+    "tags": [
+      "高频",
+      "名词"
+    ],
+    "collocations": [
+      "technological innovation",
+      "drive innovation",
+      "foster innovation"
+    ],
+    "memoryTip": "nov 是\"新\"（同 novel）→出新=创新。"
+  },
+  {
+    "id": "v-intense",
+    "word": "intense",
+    "phonetic": "/ɪnˈtens/",
+    "pos": "adj.",
+    "meaning": "强烈的；紧张的",
+    "example": "The competition was extremely intense.",
+    "exampleCn": "竞争极其激烈。",
+    "synonyms": [
+      "strong",
+      "fierce"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "in-(加强) + tens(伸展) + -e",
+    "collocations": [
+      "intense competition",
+      "intense pressure",
+      "intense heat"
+    ],
+    "memoryTip": "tense 是\"拉紧\"，intense 就是\"拉到极致\"=强烈的、紧张的。"
+  },
+  {
+    "id": "v-intervene",
+    "word": "intervene",
+    "phonetic": "/ˌɪntəˈviːn/",
+    "pos": "v.",
+    "meaning": "干预，介入",
+    "example": "The police had to intervene in the fight.",
+    "exampleCn": "警方不得不介入这场斗殴。",
+    "synonyms": [
+      "interfere",
+      "step in"
+    ],
+    "root": "inter-(之间) + vene(来)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "intervene in the dispute",
+      "intervene early",
+      "government intervene"
+    ],
+    "memoryTip": "vene 是\"来\"，inter- 之间→来到中间=干预。"
+  },
+  {
+    "id": "v-isolate",
+    "word": "isolate",
+    "phonetic": "/ˈaɪsəleɪt/",
+    "pos": "v.",
+    "meaning": "使隔离，使孤立",
+    "example": "Patients were isolated to prevent infection.",
+    "exampleCn": "患者被隔离以防止感染。",
+    "synonyms": [
+      "separate",
+      "cut off"
+    ],
+    "root": "isol(岛, 同 island)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "isolate the virus",
+      "feel isolated",
+      "isolate from others"
+    ],
+    "memoryTip": "isol 是\"岛\"→像岛一样隔开=隔离、孤立。"
+  },
+  {
+    "id": "v-legitimate",
+    "word": "legitimate",
+    "phonetic": "/lɪˈdʒɪtɪmət/",
+    "pos": "adj.",
+    "meaning": "合法的；合理的",
+    "example": "She raised a legitimate concern.",
+    "exampleCn": "她提出了一个合理的顾虑。",
+    "synonyms": [
+      "lawful",
+      "valid"
+    ],
+    "root": "legi(法律, 同 legal)",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "legitimate concern",
+      "legitimate business",
+      "legitimate reason"
+    ],
+    "memoryTip": "legi 是\"法律\"（同 legal）→合法的、合理的。"
+  },
+  {
+    "id": "v-manipulate",
+    "word": "manipulate",
+    "phonetic": "/məˈnɪpjuleɪt/",
+    "pos": "v.",
+    "meaning": "操纵，操控",
+    "example": "He manipulated the data to fit his theory.",
+    "exampleCn": "他篡改数据以迎合自己的理论。",
+    "synonyms": [
+      "control",
+      "influence"
+    ],
+    "root": "mani(手, 同 manual)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "manipulate data",
+      "manipulate public opinion",
+      "manipulate the market"
+    ],
+    "memoryTip": "mani 是\"手\"（同 manual）→用手操控=操纵。"
+  },
+  {
+    "id": "v-modify",
+    "word": "modify",
+    "phonetic": "/ˈmɒdɪfaɪ/",
+    "pos": "v.",
+    "meaning": "修改，调整",
+    "example": "We modified the design to cut costs.",
+    "exampleCn": "我们修改了设计以降低成本。",
+    "synonyms": [
+      "alter",
+      "adjust"
+    ],
+    "root": "mod(方式, 同 mode) + -ify",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "modify the design",
+      "modify behavior",
+      "slightly modify"
+    ],
+    "memoryTip": "mod 是\"方式\"（同 mode）→改方式=修改。"
+  },
+  {
+    "id": "v-motivate",
+    "word": "motivate",
+    "phonetic": "/ˈməʊtɪveɪt/",
+    "pos": "v.",
+    "meaning": "激励，激发",
+    "example": "Good teachers motivate their students.",
+    "exampleCn": "好老师能激励学生。",
+    "synonyms": [
+      "inspire",
+      "encourage"
+    ],
+    "root": "mot(动, 同 motion)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "motivate employees",
+      "motivate students",
+      "highly motivated"
+    ],
+    "memoryTip": "mot 是\"动\"（同 motion）→使动起来=激励。"
+  },
+  {
+    "id": "v-notion",
+    "word": "notion",
+    "phonetic": "/ˈnəʊʃn/",
+    "pos": "n.",
+    "meaning": "概念，观念",
+    "example": "He has no notion of how hard it is.",
+    "exampleCn": "他根本不知道这有多难。",
+    "synonyms": [
+      "idea",
+      "concept"
+    ],
+    "tags": [
+      "高频",
+      "名词"
+    ],
+    "root": "not(知道) + -ion",
+    "collocations": [
+      "have no notion of",
+      "popular notion",
+      "abstract notion"
+    ],
+    "memoryTip": "not 是\"知道\"（同 note），notion 就是\"知道的一点\"=概念、观念。"
+  },
+  {
+    "id": "v-obstacle",
+    "word": "obstacle",
+    "phonetic": "/ˈɒbstəkl/",
+    "pos": "n.",
+    "meaning": "障碍，阻碍",
+    "example": "Fear is the biggest obstacle to success.",
+    "exampleCn": "恐惧是成功最大的障碍。",
+    "synonyms": [
+      "barrier",
+      "hurdle"
+    ],
+    "root": "ob-(对着) + sta(站)；挡在前面",
+    "tags": [
+      "高频",
+      "名词"
+    ],
+    "collocations": [
+      "overcome obstacles",
+      "major obstacle",
+      "obstacle to progress"
+    ],
+    "memoryTip": "ob- 对着 + sta 站→挡在前面=障碍。"
+  },
+  {
+    "id": "v-optimistic",
+    "word": "optimistic",
+    "phonetic": "/ˌɒptɪˈmɪstɪk/",
+    "pos": "adj.",
+    "meaning": "乐观的",
+    "example": "She remains optimistic about the future.",
+    "exampleCn": "她对未来仍然乐观。",
+    "synonyms": [
+      "hopeful",
+      "positive"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "optim(最好) + -istic",
+    "collocations": [
+      "optimistic outlook",
+      "remain optimistic",
+      "optimistic about the future"
+    ],
+    "memoryTip": "optim 是\"最好\"→往最好的方向想=乐观的。"
+  },
+  {
+    "id": "v-overwhelm",
+    "word": "overwhelm",
+    "phonetic": "/ˌəʊvəˈwelm/",
+    "pos": "v.",
+    "meaning": "压倒，使不知所措",
+    "example": "She was overwhelmed by the support.",
+    "exampleCn": "她被这份支持深深感动。",
+    "synonyms": [
+      "overpower",
+      "swamp"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "over-(上) + whelm(淹没)",
+    "collocations": [
+      "overwhelmed by work",
+      "overwhelm the enemy",
+      "overwhelming support"
+    ],
+    "memoryTip": "whelm 是\"淹没\"，over- 在上→从上面淹没=压倒、使不知所措。"
+  },
+  {
+    "id": "v-participate",
+    "word": "participate",
+    "phonetic": "/pɑːˈtɪsɪpeɪt/",
+    "pos": "v.",
+    "meaning": "参与，参加",
+    "example": "All students must participate in the activity.",
+    "exampleCn": "所有学生都必须参加该活动。",
+    "synonyms": [
+      "take part",
+      "join"
+    ],
+    "root": "part(部分) + cip(拿)；分得一份",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "participate in activities",
+      "actively participate",
+      "participate fully"
+    ],
+    "memoryTip": "part 部分 + cip 拿→分得一份=参与。"
+  },
+  {
+    "id": "v-persist",
+    "word": "persist",
+    "phonetic": "/pəˈsɪst/",
+    "pos": "v.",
+    "meaning": "坚持；持续",
+    "example": "If symptoms persist, see a doctor.",
+    "exampleCn": "如果症状持续，请就医。",
+    "synonyms": [
+      "continue",
+      "persevere"
+    ],
+    "root": "per-(始终) + sist(站)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "persist in doing",
+      "symptoms persist",
+      "persist despite difficulties"
+    ],
+    "memoryTip": "per- 始终 + sist 站→始终站着不倒=坚持、持续。"
+  },
+  {
+    "id": "v-portray",
+    "word": "portray",
+    "phonetic": "/pɔːˈtreɪ/",
+    "pos": "v.",
+    "meaning": "描绘，刻画",
+    "example": "The film portrays life in the 1920s.",
+    "exampleCn": "这部电影描绘了 20 世纪 20 年代的生活。",
+    "synonyms": [
+      "depict",
+      "describe"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "por-(向前) + tray(描绘, 同 portrait)",
+    "collocations": [
+      "portray a character",
+      "portray life accurately",
+      "as portrayed in the media"
+    ],
+    "memoryTip": "portrait 是\"肖像\"，portray 就是\"画出来/刻画出来\"=描绘。"
+  },
+  {
+    "id": "v-precise",
+    "word": "precise",
+    "phonetic": "/prɪˈsaɪs/",
+    "pos": "adj.",
+    "meaning": "精确的，准确的",
+    "example": "We need the precise measurements.",
+    "exampleCn": "我们需要精确的尺寸。",
+    "synonyms": [
+      "exact",
+      "accurate"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "pre-(前) + cis(切)",
+    "collocations": [
+      "precise measurements",
+      "precise definition",
+      "to be precise"
+    ],
+    "memoryTip": "cis 是\"切\"（同 decide），precise 像\"提前切准\"=精确的。"
+  },
+  {
+    "id": "v-prevail",
+    "word": "prevail",
+    "phonetic": "/prɪˈveɪl/",
+    "pos": "v.",
+    "meaning": "盛行；获胜",
+    "example": "Justice will prevail in the end.",
+    "exampleCn": "正义最终会获胜。",
+    "synonyms": [
+      "dominate",
+      "triumph"
+    ],
+    "root": "pre- + vail(强, 同 value)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "prevail over",
+      "justice will prevail",
+      "prevailing view"
+    ],
+    "memoryTip": "vail 是\"强\"（同 value），pre- 在前→站在前面=盛行、获胜。"
+  },
+  {
+    "id": "v-prohibit",
+    "word": "prohibit",
+    "phonetic": "/prəˈhɪbɪt/",
+    "pos": "v.",
+    "meaning": "禁止",
+    "example": "Smoking is prohibited in this building.",
+    "exampleCn": "本楼内禁止吸烟。",
+    "synonyms": [
+      "forbid",
+      "ban"
+    ],
+    "root": "pro-(前) + hibit(拿住)；挡住",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "strictly prohibit",
+      "prohibit smoking",
+      "prohibit the use of"
+    ],
+    "memoryTip": "hibit 是\"拿住\"，pro- 在前→挡在前面不让过=禁止。"
+  },
+  {
+    "id": "v-prosperity",
+    "word": "prosperity",
+    "phonetic": "/prɒˈsperəti/",
+    "pos": "n.",
+    "meaning": "繁荣，兴旺",
+    "example": "The reforms brought economic prosperity.",
+    "exampleCn": "改革带来了经济繁荣。",
+    "synonyms": [
+      "wealth",
+      "success"
+    ],
+    "tags": [
+      "高频",
+      "名词"
+    ],
+    "root": "pro-(向前) + sper(希望) + -ity",
+    "collocations": [
+      "economic prosperity",
+      "shared prosperity",
+      "era of prosperity"
+    ],
+    "memoryTip": "sper 是\"希望\"（同 despair 的 spair），prosperity 就是\"希望向前\"=繁荣。"
+  },
+  {
+    "id": "v-provoke",
+    "word": "provoke",
+    "phonetic": "/prəˈvəʊk/",
+    "pos": "v.",
+    "meaning": "激起，挑衅",
+    "example": "His remarks provoked an angry response.",
+    "exampleCn": "他的言论激起了愤怒的回应。",
+    "synonyms": [
+      "trigger",
+      "incite"
+    ],
+    "root": "pro-(前) + vok(叫)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "provoke anger",
+      "provoke a reaction",
+      "provoke debate"
+    ],
+    "memoryTip": "vok 是\"叫\"（同 voice），pro- 向前→向前叫喊=激起、挑衅。"
+  },
+  {
+    "id": "v-reinforce",
+    "word": "reinforce",
+    "phonetic": "/ˌriːɪnˈfɔːs/",
+    "pos": "v.",
+    "meaning": "加强，强化",
+    "example": "The findings reinforce our earlier conclusion.",
+    "exampleCn": "这些发现强化了我们先前的结论。",
+    "synonyms": [
+      "strengthen",
+      "support"
+    ],
+    "root": "re- + in- + force(力量)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "reinforce the message",
+      "reinforce security",
+      "reinforce learning"
+    ],
+    "memoryTip": "re- 再 + in + force 力量→再次注入力量=加强。"
+  },
+  {
+    "id": "v-reluctant",
+    "word": "reluctant",
+    "phonetic": "/rɪˈlʌktənt/",
+    "pos": "adj.",
+    "meaning": "不情愿的，勉强的",
+    "example": "He was reluctant to admit his mistake.",
+    "exampleCn": "他不愿承认自己的错误。",
+    "synonyms": [
+      "unwilling",
+      "hesitant"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "re-(反) + luct(挣扎) + -ant",
+    "collocations": [
+      "reluctant to admit",
+      "reluctant agreement",
+      "reluctant hero"
+    ],
+    "memoryTip": "luct 是\"挣扎\"，reluctant 像\"内心挣扎不愿\"=不情愿的。"
+  },
+  {
+    "id": "v-restrain",
+    "word": "restrain",
+    "phonetic": "/rɪˈstreɪn/",
+    "pos": "v.",
+    "meaning": "抑制，制止",
+    "example": "She could not restrain her tears.",
+    "exampleCn": "她抑制不住自己的眼泪。",
+    "synonyms": [
+      "hold back",
+      "curb"
+    ],
+    "root": "re- + strain(拉紧)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "restrain oneself",
+      "restrain growth",
+      "restrain inflation"
+    ],
+    "memoryTip": "strain 是\"拉紧\"，re- 回→拉回来=抑制、制止。"
+  },
+  {
+    "id": "v-retain",
+    "word": "retain",
+    "phonetic": "/rɪˈteɪn/",
+    "pos": "v.",
+    "meaning": "保留，保持",
+    "example": "The soil retains water well.",
+    "exampleCn": "这种土壤保水性好。",
+    "synonyms": [
+      "keep",
+      "hold"
+    ],
+    "root": "re- + tain(拿住)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "retain information",
+      "retain employees",
+      "retain moisture"
+    ],
+    "memoryTip": "tain 是\"拿住\"，re- 回→拿回来留住=保留。"
+  },
+  {
+    "id": "v-reveal",
+    "word": "reveal",
+    "phonetic": "/rɪˈviːl/",
+    "pos": "v.",
+    "meaning": "揭示，透露",
+    "example": "The survey revealed surprising results.",
+    "exampleCn": "调查揭示了令人惊讶的结果。",
+    "synonyms": [
+      "disclose",
+      "expose"
+    ],
+    "root": "re-(反) + veal(面纱)；揭开",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "reveal the truth",
+      "reveal a secret",
+      "reveal significant findings"
+    ],
+    "memoryTip": "veal 是\"面纱\"，re- 反→揭开面纱=揭示。"
+  },
+  {
+    "id": "v-rigorous",
+    "word": "rigorous",
+    "phonetic": "/ˈrɪɡərəs/",
+    "pos": "adj.",
+    "meaning": "严格的，严谨的",
+    "example": "The study followed rigorous standards.",
+    "exampleCn": "这项研究遵循严格的标准。",
+    "synonyms": [
+      "strict",
+      "thorough"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "rig(严格) + -orous",
+    "collocations": [
+      "rigorous standards",
+      "rigorous testing",
+      "rigorous analysis"
+    ],
+    "memoryTip": "rig 是\"严格/硬\"，rigorous 就是\"硬标准\"=严格的、严谨的。"
+  },
+  {
+    "id": "v-sophisticated",
+    "word": "sophisticated",
+    "phonetic": "/səˈfɪstɪkeɪtɪd/",
+    "pos": "adj.",
+    "meaning": "复杂精密的；老练的",
+    "example": "The lab uses sophisticated equipment.",
+    "exampleCn": "该实验室使用精密的设备。",
+    "synonyms": [
+      "advanced",
+      "refined"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "soph(智慧) + -isticated",
+    "collocations": [
+      "sophisticated technology",
+      "sophisticated taste",
+      "highly sophisticated"
+    ],
+    "memoryTip": "soph 是\"智慧\"（同 philosophy），sophisticated 是\"很有智慧的\"→精密的、老练的。"
+  },
+  {
+    "id": "v-spontaneous",
+    "word": "spontaneous",
+    "phonetic": "/spɒnˈteɪniəs/",
+    "pos": "adj.",
+    "meaning": "自发的，自然的",
+    "example": "The crowd broke into spontaneous applause.",
+    "exampleCn": "人群自发地鼓起掌来。",
+    "synonyms": [
+      "unplanned",
+      "instinctive"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "spon(自发, 承诺) + -aneous",
+    "collocations": [
+      "spontaneous reaction",
+      "spontaneous applause",
+      "spontaneous decision"
+    ],
+    "memoryTip": "spon 本义\"自愿承诺\"，spontaneous 就是\"自然涌出的\"=自发的。"
+  },
+  {
+    "id": "v-subtle",
+    "word": "subtle",
+    "phonetic": "/ˈsʌtl/",
+    "pos": "adj.",
+    "meaning": "微妙的，细微的",
+    "example": "There is a subtle difference between the two.",
+    "exampleCn": "两者之间有微妙的差别。",
+    "synonyms": [
+      "delicate",
+      "slight"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "sub-(下) + -tle；在表面之下→细微的",
+    "collocations": [
+      "subtle difference",
+      "subtle hint",
+      "subtle change"
+    ],
+    "memoryTip": "sub- 是\"下\"，subtle 是\"藏在表面之下的\"=微妙的、细微的。"
+  },
+  {
+    "id": "v-suspend",
+    "word": "suspend",
+    "phonetic": "/səˈspend/",
+    "pos": "v.",
+    "meaning": "暂停；悬挂",
+    "example": "The match was suspended due to rain.",
+    "exampleCn": "比赛因雨暂停。",
+    "synonyms": [
+      "halt",
+      "hang"
+    ],
+    "root": "sus-(下) + pend(挂)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "suspend operations",
+      "suspend judgment",
+      "suspend a sentence"
+    ],
+    "memoryTip": "pend 是\"挂\"，sus- 下→挂起来暂停=暂停、悬挂。"
+  },
+  {
+    "id": "v-sustain",
+    "word": "sustain",
+    "phonetic": "/səˈsteɪn/",
+    "pos": "v.",
+    "meaning": "维持；支撑；遭受",
+    "example": "The economy cannot sustain such growth.",
+    "exampleCn": "经济无法维持这样的增长。",
+    "synonyms": [
+      "maintain",
+      "support"
+    ],
+    "root": "sus-(下) + tain(拿住)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "sustain growth",
+      "sustain life",
+      "sustain injuries"
+    ],
+    "memoryTip": "tain 是\"拿住\"，sus- 下→从下面托住=维持、支撑。"
+  },
+  {
+    "id": "v-tedious",
+    "word": "tedious",
+    "phonetic": "/ˈtiːdiəs/",
+    "pos": "adj.",
+    "meaning": "冗长乏味的",
+    "example": "Filling in forms is a tedious task.",
+    "exampleCn": "填表是件枯燥的差事。",
+    "synonyms": [
+      "boring",
+      "dull"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "tedi(厌倦) + -ous",
+    "collocations": [
+      "tedious process",
+      "tedious task",
+      "tedious details"
+    ],
+    "memoryTip": "tedi 是\"厌倦\"，tedious 就是\"让人厌倦的\"=冗长乏味的。"
+  },
+  {
+    "id": "v-thrive",
+    "word": "thrive",
+    "phonetic": "/θraɪv/",
+    "pos": "v.",
+    "meaning": "茁壮成长，兴旺",
+    "example": "The business thrived under her leadership.",
+    "exampleCn": "在她的领导下，生意兴隆。",
+    "synonyms": [
+      "flourish",
+      "prosper"
+    ],
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "root": "thriv(抓取, 兴旺)",
+    "collocations": [
+      "thrive in competition",
+      "business thrives",
+      "thrive on challenge"
+    ],
+    "memoryTip": "thrive 像\"抓住机会往上长\"→茁壮成长、兴旺。"
+  },
+  {
+    "id": "v-transform",
+    "word": "transform",
+    "phonetic": "/trænsˈfɔːm/",
+    "pos": "v.",
+    "meaning": "（彻底）改变，转变",
+    "example": "The internet transformed how we communicate.",
+    "exampleCn": "互联网改变了我们的沟通方式。",
+    "synonyms": [
+      "change",
+      "convert"
+    ],
+    "root": "trans-(跨) + form(形态)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "transform society",
+      "transform the economy",
+      "transform into"
+    ],
+    "memoryTip": "trans- 跨 + form 形态→跨越形态=彻底改变。"
+  },
+  {
+    "id": "v-trigger",
+    "word": "trigger",
+    "phonetic": "/ˈtrɪɡə/",
+    "pos": "v./n.",
+    "meaning": "引发，触发；扳机",
+    "example": "The news triggered a wave of protests.",
+    "exampleCn": "这则消息引发了一波抗议。",
+    "synonyms": [
+      "set off",
+      "provoke"
+    ],
+    "tags": [
+      "高频"
+    ],
+    "root": "trig(拉) + -er",
+    "collocations": [
+      "trigger a debate",
+      "trigger an alarm",
+      "trigger a crisis"
+    ],
+    "memoryTip": "trigger 本义\"扳机\"，扣扳机→引发、触发。"
+  },
+  {
+    "id": "v-versatile",
+    "word": "versatile",
+    "phonetic": "/ˈvɜːsətaɪl/",
+    "pos": "adj.",
+    "meaning": "多才多艺的；用途广泛的",
+    "example": "She is a versatile and talented actress.",
+    "exampleCn": "她是一位多才多艺的演员。",
+    "synonyms": [
+      "adaptable",
+      "flexible"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "vers(转) + -atile",
+    "collocations": [
+      "versatile actor",
+      "versatile tool",
+      "versatile application"
+    ],
+    "memoryTip": "vers 是\"转\"（同 convert），versatile 就是\"能转各种角色\"=多才多艺的。"
+  },
+  {
+    "id": "v-vivid",
+    "word": "vivid",
+    "phonetic": "/ˈvɪvɪd/",
+    "pos": "adj.",
+    "meaning": "生动的；鲜艳的",
+    "example": "She gave a vivid description of the scene.",
+    "exampleCn": "她对那个场景做了生动的描述。",
+    "synonyms": [
+      "lively",
+      "graphic"
+    ],
+    "root": "viv(生命, 同 vivacious)",
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "collocations": [
+      "vivid description",
+      "vivid colors",
+      "vivid memory"
+    ],
+    "memoryTip": "viv 是\"生命\"→有生命力的=生动的、鲜艳的。"
+  },
+  {
+    "id": "v-vulnerable",
+    "word": "vulnerable",
+    "phonetic": "/ˈvʌlnərəbl/",
+    "pos": "adj.",
+    "meaning": "脆弱的，易受伤害的",
+    "example": "Children are especially vulnerable to the disease.",
+    "exampleCn": "儿童尤其容易受到这种疾病的侵害。",
+    "synonyms": [
+      "weak",
+      "exposed"
+    ],
+    "tags": [
+      "高频",
+      "形容词"
+    ],
+    "root": "vuln(伤害) + -erable",
+    "collocations": [
+      "vulnerable to attack",
+      "vulnerable groups",
+      "economically vulnerable"
+    ],
+    "memoryTip": "vuln 是\"伤害\"（同 wound），vulnerable 就是\"容易受伤的\"=脆弱的。"
+  },
+  {
+    "id": "v-withstand",
+    "word": "withstand",
+    "phonetic": "/wɪðˈstænd/",
+    "pos": "v.",
+    "meaning": "经受住，抵挡",
+    "example": "The bridge can withstand strong earthquakes.",
+    "exampleCn": "这座桥能经受住强烈地震。",
+    "synonyms": [
+      "resist",
+      "endure"
+    ],
+    "root": "with-(对抗) + stand(站)",
+    "tags": [
+      "高频",
+      "动词"
+    ],
+    "collocations": [
+      "withstand pressure",
+      "withstand earthquakes",
+      "withstand criticism"
+    ],
+    "memoryTip": "with- 对抗 + stand 站→站着对抗=经受住。"
+  },
+  {
+    "id": "v-yield",
+    "word": "yield",
+    "phonetic": "/jiːld/",
+    "pos": "v./n.",
+    "meaning": "屈服；produce 产出；产量",
+    "example": "The investment yields high returns.",
+    "exampleCn": "这项投资收益很高。",
+    "synonyms": [
+      "produce",
+      "surrender"
+    ],
+    "tags": [
+      "高频"
+    ],
+    "root": "古英语 gieldan(给予)；产出/屈服",
+    "collocations": [
+      "yield high returns",
+      "yield to pressure",
+      "crop yield"
+    ],
+    "memoryTip": "yield 两个核心义：产出（投资 yield 回报）和屈服（yield to 让步）。"
+  }
+]

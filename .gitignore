@@ -1,0 +1,12 @@
+node_modules
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+dev-dist
+
+# Imported exam audio (personal local copies; regenerate via npm run import:exam)
+public/audio/exams/**

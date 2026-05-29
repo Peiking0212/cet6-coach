@@ -1,0 +1,73 @@
+[
+  {
+    "id": "wr-online-learning",
+    "module": "writing",
+    "title": "线上学习 vs 课堂学习",
+    "difficulty": 3,
+    "category": "教育",
+    "tags": ["议论文", "教育"],
+    "prompt": "Write an essay of 150–200 words on the topic: \"Online Learning vs. Classroom Learning\". You should state your opinion on which mode of learning is more effective and support it with reasons and examples.",
+    "minWords": 150,
+    "maxWords": 200,
+    "rubric": [
+      { "name": "内容切题", "weight": 30, "desc": "是否扣题、观点明确、论据充分" },
+      { "name": "结构连贯", "weight": 25, "desc": "段落清晰、逻辑衔接、过渡自然" },
+      { "name": "语言准确", "weight": 30, "desc": "语法、拼写、标点是否正确" },
+      { "name": "词汇句式", "weight": 15, "desc": "用词丰富、句式多样、表达地道" }
+    ],
+    "outline": [
+      "开门见山表明立场（更倾向哪种学习方式）",
+      "用 1-2 个理由 + 具体例子支撑观点",
+      "适当让步：承认另一种方式的优点",
+      "重申观点并给出展望"
+    ],
+    "sample": "With the rapid development of technology, online learning has become increasingly popular. While both modes have their merits, I believe classroom learning remains more effective for most students.\n\nFirst, the classroom offers face-to-face interaction that online platforms can hardly replace. When students raise questions, teachers can respond immediately and adjust their explanations, which deepens understanding. Second, a physical classroom provides a focused atmosphere free from the distractions of home, helping students concentrate. For example, many of my classmates admit that they easily lose attention when studying alone online.\n\nAdmittedly, online learning is more flexible and accessible, allowing people to study anytime and anywhere. However, this flexibility often comes at the cost of discipline and genuine engagement.\n\nIn conclusion, although online learning is a valuable supplement, classroom learning still offers irreplaceable advantages. The ideal solution, in my view, is to combine the two and enjoy the best of both worlds."
+  },
+  {
+    "id": "wr-social-media",
+    "module": "writing",
+    "title": "社交媒体的影响",
+    "difficulty": 4,
+    "category": "社会",
+    "tags": ["议论文", "社会"],
+    "prompt": "Write an essay of 150–200 words on \"The Impact of Social Media on Young People\". Discuss both the positive and negative effects and give your own opinion.",
+    "minWords": 150,
+    "maxWords": 200,
+    "rubric": [
+      { "name": "内容切题", "weight": 30, "desc": "是否兼顾利弊并给出个人观点" },
+      { "name": "结构连贯", "weight": 25, "desc": "正反论证结构清晰" },
+      { "name": "语言准确", "weight": 30, "desc": "语法、拼写是否正确" },
+      { "name": "词汇句式", "weight": 15, "desc": "高级词汇与多样句式" }
+    ],
+    "outline": [
+      "引出话题：社交媒体在年轻人中的普及",
+      "积极影响：信息获取、社交连接",
+      "消极影响：注意力分散、攀比与焦虑",
+      "个人观点：理性使用、扬长避短"
+    ],
+    "sample": "Social media has become an inseparable part of young people's lives. It brings both opportunities and challenges that deserve careful thought.\n\nOn the positive side, platforms such as Weibo and Instagram allow young people to access information instantly and stay connected with friends across the globe. Many also use them to learn new skills and even start their own businesses.\n\nNevertheless, the negative effects cannot be ignored. Endless scrolling distracts students from their studies, while the constant comparison with others' seemingly perfect lives can breed anxiety and low self-esteem.\n\nIn my opinion, social media itself is neither good nor bad; what matters is how we use it. Young people should set clear limits on screen time and remind themselves that online images rarely reflect reality. Used wisely, social media can be a powerful tool rather than a harmful habit."
+  },
+  {
+    "id": "wr-reading-books",
+    "module": "writing",
+    "title": "读书的重要性",
+    "difficulty": 2,
+    "category": "文化",
+    "tags": ["议论文", "文化"],
+    "prompt": "Write an essay of 150–200 words on \"The Importance of Reading in the Digital Age\".",
+    "minWords": 150,
+    "maxWords": 200,
+    "rubric": [
+      { "name": "内容切题", "weight": 30, "desc": "论点明确、论据充分" },
+      { "name": "结构连贯", "weight": 25, "desc": "结构完整、衔接顺畅" },
+      { "name": "语言准确", "weight": 30, "desc": "语法、拼写无误" },
+      { "name": "词汇句式", "weight": 15, "desc": "表达丰富地道" }
+    ],
+    "outline": [
+      "提出问题：数字时代人们读书越来越少",
+      "论证读书的价值：知识、思维、心灵",
+      "呼吁：重拾阅读习惯"
+    ],
+    "sample": "In the digital age, where short videos and instant messages fill every spare moment, the habit of reading books seems to be fading. Yet I firmly believe that reading remains as important as ever.\n\nTo begin with, books offer depth that fragmented online content cannot match. A well-written book develops an idea patiently, training our ability to think critically and reason logically. Moreover, reading broadens our horizons, allowing us to experience different lives and cultures without leaving our rooms.\n\nEqually important, reading nourishes the mind. After a tiring day, losing oneself in a good story can bring a sense of calm that scrolling through a phone rarely provides.\n\nTherefore, no matter how advanced technology becomes, we should not abandon reading. I suggest setting aside at least half an hour each day for a real book. In doing so, we invest in both our knowledge and our inner peace."
+  }
+]

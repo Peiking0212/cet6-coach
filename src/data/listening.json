@@ -1,0 +1,358 @@
+[
+  {
+    "id": "ls-news-library",
+    "module": "listening",
+    "kind": "news",
+    "title": "新闻 · 城市图书馆延长开放",
+    "difficulty": 2,
+    "category": "新闻",
+    "tags": ["短新闻"],
+    "audioUrl": "",
+    "sentences": [
+      "Good evening. In local news tonight, the city council has announced that the central library will extend its opening hours starting next month.",
+      "From now on, the library will stay open until ten o'clock every evening, including weekends.",
+      "Officials say the change is a response to growing demand from students and night-shift workers who need a quiet place to study.",
+      "The extended hours will be funded by a small increase in the city's cultural budget."
+    ],
+    "transcript": "Good evening. In local news tonight, the city council has announced that the central library will extend its opening hours starting next month. From now on, the library will stay open until ten o'clock every evening, including weekends. Officials say the change is a response to growing demand from students and night-shift workers who need a quiet place to study. The extended hours will be funded by a small increase in the city's cultural budget.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "What is the main news in this report?",
+        "options": [
+          "The library will close earlier",
+          "The library will extend its opening hours",
+          "A new library will be built",
+          "The library will charge an entrance fee"
+        ],
+        "answerIndex": 1,
+        "explanation": "新闻核心是 extend its opening hours，延长开放时间。"
+      },
+      {
+        "id": "q2",
+        "stem": "Who is the change mainly intended to help?",
+        "options": [
+          "Tourists and visitors",
+          "Children and teachers",
+          "Students and night-shift workers",
+          "Library staff"
+        ],
+        "answerIndex": 2,
+        "explanation": "原文 growing demand from students and night-shift workers，选 C。"
+      }
+    ]
+  },
+  {
+    "id": "ls-dialogue-trip",
+    "module": "listening",
+    "kind": "dialogue",
+    "title": "对话 · 周末出行计划",
+    "difficulty": 2,
+    "category": "对话",
+    "tags": ["对话"],
+    "audioUrl": "",
+    "sentences": [
+      "Hey Mark, do you have any plans for the weekend?",
+      "Not really. I was thinking of going hiking, but the forecast says it might rain on Saturday.",
+      "How about Sunday then? The weather looks much better, and we could visit that new art museum afterwards.",
+      "That sounds perfect. Let's meet at the station at nine so we have the whole day."
+    ],
+    "transcript": "A: Hey Mark, do you have any plans for the weekend? B: Not really. I was thinking of going hiking, but the forecast says it might rain on Saturday. A: How about Sunday then? The weather looks much better, and we could visit that new art museum afterwards. B: That sounds perfect. Let's meet at the station at nine so we have the whole day.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "Why does Mark hesitate to go hiking on Saturday?",
+        "options": [
+          "He has to work",
+          "It might rain",
+          "He feels tired",
+          "The trail is closed"
+        ],
+        "answerIndex": 1,
+        "explanation": "Mark 说 the forecast says it might rain on Saturday，因担心下雨。"
+      },
+      {
+        "id": "q2",
+        "stem": "What will they probably do after hiking on Sunday?",
+        "options": [
+          "Go shopping",
+          "Visit an art museum",
+          "Watch a movie",
+          "Have dinner at home"
+        ],
+        "answerIndex": 1,
+        "explanation": "对话提到 visit that new art museum afterwards。"
+      },
+      {
+        "id": "q3",
+        "stem": "When will they meet?",
+        "options": ["At eight", "At nine", "At ten", "At noon"],
+        "answerIndex": 1,
+        "explanation": "meet at the station at nine。"
+      }
+    ]
+  },
+  {
+    "id": "ls-lecture-memory",
+    "module": "listening",
+    "kind": "lecture",
+    "title": "讲座 · 记忆的工作原理",
+    "difficulty": 4,
+    "category": "讲座",
+    "tags": ["讲座", "学术"],
+    "audioUrl": "",
+    "sentences": [
+      "Today we'll look at how human memory actually works, and why forgetting is not always a flaw.",
+      "Our brains receive far more information than they could ever store, so they constantly decide what to keep and what to discard.",
+      "Information that is repeated, emotionally meaningful, or connected to what we already know is much more likely to be remembered.",
+      "This is why simply rereading your notes is far less effective than testing yourself, a technique psychologists call retrieval practice.",
+      "By forcing your brain to pull information out, you strengthen the memory far more than by passively putting information in."
+    ],
+    "transcript": "Today we'll look at how human memory actually works, and why forgetting is not always a flaw. Our brains receive far more information than they could ever store, so they constantly decide what to keep and what to discard. Information that is repeated, emotionally meaningful, or connected to what we already know is much more likely to be remembered. This is why simply rereading your notes is far less effective than testing yourself, a technique psychologists call retrieval practice. By forcing your brain to pull information out, you strengthen the memory far more than by passively putting information in.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "According to the lecture, why do our brains discard information?",
+        "options": [
+          "Because forgetting is a serious disease",
+          "Because they receive more than they can store",
+          "Because repetition is harmful",
+          "Because emotions weaken memory"
+        ],
+        "answerIndex": 1,
+        "explanation": "原文 receive far more information than they could ever store，故需取舍。"
+      },
+      {
+        "id": "q2",
+        "stem": "What technique does the speaker recommend?",
+        "options": [
+          "Rereading notes many times",
+          "Testing yourself (retrieval practice)",
+          "Listening to music while studying",
+          "Studying late at night"
+        ],
+        "answerIndex": 1,
+        "explanation": "讲座推荐 retrieval practice，即自我测试。"
+      },
+      {
+        "id": "q3",
+        "stem": "What makes information easier to remember?",
+        "options": [
+          "Being long and detailed",
+          "Being repeated or emotionally meaningful",
+          "Being written in a foreign language",
+          "Being read only once"
+        ],
+        "answerIndex": 1,
+        "explanation": "原文 repeated, emotionally meaningful, or connected to what we already know。"
+      }
+    ]
+  },
+  {
+    "id": "ls-news-electric",
+    "module": "listening",
+    "kind": "news",
+    "title": "新闻 · 电动车销量增长",
+    "difficulty": 3,
+    "category": "新闻",
+    "tags": ["短新闻", "经济"],
+    "audioUrl": "",
+    "sentences": [
+      "Sales of electric vehicles reached a record high last quarter, according to industry data released today.",
+      "Analysts say lower battery costs and government subsidies have made EVs more affordable for middle-income families.",
+      "However, concerns remain about charging infrastructure in rural areas, where public stations are still scarce.",
+      "Automakers plan to invest heavily in fast-charging networks over the next three years."
+    ],
+    "transcript": "Sales of electric vehicles reached a record high last quarter, according to industry data released today. Analysts say lower battery costs and government subsidies have made EVs more affordable for middle-income families. However, concerns remain about charging infrastructure in rural areas, where public stations are still scarce. Automakers plan to invest heavily in fast-charging networks over the next three years.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "What happened to electric vehicle sales last quarter?",
+        "options": ["They fell sharply", "They reached a record high", "They stayed unchanged", "They were banned"],
+        "answerIndex": 1,
+        "explanation": "新闻首句 reached a record high。"
+      },
+      {
+        "id": "q2",
+        "stem": "What problem is mentioned for rural areas?",
+        "options": ["High taxes", "Lack of charging stations", "Too many factories", "Poor road quality"],
+        "answerIndex": 1,
+        "explanation": "charging infrastructure ... public stations are still scarce。"
+      }
+    ]
+  },
+  {
+    "id": "ls-news-university",
+    "module": "listening",
+    "kind": "news",
+    "title": "新闻 · 大学开放日",
+    "difficulty": 2,
+    "category": "新闻",
+    "tags": ["短新闻", "教育"],
+    "audioUrl": "",
+    "sentences": [
+      "Local universities will hold open days this weekend to help high school students choose their future majors.",
+      "Visitors can tour laboratories, talk with professors, and attend sample lectures in engineering, medicine, and the arts.",
+      "Organizers expect more than ten thousand students and parents to participate across the city.",
+      "Registration is free and can be completed online before Friday evening."
+    ],
+    "transcript": "Local universities will hold open days this weekend to help high school students choose their future majors. Visitors can tour laboratories, talk with professors, and attend sample lectures in engineering, medicine, and the arts. Organizers expect more than ten thousand students and parents to participate across the city. Registration is free and can be completed online before Friday evening.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "Who is the open day mainly designed for?",
+        "options": ["Retired teachers", "High school students", "Company managers", "Hospital patients"],
+        "answerIndex": 1,
+        "explanation": "help high school students choose their future majors。"
+      },
+      {
+        "id": "q2",
+        "stem": "How can people register?",
+        "options": ["By phone only", "Online before Friday", "At the airport", "Through a lottery"],
+        "answerIndex": 1,
+        "explanation": "Registration ... completed online before Friday evening。"
+      }
+    ]
+  },
+  {
+    "id": "ls-dialogue-interview",
+    "module": "listening",
+    "kind": "dialogue",
+    "title": "对话 · 求职面试准备",
+    "difficulty": 3,
+    "category": "对话",
+    "tags": ["对话", "职场"],
+    "audioUrl": "",
+    "sentences": [
+      "Sarah, I have a job interview tomorrow and I'm really nervous.",
+      "That's normal. Have you researched the company and prepared a few examples of your past projects?",
+      "I've read their website, but I'm not sure how to talk about my internship experience.",
+      "Try the STAR method: describe the situation, your task, the action you took, and the result.",
+      "That sounds helpful. I'll practice tonight and get a good night's sleep."
+    ],
+    "transcript": "Sarah: I have a job interview tomorrow and I'm really nervous. Friend: That's normal. Have you researched the company and prepared a few examples of your past projects? Sarah: I've read their website, but I'm not sure how to talk about my internship experience. Friend: Try the STAR method: describe the situation, your task, the action you took, and the result. Sarah: That sounds helpful. I'll practice tonight and get a good night's sleep.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "What is the woman worried about?",
+        "options": ["A wedding", "A job interview", "A medical exam", "A flight delay"],
+        "answerIndex": 1,
+        "explanation": "开头 I have a job interview tomorrow。"
+      },
+      {
+        "id": "q2",
+        "stem": "What method does the friend recommend?",
+        "options": ["The STAR method", "Speed reading", "Mind mapping", "Silent meditation"],
+        "answerIndex": 0,
+        "explanation": "Try the STAR method。"
+      }
+    ]
+  },
+  {
+    "id": "ls-dialogue-diet",
+    "module": "listening",
+    "kind": "dialogue",
+    "title": "对话 · 健康饮食",
+    "difficulty": 2,
+    "category": "对话",
+    "tags": ["对话", "健康"],
+    "audioUrl": "",
+    "sentences": [
+      "I've been trying to eat more vegetables, but I always end up ordering takeout after work.",
+      "Maybe you could prepare simple meals on Sunday and store them in the fridge.",
+      "That's a good idea. What do you usually cook in advance?",
+      "Grilled chicken, brown rice, and steamed broccoli. It takes about an hour for the whole week.",
+      "I'll give it a try. It must be healthier than instant noodles every night."
+    ],
+    "transcript": "A: I've been trying to eat more vegetables, but I always end up ordering takeout after work. B: Maybe you could prepare simple meals on Sunday and store them in the fridge. A: That's a good idea. What do you usually cook in advance? B: Grilled chicken, brown rice, and steamed broccoli. It takes about an hour for the whole week. A: I'll give it a try. It must be healthier than instant noodles every night.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "What problem does the first speaker have?",
+        "options": ["She dislikes vegetables", "She often orders takeout", "She cannot cook at all", "She has no fridge"],
+        "answerIndex": 1,
+        "explanation": "always end up ordering takeout after work。"
+      },
+      {
+        "id": "q2",
+        "stem": "When does the friend suggest preparing meals?",
+        "options": ["On Sunday", "Every morning", "On Friday night", "During lunch breaks"],
+        "answerIndex": 0,
+        "explanation": "prepare simple meals on Sunday。"
+      }
+    ]
+  },
+  {
+    "id": "ls-lecture-climate-policy",
+    "module": "listening",
+    "kind": "lecture",
+    "title": "讲座 · 气候政策",
+    "difficulty": 4,
+    "category": "讲座",
+    "tags": ["讲座", "环境"],
+    "audioUrl": "",
+    "sentences": [
+      "Today's lecture examines how nations design climate policies that balance economic growth with environmental protection.",
+      "Carbon pricing is one widely debated tool: it makes polluters pay for emissions, creating an incentive to innovate.",
+      "Critics argue that without international cooperation, carbon taxes may simply shift production to countries with weaker rules.",
+      "Supporters counter that regional agreements can still drive meaningful change if major economies lead by example.",
+      "Students should note that effective policy rarely relies on a single measure; it combines regulation, investment, and public education."
+    ],
+    "transcript": "Today's lecture examines how nations design climate policies that balance economic growth with environmental protection. Carbon pricing is one widely debated tool: it makes polluters pay for emissions, creating an incentive to innovate. Critics argue that without international cooperation, carbon taxes may simply shift production to countries with weaker rules. Supporters counter that regional agreements can still drive meaningful change if major economies lead by example. Students should note that effective policy rarely relies on a single measure; it combines regulation, investment, and public education.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "What is carbon pricing intended to do?",
+        "options": ["Reduce taxes on fuel", "Make polluters pay for emissions", "Ban all factories", "Increase oil exports"],
+        "answerIndex": 1,
+        "explanation": "makes polluters pay for emissions。"
+      },
+      {
+        "id": "q2",
+        "stem": "What do critics worry about?",
+        "options": ["Policies may move pollution elsewhere", "Trees grow too quickly", "Students dislike lectures", "Weather becomes too stable"],
+        "answerIndex": 0,
+        "explanation": "shift production to countries with weaker rules。"
+      }
+    ]
+  },
+  {
+    "id": "ls-lecture-literature",
+    "module": "listening",
+    "kind": "lecture",
+    "title": "讲座 · 文学与现实",
+    "difficulty": 3,
+    "category": "讲座",
+    "tags": ["讲座", "文化"],
+    "audioUrl": "",
+    "sentences": [
+      "In this session we explore why realistic fiction continues to attract readers in an age of fantasy blockbusters.",
+      "Realistic novels often focus on ordinary people facing believable conflicts, which helps readers reflect on their own lives.",
+      "Some scholars argue that realism lost influence in the twentieth century, yet contemporary authors still return to everyday settings.",
+      "The key is not whether a story contains magic, but whether its emotions feel truthful.",
+      "By examining recent prize-winning novels, we can see how realism adapts rather than disappears."
+    ],
+    "transcript": "In this session we explore why realistic fiction continues to attract readers in an age of fantasy blockbusters. Realistic novels often focus on ordinary people facing believable conflicts, which helps readers reflect on their own lives. Some scholars argue that realism lost influence in the twentieth century, yet contemporary authors still return to everyday settings. The key is not whether a story contains magic, but whether its emotions feel truthful. By examining recent prize-winning novels, we can see how realism adapts rather than disappears.",
+    "questions": [
+      {
+        "id": "q1",
+        "stem": "Why do realistic novels still appeal to readers?",
+        "options": [
+          "They always include magic",
+          "They focus on believable conflicts",
+          "They are shorter than fantasy",
+          "They avoid emotional topics"
+        ],
+        "answerIndex": 1,
+        "explanation": "ordinary people facing believable conflicts。"
+      },
+      {
+        "id": "q2",
+        "stem": "What does the lecturer say about realism today?",
+        "options": ["It has completely vanished", "It adapts rather than disappears", "It only exists in poetry", "It rejects all prizes"],
+        "answerIndex": 1,
+        "explanation": "realism adapts rather than disappears。"
+      }
+    ]
+  }
+]

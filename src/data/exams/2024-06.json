@@ -1,0 +1,1432 @@
+{
+  "meta": {
+    "id": "2024-06",
+    "label": "2024年6月六级真题",
+    "date": "2024-06"
+  },
+  "audioManifest": [
+    {
+      "set": 1,
+      "file": "/audio/exams/2024-06/set-1.mp3",
+      "status": "ok",
+      "source": "E:\\BaiduNetdiskDownload\\2024年6月六级真题和答案\\2024年6月六级真题（第1套）.mp3"
+    },
+    {
+      "set": 2,
+      "file": "/audio/exams/2024-06/set-2.mp3",
+      "status": "ok",
+      "source": "E:\\BaiduNetdiskDownload\\2024年6月六级真题和答案\\2024年6月六级真题（第2套）.mp3"
+    },
+    {
+      "set": 3,
+      "file": "/audio/exams/2024-06/set-3.mp3",
+      "status": "missing",
+      "source": null
+    }
+  ],
+  "gaps": [
+    "第3套：官方说明听力与第2套相同（选项顺序不同），请使用第2套录音。",
+    "第3套听力题目未单独导入（与第2套音频相同）。"
+  ],
+  "listening": [
+    {
+      "id": "2024-06-set1-listen-conv1",
+      "module": "listening",
+      "kind": "dialogue",
+      "title": "第1套 · 长对话 1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 1,
+      "audioUrl": "/audio/exams/2024-06/set-1.mp3",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q1",
+          "stem": "Question 1",
+          "options": [
+            "Reply to the man's last proposal within a short time.",
+            "Sign the agreement if one small change is made to it.",
+            "Make a sponsorship deal for her client at the meeting.",
+            "Give the man some good news regarding the contract."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        },
+        {
+          "id": "q2",
+          "stem": "Question 2",
+          "options": [
+            "They are becoming impatient.",
+            "They are afraid time is running out.",
+            "They are used to making alterations.",
+            "They are concerned about the details."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q3",
+          "stem": "Question 3",
+          "options": [
+            "To prevent geographical discrimination.",
+            "To tap the food and beverage market.",
+            "To avoid any conflict of interest.",
+            "To reduce unfair competition."
+          ],
+          "answerIndex": 2,
+          "explanation": "官方答案：C。"
+        },
+        {
+          "id": "q4",
+          "stem": "Question 4",
+          "options": [
+            "It is a potential market for food and beverage.",
+            "It is very attractive for real estate developers.",
+            "It is a negligible market for his company.",
+            "It is very different from other markets."
+          ],
+          "answerIndex": 2,
+          "explanation": "官方答案：C。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set1-listen-conv2",
+      "module": "listening",
+      "kind": "dialogue",
+      "title": "第1套 · 长对话 2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 1,
+      "audioUrl": "/audio/exams/2024-06/set-1.mp3",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q5",
+          "stem": "Question 5",
+          "options": [
+            "They are thrilled by a rare astronomic phenomenon.",
+            "They are celebrating a big event on mountain tops.",
+            "They are enthusiastic about big science-related stories.",
+            "They are joined by astronomers all across North America."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q6",
+          "stem": "Question 6",
+          "options": [
+            "It will be the most formidable of its kind in over a century.",
+            "It will come closest to Earth in more than one hundred years.",
+            "It will eclipse many other such events in human history.",
+            "It will be seen most clearly from Denver's mountain tops."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        },
+        {
+          "id": "q7",
+          "stem": "Question 7",
+          "options": [
+            "A blur.",
+            "Stars.",
+            "The edge of our galaxy.",
+            "An ordinary flying object. -- 1 of 10 --"
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q8",
+          "stem": "Question 8",
+          "options": [
+            "Use professional equipment.",
+            "Climb to the nearby heights.",
+            "Fix their eyes due north.",
+            "Make use of phone apps."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set1-listen-pass1",
+      "module": "listening",
+      "kind": "news",
+      "title": "第1套 · 听力篇章 1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 1,
+      "audioUrl": "/audio/exams/2024-06/set-1.mp3",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q9",
+          "stem": "Question 9",
+          "options": [
+            "Whether consumers should be warned against ultra-processed foods.",
+            "Whether there is sufficient scientific consensus on dietary guidelines.",
+            "Whether guidelines can form the basis for nutrition advice to consumers.",
+            "Whether food scientists will agree on the concept of ultra-processed foods."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q10",
+          "stem": "Question 10",
+          "options": [
+            "By the labor cost for the final products.",
+            "By the degree of industrial processing.",
+            "By the extent of chemical alteration.",
+            "By the convention of classification."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        },
+        {
+          "id": "q11",
+          "stem": "Question 11",
+          "options": [
+            "Increased consumers' expenses.",
+            "Greater risk of chronic diseases.",
+            "People's misunderstanding of nutrition.",
+            "Children's dislike for unprocessed foods."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set1-listen-pass2",
+      "module": "listening",
+      "kind": "news",
+      "title": "第1套 · 听力篇章 2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 1,
+      "audioUrl": "/audio/exams/2024-06/set-1.mp3",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q12",
+          "stem": "Question 12",
+          "options": [
+            "They begin to think of the benefits of constraints.",
+            "They try to seek solutions from creative people.",
+            "They try hard to maximize their mental energy.",
+            "They begin to see the world in a different way."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        },
+        {
+          "id": "q13",
+          "stem": "Question 13",
+          "options": [
+            "It is characteristic of all creative people.",
+            "It is essential to pushing society forward.",
+            "It is a creative person's response to limitation.",
+            "It is an impetus to socio-economic development."
+          ],
+          "answerIndex": 2,
+          "explanation": "官方答案：C。"
+        },
+        {
+          "id": "q14",
+          "stem": "Question 14",
+          "options": [
+            "Scarcity or abundance of resources has little impact on people's creativity.",
+            "Innovative people are not constrained in connecting unrelated concepts.",
+            "People have no incentive to use available resources in new ways.",
+            "Creative people tend to consume more available resources."
+          ],
+          "answerIndex": 2,
+          "explanation": "官方答案：C。"
+        },
+        {
+          "id": "q15",
+          "stem": "Question 15",
+          "options": [
+            "It is key to a company's survival.",
+            "It shapes and focuses problems.",
+            "It is essential to meeting challenges.",
+            "It thrives best when constrained."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set1-listen-lec1",
+      "module": "listening",
+      "kind": "lecture",
+      "title": "第1套 · 讲座 1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 1,
+      "audioUrl": "/audio/exams/2024-06/set-1.mp3",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q16",
+          "stem": "Question 16",
+          "options": [
+            "Because they are learned.",
+            "Because they come naturally.",
+            "Because they have to be properly personalized.",
+            "Because there can be more effective strategies. -- 2 of 10 --"
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q17",
+          "stem": "Question 17",
+          "options": [
+            "The extent of difference and of similarity between the two sides.",
+            "The knowledge of the specific expectation the other side holds.",
+            "The importance of one's goals and of the relationship.",
+            "The approaches one adopts to conflict management."
+          ],
+          "answerIndex": 2,
+          "explanation": "官方答案：C。"
+        },
+        {
+          "id": "q18",
+          "stem": "Question 18",
+          "options": [
+            "The fox.",
+            "The owl.",
+            "The shark.",
+            "The turtle."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set1-listen-lec2",
+      "module": "listening",
+      "kind": "lecture",
+      "title": "第1套 · 讲座 2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 1,
+      "audioUrl": "/audio/exams/2024-06/set-1.mp3",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q19",
+          "stem": "Question 19",
+          "options": [
+            "Help save species from extinction and boost human health.",
+            "Understand how plants and animals perished over the past.",
+            "Help gather information publicly available to researchers.",
+            "Find out the cause of extinction of Britain's 66,000 species."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q20",
+          "stem": "Question 20",
+          "options": [
+            "It was once dominated by dinosaurs.",
+            "It has entered the sixth mass extinction.",
+            "Its prospects depend on future human behaviour.",
+            "Its climate change is aggravated by humans."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        },
+        {
+          "id": "q21",
+          "stem": "Question 21",
+          "options": [
+            "It dwarfs all other efforts to conserve, protect and restore biodiversity on earth.",
+            "It is costly to get started and requires the joint efforts of thousands of scientists.",
+            "It can help to bring back the large numbers of plants and animals that have gone extinct.",
+            "It is the most exciting, most relevant, most timely and most internationally inspirational."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set1-listen-lec3",
+      "module": "listening",
+      "kind": "lecture",
+      "title": "第1套 · 讲座 3",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 1,
+      "audioUrl": "/audio/exams/2024-06/set-1.mp3",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q22",
+          "stem": "Question 22",
+          "options": [
+            "Cultural identity.",
+            "Social evolution.",
+            "The Copernican revolution.",
+            "Human individuality."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        },
+        {
+          "id": "q23",
+          "stem": "Question 23",
+          "options": [
+            "It is a delusion to be disposed of.",
+            "It is prevalent even among academics.",
+            "It is a myth spread by John Donne's poem.",
+            "It is rooted in the mindset of the 17th century."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q24",
+          "stem": "Question 24",
+          "options": [
+            "He believes in Copernican philosophical doctrines about the universe.",
+            "He has gained ample scientific evidence at the University of Reading.",
+            "He has found that our inner self and material self are interconnected.",
+            "He contends most of our body cells can only live a few days or weeks."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        },
+        {
+          "id": "q25",
+          "stem": "Question 25",
+          "options": [
+            "By coming to see how disruptive such problems have got to be.",
+            "By realising that we all can do our own bit in such endeavours.",
+            "By becoming aware that we are part of a bigger world.",
+            "By making joint efforts resolutely and persistently."
+          ],
+          "answerIndex": 2,
+          "explanation": "官方答案：C。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set2-listen-conv1",
+      "module": "listening",
+      "kind": "dialogue",
+      "title": "第2套 · 长对话 1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第2套",
+        "听力"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 2,
+      "audioUrl": "/audio/exams/2024-06/set-2.mp3",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q1",
+          "stem": "Question 1",
+          "options": [
+            "Read numerous comments users put online.",
+            "Blended all his food without using a machine.",
+            "Searched for the state-of-the-art models of blenders.",
+            "Did thorough research on the price of kitchen appliances."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q2",
+          "stem": "Question 2",
+          "options": [
+            "Eating any blended food.",
+            "Buying a blender herself.",
+            "Using machines to do her cooking.",
+            "Making soups and juices for herself."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        },
+        {
+          "id": "q3",
+          "stem": "Question 3",
+          "options": [
+            "Cooking every meal creatively in the kitchen.",
+            "Paying due attention to his personal hygiene.",
+            "Eating breakfast punctually every morning.",
+            "Making his own fresh fruit juice regularly."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        },
+        {
+          "id": "q4",
+          "stem": "Question 4",
+          "options": [
+            "One-tenth of it is sugar.",
+            "It looks healthy and attractive.",
+            "One's fancy may be tickled by it.",
+            "It contains an assortment of nutrients."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set2-listen-conv2",
+      "module": "listening",
+      "kind": "dialogue",
+      "title": "第2套 · 长对话 2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第2套",
+        "听力"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 2,
+      "audioUrl": "/audio/exams/2024-06/set-2.mp3",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q5",
+          "stem": "Question 5",
+          "options": [
+            "How he has made himself popular as the mayor of Berkton.",
+            "How the residents will turn Berkton into a tourist attraction.",
+            "How charming he himself considers the village of Berkton to be.",
+            "How he has led people of Berkton to change the village radically."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        },
+        {
+          "id": "q6",
+          "stem": "Question 6",
+          "options": [
+            "It was developed only to a limited extent.",
+            "It was totally isolated as a sleepy village.",
+            "It was relatively unknown to the outside.",
+            "It was endowed with rare natural resources."
+          ],
+          "answerIndex": 2,
+          "explanation": "官方答案：C。"
+        },
+        {
+          "id": "q7",
+          "stem": "Question 7",
+          "options": [
+            "The people in Berkton were in a harmonious atmosphere.",
+            "The majority of residents lived in harmony with their neighbors.",
+            "The majority of residents enjoyed cosy housing conditions.",
+            "All the houses in Berkton looked aesthetically similar."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        },
+        {
+          "id": "q8",
+          "stem": "Question 8",
+          "options": [
+            "They have helped boost the local economy. -- 1 of 10 --",
+            "They have made the residents unusually proud.",
+            "They have contributed considerably to its popularity.",
+            "They have brought happiness to everyone in the village."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set2-listen-pass1",
+      "module": "listening",
+      "kind": "news",
+      "title": "第2套 · 听力篇章 1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第2套",
+        "听力"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 2,
+      "audioUrl": "/audio/exams/2024-06/set-2.mp3",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q9",
+          "stem": "Question 9",
+          "options": [
+            "They have created the smallest remote-controlled walking robot in the world.",
+            "They are going to publish their research findings in the journal Science Robotics.",
+            "They are the first to build a robot that can bend, crawl, walk, turn and even jump.",
+            "They are engaged in research on a remote-controlled robot which uses special power."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q10",
+          "stem": "Question 10",
+          "options": [
+            "It changes its shape by complex hardware.",
+            "It is operated by a special type of tiny motor.",
+            "It moves from one place to another by memory.",
+            "It is powered by the elastic property of its body."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        },
+        {
+          "id": "q11",
+          "stem": "Question 11",
+          "options": [
+            "Replace humans in exploratory tasks.",
+            "Perform tasks in tightly confined spaces.",
+            "Explore the structure of clogged arteries.",
+            "Assist surgeons in highly complex surgery."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set2-listen-pass2",
+      "module": "listening",
+      "kind": "news",
+      "title": "第2套 · 听力篇章 2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第2套",
+        "听力"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 2,
+      "audioUrl": "/audio/exams/2024-06/set-2.mp3",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q12",
+          "stem": "Question 12",
+          "options": [
+            "She threw up in the bathroom.",
+            "She slept during the entire ride.",
+            "She dozed off for a few minutes.",
+            "She boasted of her marathon race."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        },
+        {
+          "id": "q13",
+          "stem": "Question 13",
+          "options": [
+            "They are mostly immune to cognitive impairment.",
+            "They can sleep soundly during a rough ride at sea.",
+            "They are genetically determined to need less sleep.",
+            "They constitute about 13 percent of the population."
+          ],
+          "answerIndex": 2,
+          "explanation": "官方答案：C。"
+        },
+        {
+          "id": "q14",
+          "stem": "Question 14",
+          "options": [
+            "Whether there is a way to reach elite status.",
+            "Whether it is possible to modify one's genes.",
+            "Whether having a baby impacts one's passion.",
+            "Whether one can train themselves to sleep less."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        },
+        {
+          "id": "q15",
+          "stem": "Question 15",
+          "options": [
+            "It is in fact quite possible to nurture a passion for sleep.",
+            "Babies can severely disrupt their parents' sleep patterns.",
+            "Being forced to rise early differs from being an early bird.",
+            "New parents are forced to jump out of bed at the crack of dawn."
+          ],
+          "answerIndex": 2,
+          "explanation": "官方答案：C。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set2-listen-lec1",
+      "module": "listening",
+      "kind": "lecture",
+      "title": "第2套 · 讲座 1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第2套",
+        "听力"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 2,
+      "audioUrl": "/audio/exams/2024-06/set-2.mp3",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q16",
+          "stem": "Question 16",
+          "options": [
+            "We have poor awareness of how many controversial issues are being debated.",
+            "No one knows better than yourself what you are thinking about at the moment.",
+            "No one can change your opinions more than those who speak in a convincing tone.",
+            "We are likely to underestimate how much we can be swayed by a convincing article."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        },
+        {
+          "id": "q17",
+          "stem": "Question 17",
+          "options": [
+            "Their belief about physical punishment changed. -- 2 of 10 --",
+            "Their memory pushed them toward a current belief.",
+            "The memory of their initial belief came back to them.",
+            "Their experiences of physical punishment haunted them."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q18",
+          "stem": "Question 18",
+          "options": [
+            "They apparently have little to do with moderate beliefs.",
+            "They don't reflect the changes of view on physical punishment.",
+            "They may not apply to changes to extreme or deeply held beliefs.",
+            "They are unlikely to alter people's position without more evidence."
+          ],
+          "answerIndex": 2,
+          "explanation": "官方答案：C。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set2-listen-lec2",
+      "module": "listening",
+      "kind": "lecture",
+      "title": "第2套 · 讲座 2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第2套",
+        "听力"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 2,
+      "audioUrl": "/audio/exams/2024-06/set-2.mp3",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q19",
+          "stem": "Question 19",
+          "options": [
+            "American moms have been increasingly inclined to live alone.",
+            "The American population has been on the rise in the past 25 years.",
+            "American motherhood has actually been on the decline.",
+            "The fertility rates in America have in fact been falling sharply."
+          ],
+          "answerIndex": 2,
+          "explanation": "官方答案：C。"
+        },
+        {
+          "id": "q20",
+          "stem": "Question 20",
+          "options": [
+            "More new mothers tend to take greater care of their children.",
+            "More new mothers are economically able to raise children.",
+            "A larger proportion of women take pride in their children.",
+            "A larger proportion of women really enjoy motherhood."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        },
+        {
+          "id": "q21",
+          "stem": "Question 21",
+          "options": [
+            "The meaning of motherhood has changed considerably.",
+            "More and more mothers go shopping to treat themselves.",
+            "More mothers have adult children celebrating the holiday.",
+            "The number of American mothers has been growing steadily."
+          ],
+          "answerIndex": 2,
+          "explanation": "官方答案：C。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set2-listen-lec3",
+      "module": "listening",
+      "kind": "lecture",
+      "title": "第2套 · 讲座 3",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第2套",
+        "听力"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 2,
+      "audioUrl": "/audio/exams/2024-06/set-2.mp3",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q22",
+          "stem": "Question 22",
+          "options": [
+            "Add to indoor toxic pollutants.",
+            "Absorb poisonous chemicals.",
+            "Beautify the home environment.",
+            "Soak up surrounding moisture."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        },
+        {
+          "id": "q23",
+          "stem": "Question 23",
+          "options": [
+            "NASA did experiments in sealed containers resembling the super-insulated offices of 1970s.",
+            "It was based on experiments under conditions unlike those in most homes or offices.",
+            "NASA conducted tests in outer space whose environment is different from ours.",
+            "It drew its conclusion without any contrastive data from other experiments."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        },
+        {
+          "id": "q24",
+          "stem": "Question 24",
+          "options": [
+            "Natural ventilation proves much more efficient for cleaning the air than house plants.",
+            "House plants disperse chemical compounds more quickly with people moving around.",
+            "Natural ventilation turns out to be most effective with doors and windows wide open.",
+            "House plants in a normal environment rarely have any adverse impact on the air."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q25",
+          "stem": "Question 25",
+          "options": [
+            "The root cause for misinterpretations of scientific findings.",
+            "The difficulty in understanding what's actually happening.",
+            "The steps to be taken in arriving at any conclusion with certainty.",
+            "The necessity of continually re-examining and challenging findings."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "2024-06-set1-read-careful-1",
+      "module": "reading",
+      "kind": "careful",
+      "title": "第1套 · 仔细阅读 · 篇章1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第1套",
+        "仔细阅读"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 1,
+      "passage": "It is irrefutable that employees know the difference between right and wrong. So why don't more employees intervene when they see someone exhibiting at-risk behavior in the workplace? There are a number of factors that influence whether people intervene. First, they need to be able to see a risky situation beginning to unfold. Second, the company's culture needs to make them feel safe to speak up. And third, they need to have the communication skills to say something effectively. This is not strictly a workplace problem; it's a growing problem off the job too. Every day people witness things on the street and choose to stand idly by. This is known as the bystander effect—the more people who witness an event, the less likely anyone in that group is to help the victim. The psychology behind this is called diffusion of responsibility. Basically, the larger the crowd, the more people assume that someone else will take care of it—meaning no one effectively intervenes or acts in a moment of need. This crowd mentality is strong enough for people to evade their known responsibilities. But it's not only frontline workers who don't make safety interventions in the workplace. There are also instances where supervisors do not intervene either. When a group of employees sees unsafe behavior not being addressed at a leadership level it creates the precedent that this is how these situations should be addressed, thus defining the safety culture for everyone. Despite the fact that workers are encouraged to intervene when they observe unsafe operations, this happens less than half of the time. Fear is the ultimate factor in not intervening. There is a fear of penalty, a fear that they'll have to do more work if they intervene. Unsuccessful attempts in the past are another strong contributing factor to why people don't intervene—they tend to prefer to defer that action to someone else for all future situations. On many worksites, competent workers must be appointed. Part of their job is to intervene when workers perform a task without the proper equipment or if the conditions are unsafe. Competent workers are also required to stop work from continuing when there's a danger. Supervisors also play a critical role. Even if a competent person isn't required, supervisors need a broad set of skills to not only identify and alleviate workplace hazards but also build a safety climate within their team that supports intervening and open communication among them. Beyond competent workers and supervisors, it's important to educate everyone within the organization that they are obliged to intervene if they witness a possible unsafe act, whether you're a designated competent person, a supervisor or a frontline worker. 46. What is one of the factors contributing to failure of intervention in face of risky behavior in the workplace? A) Slack supervision style. C) Unforeseeable risk. B) Unfavorable workplace culture. D) Blocked communication. 47. What does the author mean by \"diffusion of responsibility\" (Line 4, Para. 3)? A) The more people are around, the more they need to worry about their personal safety. B) The more people who witness an event, the less likely anyone will venture to participate. C) The more people idling around on the street, the more likely they need taking care of. D) The more people are around, the less chance someone will step forward to intervene. 48. What happens when unsafe behavior at the workplace is not addressed by the leaders? A) No one will intervene when they see similar behaviors. B) Everyone will see it as the easiest way to deal with crisis. C) Workers have to take extra caution executing their duties. D) Workers are left to take care of the emergency themselves. 49. What is the ultimate reason workers won't act when they see unsafe operations? A) Preference of deferring the action to others. C) Fear of being isolated by coworkers. B) Anticipation of leadership intervention. D) Fear of having to do more work. 50. What is critical to ensuring workplace safety? A) Workers be trained to operate their equipment properly. B) Workers exhibiting at-risk behavior be strictly disciplined. C) Supervisors create a safety environment for timely intervention. D) Supervisors conduct effective communication with frontline workers.",
+      "questions": [
+        {
+          "id": "q46",
+          "stem": "What is one of the factors contributing to failure of intervention in face of risky behavior in the workplace?",
+          "options": [
+            "Slack supervision style.",
+            "Unfavorable workplace culture.",
+            "Unforeseeable risk.",
+            "Blocked communication."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        },
+        {
+          "id": "q47",
+          "stem": "What does the author mean by \"diffusion of responsibility\" (Line 4, Para. 3)?",
+          "options": [
+            "The more people are around, the more they need to worry about their personal safety.",
+            "The more people who witness an event, the less likely anyone will venture to participate.",
+            "The more people idling around on the street, the more likely they need taking care of.",
+            "The more people are around, the less chance someone will step forward to intervene."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        },
+        {
+          "id": "q48",
+          "stem": "What happens when unsafe behavior at the workplace is not addressed by the leaders?",
+          "options": [
+            "No one will intervene when they see similar behaviors.",
+            "Everyone will see it as the easiest way to deal with crisis.",
+            "Workers have to take extra caution executing their duties.",
+            "Workers are left to take care of the emergency themselves."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        },
+        {
+          "id": "q49",
+          "stem": "What is the ultimate reason workers won't act when they see unsafe operations?",
+          "options": [
+            "Preference of deferring the action to others.",
+            "Anticipation of leadership intervention.",
+            "Fear of being isolated by coworkers.",
+            "Fear of having to do more work."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q50",
+          "stem": "What is critical to ensuring workplace safety?",
+          "options": [
+            "Workers be trained to operate their equipment properly.",
+            "Workers exhibiting at-risk behavior be strictly disciplined.",
+            "Supervisors create a safety environment for timely intervention.",
+            "Supervisors conduct effective communication with frontline workers."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set1-read-careful-2",
+      "module": "reading",
+      "kind": "careful",
+      "title": "第1套 · 仔细阅读 · 篇章2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第1套",
+        "仔细阅读"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 1,
+      "passage": "The term \"environmentalist\" can mean different things. It used to refer to people trying to protect wildlife and natural ecosystems. In the 21st century, the term has evolved to capture the need to combat human-made climate change. The distinction between these two strands of environmentalism is the cause of a split within the scientific community about nuclear energy. On one side are purists who believe nuclear power isn't worth the risk and the exclusive solution to the climate crisis is renewable energy. The opposing side agrees that renewables are crucial, but says society needs an amount of power available to meet consumers' basic demands when the sun isn't shining and the wind isn't blowing. Nuclear energy, being far cleaner than oil, gas and coal, is a natural option, especially where hydroelectric capacity is limited. Leon Clarke, who helped author reports for the UN's Intergovernmental Panel on Climate Change, isn't an uncritical supporter of nuclear energy, but says it's a valuable option to have if we're serious about reaching carbon neutrality. \"Core to all of this is the degree to which you think we can actually meet climate goals with 100% renewables,\" he said. \"If you don't believe we can do it, and you care about the climate, you are forced to think about something like nuclear.\" The achievability of universal 100% renewability is similarly contentious. Cities such as Burlington, Vermont, have been \"100% renewable\" for years. But these cities often have small populations, occasionally still rely on fossil fuel energy and have significant renewable resources at their immediate disposal. Meanwhile, countries that manage to run off renewables typically do so thanks to extraordinary hydroelectric capabilities. Germany stands as the best case study for a large, industrialized country pushing into green energy. Chancellor Angela Merkel in 2011 announced Energiewende, an energy transition that would phase out nuclear and coal while phasing in renewables. Wind and solar power generation has increased over 400% since 2010, and renewables provided 46% of the country's electricity in 2019. But progress has halted in recent years. The instability of renewables doesn't just mean energy is often not produced at night, but also that solar and wind can overwhelm the grid during the day, forcing utilities to pay customers to use their electricity. Lagging grid infrastructure struggles to transport this overabundance of green energy from Germany's north to its industrial south, meaning many factories still run on coal and gas. The political limit has also been reached in some places, with citizens meeting the construction of new wind turbines with loud protests. The result is that Germany's greenhouse gas emissions have fallen by around 11.5% since 2010—slower than the EU average of 13.5%. 51. What accounts for the divide within the scientific community about nuclear energy? A) Attention to combating human-made climate change. B) Emphasis on protecting wildlife and natural ecosystems. C) Evolution of the term 'green energy' over the last century. D) Adherence to different interpretations of environmentalism. 52. What is the solution to energy shortage proposed by purists' opponents? A) Relying on renewables firmly and exclusively. B) Using fossil fuel and green energy alternately. C) Opting for nuclear energy when necessary. D) Limiting people's non-basic consumption. 53. What point does the author want to make with cities like Burlington as an example? A) It is controversial whether the goal of the whole world's exclusive dependence on renewables is attainable. B) It is contentious whether cities with large populations have renewable resources at their immediate disposal. C) It is arguable whether cities that manage to run off renewables have sustainable hydroelectric capabilities. D) It is debatable whether traditional fossil fuel energy can be done away with entirely throughout the world. 54. What do we learn about Germany regarding renewable energy? A) It has increased its wind and solar power generation four times over the last two decades. B) It represents a good example of a major industrialized country promoting green energy. C) It relies on renewable energy to generate more than half of its electricity. D) It has succeeded in reaching the goal of energy transition set by Merkel. 55. What may be one of the reasons for Germany's progress having halted in recent years? A) Its grid infrastructure's capacity has fallen behind its development of green energy. B) Its overabundance of green energy has forced power plants to suspend operation during daytime. C) Its industrial south is used to running factories on conventional energy supplies. D) Its renewable energy supplies are unstable both at night and during the day.",
+      "questions": [
+        {
+          "id": "q51",
+          "stem": "What accounts for the divide within the scientific community about nuclear energy?",
+          "options": [
+            "Attention to combating human-made climate change.",
+            "Emphasis on protecting wildlife and natural ecosystems.",
+            "Evolution of the term 'green energy' over the last century.",
+            "Adherence to different interpretations of environmentalism."
+          ],
+          "answerIndex": 2,
+          "explanation": "官方答案：C。"
+        },
+        {
+          "id": "q52",
+          "stem": "What is the solution to energy shortage proposed by purists' opponents?",
+          "options": [
+            "Relying on renewables firmly and exclusively.",
+            "Using fossil fuel and green energy alternately.",
+            "Opting for nuclear energy when necessary.",
+            "Limiting people's non-basic consumption."
+          ],
+          "answerIndex": 3,
+          "explanation": "官方答案：D。"
+        },
+        {
+          "id": "q53",
+          "stem": "What point does the author want to make with cities like Burlington as an example?",
+          "options": [
+            "It is controversial whether the goal of the whole world's exclusive dependence on renewables is attainable.",
+            "It is contentious whether cities with large populations have renewable resources at their immediate disposal.",
+            "It is arguable whether cities that manage to run off renewables have sustainable hydroelectric capabilities.",
+            "It is debatable whether traditional fossil fuel energy can be done away with entirely throughout the world."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q54",
+          "stem": "What do we learn about Germany regarding renewable energy?",
+          "options": [
+            "It has increased its wind and solar power generation four times over the last two decades. -- 9 of 10 --",
+            "It represents a good example of a major industrialized country promoting green energy.",
+            "It relies on renewable energy to generate more than half of its electricity.",
+            "It has succeeded in reaching the goal of energy transition set by Merkel."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q55",
+          "stem": "What may be one of the reasons for Germany's progress having halted in recent years?",
+          "options": [
+            "Its grid infrastructure's capacity has fallen behind its development of green energy.",
+            "Its overabundance of green energy has forced power plants to suspend operation during daytime.",
+            "Its industrial south is used to running factories on conventional energy supplies.",
+            "Its renewable energy supplies are unstable both at night and during the day."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set3-read-careful-1",
+      "module": "reading",
+      "kind": "careful",
+      "title": "第3套 · 仔细阅读 · 篇章1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第3套",
+        "仔细阅读"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 3,
+      "passage": "Sarcasm and jazz have something surprisingly in common: You know them when you hear them. Sarcasm is mostly understood through tone of voice, which is used to portray the opposite of the literal words. For example, when someone says, \"Well, that's exactly what I need right now,\" their tone can tell you it's not what they need at all. Most frequently, sarcasm highlights an irritation or is, quite simply, mean. If you want to be happier and improve your relationships, cut out sarcasm. Why? Because sarcasm is actually hostility disguised as humor. Despite smiling outwardly, many people who receive sarcastic comments feel put down and often think the sarcastic person is rude, or contemptible. Indeed, it's not surprising that the origin of the word sarcasm derives from the Greek word \"sarkazein\" which literally means \"to tear or strip the flesh off.\" Hence, it's no wonder that sarcasm is often preceded by the word \"cutting\" and that it hurts. What's more, since actions strongly determine thoughts and feelings, when a person consistently acts sarcastically it may only serve to heighten their underlying hostility and insecurity. After all, when you come right down to it, sarcasm can be used as a subtle form of bullying—and most bullies are angry, insecure, or cowardly. Alternatively, when a person stops voicing negative comments, especially sarcastic ones, they may soon start to feel happier and more self-confident. Also, other people in their life benefit even more because they no longer have to hear the emotionally hurtful language of sarcasm. Now, I'm not saying all sarcasm is bad. It may just be better used sparingly—like a potent spice in cooking. Too much of the spice, and the dish will be overwhelmed by it. Similarly, an occasional dash of sarcastic wit can spice up a chat and add an element of humor to it. But a big or steady serving of sarcasm will overwhelm the emotional flavor of any conversation and can taste very bitter to its recipient. So, tone down the sarcasm and work on clever wit instead, which is usually without any hostility and thus more appreciated by those you're communicating with. In essence, sarcasm is easy while true, harmless wit takes talent. Thus, the main difference between wit and sarcasm is that, as already stated, sarcasm is often hostility disguised as humor. It can be intended to hurt and is often bitter and biting. Witty statements are usually in response to someone's unhelpful remarks or behaviors, and the intent is to untangle and clarify the issue by emphasizing its absurdities. Sarcastic statements are expressed in a cutting manner; witty remarks are delivered with undisguised and harmless humor. 46. Why does the author say sarcasm and jazz have something surprisingly in common? A) Both are recognized when heard. C) Both mean the opposite of what they appear to. B) Both have exactly the same tone. D) Both have hidden in them an evident irritation. 47. How do many people feel when they hear sarcastic comments? A) They feel hostile towards the sarcastic person. B) They feel belittled and disrespected. C) They feel a strong urge to retaliate. D) They feel incapable of disguising their irritation. 48. What happens when a person consistently acts sarcastically? A) They feel their dignity greatly heightened. B) They feel increasingly insecure and hostile. C) They endure hostility under the disguise of humor. D) They taste bitterness even in pleasant interactions. 49. What does the author say about people quitting sarcastic comments? A) It makes others happier and more self-confident. B) It restrains them from being irritating and bullying. C) It benefits not only themselves but also those around them. D) It shields them from negative comments and outright hostility. 50. What is the chief difference between a speaker's wit and sarcasm? A) Their clarity. B) Their appreciation. C) Their emphasis. D) Their intention.",
+      "questions": [
+        {
+          "id": "q46",
+          "stem": "Why does the author say sarcasm and jazz have something surprisingly in common?",
+          "options": [
+            "Both are recognized when heard.",
+            "Both have exactly the same tone.",
+            "Both mean the opposite of what they appear to.",
+            "Both have hidden in them an evident irritation."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        },
+        {
+          "id": "q47",
+          "stem": "How do many people feel when they hear sarcastic comments?",
+          "options": [
+            "They feel hostile towards the sarcastic person. -- 5 of 8 --",
+            "They feel belittled and disrespected.",
+            "They feel a strong urge to retaliate.",
+            "They feel incapable of disguising their irritation."
+          ],
+          "answerIndex": 2,
+          "explanation": "官方答案：C。"
+        },
+        {
+          "id": "q48",
+          "stem": "What happens when a person consistently acts sarcastically?",
+          "options": [
+            "They feel their dignity greatly heightened.",
+            "They feel increasingly insecure and hostile.",
+            "They endure hostility under the disguise of humor.",
+            "They taste bitterness even in pleasant interactions."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q49",
+          "stem": "What does the author say about people quitting sarcastic comments?",
+          "options": [
+            "It makes others happier and more self-confident.",
+            "It restrains them from being irritating and bullying.",
+            "It benefits not only themselves but also those around them.",
+            "It shields them from negative comments and outright hostility."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        },
+        {
+          "id": "q50",
+          "stem": "What is the chief difference between a speaker's wit and sarcasm?",
+          "options": [
+            "Their clarity.",
+            "Their appreciation.",
+            "Their emphasis.",
+            "Their intention."
+          ],
+          "answerIndex": 1,
+          "explanation": "官方答案：B。"
+        }
+      ]
+    }
+  ],
+  "translation": [
+    {
+      "id": "2024-06-set1-translation",
+      "module": "translation",
+      "title": "第1套 · 翻译",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第1套"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 1,
+      "cn": "中国的传统婚礼习俗历史悠久，从周朝开始就逐渐形成了一套完整的婚礼仪式，有些一直沿用至今。如今的中式婚礼习俗已有很大变化，但婚礼庆典仍然十分隆重。婚礼场地经过精心装饰，以象征喜庆(jubilance)的红色为主色调，摆放着许多祝愿新人幸福的物件。在婚礼上，新人要拜天地(bowtoHeavenandEarth)，拜父母和相互对拜，然后设宴招待宾客，并向宾客敬酒致谢。今天，许多年轻人依然钟情于传统的中式婚礼，体验独特而美好的中国式浪漫。",
+      "en": "Traditional wedding customs in China have a long history, and since the Zhou Dynasty a complete set of wedding rituals has gradually developed, some of which are still in use today. Nowadays, Chinese wedding customs have changed a lot, but the ceremony is still very grand. The wedding venue is carefully decorated, with the main color of red, a symbol of jubilance, and many objects are placed to wish the couple happiness. At the wedding, the couple will bow to Heaven and Earth, to their parents and to each other, and then hold a banquet to entertain the guests and toast the guests to express their gratitude. Today, many young people still prefer the traditional Chinese wedding, to experience the unique and beautiful Chinese romance.",
+      "sentences": [
+        {
+          "cn": "中国的传统婚礼习俗历史悠久，从周朝开始就逐渐形成了一套完整的婚礼仪式，有些一直沿用至今。",
+          "en": "",
+          "keyWords": []
+        },
+        {
+          "cn": "如今的中式婚礼习俗已有很大变化，但婚礼庆典仍然十分隆重。",
+          "en": "",
+          "keyWords": []
+        },
+        {
+          "cn": "婚礼场地经过精心装饰，以象征喜庆(jubilance)的红色为主色调，摆放着许多祝愿新人幸福的物件。",
+          "en": "",
+          "keyWords": []
+        },
+        {
+          "cn": "在婚礼上，新人要拜天地(bowtoHeavenandEarth)，拜父母和相互对拜，然后设宴招待宾客，并向宾客敬酒致谢。",
+          "en": "",
+          "keyWords": []
+        },
+        {
+          "cn": "今天，许多年轻人依然钟情于传统的中式婚礼，体验独特而美好的中国式浪漫。",
+          "en": "",
+          "keyWords": []
+        }
+      ],
+      "notes": "参考译文来自官方速查。"
+    },
+    {
+      "id": "2024-06-set2-translation",
+      "module": "translation",
+      "title": "第2套 · 翻译",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第2套"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 2,
+      "cn": "中国盛产竹子，是最早开发利用竹资源的国家。竹子在中国分布广泛，品种丰富。竹子实用性强，用于生产和生活的许多方面，如筷子、桌椅的制作和桥梁、房屋的建造。中国人爱竹，自古以来就有无数文人以竹为主题，创作了绚丽多彩的文学和绘画作品。竹子主干(stem)笔直，象征正直的品格。竹子具有强大的生命力和适应能力，无论环境多么恶劣，都能够顽强生存，因而寓意坚韧不拔的精神。几千年来，竹子一直被视为中华民族品格的象征。",
+      "en": "China is rich in bamboo and is the first country to exploit and utilize bamboo resources. Bamboo is extensively distributed and diverse in variety within China. Bamboo is highly versatile and is used in various aspects of production and daily life, such as the making of chopsticks, tables, and chairs, as well as the construction of bridges and houses. The Chinese have a deep affection for bamboo, and since ancient times, numerous scholars have created colorful literature and paintings on the theme of bamboo. The stem of bamboo is straight, symbolizing integrity. Bamboo exhibits remarkable vitality and adaptability, able to survive toughly no matter how harsh the environment is, thus embodying the spirit of unwavering perseverance. For thousands of years, bamboo has been esteemed as a representation of the character of the Chinese nation.",
+      "sentences": [
+        {
+          "cn": "中国盛产竹子，是最早开发利用竹资源的国家。",
+          "en": "",
+          "keyWords": []
+        },
+        {
+          "cn": "竹子在中国分布广泛，品种丰富。",
+          "en": "",
+          "keyWords": []
+        },
+        {
+          "cn": "竹子实用性强，用于生产和生活的许多方面，如筷子、桌椅的制作和桥梁、房屋的建造。",
+          "en": "",
+          "keyWords": []
+        },
+        {
+          "cn": "中国人爱竹，自古以来就有无数文人以竹为主题，创作了绚丽多彩的文学和绘画作品。",
+          "en": "",
+          "keyWords": []
+        },
+        {
+          "cn": "竹子主干(stem)笔直，象征正直的品格。",
+          "en": "",
+          "keyWords": []
+        },
+        {
+          "cn": "竹子具有强大的生命力和适应能力，无论环境多么恶劣，都能够顽强生存，因而寓意坚韧不拔的精神。",
+          "en": "",
+          "keyWords": []
+        },
+        {
+          "cn": "几千年来，竹子一直被视为中华民族品格的象征。",
+          "en": "",
+          "keyWords": []
+        }
+      ],
+      "notes": "参考译文来自官方速查。"
+    },
+    {
+      "id": "2024-06-set3-translation",
+      "module": "translation",
+      "title": "第3套 · 翻译",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第3套"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 3,
+      "cn": "扇子自古以来就深受中国人喜爱，但现在已不只是消暑纳凉的工具，而更多地作为艺术品供人欣赏。许多扇子造型优美、做工精良，并绘有山水、花鸟、人物等精美图案，具有很高的艺术价值。中国许多著名画家和书法家喜欢在扇子上作诗绘画，展示其艺术品味。扇子常作为礼物赠予他人，表达美好的祝福和真挚的情感。如今，扇子的实用功能已大为减弱，但作为一种文化符号和艺术形式，扇子仍然在中国传统文化中扮演着重要角色。",
+      "en": "Fans have been cherished by the Chinese people since ancient times, yet now they are no longer merely tools for relieving summer heat; instead, they are increasingly admired as works of art. Many fans feature elegant shapes, fine craftsmanship, and are painted with intricate designs of landscapes, flowers, birds, and figures, holding high artistic value. Many renowned Chinese painters and calligraphers delight in inscribing poems and painting pictures on fans, showing their artistic taste. Fans are frequently presented as gifts, conveying delightful blessings and heartfelt emotions. Today, the practical utility of fans has significantly diminished, yet as a cultural icon and a form of art, they continue to play an important role in traditional Chinese culture.",
+      "sentences": [
+        {
+          "cn": "扇子自古以来就深受中国人喜爱，但现在已不只是消暑纳凉的工具，而更多地作为艺术品供人欣赏。",
+          "en": "",
+          "keyWords": []
+        },
+        {
+          "cn": "许多扇子造型优美、做工精良，并绘有山水、花鸟、人物等精美图案，具有很高的艺术价值。",
+          "en": "",
+          "keyWords": []
+        },
+        {
+          "cn": "中国许多著名画家和书法家喜欢在扇子上作诗绘画，展示其艺术品味。",
+          "en": "",
+          "keyWords": []
+        },
+        {
+          "cn": "扇子常作为礼物赠予他人，表达美好的祝福和真挚的情感。",
+          "en": "",
+          "keyWords": []
+        },
+        {
+          "cn": "如今，扇子的实用功能已大为减弱，但作为一种文化符号和艺术形式，扇子仍然在中国传统文化中扮演着重要角色。",
+          "en": "",
+          "keyWords": []
+        }
+      ],
+      "notes": "参考译文来自官方速查。"
+    }
+  ],
+  "writing": [
+    {
+      "id": "2024-06-set1-writing",
+      "module": "writing",
+      "title": "第1套 · 写作",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第1套"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 1,
+      "prompt": "Write an essay that begins with: \"There is a growing awareness of the importance of digital literacy and skills in\ntoday's world.\" (150–200 words).",
+      "minWords": 150,
+      "maxWords": 200,
+      "rubric": [
+        {
+          "name": "内容切题",
+          "weight": 30,
+          "desc": "扣题、观点明确"
+        },
+        {
+          "name": "结构连贯",
+          "weight": 25,
+          "desc": "段落清晰、逻辑衔接"
+        },
+        {
+          "name": "语言准确",
+          "weight": 30,
+          "desc": "语法拼写正确"
+        },
+        {
+          "name": "词汇句式",
+          "weight": 15,
+          "desc": "表达多样地道"
+        }
+      ],
+      "sample": "There is a growing awareness of the importance of digital literacy and skills in today's world. In today's rapidly evolving digital world, I fully agree that digital literacy and skills are very important to everyone. For one thing, it is obvious that digital literacy is crucial for students. There are a large number of learning resources available online, such as great theses and excellent courses from prestigious universities. Students can draw on these rich resources to learn more knowledge and expand their horizons. For another, there is no denying that digital skills play an essential role in the workplace. We need to be proficient in using search engines to get more information and enhance our productivity with application software. Moreover, we cannot live a better life without digital literacy and skills. They can help a lot when it comes to getting around, shopping, socializing, and so on. To sum up, digital literacy and skills are of great importance to our study, work, and daily life. We should try our best to improve our digital literacy and skills to navigate the digital world."
+    },
+    {
+      "id": "2024-06-set2-writing",
+      "module": "writing",
+      "title": "第2套 · 写作",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第2套"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 2,
+      "prompt": "Write an essay that begins with: \"Nowadays more and more college students have come to realize social practice\nand academic learning are equally important.\" (150–200 words).",
+      "minWords": 150,
+      "maxWords": 200,
+      "rubric": [
+        {
+          "name": "内容切题",
+          "weight": 30,
+          "desc": "扣题、观点明确"
+        },
+        {
+          "name": "结构连贯",
+          "weight": 25,
+          "desc": "段落清晰、逻辑衔接"
+        },
+        {
+          "name": "语言准确",
+          "weight": 30,
+          "desc": "语法拼写正确"
+        },
+        {
+          "name": "词汇句式",
+          "weight": 15,
+          "desc": "表达多样地道"
+        }
+      ],
+      "sample": "Nowadays more and more college students have come to realize social practice and academic learning are equally important. Some people hold the view that social practice plays an indispensable role in education, while others believe that it is not necessary for everyone to be involved in social activities. For me, I agree with the former. Firstly, social practice can help complement academic learning. Through social practice, students can not only apply what they have learned in real-life situations, enhancing their understanding, but also get inspiration, which is useful for their academic learning. Secondly, social practice is beneficial to fostering teamwork, which is of great importance for the future job. Social practice exposes students to cooperation with different people. It is conceivable that only when students cooperate can they finish the task. Lastly, social practice makes students face different challenges. It encourages them to think critically and creatively to find solutions. This not only enriches their learning experience but also prepares them for their future roles in society. All in all, knowledge and action should go hand in hand. Social practice and academic learning are of equal importance, which is the key to producing well-rounded individuals."
+    },
+    {
+      "id": "2024-06-set3-writing",
+      "module": "writing",
+      "title": "第3套 · 写作",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第3套"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 3,
+      "prompt": "Write an essay that begins with: \"Nowadays, cultivating independent learning ability is becoming increasingly\ncrucial for personal development.\" (150–200 words).",
+      "minWords": 150,
+      "maxWords": 200,
+      "rubric": [
+        {
+          "name": "内容切题",
+          "weight": 30,
+          "desc": "扣题、观点明确"
+        },
+        {
+          "name": "结构连贯",
+          "weight": 25,
+          "desc": "段落清晰、逻辑衔接"
+        },
+        {
+          "name": "语言准确",
+          "weight": 30,
+          "desc": "语法拼写正确"
+        },
+        {
+          "name": "词汇句式",
+          "weight": 15,
+          "desc": "表达多样地道"
+        }
+      ],
+      "sample": "Nowadays, cultivating independent learning ability is becoming increasingly crucial for personal development. In today's rapidly changing world, only when we are active in learning independently can we keep pace with the times. On the one hand, independent learning allows us to explore our interests and passions at our own pace. This enhances our motivation to learn. It also encourages self-discipline and time management skills, both of which are essential to our personal development. On the other hand, independent learning is the key to developing adaptability. In this ever-changing society, we often face unforeseen challenges. Independent learning enables us to find proper solutions in time, which plays a key role on our road to success. Furthermore, independent learning is crucial for fostering critical thinking. Independent learners can question, evaluate, and assimilate information effectively. This not only enhances our understanding of novel things but also promotes our creativity and innovation ability. To sum up, there is no doubt that independent learning ability plays a crucial role in our personal development. It equips us with the strong ability to adapt to the complex modern life. Part Ⅲ Reading Comprehension 26 27 28 29 30 31 32 33 34 35 36 37 38 C H M F N O E A G B D H N 39 40 41 42 43 44 45 46 47 48 49 50 51 F B K E I C L A B B C D A 52 53 54 55 D B D C Part Ⅳ Translation 参考译文： Fans have been cherished by the Chinese people since ancient times, yet now they are no longer merely tools for relieving summer heat; instead, they are increasingly admired as works of art. Many fans feature elegant shapes, fine craftsmanship, and are painted with intricate designs of landscapes, flowers, birds, and figures, holding high artistic value. Many renowned Chinese painters and calligraphers delight in inscribing poems and painting pictures on fans, showing their artistic taste. Fans are frequently presented as gifts, conveying delightful blessings and heartfelt emotions. Today, the practical utility of fans has significantly diminished, yet as a cultural icon and a form of art, they continue to play an important role in traditional Chinese culture. -- 1 of 1 --"
+    }
+  ]
+}
