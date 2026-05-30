@@ -152,7 +152,7 @@ git push -u origin master
 
 工作流 `.github/workflows/deploy.yml` 会 `npm ci`、`npm run build:pages` 并发布 `dist/`。
 
-> **build 成功但 deploy 失败，日志含 `Failed to create deployment (status: 404)` 或 `Ensure GitHub Pages has been enabled`**：说明尚未完成本节的 Source 设置。这与代码无关，在 Settings 里选 **GitHub Actions** 后重新运行即可。
+> **build 成功但 deploy 失败，日志含 `Failed to create deployment (status: 404)` 或 `Ensure GitHub Pages has been enabled`**：说明尚未完成本节的 Source 设置。这与代码无关，在 Settings 里选 **GitHub Actions** 后重新运行即可（Actions → 选中失败的工作流 → **Re-run all jobs**）。
 
 首次部署可在 **Actions** 标签页查看「Deploy to GitHub Pages」是否成功。
 
