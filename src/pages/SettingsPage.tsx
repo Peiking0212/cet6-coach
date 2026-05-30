@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { useStore } from '@/store/StoreProvider'
+import { downloadBackup, exportState, importState } from '@/store/backup'
 import { PageHeader } from '@/components/PageHeader'
 import { aiConfigured, AiError, chat } from '@/ai/client'
 import type { ThemeMode } from '@/store/types'
@@ -19,10 +20,50 @@ const THEMES: { key: ThemeMode; label: string }[] = [
 ]
 
 export function SettingsPage() {
-  const { state, setAi, setTheme, setGoal, reset, resetPlacement } = useStore()
+  const { state, setAi, setTheme, setGoal, reset, resetPlacement, importProgress } = useStore()
   const ai = state.ai
+  const fileRef = useRef<HTMLInputElement>(null)
+  const [includeApiKey, setIncludeApiKey] = useState(false)
+  const [backupMsg, setBackupMsg] = useState<{ kind: 'ok' | 'fail'; text: string } | null>(null)
   const [testState, setTestState] = useState<'idle' | 'testing' | 'ok' | 'fail'>('idle')
   const [testMsg, setTestMsg] = useState('')
+
+  const showBackupMsg = (kind: 'ok' | 'fail', text: string) => {
+    setBackupMsg({ kind, text })
+    window.setTimeout(() => setBackupMsg(null), 2800)
+  }
+
+  const handleExport = () => {
+    const backup = exportState(state, { includeApiKey })
+    downloadBackup(backup)
+    showBackupMsg('ok', '进度已导出，请保存到微信或网盘')
+  }
+
+  const handleImportClick = () => {
+    fileRef.current?.click()
+  }
+
+  const handleImportFile = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]
+    e.target.value = ''
+    if (!file) return
+
+    if (!confirm('将覆盖当前进度，是否继续？')) return
+
+    try {
+      const text = await file.text()
+      const parsed: unknown = JSON.parse(text)
+      const result = importState(parsed, state)
+      if (!result.ok) {
+        showBackupMsg('fail', result.error)
+        return
+      }
+      importProgress(result.state)
+      showBackupMsg('ok', '学习进度已恢复')
+    } catch {
+      showBackupMsg('fail', '文件解析失败，请确认是有效的 JSON 备份')
+    }
+  }
 
   const test = async () => {
     setTestState('testing')
@@ -171,6 +212,42 @@ export function SettingsPage() {
         >
           重新摸底
         </button>
+      </section>
+
+      <section className="card setting-section">
+        <h3 className="setting-h">数据备份</h3>
+        <p className="setting-desc">
+          导出后可存到微信/网盘，换手机时导入恢复。包含积分、关卡、错题、背词进度、连续打卡等全部学习数据。
+          Base URL 与模型名会一并导出；API Key 默认不包含，需勾选下方选项。
+        </p>
+
+        <label className="backup-check">
+          <input
+            type="checkbox"
+            checked={includeApiKey}
+            onChange={(e) => setIncludeApiKey(e.target.checked)}
+          />
+          <span>同时导出 API Key（请妥善保管备份文件）</span>
+        </label>
+
+        <div className="backup-actions">
+          <button className="btn btn-primary" onClick={handleExport}>
+            导出学习进度
+          </button>
+          <button className="btn" onClick={handleImportClick}>
+            导入学习进度
+          </button>
+          <input
+            ref={fileRef}
+            type="file"
+            accept=".json,application/json"
+            className="backup-file-input"
+            onChange={handleImportFile}
+          />
+        </div>
+
+        {backupMsg?.kind === 'ok' && <p className="test-ok backup-msg">✓ {backupMsg.text}</p>}
+        {backupMsg?.kind === 'fail' && <p className="test-fail backup-msg">✕ {backupMsg.text}</p>}
       </section>
 
       <section className="card setting-section">

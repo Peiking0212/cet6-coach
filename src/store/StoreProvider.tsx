@@ -13,10 +13,10 @@ import {
   makeDefaultState,
   SRS_INTERVALS_MS,
   STORE_KEY,
-  STORE_VERSION,
   todayStr,
   VOCAB_AGAIN_MS,
 } from './defaults'
+import { mergeImportedState } from './backup'
 import { applyAttemptDifficulty } from './adaptive'
 import { applyMakeup, updateStreakOnPractice } from './streak'
 
@@ -219,36 +219,12 @@ function reducer(state: StoreState, action: Action): StoreState {
   }
 }
 
-function mergeState(parsed: Partial<StoreState> | null): StoreState {
-  const base = makeDefaultState()
-  if (!parsed) return base
-  return {
-    ...base,
-    ...parsed,
-    version: STORE_VERSION,
-    // per-module records: keep newly-added modules from base, override known ones
-    stats: { ...base.stats, ...(parsed.stats ?? {}) },
-    progress: { ...base.progress, ...(parsed.progress ?? {}) },
-    daily: { ...base.daily, ...(parsed.daily ?? {}) },
-    ai: { ...base.ai, ...(parsed.ai ?? {}) },
-    vocab: parsed.vocab ?? {},
-    review: Array.isArray(parsed.review) ? parsed.review : [],
-    placementDone: parsed.placementDone ?? false,
-    placementLevel: parsed.placementLevel ?? null,
-    moduleDifficulty: { ...base.moduleDifficulty, ...(parsed.moduleDifficulty ?? {}) },
-    placementBaseline: { ...base.placementBaseline, ...(parsed.placementBaseline ?? {}) },
-    streak: { ...base.streak, ...(parsed.streak ?? {}) },
-    makeup: { ...base.makeup, ...(parsed.makeup ?? {}) },
-    coach: { ...base.coach, ...(parsed.coach ?? {}) },
-  }
-}
-
 function loadState(): StoreState {
   try {
     const raw = localStorage.getItem(STORE_KEY)
     if (!raw) return makeDefaultState()
     const parsed = JSON.parse(raw) as Partial<StoreState>
-    return mergeState(parsed)
+    return mergeImportedState(parsed)
   } catch {
     return makeDefaultState()
   }
@@ -266,6 +242,7 @@ interface StoreApi {
   addReview: (wrong: WrongItem) => void
   removeReview: (key: string) => void
   reset: () => void
+  importProgress: (state: StoreState) => void
   dueReviews: () => StoreState['review']
   completePlacement: (level: PlacementLevel, baselines: Record<ModuleType, number>) => void
   resetPlacement: () => void
@@ -300,6 +277,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       addReview: (wrong) => dispatch({ type: 'addReview', wrong }),
       removeReview: (key) => dispatch({ type: 'removeReview', key }),
       reset: () => dispatch({ type: 'reset' }),
+      importProgress: (next) => dispatch({ type: 'hydrate', state: next }),
       dueReviews: () => state.review.filter((c) => c.due <= Date.now()),
       completePlacement: (level, baselines) =>
         dispatch({ type: 'completePlacement', level, baselines }),

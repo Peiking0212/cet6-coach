@@ -1248,6 +1248,32 @@
   font-size: 13px;
   font-weight: 600;
 }
+.backup-check {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 14px;
+  font-size: 13px;
+  color: var(--text-soft);
+  line-height: 1.5;
+  cursor: pointer;
+}
+.backup-check input {
+  margin-top: 3px;
+  accent-color: var(--primary);
+  flex-shrink: 0;
+}
+.backup-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.backup-file-input {
+  display: none;
+}
+.backup-msg {
+  margin: 12px 0 0;
+}
 
 /* ---------- Review ---------- */
 .review-card {
