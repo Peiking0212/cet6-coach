@@ -144,11 +144,15 @@ git push -u origin master
 
 仓库名须为 **`cet6-coach`**，这样站点路径才是 `https://<用户名>.github.io/cet6-coach/`。若改名，请在 GitHub Actions 工作流与本地 `VITE_BASE_PATH` 中同步修改 base 路径。
 
-### 2. 在 GitHub 启用 Pages
+### 2. 在 GitHub 启用 Pages（必做，否则 deploy 会 404）
 
-1. 打开仓库 **Settings → Pages**
+1. 打开仓库 **Settings → Pages**（例如 [Peiking0212/cet6-coach/settings/pages](https://github.com/Peiking0212/cet6-coach/settings/pages)）
 2. **Build and deployment → Source** 选择 **GitHub Actions**（不要选 Deploy from a branch）
-3. 向 `master`（或 `main`）推送后，Actions 工作流 `.github/workflows/deploy.yml` 会自动 `npm ci`、`npm run build` 并发布 `dist/`
+3. 保存后，向 `master`（或 `main`）推送，或在 **Actions** 中手动 **Re-run** 工作流
+
+工作流 `.github/workflows/deploy.yml` 会 `npm ci`、`npm run build:pages` 并发布 `dist/`。
+
+> **build 成功但 deploy 失败，日志含 `Failed to create deployment (status: 404)` 或 `Ensure GitHub Pages has been enabled`**：说明尚未完成本节的 Source 设置。这与代码无关，在 Settings 里选 **GitHub Actions** 后重新运行即可。
 
 首次部署可在 **Actions** 标签页查看「Deploy to GitHub Pages」是否成功。
 
@@ -158,7 +162,7 @@ git push -u origin master
 https://<你的 GitHub 用户名>.github.io/cet6-coach/
 ```
 
-例如用户名为 `peiking` 时：`https://peiking.github.io/cet6-coach/`
+例如用户名为 `Peiking0212` 时：`https://Peiking0212.github.io/cet6-coach/`
 
 ### 4. 添加到手机主屏幕
 
