@@ -2060,6 +2060,24 @@
   padding: 14px 16px;
   font-size: 13px;
 }
+.placement-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 14px 16px;
+  font-size: 13px;
+}
+.placement-banner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.placement-skip {
+  margin-top: 12px;
+  width: 100%;
+}
 .goal-ring-done .ring-fg {
   stroke: var(--good);
 }

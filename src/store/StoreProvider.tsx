@@ -34,6 +34,7 @@ type Action =
   | { type: 'hydrate'; state: StoreState }
   | { type: 'completePlacement'; level: PlacementLevel; baselines: Record<ModuleType, number> }
   | { type: 'resetPlacement' }
+  | { type: 'dismissPlacementBanner' }
   | { type: 'useMakeup' }
   | { type: 'setCoach'; text: string; date: string }
 
@@ -78,7 +79,10 @@ function reducer(state: StoreState, action: Action): StoreState {
         ...state,
         placementDone: false,
         placementLevel: null,
+        placementBannerDismissed: false,
       }
+    case 'dismissPlacementBanner':
+      return { ...state, placementBannerDismissed: true }
     case 'useMakeup':
       return applyMakeup(state)
     case 'setCoach':
@@ -246,6 +250,7 @@ interface StoreApi {
   dueReviews: () => StoreState['review']
   completePlacement: (level: PlacementLevel, baselines: Record<ModuleType, number>) => void
   resetPlacement: () => void
+  dismissPlacementBanner: () => void
   useMakeup: () => void
   setCoach: (text: string, date: string) => void
 }
@@ -282,6 +287,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       completePlacement: (level, baselines) =>
         dispatch({ type: 'completePlacement', level, baselines }),
       resetPlacement: () => dispatch({ type: 'resetPlacement' }),
+      dismissPlacementBanner: () => dispatch({ type: 'dismissPlacementBanner' }),
       useMakeup: () => dispatch({ type: 'useMakeup' }),
       setCoach: (text, date) => dispatch({ type: 'setCoach', text, date }),
     }),

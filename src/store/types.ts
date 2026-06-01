@@ -106,6 +106,8 @@ export interface StoreState {
   vocab: Record<string, VocabMastery>
   placementDone: boolean
   placementLevel: PlacementLevel | null
+  /** user dismissed optional home placement prompt */
+  placementBannerDismissed: boolean
   /** per-module adaptive difficulty 1–5 */
   moduleDifficulty: Record<ModuleType, number>
   /** baseline difficulty from placement per module */

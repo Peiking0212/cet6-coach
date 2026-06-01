@@ -8,6 +8,7 @@ import { moduleCounts, practiceAllPath } from '@/engine/practiceAll'
 import { PLACEMENT_LABELS } from '@/store/types'
 import { AiCoachCard } from '@/components/AiCoachCard'
 import { MakeupBanner } from '@/components/MakeupBanner'
+import { PlacementBanner } from '@/components/PlacementBanner'
 import { useEncourage } from '@/components/EncourageProvider'
 import {
   IconFlame,
@@ -120,6 +121,8 @@ export function HomePage() {
       </div>
 
       <MakeupBanner />
+
+      <PlacementBanner />
 
       <AiCoachCard />
 

@@ -74,6 +74,7 @@ export function makeDefaultState(): StoreState {
     vocab: {},
     placementDone: false,
     placementLevel: null,
+    placementBannerDismissed: false,
     moduleDifficulty: { ...moduleDifficulty },
     placementBaseline: { ...moduleDifficulty },
     streak: { count: 0, longest: 0, lastDate: '' },

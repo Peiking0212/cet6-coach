@@ -51,6 +51,7 @@ export function mergeImportedState(parsed: Partial<StoreState> | null): StoreSta
     review: Array.isArray(parsed.review) ? parsed.review : [],
     placementDone: parsed.placementDone ?? false,
     placementLevel: parsed.placementLevel ?? null,
+    placementBannerDismissed: parsed.placementBannerDismissed ?? false,
     moduleDifficulty: { ...base.moduleDifficulty, ...(parsed.moduleDifficulty ?? {}) },
     placementBaseline: { ...base.placementBaseline, ...(parsed.placementBaseline ?? {}) },
     streak: { ...base.streak, ...(parsed.streak ?? {}) },

@@ -73,6 +73,9 @@ export function PlacementFlow({ onDone }: { onDone: () => void }) {
           <h2>入门定位测试</h2>
           <p>约 3–5 分钟，混合词汇、阅读、听力、翻译，帮你找到合适的起点。</p>
           <span className="pill">{qi + 1} / {questions.length}</span>
+          <button type="button" className="btn btn-ghost placement-skip" onClick={onDone}>
+            稍后再说
+          </button>
         </div>
 
         <QuizBar index={qi} total={questions.length} timeMs={ms} combo={0} />

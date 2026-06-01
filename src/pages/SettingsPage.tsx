@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
 import { useStore } from '@/store/StoreProvider'
+import { usePlacement } from '@/placement/PlacementProvider'
 import { downloadBackup, exportState, importState } from '@/store/backup'
 import { PageHeader } from '@/components/PageHeader'
 import { aiConfigured, AiError, chat } from '@/ai/client'
@@ -21,6 +22,7 @@ const THEMES: { key: ThemeMode; label: string }[] = [
 
 export function SettingsPage() {
   const { state, setAi, setTheme, setGoal, reset, resetPlacement, importProgress } = useStore()
+  const { openPlacement } = usePlacement()
   const ai = state.ai
   const fileRef = useRef<HTMLInputElement>(null)
   const [includeApiKey, setIncludeApiKey] = useState(false)
@@ -202,12 +204,15 @@ export function SettingsPage() {
       <section className="card setting-section">
         <h3 className="setting-h">入门定位</h3>
         <p className="setting-desc">
-          重新摸底会清除当前等级标签，下次打开 App 将重新进行 3–5 分钟定位测试。
+          重新摸底会清除当前等级标签，并立即开始 3–5 分钟定位测试。
         </p>
         <button
           className="btn"
           onClick={() => {
-            if (confirm('确定重新摸底？')) resetPlacement()
+            if (confirm('确定重新摸底？')) {
+              resetPlacement()
+              openPlacement()
+            }
           }}
         >
           重新摸底
