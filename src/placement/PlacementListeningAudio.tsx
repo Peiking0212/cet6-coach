@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { IconPlay } from '@/app/icons'
 import { useExamAudio } from '@/modules/listening/useExamAudio'
 import { useTTS } from '@/modules/listening/useTTS'
@@ -18,6 +18,8 @@ export function PlacementListeningAudio({
   revealed: boolean
   title?: string
 }) {
+  const [showTranscript, setShowTranscript] = useState(false)
+
   const ttsSentences = useMemo(() => {
     if (sentences.length > 0) return sentences
     if (transcript?.trim()) return [transcript]
@@ -28,6 +30,7 @@ export function PlacementListeningAudio({
   const examAudio = useExamAudio(audioUrl)
   const tts = useTTS(hasScript ? ttsSentences : [''])
   const useRealAudio = examAudio.available
+  const transcriptVisible = showTranscript || revealed
 
   return (
     <div className="card tts-card">
@@ -59,8 +62,12 @@ export function PlacementListeningAudio({
         </>
       ) : hasScript ? (
         <>
-          {!tts.supported && (
-            <div className="tts-warn">当前浏览器不支持语音合成，确认后可查看原文。</div>
+          {!tts.supported ? (
+            <div className="tts-warn">浏览器无法朗读，请查看原文作答。</div>
+          ) : tts.voicesLoading ? (
+            <div className="tts-hint">语音加载中… 可先查看原文，或点此播放</div>
+          ) : (
+            <div className="tts-hint">点此播放，或查看原文</div>
           )}
           <div className="tts-controls">
             <button
@@ -87,7 +94,13 @@ export function PlacementListeningAudio({
         <div className="tts-warn">暂无听力材料</div>
       )}
 
-      {revealed && hasScript && (
+      {hasScript && (
+        <button className="passage-toggle" onClick={() => setShowTranscript((v) => !v)}>
+          {transcriptVisible ? '隐藏原文 ▲' : '查看原文 ▼'}
+        </button>
+      )}
+
+      {transcriptVisible && hasScript && (
         <div className="passage-text placement-transcript">
           {transcript || ttsSentences.join(' ')}
         </div>

@@ -1,4 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
+import {
+  getSpeechSynthesis,
+  pickEnglishVoice,
+  prepareSpeechSynth,
+  speakText,
+} from '@/lib/speechSynthesis'
 
 /**
  * Generic one-shot SpeechSynthesis speaker, reusing the same English-voice
@@ -6,25 +12,25 @@ import { useCallback, useEffect, useRef, useState } from 'react'
  * (single words, example sentences, etc.).
  */
 export function useSpeaker() {
-  const synth = typeof window !== 'undefined' ? window.speechSynthesis : undefined
+  const synth = getSpeechSynthesis()
   const [speaking, setSpeaking] = useState(false)
+  const [voicesLoading, setVoicesLoading] = useState(Boolean(synth))
   const voiceRef = useRef<SpeechSynthesisVoice | null>(null)
 
   useEffect(() => {
     if (!synth) return
     const pick = () => {
-      const voices = synth.getVoices()
-      voiceRef.current =
-        voices.find(
-          (v) => /en[-_]US/i.test(v.lang) && /female|natural|google|samantha/i.test(v.name),
-        ) ||
-        voices.find((v) => /^en/i.test(v.lang)) ||
-        voices[0] ||
-        null
+      const voices = prepareSpeechSynth(synth)
+      voiceRef.current = pickEnglishVoice(voices)
+      if (voices.length > 0) setVoicesLoading(false)
     }
     pick()
-    synth.addEventListener?.('voiceschanged', pick)
-    return () => synth.removeEventListener?.('voiceschanged', pick)
+    synth.addEventListener('voiceschanged', pick)
+    const t = window.setTimeout(() => setVoicesLoading(false), 1200)
+    return () => {
+      window.clearTimeout(t)
+      synth.removeEventListener('voiceschanged', pick)
+    }
   }, [synth])
 
   const stop = useCallback(() => {
@@ -35,19 +41,17 @@ export function useSpeaker() {
   const speak = useCallback(
     (text: string, rate = 0.9) => {
       if (!synth || !text) return
-      synth.cancel()
-      const u = new SpeechSynthesisUtterance(text)
-      u.rate = rate
-      u.lang = 'en-US'
-      if (voiceRef.current) u.voice = voiceRef.current
-      u.onstart = () => setSpeaking(true)
-      u.onend = () => setSpeaking(false)
-      synth.speak(u)
+      speakText(synth, text, {
+        rate,
+        voice: voiceRef.current,
+        onStart: () => setSpeaking(true),
+        onEnd: () => setSpeaking(false),
+      })
     },
     [synth],
   )
 
   useEffect(() => () => synth?.cancel(), [synth])
 
-  return { supported: Boolean(synth), speaking, speak, stop }
+  return { supported: Boolean(synth), voicesLoading, speaking, speak, stop }
 }

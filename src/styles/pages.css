@@ -901,6 +901,10 @@
   font-size: 13px;
   color: var(--warn);
 }
+.tts-hint {
+  font-size: 13px;
+  color: var(--text-soft);
+}
 .tts-controls {
   display: flex;
   gap: 10px;

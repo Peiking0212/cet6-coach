@@ -145,8 +145,12 @@ export function ListeningRunner({
           </>
         ) : (
           <>
-            {!tts.supported && (
-              <div className="tts-warn">当前浏览器不支持语音合成，可直接看原文作答。</div>
+            {!tts.supported ? (
+              <div className="tts-warn">浏览器无法朗读，请查看原文作答。</div>
+            ) : tts.voicesLoading ? (
+              <div className="tts-hint">语音加载中… 可先查看原文，或点此播放</div>
+            ) : (
+              <div className="tts-hint">点此播放，或查看原文</div>
             )}
             <div className="tts-controls">
               <button

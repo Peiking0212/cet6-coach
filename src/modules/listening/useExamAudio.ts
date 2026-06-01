@@ -11,6 +11,7 @@ export function useExamAudio(audioUrl?: string) {
   useEffect(() => {
     if (!resolvedUrl) return
     const el = new Audio(resolvedUrl)
+    el.preload = 'auto'
     audioRef.current = el
     const onPlay = () => setPlaying(true)
     const onPause = () => setPlaying(false)
@@ -18,6 +19,7 @@ export function useExamAudio(audioUrl?: string) {
     el.addEventListener('play', onPlay)
     el.addEventListener('pause', onPause)
     el.addEventListener('ended', onEnded)
+    el.load()
     return () => {
       el.pause()
       el.removeEventListener('play', onPlay)
@@ -30,8 +32,11 @@ export function useExamAudio(audioUrl?: string) {
   const play = useCallback(() => {
     const el = audioRef.current
     if (!el) return
-    void el.play()
-  }, [])
+    el.playbackRate = rate
+    void el.play().catch(() => {
+      setPlaying(false)
+    })
+  }, [rate])
 
   const stop = useCallback(() => {
     const el = audioRef.current
@@ -43,9 +48,13 @@ export function useExamAudio(audioUrl?: string) {
   const toggle = useCallback(() => {
     const el = audioRef.current
     if (!el) return
-    if (el.paused) void el.play()
-    else el.pause()
-  }, [])
+    if (el.paused) {
+      el.playbackRate = rate
+      void el.play().catch(() => setPlaying(false))
+    } else {
+      el.pause()
+    }
+  }, [rate])
 
   const setRate = useCallback((r: number) => {
     setRateState(r)
