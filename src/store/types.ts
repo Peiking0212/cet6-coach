@@ -89,6 +89,23 @@ export interface CoachCache {
   text: string
 }
 
+export interface SprintDayStats {
+  totalTimeMs: number
+  tasksDone: number
+  practiceCorrect?: number
+  practiceTotal?: number
+}
+
+export interface SprintProgress {
+  startedAt: string | null
+  unlockedDay: number
+  currentTaskIndex: Record<number, number>
+  completedTasks: Record<string, boolean>
+  dayCompletedAt: Record<number, string>
+  dayNotes: Record<number, string>
+  dayStats: Record<number, SprintDayStats>
+}
+
 export interface StoreState {
   version: number
   points: number
@@ -115,4 +132,5 @@ export interface StoreState {
   streak: StreakState
   makeup: MakeupState
   coach: CoachCache
+  sprint: SprintProgress
 }

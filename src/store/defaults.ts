@@ -1,8 +1,8 @@
 import type { ModuleType } from '@/data/types'
-import type { AiConfig, ModuleStat, PlacementLevel, StoreState } from './types'
+import type { AiConfig, ModuleStat, PlacementLevel, SprintProgress, StoreState } from './types'
 
 export const STORE_KEY = 'cet6-coach-store-v1'
-export const STORE_VERSION = 3
+export const STORE_VERSION = 4
 
 export function todayStr(d = new Date()): string {
   const y = d.getFullYear()
@@ -51,6 +51,18 @@ export function weekKey(d = new Date()): string {
   return todayStr(copy)
 }
 
+export function defaultSprintProgress(): SprintProgress {
+  return {
+    startedAt: null,
+    unlockedDay: 1,
+    currentTaskIndex: {},
+    completedTasks: {},
+    dayCompletedAt: {},
+    dayNotes: {},
+    dayStats: {},
+  }
+}
+
 export function makeDefaultState(): StoreState {
   const stats = {} as Record<ModuleType, ModuleStat>
   const progress = {} as StoreState['progress']
@@ -80,6 +92,7 @@ export function makeDefaultState(): StoreState {
     streak: { count: 0, longest: 0, lastDate: '' },
     makeup: { weekKey: weekKey(), used: false },
     coach: { date: '', text: '' },
+    sprint: defaultSprintProgress(),
   }
 }
 

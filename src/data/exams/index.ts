@@ -1,3 +1,9 @@
+import exam202209 from './2022-09.json'
+import exam202112 from './2021-12.json'
+import exam202206 from './2022-06.json'
+import exam202212 from './2022-12.json'
+import exam202306 from './2023-06.json'
+import exam202312 from './2023-12.json'
 import exam202406 from './2024-06.json'
 import exam202412 from './2024-12.json'
 import type {
@@ -20,6 +26,12 @@ export interface ExamBundle {
 }
 
 const BUNDLES: Record<string, ExamBundle> = {
+  '2021-12': exam202112 as unknown as ExamBundle,
+  '2022-06': exam202206 as unknown as ExamBundle,
+  '2022-09': exam202209 as unknown as ExamBundle,
+  '2022-12': exam202212 as unknown as ExamBundle,
+  '2023-06': exam202306 as unknown as ExamBundle,
+  '2023-12': exam202312 as unknown as ExamBundle,
   '2024-06': exam202406 as unknown as ExamBundle,
   '2024-12': exam202412 as unknown as ExamBundle,
 }

@@ -37,6 +37,12 @@ type Action =
   | { type: 'dismissPlacementBanner' }
   | { type: 'useMakeup' }
   | { type: 'setCoach'; text: string; date: string }
+  | { type: 'sprintStart' }
+  | { type: 'sprintCompleteTask'; taskId: string; day: number; timeMs?: number; correct?: number; total?: number }
+  | { type: 'sprintSetTaskIndex'; day: number; index: number }
+  | { type: 'sprintSetDayNote'; day: number; note: string }
+  | { type: 'sprintFinishDay'; day: number; stats: import('./types').SprintDayStats }
+  | { type: 'sprintReset' }
 
 function rollDaily(state: StoreState): StoreState {
   const today = todayStr()
@@ -87,6 +93,65 @@ function reducer(state: StoreState, action: Action): StoreState {
       return applyMakeup(state)
     case 'setCoach':
       return { ...state, coach: { date: action.date, text: action.text } }
+    case 'sprintStart':
+      return {
+        ...state,
+        sprint: {
+          ...state.sprint,
+          startedAt: state.sprint.startedAt ?? todayStr(),
+        },
+      }
+    case 'sprintCompleteTask': {
+      const completedTasks = { ...state.sprint.completedTasks, [action.taskId]: true }
+      const dayStats = { ...state.sprint.dayStats }
+      const prev = dayStats[action.day] ?? { totalTimeMs: 0, tasksDone: 0, practiceCorrect: 0, practiceTotal: 0 }
+      dayStats[action.day] = {
+        totalTimeMs: prev.totalTimeMs + (action.timeMs ?? 0),
+        tasksDone: prev.tasksDone + 1,
+        practiceCorrect: (prev.practiceCorrect ?? 0) + (action.correct ?? 0),
+        practiceTotal: (prev.practiceTotal ?? 0) + (action.total ?? 0),
+      }
+      return { ...state, sprint: { ...state.sprint, completedTasks, dayStats } }
+    }
+    case 'sprintSetTaskIndex':
+      return {
+        ...state,
+        sprint: {
+          ...state.sprint,
+          currentTaskIndex: { ...state.sprint.currentTaskIndex, [action.day]: action.index },
+        },
+      }
+    case 'sprintSetDayNote':
+      return {
+        ...state,
+        sprint: {
+          ...state.sprint,
+          dayNotes: { ...state.sprint.dayNotes, [action.day]: action.note },
+        },
+      }
+    case 'sprintFinishDay':
+      return {
+        ...state,
+        sprint: {
+          ...state.sprint,
+          unlockedDay: Math.max(state.sprint.unlockedDay, action.day + 1),
+          dayCompletedAt: { ...state.sprint.dayCompletedAt, [action.day]: todayStr() },
+          dayStats: { ...state.sprint.dayStats, [action.day]: action.stats },
+        },
+      }
+    case 'sprintReset':
+      return {
+        ...state,
+        sprint: {
+          startedAt: null,
+          unlockedDay: 1,
+          currentTaskIndex: {},
+          completedTasks: {},
+          dayCompletedAt: {},
+          dayNotes: {},
+          dayStats: {},
+        },
+      }
     case 'setTheme':
       return { ...state, theme: action.theme }
     case 'setAi':
@@ -253,6 +318,16 @@ interface StoreApi {
   dismissPlacementBanner: () => void
   useMakeup: () => void
   setCoach: (text: string, date: string) => void
+  sprintStart: () => void
+  sprintCompleteTask: (
+    taskId: string,
+    day: number,
+    opts?: { timeMs?: number; correct?: number; total?: number },
+  ) => void
+  sprintSetTaskIndex: (day: number, index: number) => void
+  sprintSetDayNote: (day: number, note: string) => void
+  sprintFinishDay: (day: number, stats: import('./types').SprintDayStats) => void
+  sprintReset: () => void
 }
 
 const StoreContext = createContext<StoreApi | null>(null)
@@ -290,6 +365,13 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       dismissPlacementBanner: () => dispatch({ type: 'dismissPlacementBanner' }),
       useMakeup: () => dispatch({ type: 'useMakeup' }),
       setCoach: (text, date) => dispatch({ type: 'setCoach', text, date }),
+      sprintStart: () => dispatch({ type: 'sprintStart' }),
+      sprintCompleteTask: (taskId, day, opts) =>
+        dispatch({ type: 'sprintCompleteTask', taskId, day, ...opts }),
+      sprintSetTaskIndex: (day, index) => dispatch({ type: 'sprintSetTaskIndex', day, index }),
+      sprintSetDayNote: (day, note) => dispatch({ type: 'sprintSetDayNote', day, note }),
+      sprintFinishDay: (day, stats) => dispatch({ type: 'sprintFinishDay', day, stats }),
+      sprintReset: () => dispatch({ type: 'sprintReset' }),
     }),
     [state],
   )

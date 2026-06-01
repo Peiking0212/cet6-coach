@@ -9,6 +9,7 @@ import { PLACEMENT_LABELS } from '@/store/types'
 import { AiCoachCard } from '@/components/AiCoachCard'
 import { MakeupBanner } from '@/components/MakeupBanner'
 import { PlacementBanner } from '@/components/PlacementBanner'
+import { SprintTodayEntry } from '@/modules/sprint/SprintTodayEntry'
 import { useEncourage } from '@/components/EncourageProvider'
 import {
   IconFlame,
@@ -113,6 +114,8 @@ export function HomePage() {
           {goalDone && <span className="goal-celebrate">🎉</span>}
         </div>
       </div>
+
+      <SprintTodayEntry />
 
       <div className="home-quick-row">
         <button type="button" className="btn btn-primary micro-btn" onClick={() => nav('/micro')}>

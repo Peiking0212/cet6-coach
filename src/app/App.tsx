@@ -13,6 +13,9 @@ import { ListeningPage } from '@/modules/listening/ListeningPage'
 import { TranslationPage } from '@/modules/translation/TranslationPage'
 import { ReadingPage } from '@/modules/reading/ReadingPage'
 import { WritingPage } from '@/modules/writing/WritingPage'
+import { SprintOverviewPage } from '@/modules/sprint/SprintOverviewPage'
+import { SprintDayRoute, SprintTodayRoute } from '@/modules/sprint/SprintDayFlow'
+import { SprintDaySummary } from '@/modules/sprint/SprintDaySummary'
 
 export function App() {
   useApplyTheme()
@@ -29,6 +32,10 @@ export function App() {
             <Route path="/translation" element={<TranslationPage />} />
             <Route path="/reading" element={<ReadingPage />} />
             <Route path="/writing" element={<WritingPage />} />
+            <Route path="/sprint" element={<SprintOverviewPage />} />
+            <Route path="/sprint/today" element={<SprintTodayRoute />} />
+            <Route path="/sprint/day/:day" element={<SprintDayRoute />} />
+            <Route path="/sprint/day/:day/summary" element={<SprintDaySummary />} />
             <Route path="/review" element={<ReviewPage />} />
             <Route path="/chat" element={<ChatPage />} />
             <Route path="/settings" element={<SettingsPage />} />

@@ -17,10 +17,14 @@ export function WritingRunner({
   item,
   onExit,
   batch,
+  focusSection,
+  embedded,
 }: {
   item: WritingItem
   onExit: () => void
   batch?: BatchContext
+  focusSection?: 'full' | 'intro' | 'body' | 'outline'
+  embedded?: boolean
 }) {
   const { state, record, setStars } = useStore()
   const [essay, setEssay] = useState('')
@@ -68,14 +72,32 @@ export function WritingRunner({
     }
   }
 
+  const focusHint =
+    focusSection === 'intro'
+      ? '本次只需写开头段 + 结尾段，套模板不改结构。'
+      : focusSection === 'body'
+        ? '本次只需写中间主体论述段。'
+        : focusSection === 'outline'
+          ? '抄写/默写模板框架即可，不必写完整作文。'
+          : null
+
   return (
     <div className="runner">
-      <div className="runner-head">
-        <button className="btn btn-ghost runner-back" onClick={onExit}>
-          ← 返回
-        </button>
-        <div className="runner-title">{item.title}</div>
-      </div>
+      {!embedded && (
+        <div className="runner-head">
+          <button className="btn btn-ghost runner-back" onClick={onExit}>
+            ← 返回
+          </button>
+          <div className="runner-title">{item.title}</div>
+        </div>
+      )}
+
+      {focusHint && (
+        <div className="card sprint-focus-hint">
+          <span className="pill">写作范围</span>
+          <p>{focusHint}</p>
+        </div>
+      )}
 
       <div className="card writing-prompt">
         <div className="wp-label">题目</div>
@@ -152,9 +174,9 @@ export function WritingRunner({
       {recorded && (
         <div className="writing-done">
           已记录完成 ✓{' '}
-          {isBatchActive(batch) ? (
+          {isBatchActive(batch) || embedded ? (
             <button className="btn btn-primary" onClick={onExit}>
-              {batchExitLabel(batch)}
+              {embedded ? '完成，打卡' : batchExitLabel(batch)}
             </button>
           ) : (
             '继续保持！'

@@ -2087,3 +2087,291 @@
   right: -4px;
   font-size: 18px;
 }
+
+/* ── 12天冲刺 ── */
+.sprint-today-entry {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 18px 20px;
+  margin-bottom: 4px;
+  background: linear-gradient(135deg, var(--accent-soft, rgba(99, 102, 241, 0.12)), transparent);
+  border: 1px solid var(--accent, #6366f1);
+  transition: transform 0.15s ease;
+}
+.sprint-today-entry:hover {
+  transform: translateY(-1px);
+}
+.sprint-today-badge {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent, #6366f1);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 6px;
+}
+.sprint-today-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.sprint-today-sub {
+  font-size: 13px;
+  color: var(--text-soft);
+}
+.sprint-today-cta {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent, #6366f1);
+}
+.sprint-overview-hero {
+  margin-bottom: 16px;
+}
+.sprint-calendar {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.sprint-day-card {
+  text-decoration: none;
+  color: inherit;
+  padding: 12px 14px;
+}
+.sprint-day-card.locked {
+  opacity: 0.45;
+  pointer-events: none;
+}
+.sprint-day-card.current {
+  border-color: var(--accent, #6366f1);
+}
+.sprint-day-card.finished {
+  border-color: var(--good, #22c55e);
+}
+.sprint-day-num {
+  font-size: 12px;
+  color: var(--text-soft);
+}
+.sprint-day-title {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 4px 0;
+  line-height: 1.3;
+}
+.sprint-day-progress {
+  font-size: 12px;
+  color: var(--text-soft);
+}
+.sprint-progress-bar {
+  height: 6px;
+  background: var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.sprint-progress-fill {
+  height: 100%;
+  background: var(--accent, #6366f1);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+.sprint-step-layout {
+  display: grid;
+  grid-template-columns: 1fr 160px;
+  gap: 14px;
+  align-items: start;
+}
+@media (max-width: 720px) {
+  .sprint-step-layout {
+    grid-template-columns: 1fr;
+  }
+  .sprint-timer-panel {
+    order: -1;
+  }
+}
+.sprint-step-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.sprint-step-index {
+  margin-left: auto;
+  font-size: 12px;
+  color: var(--text-soft);
+}
+.sprint-step-card {
+  padding: 16px 18px;
+}
+.sprint-step-label {
+  font-size: 16px;
+  margin: 0 0 8px;
+  line-height: 1.45;
+}
+.sprint-step-tips {
+  font-size: 13px;
+  color: var(--text-soft);
+  margin: 0 0 14px;
+  padding: 10px 12px;
+  background: var(--bg-soft, rgba(0, 0, 0, 0.03));
+  border-radius: 8px;
+}
+.sprint-step-done-flash {
+  animation: sprintFlash 0.6s ease;
+}
+@keyframes sprintFlash {
+  0% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 0 12px rgba(34, 197, 94, 0);
+  }
+}
+.sprint-timer-panel {
+  padding: 14px 16px;
+  text-align: center;
+  position: sticky;
+  top: 12px;
+}
+.sprint-timer-label {
+  font-size: 11px;
+  color: var(--text-soft);
+  margin-bottom: 4px;
+}
+.sprint-timer-countdown {
+  font-size: 28px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.sprint-timer-countdown.expired {
+  color: var(--warn, #f59e0b);
+}
+.sprint-timer-bar {
+  height: 4px;
+  background: var(--border);
+  border-radius: 999px;
+  margin: 10px 0 8px;
+  overflow: hidden;
+}
+.sprint-timer-bar-fill {
+  height: 100%;
+  background: var(--accent, #6366f1);
+  transition: width 0.25s linear;
+}
+.sprint-timer-elapsed {
+  font-size: 12px;
+  color: var(--text-soft);
+}
+.sprint-timer-warn {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--warn, #f59e0b);
+  font-weight: 600;
+}
+.sprint-step-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 16px;
+}
+.sprint-checkin-btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+}
+.sprint-drawer {
+  margin-top: 12px;
+  padding: 12px 14px;
+}
+.sprint-drawer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 240px;
+  overflow-y: auto;
+}
+.sprint-drawer-item {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 8px 4px;
+  font-size: 13px;
+  cursor: pointer;
+  color: inherit;
+}
+.sprint-drawer-list li.done {
+  opacity: 0.55;
+}
+.sprint-drawer-list li.active .sprint-drawer-item {
+  font-weight: 600;
+  color: var(--accent, #6366f1);
+}
+.sprint-missing {
+  padding: 14px 16px;
+}
+.sprint-missing-hint {
+  font-size: 12px;
+  color: var(--text-soft);
+  word-break: break-all;
+}
+.sprint-template-section {
+  margin-top: 12px;
+}
+.sprint-template-sec-title {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.sprint-template-sec-body {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-soft);
+  margin: 0;
+}
+.sprint-focus-hint {
+  margin-bottom: 12px;
+  padding: 12px 14px;
+}
+.sprint-summary-stats {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 16px 18px;
+  margin-bottom: 12px;
+}
+.sprint-summary-stat {
+  display: flex;
+  flex-direction: column;
+}
+.sprint-summary-num {
+  font-size: 22px;
+  font-weight: 700;
+}
+.sprint-summary-lbl {
+  font-size: 12px;
+  color: var(--text-soft);
+}
+.sprint-summary-reminders ul {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  line-height: 1.6;
+}
+.sprint-summary-note textarea {
+  width: 100%;
+  margin-top: 8px;
+  resize: vertical;
+}
+.sprint-finish-day {
+  width: 100%;
+  margin-top: 16px;
+  padding: 14px;
+  font-size: 16px;
+}
+.sprint-summary-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}

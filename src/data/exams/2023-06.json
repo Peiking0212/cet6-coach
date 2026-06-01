@@ -1,0 +1,475 @@
+{
+  "meta": {
+    "id": "2023-06",
+    "label": "2023年6月六级真题",
+    "date": "2023-06"
+  },
+  "audioManifest": [
+    {
+      "set": 1,
+      "file": "/audio/exams/2023-06/set-1.mp3",
+      "status": "ok",
+      "source": "e:\\BaiduNetdiskDownload\\2023.06第1套\\2023.06六级真题第1套听力音频.mp3"
+    }
+  ],
+  "gaps": [
+    "请运行 node scripts/import-exam.mjs --exam-id 2023-06 --source <你的路径> 导入真题",
+    "第1套：仅解析到 0/25 道听力选择题",
+    "第1套：Section B 长篇匹配未解析（可手动补 JSON）",
+    "第1套：试卷 PDF 为扫描版，阅读/选词/写作/翻译请在纸质卷或详解 PDF 中完成",
+    "第1套：答案 PDF 为扫描版，选择题答案需对照纸质详解",
+    "第1套：已导入听力录音；题目与选项请用纸质试卷作答"
+  ],
+  "listening": [
+    {
+      "id": "2023-06-set1-listen-conv1",
+      "module": "listening",
+      "kind": "dialogue",
+      "title": "第1套 · 长对话 1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2023-06",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2023-06",
+      "examPaper": 1,
+      "audioUrl": "/audio/exams/2023-06/set-1.mp3",
+      "sentences": [],
+      "transcript": "本套试卷 PDF 为扫描版，无法在应用内显示选项。请播放录音，在纸质试卷上作答，完成后对照详解 PDF。",
+      "questions": [
+        {
+          "id": "q1",
+          "stem": "Question 1（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q2",
+          "stem": "Question 2（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q3",
+          "stem": "Question 3（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q4",
+          "stem": "Question 4（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        }
+      ]
+    },
+    {
+      "id": "2023-06-set1-listen-conv2",
+      "module": "listening",
+      "kind": "dialogue",
+      "title": "第1套 · 长对话 2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2023-06",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2023-06",
+      "examPaper": 1,
+      "audioUrl": "/audio/exams/2023-06/set-1.mp3",
+      "sentences": [],
+      "transcript": "本套试卷 PDF 为扫描版，无法在应用内显示选项。请播放录音，在纸质试卷上作答，完成后对照详解 PDF。",
+      "questions": [
+        {
+          "id": "q5",
+          "stem": "Question 5（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q6",
+          "stem": "Question 6（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q7",
+          "stem": "Question 7（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q8",
+          "stem": "Question 8（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        }
+      ]
+    },
+    {
+      "id": "2023-06-set1-listen-pass1",
+      "module": "listening",
+      "kind": "news",
+      "title": "第1套 · 听力篇章 1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2023-06",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2023-06",
+      "examPaper": 1,
+      "audioUrl": "/audio/exams/2023-06/set-1.mp3",
+      "sentences": [],
+      "transcript": "本套试卷 PDF 为扫描版，无法在应用内显示选项。请播放录音，在纸质试卷上作答，完成后对照详解 PDF。",
+      "questions": [
+        {
+          "id": "q9",
+          "stem": "Question 9（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q10",
+          "stem": "Question 10（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q11",
+          "stem": "Question 11（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        }
+      ]
+    },
+    {
+      "id": "2023-06-set1-listen-pass2",
+      "module": "listening",
+      "kind": "news",
+      "title": "第1套 · 听力篇章 2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2023-06",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2023-06",
+      "examPaper": 1,
+      "audioUrl": "/audio/exams/2023-06/set-1.mp3",
+      "sentences": [],
+      "transcript": "本套试卷 PDF 为扫描版，无法在应用内显示选项。请播放录音，在纸质试卷上作答，完成后对照详解 PDF。",
+      "questions": [
+        {
+          "id": "q12",
+          "stem": "Question 12（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q13",
+          "stem": "Question 13（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q14",
+          "stem": "Question 14（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q15",
+          "stem": "Question 15（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        }
+      ]
+    },
+    {
+      "id": "2023-06-set1-listen-lec1",
+      "module": "listening",
+      "kind": "lecture",
+      "title": "第1套 · 讲座 1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2023-06",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2023-06",
+      "examPaper": 1,
+      "audioUrl": "/audio/exams/2023-06/set-1.mp3",
+      "sentences": [],
+      "transcript": "本套试卷 PDF 为扫描版，无法在应用内显示选项。请播放录音，在纸质试卷上作答，完成后对照详解 PDF。",
+      "questions": [
+        {
+          "id": "q16",
+          "stem": "Question 16（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q17",
+          "stem": "Question 17（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q18",
+          "stem": "Question 18（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        }
+      ]
+    },
+    {
+      "id": "2023-06-set1-listen-lec2",
+      "module": "listening",
+      "kind": "lecture",
+      "title": "第1套 · 讲座 2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2023-06",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2023-06",
+      "examPaper": 1,
+      "audioUrl": "/audio/exams/2023-06/set-1.mp3",
+      "sentences": [],
+      "transcript": "本套试卷 PDF 为扫描版，无法在应用内显示选项。请播放录音，在纸质试卷上作答，完成后对照详解 PDF。",
+      "questions": [
+        {
+          "id": "q19",
+          "stem": "Question 19（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q20",
+          "stem": "Question 20（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q21",
+          "stem": "Question 21（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        }
+      ]
+    },
+    {
+      "id": "2023-06-set1-listen-lec3",
+      "module": "listening",
+      "kind": "lecture",
+      "title": "第1套 · 讲座 3",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2023-06",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2023-06",
+      "examPaper": 1,
+      "audioUrl": "/audio/exams/2023-06/set-1.mp3",
+      "sentences": [],
+      "transcript": "本套试卷 PDF 为扫描版，无法在应用内显示选项。请播放录音，在纸质试卷上作答，完成后对照详解 PDF。",
+      "questions": [
+        {
+          "id": "q22",
+          "stem": "Question 22（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q23",
+          "stem": "Question 23（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q24",
+          "stem": "Question 24（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        },
+        {
+          "id": "q25",
+          "stem": "Question 25（见纸质试卷）",
+          "options": [
+            "A. 见试卷选项 A",
+            "B. 见试卷选项 B",
+            "C. 见试卷选项 C",
+            "D. 见试卷选项 D"
+          ],
+          "answerIndex": 0,
+          "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
+        }
+      ]
+    }
+  ],
+  "reading": [],
+  "translation": [],
+  "writing": []
+}

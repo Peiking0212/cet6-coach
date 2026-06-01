@@ -57,6 +57,7 @@ export function mergeImportedState(parsed: Partial<StoreState> | null): StoreSta
     streak: { ...base.streak, ...(parsed.streak ?? {}) },
     makeup: { ...base.makeup, ...(parsed.makeup ?? {}) },
     coach: { ...base.coach, ...(parsed.coach ?? {}) },
+    sprint: { ...base.sprint, ...(parsed.sprint ?? {}) },
   }
 }
 
@@ -84,6 +85,14 @@ function migrateState(state: Partial<StoreState>): Partial<StoreState> {
       streak: { ...base.streak, ...(next.streak ?? {}) },
       makeup: { ...base.makeup, ...(next.makeup ?? {}) },
       coach: { ...base.coach, ...(next.coach ?? {}) },
+    }
+  }
+
+  if (fromVersion < 4) {
+    const base = makeDefaultState()
+    next = {
+      ...next,
+      sprint: { ...base.sprint, ...(next.sprint ?? {}) },
     }
   }
 

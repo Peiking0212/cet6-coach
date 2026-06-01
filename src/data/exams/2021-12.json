@@ -1,0 +1,8 @@
+{
+  "meta": { "id": "2021-12", "label": "2021年12月六级真题", "date": "2021-12" },
+  "gaps": ["请运行 node scripts/import-exam.mjs --exam-id 2021-12 --source <你的路径> 导入真题"],
+  "listening": [],
+  "reading": [],
+  "translation": [],
+  "writing": []
+}

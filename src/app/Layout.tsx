@@ -22,6 +22,7 @@ import './layout.css'
 
 const nav = [
   { to: '/', label: '首页', icon: IconHome, end: true },
+  { to: '/sprint', label: '12天冲刺', icon: IconFlame },
   { to: '/vocabulary', label: '单词', icon: IconVocab },
   { to: '/listening', label: '听力', icon: IconListen },
   { to: '/translation', label: '翻译', icon: IconTranslate },
@@ -32,7 +33,7 @@ const nav = [
 ]
 
 const bottomNav = nav.filter((n) =>
-  ['/', '/vocabulary', '/listening', '/translation', '/reading', '/writing'].includes(n.to),
+  ['/', '/sprint', '/vocabulary', '/listening', '/translation', '/reading', '/writing'].includes(n.to),
 )
 
 export function Layout({ children }: { children: ReactNode }) {
