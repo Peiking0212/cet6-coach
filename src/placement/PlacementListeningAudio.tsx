@@ -30,11 +30,18 @@ export function PlacementListeningAudio({
   const examAudio = useExamAudio(audioUrl)
   const tts = useTTS(hasScript ? ttsSentences : [''])
   const useRealAudio = examAudio.available
+  const examAudioLoading = Boolean(audioUrl?.trim()) && examAudio.loading
+  const examAudioMissing = Boolean(audioUrl?.trim()) && examAudio.loadFailed
   const transcriptVisible = showTranscript || revealed
 
   return (
     <div className="card tts-card">
       {title && <div className="runner-title placement-listen-title">{title}</div>}
+
+      {examAudioLoading ? <div className="tts-hint">真题录音加载中…</div> : null}
+      {examAudioMissing ? (
+        <div className="tts-warn">未找到录音文件，请重新打包 APK 并确认已导入 MP3。</div>
+      ) : null}
 
       {useRealAudio ? (
         <>
@@ -63,7 +70,7 @@ export function PlacementListeningAudio({
       ) : hasScript ? (
         <>
           {!tts.supported ? (
-            <div className="tts-warn">浏览器无法朗读，请查看原文作答。</div>
+            <div className="tts-warn">无法朗读，请查看原文作答。</div>
           ) : tts.voicesLoading ? (
             <div className="tts-hint">语音加载中… 可先查看原文，或点此播放</div>
           ) : (

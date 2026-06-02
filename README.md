@@ -125,6 +125,72 @@ CSV 表头建议：`word,phonetic,pos,meaning,example,exampleCn`。
 
 > 版权：外部词表为个人学习材料，仅供本地 PWA 使用，请勿在公开仓库中再分发完整原文。
 
+## 打包 Android APK（自用，离线听力 + 本地记录）
+
+不上应用商店、仅自己平板/手机安装时，用 **Capacitor** 把网页和真题 MP3 打进 APK。学习进度仍走应用内 `localStorage`，与浏览器版一致。
+
+### 前置条件
+
+1. 安装 [Android Studio](https://developer.android.com/studio)（含 Android SDK）。
+2. 本机已用 `import-exam` 导入过真题，且 `public/audio/exams/` 下有 MP3（该目录默认不进 Git，但会打进 APK）。
+
+### 一键构建并同步到 Android 工程
+
+```bash
+npm install
+npm run build:android
+```
+
+会依次：`tsc` → Vite 构建（`base=/`，关闭 PWA Service Worker）→ 复制 `public/audio/exams` 到 `dist` → `cap sync android`。
+
+### Gradle 下载超时（国内常见）
+
+若 Sync 报错 `Could not install Gradle distribution` / `Read timed out`：
+
+1. 项目已默认改用腾讯云 Gradle 镜像；在 Android Studio 点 **File → Sync Project with Gradle Files** 重试。
+2. 仍失败时，浏览器或迅雷下载：  
+   https://mirrors.cloud.tencent.com/gradle/gradle-8.11.1-all.zip  
+   然后在 Android Studio：**File → Settings → Build → Gradle → Gradle user home** 记下路径（一般为 `C:\Users\你的用户名\.gradle`）。  
+   删除 `wrapper\dists\gradle-8.11.1-all` 下未下完的文件夹，把 zip 放进该目录里**唯一子文件夹**中（文件夹名是 Gradle 自动生成的乱码），文件名保持 `gradle-8.11.1-all.zip`，再 Sync。
+3. 有 VPN/代理时也可在 **Settings → HTTP Proxy** 配置后，把 `gradle-wrapper.properties` 里的地址改回官方：  
+   `https://services.gradle.org/distributions/gradle-8.11.1-all.zip`
+
+### 在 Android Studio 出 APK
+
+```bash
+npm run cap:open
+```
+
+1. 等待 Gradle 同步完成。
+2. **Build → Build Bundle(s) / APK(s) → Build APK(s)**。
+3. 调试包路径一般为：`android/app/build/outputs/apk/debug/app-debug.apk`。
+4. 传到平板安装，并允许「安装未知应用」。
+
+正式长期使用可 **Build → Generate Signed Bundle / APK** 自签名（不必上架商店）。
+
+### 更新应用内容后
+
+改完代码或新导入听力后，重新执行：
+
+```bash
+npm run build:android
+```
+
+再在 Android Studio 里重新 Build APK。
+
+### 说明
+
+| 项目 | 说明 |
+|------|------|
+| **听力** | MP3 打进 APK；Android 上使用 **@capgo/native-audio**（可后台播放、通知栏控制）。浏览器/PWA 仍用 HTML5 `<audio>` |
+| **记录** | Android 使用 **@capacitor/preferences** 持久化（关 App 再开不丢）；首次启动会把旧 `localStorage` 迁过去。设置里可导出 JSON 备份 |
+| **AI / 代理** | 与 GitHub Pages 相同，需网络且可能受 CORS 限制；本地 `npm run proxy` 不会随 APK 运行 |
+| **体积** | 多套真题 MP3 会使 APK 变大（几十 MB 以上属正常） |
+
+新增依赖后若只改了 JS，执行 `npm run build:android` 会顺带 `cap sync`；若新装插件后 Android 编译报错，再执行一次 `npx cap sync android`。
+
+与 **GitHub Pages** 构建互不影响：Pages 用 `npm run build:pages`，Android 用 `npm run build:android`。
+
 ## 部署到 GitHub Pages（手机随时打开）
 
 将应用发布到 GitHub Pages 后，无需在电脑上跑 `npm run dev`，手机浏览器打开固定链接即可使用（可「添加到主屏幕」当 PWA）。

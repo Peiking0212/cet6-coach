@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
+import { canUseNativeSpeech, nativeSpeak, nativeStopSpeech } from '@/lib/nativeSpeech'
 import {
   getSpeechSynthesis,
   pickEnglishVoice,
@@ -15,13 +16,15 @@ export interface TTSState {
 }
 
 export function useTTS(sentences: string[]) {
-  const synth = getSpeechSynthesis()
+  const useNative = canUseNativeSpeech()
+  const synth = useNative ? null : getSpeechSynthesis()
   const [rate, setRate] = useState(0.9)
   const [speaking, setSpeaking] = useState(false)
   const [currentSentence, setCurrentSentence] = useState(-1)
-  const [voicesLoading, setVoicesLoading] = useState(Boolean(synth))
+  const [voicesLoading, setVoicesLoading] = useState(!useNative && Boolean(synth))
   const voiceRef = useRef<SpeechSynthesisVoice | null>(null)
   const cancelledRef = useRef(false)
+  const nativeRunRef = useRef(0)
 
   useEffect(() => {
     if (!synth) return
@@ -41,18 +44,45 @@ export function useTTS(sentences: string[]) {
 
   const stop = useCallback(() => {
     cancelledRef.current = true
-    synth?.cancel()
+    nativeRunRef.current += 1
+    if (useNative) {
+      void nativeStopSpeech()
+    } else {
+      synth?.cancel()
+    }
     setSpeaking(false)
     setCurrentSentence(-1)
-  }, [synth])
+  }, [synth, useNative])
 
   const speakOne = useCallback(
     (index: number, onEnd?: () => void) => {
-      if (!synth || index < 0 || index >= sentences.length) return
+      if (index < 0 || index >= sentences.length) return
       const text = sentences[index]
       if (!text?.trim()) return
 
       cancelledRef.current = false
+
+      if (useNative) {
+        const runId = ++nativeRunRef.current
+        setSpeaking(true)
+        setCurrentSentence(index)
+        void nativeSpeak(text, { rate })
+          .then(() => {
+            if (cancelledRef.current || nativeRunRef.current !== runId) return
+            setSpeaking(false)
+            setCurrentSentence(-1)
+            onEnd?.()
+          })
+          .catch(() => {
+            if (nativeRunRef.current !== runId) return
+            setSpeaking(false)
+            setCurrentSentence(-1)
+            onEnd?.()
+          })
+        return
+      }
+
+      if (!synth) return
       speakText(synth, text, {
         rate,
         voice: voiceRef.current,
@@ -66,13 +96,47 @@ export function useTTS(sentences: string[]) {
         },
       })
     },
-    [synth, sentences, rate],
+    [synth, sentences, rate, useNative],
   )
 
   const playFrom = useCallback(
     (start: number) => {
-      if (!synth) return
       cancelledRef.current = false
+
+      if (useNative) {
+        const runId = ++nativeRunRef.current
+        setSpeaking(true)
+
+        const run = async (i: number) => {
+          if (cancelledRef.current || nativeRunRef.current !== runId) {
+            setSpeaking(false)
+            setCurrentSentence(-1)
+            return
+          }
+          if (i >= sentences.length) {
+            setSpeaking(false)
+            setCurrentSentence(-1)
+            return
+          }
+          const text = sentences[i]
+          if (!text?.trim()) {
+            await run(i + 1)
+            return
+          }
+          setCurrentSentence(i)
+          try {
+            await nativeSpeak(text, { rate })
+          } catch {
+            /* continue */
+          }
+          await run(i + 1)
+        }
+
+        void run(start)
+        return
+      }
+
+      if (!synth) return
       prepareSpeechSynth(synth)
 
       const run = (i: number) => {
@@ -90,15 +154,18 @@ export function useTTS(sentences: string[]) {
       }
       run(start)
     },
-    [synth, sentences, speakOne],
+    [synth, sentences, speakOne, useNative, rate],
   )
 
   const playAll = useCallback(() => playFrom(0), [playFrom])
 
-  useEffect(() => () => synth?.cancel(), [synth])
+  useEffect(() => () => {
+    if (useNative) void nativeStopSpeech()
+    else synth?.cancel()
+  }, [synth, useNative])
 
   return {
-    supported: Boolean(synth),
+    supported: useNative || Boolean(synth),
     voicesLoading,
     speaking,
     rate,

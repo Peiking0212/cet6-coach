@@ -9,7 +9,7 @@
       "set": 1,
       "file": "/audio/exams/2022-12/set-1.mp3",
       "status": "ok",
-      "source": "e:\\BaiduNetdiskDownload\\2022.12第1套\\2022.12六级真题第1套听力.mp3"
+      "source": "E:\\BaiduNetdiskDownload\\2022.12第1套\\2022.12六级真题第1套听力.mp3"
     }
   ],
   "gaps": [
@@ -38,17 +38,39 @@
       "examSet": "2022-12",
       "examPaper": 1,
       "audioUrl": "/audio/exams/2022-12/set-1.mp3",
-      "sentences": [],
-      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "sentences": [
+        "M: How's your dissertation going?",
+        "W: Oh, I haven't even started writing mine yet, so I'm really worried about finishing by the end of next semester.",
+        "M: You mean you haven't even begun yours yet? The final draft is due in five months.",
+        "W: Of course I've started it, but I can't get to the writing yet as I haven't found enough resources to use, so I'm still researching the topic.",
+        "M: Maybe the problem is the way you're doing your research.",
+        "W: I've tried all that, but don't have enough to write the dissertation as my department's minimum length is 70 pages.",
+        "M: Well, I suggest you find a new topic.",
+        "W: In retrospect, I wish I had listened to him, but I didn't.",
+        "M: If you're committed to your current topic, maybe you could make some adjustments rather than abandon it completely. What is your topic?",
+        "W: It's \"Depictions of Femininity and Folklore from the South of the Country\".",
+        "M: That's pretty narrow. You could find more material if you made the topic broader, maybe by including other kinds of depictions.",
+        "W: Broadening the topic is a great idea. I'll start by including folklore from other regions of the country.",
+        "W: Today, on Book Talk, we are lucky enough to host John Robbins and discuss his new book, Why Americans Are Fat and How We Can Lose Weight.",
+        "M: Thanks for having me, Rebecca, but I'm hardly a celebrity.",
+        "W: That's very modest of you to say, considering that your four books have sold a total of seven million copies worldwide, and they've been translated into 12 different languages.",
+        "M: Well, people read my books because more than 60% of Americans are overweight or obese.",
+        "W: We certainly do.",
+        "M: I'm glad to hear you find my work accessible, because I was worried when I wrote it that discussing the science might make the book more suited for a specialist audience.",
+        "W: And how do you suggest they do that?",
+        "M: Briefly, I argue that every person needs to consider their metabolism and eat what suits their body's needs.",
+        "W: But you do have some recommendations for everyone, including eating ten servings of vegetables and three of fruit a day."
+      ],
+      "transcript": "M: How's your dissertation going?\nW: Oh, I haven't even started writing mine yet, so I'm really worried about finishing by the end of next semester.\nM: You mean you haven't even begun yours yet? The final draft is due in five months.\nW: Of course I've started it, but I can't get to the writing yet as I haven't found enough resources to use, so I'm still researching the topic.\nM: Maybe the problem is the way you're doing your research.\nW: I've tried all that, but don't have enough to write the dissertation as my department's minimum length is 70 pages.\nM: Well, I suggest you find a new topic.\nW: In retrospect, I wish I had listened to him, but I didn't.\nM: If you're committed to your current topic, maybe you could make some adjustments rather than abandon it completely. What is your topic?\nW: It's \"Depictions of Femininity and Folklore from the South of the Country\".\nM: That's pretty narrow. You could find more material if you made the topic broader, maybe by including other kinds of depictions.\nW: Broadening the topic is a great idea. I'll start by including folklore from other regions of the country.\nW: Today, on Book Talk, we are lucky enough to host John Robbins and discuss his new book, Why Americans Are Fat and How We Can Lose Weight.\nM: Thanks for having me, Rebecca, but I'm hardly a celebrity.\nW: That's very modest of you to say, considering that your four books have sold a total of seven million copies worldwide, and they've been translated into 12 different languages.\nM: Well, people read my books because more than 60% of Americans are overweight or obese.\nW: We certainly do.\nM: I'm glad to hear you find my work accessible, because I was worried when I wrote it that discussing the science might make the book more suited for a specialist audience.\nW: And how do you suggest they do that?\nM: Briefly, I argue that every person needs to consider their metabolism and eat what suits their body's needs.\nW: But you do have some recommendations for everyone, including eating ten servings of vegetables and three of fruit a day.",
       "questions": [
         {
           "id": "q1",
           "stem": "What does the woman say about her dissertation?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -57,10 +79,10 @@
           "id": "q2",
           "stem": "What does the man say about his professor?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -69,10 +91,10 @@
           "id": "q3",
           "stem": "What does the woman say about her professor?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -81,10 +103,10 @@
           "id": "q4",
           "stem": "What do we learn the woman will do to complete her dissertation?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -107,17 +129,39 @@
       "examSet": "2022-12",
       "examPaper": 1,
       "audioUrl": "/audio/exams/2022-12/set-1.mp3",
-      "sentences": [],
-      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "sentences": [
+        "M: How's your dissertation going?",
+        "W: Oh, I haven't even started writing mine yet, so I'm really worried about finishing by the end of next semester.",
+        "M: You mean you haven't even begun yours yet? The final draft is due in five months.",
+        "W: Of course I've started it, but I can't get to the writing yet as I haven't found enough resources to use, so I'm still researching the topic.",
+        "M: Maybe the problem is the way you're doing your research.",
+        "W: I've tried all that, but don't have enough to write the dissertation as my department's minimum length is 70 pages.",
+        "M: Well, I suggest you find a new topic.",
+        "W: In retrospect, I wish I had listened to him, but I didn't.",
+        "M: If you're committed to your current topic, maybe you could make some adjustments rather than abandon it completely. What is your topic?",
+        "W: It's \"Depictions of Femininity and Folklore from the South of the Country\".",
+        "M: That's pretty narrow. You could find more material if you made the topic broader, maybe by including other kinds of depictions.",
+        "W: Broadening the topic is a great idea. I'll start by including folklore from other regions of the country.",
+        "W: Today, on Book Talk, we are lucky enough to host John Robbins and discuss his new book, Why Americans Are Fat and How We Can Lose Weight.",
+        "M: Thanks for having me, Rebecca, but I'm hardly a celebrity.",
+        "W: That's very modest of you to say, considering that your four books have sold a total of seven million copies worldwide, and they've been translated into 12 different languages.",
+        "M: Well, people read my books because more than 60% of Americans are overweight or obese.",
+        "W: We certainly do.",
+        "M: I'm glad to hear you find my work accessible, because I was worried when I wrote it that discussing the science might make the book more suited for a specialist audience.",
+        "W: And how do you suggest they do that?",
+        "M: Briefly, I argue that every person needs to consider their metabolism and eat what suits their body's needs.",
+        "W: But you do have some recommendations for everyone, including eating ten servings of vegetables and three of fruit a day."
+      ],
+      "transcript": "M: How's your dissertation going?\nW: Oh, I haven't even started writing mine yet, so I'm really worried about finishing by the end of next semester.\nM: You mean you haven't even begun yours yet? The final draft is due in five months.\nW: Of course I've started it, but I can't get to the writing yet as I haven't found enough resources to use, so I'm still researching the topic.\nM: Maybe the problem is the way you're doing your research.\nW: I've tried all that, but don't have enough to write the dissertation as my department's minimum length is 70 pages.\nM: Well, I suggest you find a new topic.\nW: In retrospect, I wish I had listened to him, but I didn't.\nM: If you're committed to your current topic, maybe you could make some adjustments rather than abandon it completely. What is your topic?\nW: It's \"Depictions of Femininity and Folklore from the South of the Country\".\nM: That's pretty narrow. You could find more material if you made the topic broader, maybe by including other kinds of depictions.\nW: Broadening the topic is a great idea. I'll start by including folklore from other regions of the country.\nW: Today, on Book Talk, we are lucky enough to host John Robbins and discuss his new book, Why Americans Are Fat and How We Can Lose Weight.\nM: Thanks for having me, Rebecca, but I'm hardly a celebrity.\nW: That's very modest of you to say, considering that your four books have sold a total of seven million copies worldwide, and they've been translated into 12 different languages.\nM: Well, people read my books because more than 60% of Americans are overweight or obese.\nW: We certainly do.\nM: I'm glad to hear you find my work accessible, because I was worried when I wrote it that discussing the science might make the book more suited for a specialist audience.\nW: And how do you suggest they do that?\nM: Briefly, I argue that every person needs to consider their metabolism and eat what suits their body's needs.\nW: But you do have some recommendations for everyone, including eating ten servings of vegetables and three of fruit a day.",
       "questions": [
         {
           "id": "q5",
           "stem": "What does the woman say about the man in her introduction?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -126,10 +170,10 @@
           "id": "q6",
           "stem": "What has motivated the man to write his books?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -138,10 +182,10 @@
           "id": "q7",
           "stem": "Who does the man say his last book was mainly written for?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -150,10 +194,10 @@
           "id": "q8",
           "stem": "What does the man recommend people do?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -176,17 +220,39 @@
       "examSet": "2022-12",
       "examPaper": 1,
       "audioUrl": "/audio/exams/2022-12/set-1.mp3",
-      "sentences": [],
-      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "sentences": [
+        "M: How's your dissertation going?",
+        "W: Oh, I haven't even started writing mine yet, so I'm really worried about finishing by the end of next semester.",
+        "M: You mean you haven't even begun yours yet? The final draft is due in five months.",
+        "W: Of course I've started it, but I can't get to the writing yet as I haven't found enough resources to use, so I'm still researching the topic.",
+        "M: Maybe the problem is the way you're doing your research.",
+        "W: I've tried all that, but don't have enough to write the dissertation as my department's minimum length is 70 pages.",
+        "M: Well, I suggest you find a new topic.",
+        "W: In retrospect, I wish I had listened to him, but I didn't.",
+        "M: If you're committed to your current topic, maybe you could make some adjustments rather than abandon it completely. What is your topic?",
+        "W: It's \"Depictions of Femininity and Folklore from the South of the Country\".",
+        "M: That's pretty narrow. You could find more material if you made the topic broader, maybe by including other kinds of depictions.",
+        "W: Broadening the topic is a great idea. I'll start by including folklore from other regions of the country.",
+        "W: Today, on Book Talk, we are lucky enough to host John Robbins and discuss his new book, Why Americans Are Fat and How We Can Lose Weight.",
+        "M: Thanks for having me, Rebecca, but I'm hardly a celebrity.",
+        "W: That's very modest of you to say, considering that your four books have sold a total of seven million copies worldwide, and they've been translated into 12 different languages.",
+        "M: Well, people read my books because more than 60% of Americans are overweight or obese.",
+        "W: We certainly do.",
+        "M: I'm glad to hear you find my work accessible, because I was worried when I wrote it that discussing the science might make the book more suited for a specialist audience.",
+        "W: And how do you suggest they do that?",
+        "M: Briefly, I argue that every person needs to consider their metabolism and eat what suits their body's needs.",
+        "W: But you do have some recommendations for everyone, including eating ten servings of vegetables and three of fruit a day."
+      ],
+      "transcript": "M: How's your dissertation going?\nW: Oh, I haven't even started writing mine yet, so I'm really worried about finishing by the end of next semester.\nM: You mean you haven't even begun yours yet? The final draft is due in five months.\nW: Of course I've started it, but I can't get to the writing yet as I haven't found enough resources to use, so I'm still researching the topic.\nM: Maybe the problem is the way you're doing your research.\nW: I've tried all that, but don't have enough to write the dissertation as my department's minimum length is 70 pages.\nM: Well, I suggest you find a new topic.\nW: In retrospect, I wish I had listened to him, but I didn't.\nM: If you're committed to your current topic, maybe you could make some adjustments rather than abandon it completely. What is your topic?\nW: It's \"Depictions of Femininity and Folklore from the South of the Country\".\nM: That's pretty narrow. You could find more material if you made the topic broader, maybe by including other kinds of depictions.\nW: Broadening the topic is a great idea. I'll start by including folklore from other regions of the country.\nW: Today, on Book Talk, we are lucky enough to host John Robbins and discuss his new book, Why Americans Are Fat and How We Can Lose Weight.\nM: Thanks for having me, Rebecca, but I'm hardly a celebrity.\nW: That's very modest of you to say, considering that your four books have sold a total of seven million copies worldwide, and they've been translated into 12 different languages.\nM: Well, people read my books because more than 60% of Americans are overweight or obese.\nW: We certainly do.\nM: I'm glad to hear you find my work accessible, because I was worried when I wrote it that discussing the science might make the book more suited for a specialist audience.\nW: And how do you suggest they do that?\nM: Briefly, I argue that every person needs to consider their metabolism and eat what suits their body's needs.\nW: But you do have some recommendations for everyone, including eating ten servings of vegetables and three of fruit a day.",
       "questions": [
         {
           "id": "q9",
           "stem": "What did researchers discover about rats placed briefly in a stressful situation?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -195,10 +261,10 @@
           "id": "q10",
           "stem": "Why do people tend to have clear memories of dangerous situations they have encountered?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -207,10 +273,10 @@
           "id": "q11",
           "stem": "What do scientists believe chronic stress can do?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -233,17 +299,39 @@
       "examSet": "2022-12",
       "examPaper": 1,
       "audioUrl": "/audio/exams/2022-12/set-1.mp3",
-      "sentences": [],
-      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "sentences": [
+        "M: How's your dissertation going?",
+        "W: Oh, I haven't even started writing mine yet, so I'm really worried about finishing by the end of next semester.",
+        "M: You mean you haven't even begun yours yet? The final draft is due in five months.",
+        "W: Of course I've started it, but I can't get to the writing yet as I haven't found enough resources to use, so I'm still researching the topic.",
+        "M: Maybe the problem is the way you're doing your research.",
+        "W: I've tried all that, but don't have enough to write the dissertation as my department's minimum length is 70 pages.",
+        "M: Well, I suggest you find a new topic.",
+        "W: In retrospect, I wish I had listened to him, but I didn't.",
+        "M: If you're committed to your current topic, maybe you could make some adjustments rather than abandon it completely. What is your topic?",
+        "W: It's \"Depictions of Femininity and Folklore from the South of the Country\".",
+        "M: That's pretty narrow. You could find more material if you made the topic broader, maybe by including other kinds of depictions.",
+        "W: Broadening the topic is a great idea. I'll start by including folklore from other regions of the country.",
+        "W: Today, on Book Talk, we are lucky enough to host John Robbins and discuss his new book, Why Americans Are Fat and How We Can Lose Weight.",
+        "M: Thanks for having me, Rebecca, but I'm hardly a celebrity.",
+        "W: That's very modest of you to say, considering that your four books have sold a total of seven million copies worldwide, and they've been translated into 12 different languages.",
+        "M: Well, people read my books because more than 60% of Americans are overweight or obese.",
+        "W: We certainly do.",
+        "M: I'm glad to hear you find my work accessible, because I was worried when I wrote it that discussing the science might make the book more suited for a specialist audience.",
+        "W: And how do you suggest they do that?",
+        "M: Briefly, I argue that every person needs to consider their metabolism and eat what suits their body's needs.",
+        "W: But you do have some recommendations for everyone, including eating ten servings of vegetables and three of fruit a day."
+      ],
+      "transcript": "M: How's your dissertation going?\nW: Oh, I haven't even started writing mine yet, so I'm really worried about finishing by the end of next semester.\nM: You mean you haven't even begun yours yet? The final draft is due in five months.\nW: Of course I've started it, but I can't get to the writing yet as I haven't found enough resources to use, so I'm still researching the topic.\nM: Maybe the problem is the way you're doing your research.\nW: I've tried all that, but don't have enough to write the dissertation as my department's minimum length is 70 pages.\nM: Well, I suggest you find a new topic.\nW: In retrospect, I wish I had listened to him, but I didn't.\nM: If you're committed to your current topic, maybe you could make some adjustments rather than abandon it completely. What is your topic?\nW: It's \"Depictions of Femininity and Folklore from the South of the Country\".\nM: That's pretty narrow. You could find more material if you made the topic broader, maybe by including other kinds of depictions.\nW: Broadening the topic is a great idea. I'll start by including folklore from other regions of the country.\nW: Today, on Book Talk, we are lucky enough to host John Robbins and discuss his new book, Why Americans Are Fat and How We Can Lose Weight.\nM: Thanks for having me, Rebecca, but I'm hardly a celebrity.\nW: That's very modest of you to say, considering that your four books have sold a total of seven million copies worldwide, and they've been translated into 12 different languages.\nM: Well, people read my books because more than 60% of Americans are overweight or obese.\nW: We certainly do.\nM: I'm glad to hear you find my work accessible, because I was worried when I wrote it that discussing the science might make the book more suited for a specialist audience.\nW: And how do you suggest they do that?\nM: Briefly, I argue that every person needs to consider their metabolism and eat what suits their body's needs.\nW: But you do have some recommendations for everyone, including eating ten servings of vegetables and three of fruit a day.",
       "questions": [
         {
           "id": "q12",
           "stem": "What does the speaker say is a common problem with managers?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -252,10 +340,10 @@
           "id": "q13",
           "stem": "What may happen when managers ignore minor problems?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -264,10 +352,10 @@
           "id": "q14",
           "stem": "What are leaders expected to do in pursuing their strategic goals?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -276,10 +364,10 @@
           "id": "q15",
           "stem": "How can a manager best avoid being distracted by email?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -302,17 +390,39 @@
       "examSet": "2022-12",
       "examPaper": 1,
       "audioUrl": "/audio/exams/2022-12/set-1.mp3",
-      "sentences": [],
-      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "sentences": [
+        "M: How's your dissertation going?",
+        "W: Oh, I haven't even started writing mine yet, so I'm really worried about finishing by the end of next semester.",
+        "M: You mean you haven't even begun yours yet? The final draft is due in five months.",
+        "W: Of course I've started it, but I can't get to the writing yet as I haven't found enough resources to use, so I'm still researching the topic.",
+        "M: Maybe the problem is the way you're doing your research.",
+        "W: I've tried all that, but don't have enough to write the dissertation as my department's minimum length is 70 pages.",
+        "M: Well, I suggest you find a new topic.",
+        "W: In retrospect, I wish I had listened to him, but I didn't.",
+        "M: If you're committed to your current topic, maybe you could make some adjustments rather than abandon it completely. What is your topic?",
+        "W: It's \"Depictions of Femininity and Folklore from the South of the Country\".",
+        "M: That's pretty narrow. You could find more material if you made the topic broader, maybe by including other kinds of depictions.",
+        "W: Broadening the topic is a great idea. I'll start by including folklore from other regions of the country.",
+        "W: Today, on Book Talk, we are lucky enough to host John Robbins and discuss his new book, Why Americans Are Fat and How We Can Lose Weight.",
+        "M: Thanks for having me, Rebecca, but I'm hardly a celebrity.",
+        "W: That's very modest of you to say, considering that your four books have sold a total of seven million copies worldwide, and they've been translated into 12 different languages.",
+        "M: Well, people read my books because more than 60% of Americans are overweight or obese.",
+        "W: We certainly do.",
+        "M: I'm glad to hear you find my work accessible, because I was worried when I wrote it that discussing the science might make the book more suited for a specialist audience.",
+        "W: And how do you suggest they do that?",
+        "M: Briefly, I argue that every person needs to consider their metabolism and eat what suits their body's needs.",
+        "W: But you do have some recommendations for everyone, including eating ten servings of vegetables and three of fruit a day."
+      ],
+      "transcript": "M: How's your dissertation going?\nW: Oh, I haven't even started writing mine yet, so I'm really worried about finishing by the end of next semester.\nM: You mean you haven't even begun yours yet? The final draft is due in five months.\nW: Of course I've started it, but I can't get to the writing yet as I haven't found enough resources to use, so I'm still researching the topic.\nM: Maybe the problem is the way you're doing your research.\nW: I've tried all that, but don't have enough to write the dissertation as my department's minimum length is 70 pages.\nM: Well, I suggest you find a new topic.\nW: In retrospect, I wish I had listened to him, but I didn't.\nM: If you're committed to your current topic, maybe you could make some adjustments rather than abandon it completely. What is your topic?\nW: It's \"Depictions of Femininity and Folklore from the South of the Country\".\nM: That's pretty narrow. You could find more material if you made the topic broader, maybe by including other kinds of depictions.\nW: Broadening the topic is a great idea. I'll start by including folklore from other regions of the country.\nW: Today, on Book Talk, we are lucky enough to host John Robbins and discuss his new book, Why Americans Are Fat and How We Can Lose Weight.\nM: Thanks for having me, Rebecca, but I'm hardly a celebrity.\nW: That's very modest of you to say, considering that your four books have sold a total of seven million copies worldwide, and they've been translated into 12 different languages.\nM: Well, people read my books because more than 60% of Americans are overweight or obese.\nW: We certainly do.\nM: I'm glad to hear you find my work accessible, because I was worried when I wrote it that discussing the science might make the book more suited for a specialist audience.\nW: And how do you suggest they do that?\nM: Briefly, I argue that every person needs to consider their metabolism and eat what suits their body's needs.\nW: But you do have some recommendations for everyone, including eating ten servings of vegetables and three of fruit a day.",
       "questions": [
         {
           "id": "q16",
           "stem": "What does the speaker say a team of marketing professors has studied?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -321,10 +431,10 @@
           "id": "q17",
           "stem": "How have medical professionals tried to fight obesity?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -333,10 +443,10 @@
           "id": "q18",
           "stem": "What can other companies learn from the example of the carrot promotion campaign?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -359,17 +469,39 @@
       "examSet": "2022-12",
       "examPaper": 1,
       "audioUrl": "/audio/exams/2022-12/set-1.mp3",
-      "sentences": [],
-      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "sentences": [
+        "M: How's your dissertation going?",
+        "W: Oh, I haven't even started writing mine yet, so I'm really worried about finishing by the end of next semester.",
+        "M: You mean you haven't even begun yours yet? The final draft is due in five months.",
+        "W: Of course I've started it, but I can't get to the writing yet as I haven't found enough resources to use, so I'm still researching the topic.",
+        "M: Maybe the problem is the way you're doing your research.",
+        "W: I've tried all that, but don't have enough to write the dissertation as my department's minimum length is 70 pages.",
+        "M: Well, I suggest you find a new topic.",
+        "W: In retrospect, I wish I had listened to him, but I didn't.",
+        "M: If you're committed to your current topic, maybe you could make some adjustments rather than abandon it completely. What is your topic?",
+        "W: It's \"Depictions of Femininity and Folklore from the South of the Country\".",
+        "M: That's pretty narrow. You could find more material if you made the topic broader, maybe by including other kinds of depictions.",
+        "W: Broadening the topic is a great idea. I'll start by including folklore from other regions of the country.",
+        "W: Today, on Book Talk, we are lucky enough to host John Robbins and discuss his new book, Why Americans Are Fat and How We Can Lose Weight.",
+        "M: Thanks for having me, Rebecca, but I'm hardly a celebrity.",
+        "W: That's very modest of you to say, considering that your four books have sold a total of seven million copies worldwide, and they've been translated into 12 different languages.",
+        "M: Well, people read my books because more than 60% of Americans are overweight or obese.",
+        "W: We certainly do.",
+        "M: I'm glad to hear you find my work accessible, because I was worried when I wrote it that discussing the science might make the book more suited for a specialist audience.",
+        "W: And how do you suggest they do that?",
+        "M: Briefly, I argue that every person needs to consider their metabolism and eat what suits their body's needs.",
+        "W: But you do have some recommendations for everyone, including eating ten servings of vegetables and three of fruit a day."
+      ],
+      "transcript": "M: How's your dissertation going?\nW: Oh, I haven't even started writing mine yet, so I'm really worried about finishing by the end of next semester.\nM: You mean you haven't even begun yours yet? The final draft is due in five months.\nW: Of course I've started it, but I can't get to the writing yet as I haven't found enough resources to use, so I'm still researching the topic.\nM: Maybe the problem is the way you're doing your research.\nW: I've tried all that, but don't have enough to write the dissertation as my department's minimum length is 70 pages.\nM: Well, I suggest you find a new topic.\nW: In retrospect, I wish I had listened to him, but I didn't.\nM: If you're committed to your current topic, maybe you could make some adjustments rather than abandon it completely. What is your topic?\nW: It's \"Depictions of Femininity and Folklore from the South of the Country\".\nM: That's pretty narrow. You could find more material if you made the topic broader, maybe by including other kinds of depictions.\nW: Broadening the topic is a great idea. I'll start by including folklore from other regions of the country.\nW: Today, on Book Talk, we are lucky enough to host John Robbins and discuss his new book, Why Americans Are Fat and How We Can Lose Weight.\nM: Thanks for having me, Rebecca, but I'm hardly a celebrity.\nW: That's very modest of you to say, considering that your four books have sold a total of seven million copies worldwide, and they've been translated into 12 different languages.\nM: Well, people read my books because more than 60% of Americans are overweight or obese.\nW: We certainly do.\nM: I'm glad to hear you find my work accessible, because I was worried when I wrote it that discussing the science might make the book more suited for a specialist audience.\nW: And how do you suggest they do that?\nM: Briefly, I argue that every person needs to consider their metabolism and eat what suits their body's needs.\nW: But you do have some recommendations for everyone, including eating ten servings of vegetables and three of fruit a day.",
       "questions": [
         {
           "id": "q19",
           "stem": "What does the speaker say about the cleaning products industry in recent years?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -378,10 +510,10 @@
           "id": "q20",
           "stem": "Why are newly developed cleaning products selling well?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -390,10 +522,10 @@
           "id": "q21",
           "stem": "What are some customers doing to help promote non-traditional cleaning products?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -416,17 +548,39 @@
       "examSet": "2022-12",
       "examPaper": 1,
       "audioUrl": "/audio/exams/2022-12/set-1.mp3",
-      "sentences": [],
-      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "sentences": [
+        "M: How's your dissertation going?",
+        "W: Oh, I haven't even started writing mine yet, so I'm really worried about finishing by the end of next semester.",
+        "M: You mean you haven't even begun yours yet? The final draft is due in five months.",
+        "W: Of course I've started it, but I can't get to the writing yet as I haven't found enough resources to use, so I'm still researching the topic.",
+        "M: Maybe the problem is the way you're doing your research.",
+        "W: I've tried all that, but don't have enough to write the dissertation as my department's minimum length is 70 pages.",
+        "M: Well, I suggest you find a new topic.",
+        "W: In retrospect, I wish I had listened to him, but I didn't.",
+        "M: If you're committed to your current topic, maybe you could make some adjustments rather than abandon it completely. What is your topic?",
+        "W: It's \"Depictions of Femininity and Folklore from the South of the Country\".",
+        "M: That's pretty narrow. You could find more material if you made the topic broader, maybe by including other kinds of depictions.",
+        "W: Broadening the topic is a great idea. I'll start by including folklore from other regions of the country.",
+        "W: Today, on Book Talk, we are lucky enough to host John Robbins and discuss his new book, Why Americans Are Fat and How We Can Lose Weight.",
+        "M: Thanks for having me, Rebecca, but I'm hardly a celebrity.",
+        "W: That's very modest of you to say, considering that your four books have sold a total of seven million copies worldwide, and they've been translated into 12 different languages.",
+        "M: Well, people read my books because more than 60% of Americans are overweight or obese.",
+        "W: We certainly do.",
+        "M: I'm glad to hear you find my work accessible, because I was worried when I wrote it that discussing the science might make the book more suited for a specialist audience.",
+        "W: And how do you suggest they do that?",
+        "M: Briefly, I argue that every person needs to consider their metabolism and eat what suits their body's needs.",
+        "W: But you do have some recommendations for everyone, including eating ten servings of vegetables and three of fruit a day."
+      ],
+      "transcript": "M: How's your dissertation going?\nW: Oh, I haven't even started writing mine yet, so I'm really worried about finishing by the end of next semester.\nM: You mean you haven't even begun yours yet? The final draft is due in five months.\nW: Of course I've started it, but I can't get to the writing yet as I haven't found enough resources to use, so I'm still researching the topic.\nM: Maybe the problem is the way you're doing your research.\nW: I've tried all that, but don't have enough to write the dissertation as my department's minimum length is 70 pages.\nM: Well, I suggest you find a new topic.\nW: In retrospect, I wish I had listened to him, but I didn't.\nM: If you're committed to your current topic, maybe you could make some adjustments rather than abandon it completely. What is your topic?\nW: It's \"Depictions of Femininity and Folklore from the South of the Country\".\nM: That's pretty narrow. You could find more material if you made the topic broader, maybe by including other kinds of depictions.\nW: Broadening the topic is a great idea. I'll start by including folklore from other regions of the country.\nW: Today, on Book Talk, we are lucky enough to host John Robbins and discuss his new book, Why Americans Are Fat and How We Can Lose Weight.\nM: Thanks for having me, Rebecca, but I'm hardly a celebrity.\nW: That's very modest of you to say, considering that your four books have sold a total of seven million copies worldwide, and they've been translated into 12 different languages.\nM: Well, people read my books because more than 60% of Americans are overweight or obese.\nW: We certainly do.\nM: I'm glad to hear you find my work accessible, because I was worried when I wrote it that discussing the science might make the book more suited for a specialist audience.\nW: And how do you suggest they do that?\nM: Briefly, I argue that every person needs to consider their metabolism and eat what suits their body's needs.\nW: But you do have some recommendations for everyone, including eating ten servings of vegetables and three of fruit a day.",
       "questions": [
         {
           "id": "q22",
           "stem": "What problem might be caused by the growing piles of coins in fountains?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -435,10 +589,10 @@
           "id": "q23",
           "stem": "What does the speaker say about the coins collected from New York City's park fountains?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -447,10 +601,10 @@
           "id": "q24",
           "stem": "What do we learn about the money collected from Rome's Trevi Fountain?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"
@@ -459,10 +613,10 @@
           "id": "q25",
           "stem": "What does the speaker say about Thomas Morgan?",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "答案见速查册，导入时未匹配到题号。"

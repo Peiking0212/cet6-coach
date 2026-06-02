@@ -191,3 +191,32 @@ h4 {
   overflow: hidden;
   clip: rect(0 0 0 0);
 }
+
+.app-boot {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: linear-gradient(160deg, var(--bg-grad-a), var(--bg-grad-b));
+}
+
+.app-boot-card {
+  text-align: center;
+  padding: 28px 32px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+.app-boot-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.app-boot-hint {
+  margin: 10px 0 0;
+  color: var(--text-soft);
+  font-size: 0.95rem;
+}

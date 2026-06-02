@@ -10,6 +10,7 @@ import { useTimer } from '@/engine/useTimer'
 import { QuizBar } from '@/components/QuizBar'
 import { AiExplain } from '@/components/AiExplain'
 import { ResultSummary } from '@/components/ResultSummary'
+import { sanitizeParagraphItem } from '@/lib/sanitizeReadingItem'
 
 export function ParagraphRunner({
   item,
@@ -22,8 +23,9 @@ export function ParagraphRunner({
 }) {
   const { state, record, setStars } = useStore()
   const { onCorrect } = useEncourage()
+  const clean = useMemo(() => sanitizeParagraphItem(item), [item])
   const diff = moduleDifficulty(state, 'reading')
-  const labels = useMemo(() => item.paragraphs.map((p) => p.label), [item.paragraphs])
+  const labels = useMemo(() => clean.paragraphs.map((p) => p.label), [clean.paragraphs])
   const [picks, setPicks] = useState<(string | null)[]>(() =>
     item.statements.map(() => null),
   )
@@ -33,7 +35,7 @@ export function ParagraphRunner({
   const [showPassage, setShowPassage] = useState(true)
   const { ms } = useTimer(!done)
 
-  const stmt = item.statements[active]
+  const stmt = clean.statements[active]
 
   const pickLabel = (label: string) => {
     if (checked) return
@@ -126,7 +128,7 @@ export function ParagraphRunner({
         </button>
         {showPassage && (
           <div className="paragraph-list">
-            {item.paragraphs.map((p) => (
+            {clean.paragraphs.map((p) => (
               <div key={p.label} className="paragraph-block">
                 <span className="paragraph-label">{p.label}</span>
                 <p>{p.text}</p>
@@ -155,7 +157,7 @@ export function ParagraphRunner({
           </div>
         ) : (
           <div className="paragraph-stmt-nav">
-            {item.statements.map((s, i) => (
+            {clean.statements.map((s, i) => (
               <button
                 key={s.id}
                 className={`paragraph-stmt-chip${picks[i] === s.answer ? ' ok' : ' bad'}${

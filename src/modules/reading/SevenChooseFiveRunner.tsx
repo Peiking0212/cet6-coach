@@ -10,6 +10,7 @@ import { useTimer } from '@/engine/useTimer'
 import { QuizBar } from '@/components/QuizBar'
 import { AiExplain } from '@/components/AiExplain'
 import { ResultSummary } from '@/components/ResultSummary'
+import { sanitizeSevenFiveItem } from '@/lib/sanitizeReadingItem'
 
 interface Seg {
   text?: string
@@ -41,8 +42,9 @@ export function SevenChooseFiveRunner({
 }) {
   const { state, record, setStars } = useStore()
   const { onCorrect } = useEncourage()
+  const clean = useMemo(() => sanitizeSevenFiveItem(item), [item])
   const diff = moduleDifficulty(state, 'reading')
-  const segs = useMemo(() => parsePassage(item.passage), [item.passage])
+  const segs = useMemo(() => parsePassage(clean.passage), [clean.passage])
   const [picks, setPicks] = useState<(number | null)[]>(() => item.blanks.map(() => null))
   const [active, setActive] = useState(0)
   const [checked, setChecked] = useState(false)
@@ -90,8 +92,8 @@ export function SevenChooseFiveRunner({
           refId: item.id,
           refTitle: item.title,
           question: `七选五 第 (${i + 1}) 空`,
-          yourAnswer: picks[i] !== null ? item.options[picks[i] as number] : '（空）',
-          correctAnswer: item.options[b.answer],
+          yourAnswer: picks[i] !== null ? clean.options[picks[i] as number] : '（空）',
+          correctAnswer: clean.options[b.answer],
           explanation: b.explanation,
         })
       }
@@ -154,9 +156,9 @@ export function SevenChooseFiveRunner({
             const wrong = checked && pick !== item.blanks[bi].answer
             const preview =
               pick !== null
-                ? item.options[pick].slice(0, 28) + (item.options[pick].length > 28 ? '…' : '')
+                ? clean.options[pick].slice(0, 28) + (clean.options[pick].length > 28 ? '…' : '')
                 : null
-            const answerPreview = item.options[item.blanks[bi].answer]
+            const answerPreview = clean.options[item.blanks[bi].answer]
             return (
               <button
                 key={i}
@@ -177,7 +179,7 @@ export function SevenChooseFiveRunner({
 
       {!checked && (
         <div className="seven-five-options">
-          {item.options.map((opt, i) => (
+          {clean.options.map((opt, i) => (
             <button
               key={i}
               className={`seven-five-opt${usedOptions.has(i) ? ' used' : ''}${
@@ -197,7 +199,7 @@ export function SevenChooseFiveRunner({
         <div className="card cloze-explains">
           {item.blanks.map((b, i) => (
             <div key={i} className={`cloze-explain ${picks[i] === b.answer ? 'ok' : 'bad'}`}>
-              <strong>({i + 1})</strong> {item.options[b.answer]} — {b.explanation}
+              <strong>({i + 1})</strong> {clean.options[b.answer]} — {b.explanation}
             </div>
           ))}
           {item.blanks.some((b, i) => picks[i] !== b.answer) && (
@@ -209,10 +211,10 @@ export function SevenChooseFiveRunner({
                 refTitle: item.title,
                 question: `七选五《${item.title}》整体讲解`,
                 yourAnswer: picks
-                  .map((p, i) => `(${i + 1})${p !== null ? item.options[p].slice(0, 40) : '空'}`)
+                  .map((p, i) => `(${i + 1})${p !== null ? clean.options[p].slice(0, 40) : '空'}`)
                   .join(' '),
                 correctAnswer: item.blanks
-                  .map((b, i) => `(${i + 1})${item.options[b.answer].slice(0, 40)}`)
+                  .map((b, i) => `(${i + 1})${clean.options[b.answer].slice(0, 40)}`)
                   .join(' '),
               }}
             />

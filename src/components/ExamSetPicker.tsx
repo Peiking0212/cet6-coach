@@ -1,26 +1,20 @@
 import { EXAM_SETS } from '@/data/exams'
 import type { ExamSetFilter } from '@/data/types'
+import { EXAM_SET_FILTER_KEY, storageGetSync, storageSet } from '@/lib/appStorage'
 
-const STORAGE_KEY = 'cet6-exam-set-filter'
-
-export function loadExamSetFilter(): ExamSetFilter {
-  try {
-    const v = localStorage.getItem(STORAGE_KEY)
-    if (v && (v === 'all' || v === 'builtin' || EXAM_SETS.some((s) => s.id === v))) {
-      return v
-    }
-  } catch {
-    /* ignore */
+function parseFilter(v: string | null): ExamSetFilter {
+  if (v && (v === 'all' || v === 'builtin' || EXAM_SETS.some((s) => s.id === v))) {
+    return v
   }
   return 'all'
 }
 
+export function loadExamSetFilter(): ExamSetFilter {
+  return parseFilter(storageGetSync(EXAM_SET_FILTER_KEY))
+}
+
 export function saveExamSetFilter(filter: ExamSetFilter) {
-  try {
-    localStorage.setItem(STORAGE_KEY, filter)
-  } catch {
-    /* ignore */
-  }
+  void storageSet(EXAM_SET_FILTER_KEY, filter)
 }
 
 export function ExamSetPicker({

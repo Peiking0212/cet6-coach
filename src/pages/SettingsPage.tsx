@@ -257,7 +257,10 @@ export function SettingsPage() {
 
       <section className="card setting-section">
         <h3 className="setting-h">数据</h3>
-        <p className="setting-desc">所有进度、积分、错题与配置都保存在本机 localStorage。</p>
+        <p className="setting-desc">
+          所有进度、积分、错题与配置都保存在本机（浏览器为 localStorage；Android APK 为
+          Capacitor Preferences，卸载前一般不因关 App 而丢失）。
+        </p>
         <button
           className="btn"
           onClick={() => {

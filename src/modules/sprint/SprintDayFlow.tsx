@@ -12,8 +12,10 @@ import {
   isDayTasksComplete,
   isDayUnlocked,
 } from '@/sprint/helpers'
+import { resolveReviewRefs } from '@/sprint/reviewRefs'
 import { SprintTimerPanel } from './SprintTimerPanel'
 import { SprintTaskRunner } from './SprintTaskRunner'
+import { SprintReviewPanel } from './SprintReviewPanel'
 
 export function SprintDayFlow({ dayNum }: { dayNum: number }) {
   const { state, sprintStart, sprintCompleteTask, sprintSetTaskIndex } = useStore()
@@ -27,12 +29,23 @@ export function SprintDayFlow({ dayNum }: { dayNum: number }) {
   const task = tasks[activeIndex]
   const progress = day ? dayProgress(state, day) : { done: 0, total: 0, tasks: [] }
 
+  const isChecklist =
+    task?.kind === 'checklist' || task?.kind === 'review' || task?.manualComplete
+  const reviewRefs = useMemo(
+    () => (task && day && isChecklist ? resolveReviewRefs(day, task) : []),
+    [task, day, isChecklist],
+  )
+
   useEffect(() => {
     if (!day) return
     if (isDayFinished(state, dayNum) || isDayTasksComplete(state, day)) {
       nav(`/sprint/day/${dayNum}/summary`, { replace: true })
     }
   }, [day, dayNum, nav, state])
+
+  useEffect(() => {
+    if (!state.sprint.startedAt) sprintStart()
+  }, [state.sprint.startedAt, sprintStart])
 
   if (!day) {
     return (
@@ -75,12 +88,6 @@ export function SprintDayFlow({ dayNum }: { dayNum: number }) {
     }, 600)
   }
 
-  useEffect(() => {
-    if (!state.sprint.startedAt) sprintStart()
-  }, [state.sprint.startedAt, sprintStart])
-
-  const isChecklist =
-    task?.kind === 'checklist' || task?.kind === 'review' || task?.manualComplete
   const isDone = task ? state.sprint.completedTasks[task.id] : false
 
   return (
@@ -114,6 +121,7 @@ export function SprintDayFlow({ dayNum }: { dayNum: number }) {
 
               {isChecklist ? (
                 <div className="sprint-checklist-actions">
+                  {reviewRefs.length > 0 && <SprintReviewPanel refs={reviewRefs} />}
                   <button
                     className="btn btn-primary sprint-checkin-btn"
                     disabled={isDone}

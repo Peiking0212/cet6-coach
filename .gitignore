@@ -4,9 +4,19 @@ dist-ssr
 *.local
 *.tsbuildinfo
 .DS_Store
+.idea/
 .vscode/*
 !.vscode/extensions.json
 dev-dist
 
 # Imported exam audio (personal local copies; regenerate via npm run import:exam)
 public/audio/exams/**
+
+# Capacitor / Android build outputs
+android/.gradle/
+android/.idea/
+android/app/build/
+android/build/
+android/local.properties
+*.apk
+*.aab

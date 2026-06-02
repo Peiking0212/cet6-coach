@@ -26,10 +26,11 @@ const EXAM_PROFILES = {
     examPdf: (n) => new RegExp(`大学英语六级考试真题.*第${n}套.*\\.pdf$`),
     answerPdf: (n) => new RegExp(`真题答案速查.*第${n}套.*\\.pdf$`),
     mp3Patterns: (n) => [
+      new RegExp(`听力音频.*第${n}套`, 'i'),
+      new RegExp(`听力第${n}套`, 'i'),
       new RegExp(`第\\s*${n}\\s*套`, 'i'),
       new RegExp(`\\(第${n}套\\)`, 'i'),
       new RegExp(`真题（第${n}套）`, 'i'),
-      new RegExp(`听力音频.*第${n}套`, 'i'),
     ],
   },
   '2024-12': {
@@ -140,6 +141,7 @@ function parseArgs() {
   let date = ''
   let sets = [1, 2, 3]
   let merge = false
+  let audioOnly = false
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--exam-id' && args[i + 1]) examId = args[++i]
     else if (args[i] === '--source' && args[i + 1]) source = args[++i]
@@ -148,6 +150,7 @@ function parseArgs() {
     else if (args[i] === '--sets' && args[i + 1]) {
       sets = args[++i].split(',').map((s) => Number(s.trim())).filter((n) => n >= 1 && n <= 3)
     } else if (args[i] === '--merge') merge = true
+    else if (args[i] === '--audio-only') audioOnly = true
   }
   const profile = EXAM_PROFILES[examId]
   if (!profile) {
@@ -162,6 +165,21 @@ function parseArgs() {
     profile,
     sets: sets.length ? sets : [1, 2, 3],
     merge,
+    audioOnly,
+  }
+}
+
+function duplicateSet3FromSet2(audioManifest, audioOutDir) {
+  const set2Audio = audioManifest.find((a) => a.set === 2 && a.status === 'ok')
+  const set3Audio = audioManifest.find((a) => a.set === 3)
+  if (set3Audio?.status === 'missing' && set2Audio) {
+    const src = path.join(audioOutDir, 'set-2.mp3')
+    const dest = path.join(audioOutDir, 'set-3.mp3')
+    if (fs.existsSync(src)) {
+      fs.copyFileSync(src, dest)
+      set3Audio.status = 'ok'
+      set3Audio.source = `${set2Audio.source}（与第2套听力相同）`
+    }
   }
 }
 
@@ -171,6 +189,40 @@ function slug(s) {
     .replace(/[^a-z0-9\u4e00-\u9fff]+/g, '-')
     .replace(/^-|-$/g, '')
     .slice(0, 60)
+}
+
+function cleanPdfArtifacts(text) {
+  if (!text?.trim()) return text
+  return text
+    .replace(/--\s*\d+\s+of\s+\d+\s*--/gi, ' ')
+    .replace(
+      /\d{4}\s*年\s*\d{1,2}\s*月\s*英语六级真题[\s\S]*?(?:--\s*\d+\s+of\s+\d+\s*--)?/gi,
+      ' ',
+    )
+    .replace(/\d{4}\s*年\s*\d{1,2}\s*月英语六级真题第\d+[^.]*?(?:页|共)[^.]*/gi, ' ')
+    .replace(/第\s*\d+\s*套\s*第\s*\d+\s*页\s*共\s*[^\s.]+\s*页/gi, ' ')
+    .replace(/\s+b\s*y\s*:\s*新一文化\s*/gi, ' ')
+    .replace(/\s{2,}/g, ' ')
+    .trim()
+}
+
+function cleanCarefulPassage(passage, questions) {
+  let text = cleanPdfArtifacts(passage)
+  for (const q of questions) {
+    const snippet = q.stem.slice(0, Math.min(50, q.stem.length)).trim()
+    if (snippet.length < 12) continue
+    const idx = text.indexOf(snippet)
+    if (idx > 80) {
+      text = text.slice(0, idx)
+      break
+    }
+  }
+  const m = text.match(
+    /\s((?:4[6-9])|(?:5[0-5]))\.\s+(?:What|How|Why|Which|According|It\s|They\s|The\s|One\s|In\s)/i,
+  )
+  if (m?.index != null && m.index > 80) text = text.slice(0, m.index)
+  text = text.replace(/\s((?:4[6-9])|(?:5[0-5]))\.\s*$/i, '')
+  return text.trim()
 }
 
 async function readPdfText(filePath) {
@@ -201,7 +253,7 @@ const PAPER_MCQ_OPTIONS = [
 function parseListeningFromDocx(docxText) {
   const questions = []
   const re =
-    /(\d{1,2})\.\s+((?:What|Why|How|Which|Where|Who|According|To\s)[^\n<]+)/gi
+    /(?:\[?\d{2}:\d{2}(?:\.\d+)?\]?)?\s*(\d{1,2})\.\s+((?:What|Why|How|Which|Where|Who|According|To\s)[^<\n]+)/gi
   let m
   while ((m = re.exec(docxText))) {
     const num = Number(m[1])
@@ -221,13 +273,113 @@ function parseListeningFromDocx(docxText) {
 
 function parseListeningSentencesFromDocx(docxText) {
   const lines = []
-  const re = /(?:^|\n)\s*([MW]):\s*([^<\[]+)/g
+  const re = /(?:\[?\d{2}:\d{2}(?:\.\d+)?\]?)?\s*([MW]):\s*([^<\[]+)/gi
   let m
   while ((m = re.exec(docxText))) {
     const line = m[2].replace(/\s+/g, ' ').trim()
-    if (line.length > 3) lines.push(line)
+    if (line.length > 3) lines.push(`${m[1]}: ${line}`)
   }
   return lines
+}
+
+function hasAnalysisListening(text) {
+  return (
+    /Part\s*II[\s\S]*?Listening/i.test(text) &&
+    (/听力原文/.test(text) || /听\s*力\s*原\s*文/.test(text))
+  )
+}
+
+function englishListeningStem(raw) {
+  return raw
+    .replace(/[（(][^）)]*[）)]/g, ' ')
+    .replace(/[\u4e00-\u9fff「」【】？?，。；：、\s]+$/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function extractChineseMcqOptions(block) {
+  const opts = []
+  for (const L of ['A', 'B', 'C', 'D']) {
+    const m = block.match(new RegExp(`${L}[）)]([^A-D）)\\n]+)`))
+    if (!m) return null
+    opts.push(cleanPdfArtifacts(m[1].replace(/\s+/g, ' ').trim()))
+  }
+  return opts.every((o) => o.length > 0) ? opts : null
+}
+
+function extractAnswerLetterFromChunk(chunk) {
+  const m =
+    chunk.match(/(?:故\s*)?([A-D])项与[^。\n]{0,80}相符/) ||
+    chunk.match(/(?:答案|正确答案)[：:]\s*([A-D])/i)
+  return m?.[1] ?? null
+}
+
+/**
+ * 从「英语六级解析」PDF 提取听力原文、选择题与答案（常见于 2023.12 等详解册）。
+ * @returns {{ sentences: string[], questions: { number, stem, options }[], answers: Map<number,string> }}
+ */
+function parseListeningFromAnalysisPdf(text) {
+  const start = text.search(/Part\s*II[\s\S]*?Listening/i)
+  const end = text.search(/Part\s*III[\s\S]*?Reading|Part\s*IV[\s\S]*?Translation/i)
+  if (start < 0) {
+    return { sentences: [], questions: [], answers: new Map() }
+  }
+  const section = text.slice(start, end > start ? end : start + 80000)
+
+  const sentences = []
+  const senRe = /(?:^|\n)([MW]):\s*([^\n]+)/g
+  let sm
+  while ((sm = senRe.exec(section))) {
+    const line = sm[2].replace(/\s+/g, ' ').trim()
+    if (line.length > 2) sentences.push(`${sm[1]}: ${line}`)
+  }
+
+  const answers = new Map()
+  const questions = []
+  const qRe =
+    /(\d{1,2})\.\s*((?:What|Why|How|Which|Where|Who|According|To\s|Wat)[\s\S]*?)(?=\n\d{1,2}\.\s+(?:What|Why|How|Which|Where|Who|According|To\s|Wat)|$)/gi
+  let m
+  while ((m = qRe.exec(section))) {
+    const num = Number(m[1])
+    if (num < 1 || num > 25) continue
+    const chunk = m[2]
+    const stemRaw = chunk.split(/\n/)[0] ?? chunk
+    const stem = englishListeningStem(stemRaw)
+    if (stem.length < 8) continue
+    const options = extractChineseMcqOptions(chunk)
+    if (!options) continue
+    const letter = extractAnswerLetterFromChunk(chunk)
+    if (letter) answers.set(num, letter)
+    questions.push({ number: num, stem, options })
+  }
+
+  const byNum = new Map()
+  for (const q of questions) byNum.set(q.number, q)
+  return {
+    sentences,
+    questions: [...byNum.values()].sort((a, b) => a.number - b.number),
+    answers,
+  }
+}
+
+function mergeListeningQuestions(primary, fromAnalysis) {
+  const byNum = new Map(primary.map((q) => [q.number, { ...q }]))
+  for (const aq of fromAnalysis) {
+    const existing = byNum.get(aq.number)
+    if (existing) {
+      byNum.set(aq.number, {
+        ...existing,
+        stem: aq.stem || existing.stem,
+        options:
+          aq.options?.length === 4 && !/^见试卷选项/.test(aq.options[0])
+            ? aq.options
+            : existing.options,
+      })
+    } else {
+      byNum.set(aq.number, aq)
+    }
+  }
+  return [...byNum.values()].sort((a, b) => a.number - b.number)
 }
 
 /** 扫描卷仅有录音时：生成可播放的听力板块（题干见纸质卷） */
@@ -521,11 +673,12 @@ function parseSectionB(examId, examText, answerText, setNum) {
   const paragraphs = paraMatches
     .map((m) => ({
       label: m[1],
-      text: m[2]
-        .replace(/--\s*\d+\s+of\s+\d+\s+--/g, '')
-        .replace(/\n+/g, ' ')
-        .replace(/\s+/g, ' ')
-        .trim(),
+      text: cleanPdfArtifacts(
+        m[2]
+          .replace(/\n+/g, ' ')
+          .replace(/\s+/g, ' ')
+          .trim(),
+      ),
     }))
     .filter((p) => p.text.length > 20)
 
@@ -535,7 +688,7 @@ function parseSectionB(examId, examText, answerText, setNum) {
   while ((sm = stmtRe.exec(secText))) {
     const num = Number(sm[1])
     if (num < 36 || num > 45) continue
-    const text = sm[2].replace(/\s+/g, ' ').trim()
+    const text = cleanPdfArtifacts(sm[2].replace(/\s+/g, ' ').trim())
     if (text.length > 10) statements.push({ id: `s${num}`, text, num })
   }
 
@@ -580,12 +733,6 @@ function parseCarefulReading(examId, examText, answerText, setNum) {
     const passageMatch = body.match(
       /following passage\.\s*([\s\S]*?)(?=Questions \d+ to|$)/i,
     )
-    const passage = (passageMatch?.[1] ?? body)
-      .replace(/--\s*\d+\s+of\s+\d+\s+--/g, '')
-      .replace(/\n+/g, ' ')
-      .replace(/\s+/g, ' ')
-      .trim()
-      .slice(0, 8000)
     const qRe = /(\d{2})\.\s*([\s\S]*?)(?=\n\s*\d{2}\.\s*|\n\s*Passage |$)/g
     const questions = []
     let m
@@ -594,11 +741,13 @@ function parseCarefulReading(examId, examText, answerText, setNum) {
       if (num < 46 || num > 55) continue
       const block = m[0]
       if (!/A\)/.test(block)) continue
-      const stem = m[2]
-        .split(/\n\s*A\)/)[0]
-        .replace(/\s+/g, ' ')
-        .trim()
-      const options = extractMcqOptions(block)
+      const stem = cleanPdfArtifacts(
+        m[2]
+          .split(/\n\s*A\)/)[0]
+          .replace(/\s+/g, ' ')
+          .trim(),
+      )
+      const options = extractMcqOptions(block).map((o) => cleanPdfArtifacts(o.replace(/^[A-D][.)]\s*/i, '')))
       if (options.length !== 4) continue
       const letter = answerLetters[ai++] ?? 'A'
       questions.push({
@@ -609,6 +758,12 @@ function parseCarefulReading(examId, examText, answerText, setNum) {
         explanation: `官方答案：${letter}。`,
       })
     }
+    const rawPassage = (passageMatch?.[1] ?? body)
+      .replace(/\n+/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .slice(0, 8000)
+    const passage = cleanCarefulPassage(rawPassage, questions)
     if (passage && questions.length) {
       items.push({
         id: `${examId}-set${setNum}-read-careful-${pi + 1}`,
@@ -640,7 +795,11 @@ function copyAudioFiles(examId, sourceDir, profile, sets) {
     const patterns = profile.mp3Patterns(set)
     const destName = `set-${set}.mp3`
     const dest = path.join(audioOutDir, destName)
-    let hit = mp3s.find((f) => patterns.some((p) => p.test(path.basename(f))))
+    let hit = mp3s.find((f) => {
+      const base = path.basename(f)
+      const rel = path.relative(sourceDir, f).replace(/\\/g, '/')
+      return patterns.some((p) => p.test(base) || p.test(rel))
+    })
     if (!hit && sharedHit && set === profile.sharedMp3Set) hit = sharedHit
     if (!hit && sharedHit && profile.sharedMp3Set) hit = sharedHit
     if (hit) {
@@ -686,14 +845,47 @@ function mergeBundles(existing, incoming) {
 }
 
 async function main() {
-  const { examId, source, label, date, profile, sets, merge } = parseArgs()
+  const { examId, source, label, date, profile, sets, merge, audioOnly } = parseArgs()
   if (!fs.existsSync(source)) {
     console.error(`Source folder not found: ${source}`)
     process.exit(1)
   }
 
-  console.log(`Importing ${examId} from:\n  ${source}`)
-  console.log(`Sets: ${sets.join(', ')}${merge ? ' (merge)' : ''}`)
+  console.log(`${audioOnly ? 'Copying audio' : 'Importing'} ${examId} from:\n  ${source}`)
+  console.log(`Sets: ${sets.join(', ')}${merge ? ' (merge)' : ''}${audioOnly ? ' (audio only)' : ''}`)
+
+  const audioManifest = copyAudioFiles(examId, source, profile, sets)
+  const audioOutDir = path.join(rootDir, `public/audio/exams/${examId}`)
+  duplicateSet3FromSet2(audioManifest, audioOutDir)
+
+  if (audioOnly) {
+    const outPath = path.join(dataExamsDir, `${examId}.json`)
+    let bundle
+    if (fs.existsSync(outPath)) {
+      bundle = JSON.parse(fs.readFileSync(outPath, 'utf8'))
+      bundle.audioManifest = audioManifest
+    } else {
+      bundle = {
+        meta: { id: examId, label, date },
+        audioManifest,
+        gaps: [],
+        listening: [],
+        reading: [],
+        translation: [],
+        writing: [],
+      }
+    }
+    fs.mkdirSync(dataExamsDir, { recursive: true })
+    fs.writeFileSync(outPath, JSON.stringify(bundle, null, 2), 'utf8')
+    console.log('Audio copy complete:', outPath)
+    console.log('Audio:', audioManifest.map((a) => `${a.set}=${a.status}`).join(', '))
+    const missing = audioManifest.filter((a) => a.status === 'missing')
+    if (missing.length) {
+      console.log('\nMissing MP3 for sets:', missing.map((a) => a.set).join(', '))
+      process.exitCode = 1
+    }
+    return
+  }
 
   const exclude = profile.examPdfExclude
   const examPdfs = Object.fromEntries(
@@ -703,19 +895,6 @@ async function main() {
     sets.map((n) => [n, findFile(source, profile.answerPdf(n))]),
   )
 
-  const audioManifest = copyAudioFiles(examId, source, profile, sets)
-  const audioOutDir = path.join(rootDir, `public/audio/exams/${examId}`)
-  const set2Audio = audioManifest.find((a) => a.set === 2 && a.status === 'ok')
-  const set3Audio = audioManifest.find((a) => a.set === 3)
-  if (set3Audio?.status === 'missing' && set2Audio) {
-    const src = path.join(audioOutDir, 'set-2.mp3')
-    const dest = path.join(audioOutDir, 'set-3.mp3')
-    if (fs.existsSync(src)) {
-      fs.copyFileSync(src, dest)
-      set3Audio.status = 'ok'
-      set3Audio.source = `${set2Audio.source}（与第2套听力相同）`
-    }
-  }
   const listening = []
   const reading = []
   const translation = []
@@ -755,38 +934,87 @@ async function main() {
       gaps.push('第3套听力题目未单独导入（与第2套音频相同）。')
     } else if (docxPath) {
       const docxText = normalizeText(await readDocxText(docxPath))
-      const lq = parseListeningFromDocx(docxText)
-      const la = scanAnswer ? new Map() : parseListeningAnswers(answerText)
-      const sentences = parseListeningSentencesFromDocx(docxText)
+      let lq = parseListeningFromDocx(docxText)
+      let la = scanAnswer ? new Map() : parseListeningAnswers(answerText)
+      let sentences = parseListeningSentencesFromDocx(docxText)
+      if (hasAnalysisListening(answerText)) {
+        const analysis = parseListeningFromAnalysisPdf(answerText)
+        if (analysis.sentences.length > sentences.length) sentences = analysis.sentences
+        lq = mergeListeningQuestions(lq, analysis.questions)
+        for (const [n, letter] of analysis.answers) {
+          if (!la.has(n)) la.set(n, letter)
+        }
+      }
+      listening.push(
+        ...buildListeningItems(examId, setNum, lq, la, audioUrl ?? '', true, sentences),
+      )
+      if (!audioUrl) gaps.push(`第${setNum}套：听力 MP3 未就绪`)
+      if (lq.length < 20) {
+        gaps.push(`第${setNum}套：从听力原文解析到 ${lq.length}/25 题`)
+      }
+    } else if (
+      ansPath &&
+      hasAnalysisListening(answerText) &&
+      audioUrl &&
+      !noListening
+    ) {
+      const analysis = parseListeningFromAnalysisPdf(answerText)
       listening.push(
         ...buildListeningItems(
           examId,
           setNum,
-          lq,
-          la,
-          audioUrl ?? '',
+          analysis.questions,
+          analysis.answers,
+          audioUrl,
           true,
-          sentences,
+          analysis.sentences,
         ),
       )
-      if (!audioUrl) gaps.push(`第${setNum}套：听力 MP3 未就绪`)
-      if (lq.length < 20) {
-        gaps.push(`第${setNum}套：从听力原文 docx 解析到 ${lq.length}/25 题（选项见纸质卷）`)
+      if (analysis.questions.length < 20) {
+        gaps.push(`第${setNum}套：从解析 PDF 导入 ${analysis.questions.length}/25 道听力题`)
       }
-      if (scanAnswer) {
-        gaps.push(`第${setNum}套：听力选项在试卷 PDF 上，答案请对照「答案及详解」`)
+      if (analysis.answers.size < 15) {
+        gaps.push(`第${setNum}套：部分听力答案未能从解析 PDF 自动识别`)
       }
     } else if (scanExam && audioUrl) {
       listening.push(...buildListeningStubItems(examId, setNum, audioUrl))
       gaps.push(`第${setNum}套：已导入听力录音；题目与选项请用纸质试卷作答`)
     } else if (!scanExam) {
       const lq = parseListeningQuestions(examText)
-      const la = parseListeningAnswers(answerText)
-      listening.push(
-        ...buildListeningItems(examId, setNum, lq, la, audioUrl ?? '', !noListening),
-      )
-      if (!audioUrl) gaps.push(`第${setNum}套：听力 MP3 未就绪（百度网盘下载中或缺失）`)
-      if (lq.length < 20) gaps.push(`第${setNum}套：仅解析到 ${lq.length}/25 道听力选择题`)
+      let la = parseListeningAnswers(answerText)
+      if (audioUrl && lq.length < 5 && !noListening && hasAnalysisListening(answerText)) {
+        const analysis = parseListeningFromAnalysisPdf(answerText)
+        listening.push(
+          ...buildListeningItems(
+            examId,
+            setNum,
+            analysis.questions,
+            analysis.answers,
+            audioUrl,
+            true,
+            analysis.sentences,
+          ),
+        )
+        if (analysis.questions.length < 20) {
+          gaps.push(`第${setNum}套：从解析 PDF 导入 ${analysis.questions.length}/25 道听力题`)
+        }
+      } else if (audioUrl && lq.length < 5 && !noListening) {
+        listening.push(...buildListeningStubItems(examId, setNum, audioUrl))
+        gaps.push(`第${setNum}套：已导入听力录音；试卷未解析出听力题，请用纸质卷或详解作答`)
+      } else {
+        if (hasAnalysisListening(answerText) && la.size < 10) {
+          const analysis = parseListeningFromAnalysisPdf(answerText)
+          la = analysis.answers
+        }
+        listening.push(
+          ...buildListeningItems(examId, setNum, lq, la, audioUrl ?? '', !noListening),
+        )
+        if (!audioUrl) gaps.push(`第${setNum}套：听力 MP3 未就绪（百度网盘下载中或缺失）`)
+        if (lq.length < 20) gaps.push(`第${setNum}套：仅解析到 ${lq.length}/25 道听力选择题`)
+      }
+    } else if (audioUrl && !noListening) {
+      listening.push(...buildListeningStubItems(examId, setNum, audioUrl))
+      gaps.push(`第${setNum}套：已导入听力录音；阅读/听力题请用纸质卷`)
     }
 
     if (scanExam) {

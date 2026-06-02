@@ -34,6 +34,8 @@ export function ListeningRunner({
   const examAudio = useExamAudio(item.audioUrl)
   const tts = useTTS(hasScript ? item.sentences : [''])
   const useRealAudio = examAudio.available
+  const examAudioLoading = Boolean(item.audioUrl?.trim()) && examAudio.loading
+  const examAudioMissing = Boolean(item.audioUrl?.trim()) && examAudio.loadFailed
   const [stage, setStage] = useState<'listen' | 'quiz'>('listen')
   const [qi, setQi] = useState(0)
   const [selected, setSelected] = useState<number | null>(null)
@@ -116,9 +118,18 @@ export function ListeningRunner({
       </div>
 
       <div className="card tts-card">
+        {examAudioLoading ? (
+          <div className="tts-hint">真题录音加载中…</div>
+        ) : null}
+        {examAudioMissing ? (
+          <div className="tts-warn">
+            未找到录音文件。请确认 <code>public/audio/exams</code> 下已有 MP3，并重新执行{' '}
+            <code>npm run build:android</code> 安装 APK。
+          </div>
+        ) : null}
         {useRealAudio ? (
           <>
-            <div className="tts-warn exam-audio-badge">真题录音（本地导入）</div>
+            <div className="tts-warn exam-audio-badge">真题录音</div>
             <div className="tts-controls">
               <button
                 className="btn btn-primary tts-play"
@@ -143,10 +154,10 @@ export function ListeningRunner({
               <p className="exam-audio-hint">{item.transcript}</p>
             )}
           </>
-        ) : (
+        ) : examAudioMissing && !hasScript ? null : (
           <>
             {!tts.supported ? (
-              <div className="tts-warn">浏览器无法朗读，请查看原文作答。</div>
+              <div className="tts-warn">无法朗读，请查看原文作答。</div>
             ) : tts.voicesLoading ? (
               <div className="tts-hint">语音加载中… 可先查看原文，或点此播放</div>
             ) : (

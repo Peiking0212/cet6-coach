@@ -1,66 +1,10 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
-import { assetUrl } from '@/lib/assetUrl'
+import { useExamAudioWeb } from './useExamAudioWeb'
 
+/**
+ * Exam MP3 playback. Uses HTML5 Audio in browser and inside the Capacitor WebView
+ * (reliable for bundled dist/audio). @capgo/native-audio cannot load https://localhost
+ * assets on Android and shows a stuck notification with no sound.
+ */
 export function useExamAudio(audioUrl?: string) {
-  const resolvedUrl = assetUrl(audioUrl)
-  const audioRef = useRef<HTMLAudioElement | null>(null)
-  const [playing, setPlaying] = useState(false)
-  const [rate, setRateState] = useState(1)
-  const available = Boolean(resolvedUrl?.trim())
-
-  useEffect(() => {
-    if (!resolvedUrl) return
-    const el = new Audio(resolvedUrl)
-    el.preload = 'auto'
-    audioRef.current = el
-    const onPlay = () => setPlaying(true)
-    const onPause = () => setPlaying(false)
-    const onEnded = () => setPlaying(false)
-    el.addEventListener('play', onPlay)
-    el.addEventListener('pause', onPause)
-    el.addEventListener('ended', onEnded)
-    el.load()
-    return () => {
-      el.pause()
-      el.removeEventListener('play', onPlay)
-      el.removeEventListener('pause', onPause)
-      el.removeEventListener('ended', onEnded)
-      audioRef.current = null
-    }
-  }, [resolvedUrl])
-
-  const play = useCallback(() => {
-    const el = audioRef.current
-    if (!el) return
-    el.playbackRate = rate
-    void el.play().catch(() => {
-      setPlaying(false)
-    })
-  }, [rate])
-
-  const stop = useCallback(() => {
-    const el = audioRef.current
-    if (!el) return
-    el.pause()
-    el.currentTime = 0
-  }, [])
-
-  const toggle = useCallback(() => {
-    const el = audioRef.current
-    if (!el) return
-    if (el.paused) {
-      el.playbackRate = rate
-      void el.play().catch(() => setPlaying(false))
-    } else {
-      el.pause()
-    }
-  }, [rate])
-
-  const setRate = useCallback((r: number) => {
-    setRateState(r)
-    const el = audioRef.current
-    if (el) el.playbackRate = r
-  }, [])
-
-  return { available, playing, rate, play, stop, toggle, setRate }
+  return useExamAudioWeb(audioUrl)
 }

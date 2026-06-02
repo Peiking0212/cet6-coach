@@ -11,6 +11,7 @@ import { QuizBar } from '@/components/QuizBar'
 import { MCQ } from '@/components/MCQ'
 import { AiExplain } from '@/components/AiExplain'
 import { ResultSummary } from '@/components/ResultSummary'
+import { sanitizeCarefulItem } from '@/lib/sanitizeReadingItem'
 
 const LETTERS = ['A', 'B', 'C', 'D']
 
@@ -25,6 +26,7 @@ export function CarefulRunner({
 }) {
   const { state, record, setStars } = useStore()
   const { onCorrect } = useEncourage()
+  const clean = useMemo(() => sanitizeCarefulItem(item), [item])
   const diff = moduleDifficulty(state, 'reading')
   const [qi, setQi] = useState(0)
   const [selected, setSelected] = useState<number | null>(null)
@@ -34,7 +36,7 @@ export function CarefulRunner({
   const agg = useMemo(() => ({ correct: 0, wrong: [] as WrongItem[] }), [])
   const [showPassage, setShowPassage] = useState(true)
 
-  const q = item.questions[qi]
+  const q = clean.questions[qi]
 
   const check = () => {
     if (selected === null) return
@@ -59,17 +61,17 @@ export function CarefulRunner({
   }
 
   const next = () => {
-    if (qi + 1 < item.questions.length) {
+    if (qi + 1 < clean.questions.length) {
       setQi(qi + 1)
       setSelected(null)
       setRevealed(false)
     } else {
-      const total = item.questions.length
+      const total = clean.questions.length
       const stars = agg.correct / total >= 0.9 ? 3 : agg.correct / total >= 0.6 ? 2 : 1
       record({
         module: 'reading',
         refId: item.id,
-        refTitle: item.title,
+        refTitle: clean.title,
         correct: agg.correct,
         total,
         timeMs: ms,
@@ -81,7 +83,7 @@ export function CarefulRunner({
   }
 
   if (done) {
-    const total = item.questions.length
+    const total = clean.questions.length
     const stars = agg.correct / total >= 0.9 ? 3 : agg.correct / total >= 0.6 ? 2 : 1
     return (
       <div className="runner">
@@ -96,17 +98,17 @@ export function CarefulRunner({
         <button className="btn btn-ghost runner-back" onClick={onExit}>
           ← 返回
         </button>
-        <div className="runner-title">{item.title}</div>
+        <div className="runner-title">{clean.title}</div>
       </div>
 
       <div className="card passage-card">
         <button className="passage-toggle" onClick={() => setShowPassage((s) => !s)}>
           {showPassage ? '收起原文 ▲' : '展开原文 ▼'}
         </button>
-        {showPassage && <div className="passage-text">{item.passage}</div>}
+        {showPassage && <div className="passage-text">{clean.passage}</div>}
       </div>
 
-      <QuizBar index={qi} total={item.questions.length} timeMs={ms} combo={state.combo} difficulty={diff} />
+      <QuizBar index={qi} total={clean.questions.length} timeMs={ms} combo={state.combo} difficulty={diff} />
 
       <div className="card q-card">
         <div className="q-stem">
@@ -149,7 +151,7 @@ export function CarefulRunner({
         </button>
       ) : (
         <button className="btn btn-primary runner-next" onClick={next}>
-          {qi + 1 < item.questions.length ? '下一题' : '查看成绩'}
+          {qi + 1 < clean.questions.length ? '下一题' : '查看成绩'}
         </button>
       )}
     </div>

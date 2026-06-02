@@ -4,8 +4,12 @@ import {
   useEffect,
   useMemo,
   useReducer,
+  useRef,
+  useState,
   type ReactNode,
 } from 'react'
+import { initAppStorage, storageGet, storageSet } from '@/lib/appStorage'
+import { configureNativeAudio } from '@/lib/nativeAudioSetup'
 import type { ModuleType } from '@/data/types'
 import type { AttemptResult, WrongItem } from '@/engine/types'
 import type { AiConfig, PlacementLevel, StoreState, ThemeMode, VocabGrade } from './types'
@@ -288,9 +292,9 @@ function reducer(state: StoreState, action: Action): StoreState {
   }
 }
 
-function loadState(): StoreState {
+async function loadState(): Promise<StoreState> {
   try {
-    const raw = localStorage.getItem(STORE_KEY)
+    const raw = await storageGet(STORE_KEY)
     if (!raw) return makeDefaultState()
     const parsed = JSON.parse(raw) as Partial<StoreState>
     return mergeImportedState(parsed)
@@ -333,15 +337,38 @@ interface StoreApi {
 const StoreContext = createContext<StoreApi | null>(null)
 
 export function StoreProvider({ children }: { children: ReactNode }) {
-  const [state, dispatch] = useReducer(reducer, undefined, loadState)
+  const [ready, setReady] = useState(false)
+  const [state, dispatch] = useReducer(reducer, undefined, makeDefaultState)
+  const persistSkip = useRef(true)
 
   useEffect(() => {
-    try {
-      localStorage.setItem(STORE_KEY, JSON.stringify(state))
-    } catch {
-      /* ignore quota errors */
+    let cancelled = false
+    void (async () => {
+      await initAppStorage()
+      await configureNativeAudio()
+      const loaded = await loadState()
+      if (!cancelled) {
+        dispatch({ type: 'hydrate', state: loaded })
+        persistSkip.current = true
+        setReady(true)
+      }
+    })()
+    return () => {
+      cancelled = true
     }
-  }, [state])
+  }, [])
+
+  useEffect(() => {
+    if (!ready) return
+    if (persistSkip.current) {
+      persistSkip.current = false
+      return
+    }
+    const timer = window.setTimeout(() => {
+      void storageSet(STORE_KEY, JSON.stringify(state))
+    }, 250)
+    return () => window.clearTimeout(timer)
+  }, [state, ready])
 
   const api = useMemo<StoreApi>(
     () => ({
@@ -375,6 +402,17 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     }),
     [state],
   )
+
+  if (!ready) {
+    return (
+      <div className="app-boot" role="status" aria-live="polite">
+        <div className="app-boot-card">
+          <div className="app-boot-title">六级陪练</div>
+          <p className="app-boot-hint">正在加载学习记录…</p>
+        </div>
+      </div>
+    )
+  }
 
   return <StoreContext.Provider value={api}>{children}</StoreContext.Provider>
 }

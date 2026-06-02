@@ -16,12 +16,6 @@
       "file": "/audio/exams/2024-06/set-2.mp3",
       "status": "ok",
       "source": "E:\\BaiduNetdiskDownload\\2024年6月六级真题和答案\\2024年6月六级真题（第2套）.mp3"
-    },
-    {
-      "set": 3,
-      "file": "/audio/exams/2024-06/set-3.mp3",
-      "status": "missing",
-      "source": null
     }
   ],
   "gaps": [
@@ -148,7 +142,7 @@
             "A blur.",
             "Stars.",
             "The edge of our galaxy.",
-            "An ordinary flying object. -- 1 of 10 --"
+            "An ordinary flying object."
           ],
           "answerIndex": 0,
           "explanation": "官方答案：A。"
@@ -319,7 +313,7 @@
             "Because they are learned.",
             "Because they come naturally.",
             "Because they have to be properly personalized.",
-            "Because there can be more effective strategies. -- 2 of 10 --"
+            "Because there can be more effective strategies."
           ],
           "answerIndex": 0,
           "explanation": "官方答案：A。"
@@ -604,7 +598,7 @@
           "id": "q8",
           "stem": "Question 8",
           "options": [
-            "They have helped boost the local economy. -- 1 of 10 --",
+            "They have helped boost the local economy.",
             "They have made the residents unusually proud.",
             "They have contributed considerably to its popularity.",
             "They have brought happiness to everyone in the village."
@@ -775,7 +769,7 @@
           "id": "q17",
           "stem": "Question 17",
           "options": [
-            "Their belief about physical punishment changed. -- 2 of 10 --",
+            "Their belief about physical punishment changed.",
             "Their memory pushed them toward a current belief.",
             "The memory of their initial belief came back to them.",
             "Their experiences of physical punishment haunted them."
@@ -940,7 +934,7 @@
       ],
       "examSet": "2024-06",
       "examPaper": 1,
-      "passage": "It is irrefutable that employees know the difference between right and wrong. So why don't more employees intervene when they see someone exhibiting at-risk behavior in the workplace? There are a number of factors that influence whether people intervene. First, they need to be able to see a risky situation beginning to unfold. Second, the company's culture needs to make them feel safe to speak up. And third, they need to have the communication skills to say something effectively. This is not strictly a workplace problem; it's a growing problem off the job too. Every day people witness things on the street and choose to stand idly by. This is known as the bystander effect—the more people who witness an event, the less likely anyone in that group is to help the victim. The psychology behind this is called diffusion of responsibility. Basically, the larger the crowd, the more people assume that someone else will take care of it—meaning no one effectively intervenes or acts in a moment of need. This crowd mentality is strong enough for people to evade their known responsibilities. But it's not only frontline workers who don't make safety interventions in the workplace. There are also instances where supervisors do not intervene either. When a group of employees sees unsafe behavior not being addressed at a leadership level it creates the precedent that this is how these situations should be addressed, thus defining the safety culture for everyone. Despite the fact that workers are encouraged to intervene when they observe unsafe operations, this happens less than half of the time. Fear is the ultimate factor in not intervening. There is a fear of penalty, a fear that they'll have to do more work if they intervene. Unsuccessful attempts in the past are another strong contributing factor to why people don't intervene—they tend to prefer to defer that action to someone else for all future situations. On many worksites, competent workers must be appointed. Part of their job is to intervene when workers perform a task without the proper equipment or if the conditions are unsafe. Competent workers are also required to stop work from continuing when there's a danger. Supervisors also play a critical role. Even if a competent person isn't required, supervisors need a broad set of skills to not only identify and alleviate workplace hazards but also build a safety climate within their team that supports intervening and open communication among them. Beyond competent workers and supervisors, it's important to educate everyone within the organization that they are obliged to intervene if they witness a possible unsafe act, whether you're a designated competent person, a supervisor or a frontline worker. 46. What is one of the factors contributing to failure of intervention in face of risky behavior in the workplace? A) Slack supervision style. C) Unforeseeable risk. B) Unfavorable workplace culture. D) Blocked communication. 47. What does the author mean by \"diffusion of responsibility\" (Line 4, Para. 3)? A) The more people are around, the more they need to worry about their personal safety. B) The more people who witness an event, the less likely anyone will venture to participate. C) The more people idling around on the street, the more likely they need taking care of. D) The more people are around, the less chance someone will step forward to intervene. 48. What happens when unsafe behavior at the workplace is not addressed by the leaders? A) No one will intervene when they see similar behaviors. B) Everyone will see it as the easiest way to deal with crisis. C) Workers have to take extra caution executing their duties. D) Workers are left to take care of the emergency themselves. 49. What is the ultimate reason workers won't act when they see unsafe operations? A) Preference of deferring the action to others. C) Fear of being isolated by coworkers. B) Anticipation of leadership intervention. D) Fear of having to do more work. 50. What is critical to ensuring workplace safety? A) Workers be trained to operate their equipment properly. B) Workers exhibiting at-risk behavior be strictly disciplined. C) Supervisors create a safety environment for timely intervention. D) Supervisors conduct effective communication with frontline workers.",
+      "passage": "It is irrefutable that employees know the difference between right and wrong. So why don't more employees intervene when they see someone exhibiting at-risk behavior in the workplace? There are a number of factors that influence whether people intervene. First, they need to be able to see a risky situation beginning to unfold. Second, the company's culture needs to make them feel safe to speak up. And third, they need to have the communication skills to say something effectively. This is not strictly a workplace problem; it's a growing problem off the job too. Every day people witness things on the street and choose to stand idly by. This is known as the bystander effect—the more people who witness an event, the less likely anyone in that group is to help the victim. The psychology behind this is called diffusion of responsibility. Basically, the larger the crowd, the more people assume that someone else will take care of it—meaning no one effectively intervenes or acts in a moment of need. This crowd mentality is strong enough for people to evade their known responsibilities. But it's not only frontline workers who don't make safety interventions in the workplace. There are also instances where supervisors do not intervene either. When a group of employees sees unsafe behavior not being addressed at a leadership level it creates the precedent that this is how these situations should be addressed, thus defining the safety culture for everyone. Despite the fact that workers are encouraged to intervene when they observe unsafe operations, this happens less than half of the time. Fear is the ultimate factor in not intervening. There is a fear of penalty, a fear that they'll have to do more work if they intervene. Unsuccessful attempts in the past are another strong contributing factor to why people don't intervene—they tend to prefer to defer that action to someone else for all future situations. On many worksites, competent workers must be appointed. Part of their job is to intervene when workers perform a task without the proper equipment or if the conditions are unsafe. Competent workers are also required to stop work from continuing when there's a danger. Supervisors also play a critical role. Even if a competent person isn't required, supervisors need a broad set of skills to not only identify and alleviate workplace hazards but also build a safety climate within their team that supports intervening and open communication among them. Beyond competent workers and supervisors, it's important to educate everyone within the organization that they are obliged to intervene if they witness a possible unsafe act, whether you're a designated competent person, a supervisor or a frontline worker.",
       "questions": [
         {
           "id": "q46",
@@ -1019,7 +1013,7 @@
       ],
       "examSet": "2024-06",
       "examPaper": 1,
-      "passage": "The term \"environmentalist\" can mean different things. It used to refer to people trying to protect wildlife and natural ecosystems. In the 21st century, the term has evolved to capture the need to combat human-made climate change. The distinction between these two strands of environmentalism is the cause of a split within the scientific community about nuclear energy. On one side are purists who believe nuclear power isn't worth the risk and the exclusive solution to the climate crisis is renewable energy. The opposing side agrees that renewables are crucial, but says society needs an amount of power available to meet consumers' basic demands when the sun isn't shining and the wind isn't blowing. Nuclear energy, being far cleaner than oil, gas and coal, is a natural option, especially where hydroelectric capacity is limited. Leon Clarke, who helped author reports for the UN's Intergovernmental Panel on Climate Change, isn't an uncritical supporter of nuclear energy, but says it's a valuable option to have if we're serious about reaching carbon neutrality. \"Core to all of this is the degree to which you think we can actually meet climate goals with 100% renewables,\" he said. \"If you don't believe we can do it, and you care about the climate, you are forced to think about something like nuclear.\" The achievability of universal 100% renewability is similarly contentious. Cities such as Burlington, Vermont, have been \"100% renewable\" for years. But these cities often have small populations, occasionally still rely on fossil fuel energy and have significant renewable resources at their immediate disposal. Meanwhile, countries that manage to run off renewables typically do so thanks to extraordinary hydroelectric capabilities. Germany stands as the best case study for a large, industrialized country pushing into green energy. Chancellor Angela Merkel in 2011 announced Energiewende, an energy transition that would phase out nuclear and coal while phasing in renewables. Wind and solar power generation has increased over 400% since 2010, and renewables provided 46% of the country's electricity in 2019. But progress has halted in recent years. The instability of renewables doesn't just mean energy is often not produced at night, but also that solar and wind can overwhelm the grid during the day, forcing utilities to pay customers to use their electricity. Lagging grid infrastructure struggles to transport this overabundance of green energy from Germany's north to its industrial south, meaning many factories still run on coal and gas. The political limit has also been reached in some places, with citizens meeting the construction of new wind turbines with loud protests. The result is that Germany's greenhouse gas emissions have fallen by around 11.5% since 2010—slower than the EU average of 13.5%. 51. What accounts for the divide within the scientific community about nuclear energy? A) Attention to combating human-made climate change. B) Emphasis on protecting wildlife and natural ecosystems. C) Evolution of the term 'green energy' over the last century. D) Adherence to different interpretations of environmentalism. 52. What is the solution to energy shortage proposed by purists' opponents? A) Relying on renewables firmly and exclusively. B) Using fossil fuel and green energy alternately. C) Opting for nuclear energy when necessary. D) Limiting people's non-basic consumption. 53. What point does the author want to make with cities like Burlington as an example? A) It is controversial whether the goal of the whole world's exclusive dependence on renewables is attainable. B) It is contentious whether cities with large populations have renewable resources at their immediate disposal. C) It is arguable whether cities that manage to run off renewables have sustainable hydroelectric capabilities. D) It is debatable whether traditional fossil fuel energy can be done away with entirely throughout the world. 54. What do we learn about Germany regarding renewable energy? A) It has increased its wind and solar power generation four times over the last two decades. B) It represents a good example of a major industrialized country promoting green energy. C) It relies on renewable energy to generate more than half of its electricity. D) It has succeeded in reaching the goal of energy transition set by Merkel. 55. What may be one of the reasons for Germany's progress having halted in recent years? A) Its grid infrastructure's capacity has fallen behind its development of green energy. B) Its overabundance of green energy has forced power plants to suspend operation during daytime. C) Its industrial south is used to running factories on conventional energy supplies. D) Its renewable energy supplies are unstable both at night and during the day.",
+      "passage": "The term \"environmentalist\" can mean different things. It used to refer to people trying to protect wildlife and natural ecosystems. In the 21st century, the term has evolved to capture the need to combat human-made climate change. The distinction between these two strands of environmentalism is the cause of a split within the scientific community about nuclear energy. On one side are purists who believe nuclear power isn't worth the risk and the exclusive solution to the climate crisis is renewable energy. The opposing side agrees that renewables are crucial, but says society needs an amount of power available to meet consumers' basic demands when the sun isn't shining and the wind isn't blowing. Nuclear energy, being far cleaner than oil, gas and coal, is a natural option, especially where hydroelectric capacity is limited. Leon Clarke, who helped author reports for the UN's Intergovernmental Panel on Climate Change, isn't an uncritical supporter of nuclear energy, but says it's a valuable option to have if we're serious about reaching carbon neutrality. \"Core to all of this is the degree to which you think we can actually meet climate goals with 100% renewables,\" he said. \"If you don't believe we can do it, and you care about the climate, you are forced to think about something like nuclear.\" The achievability of universal 100% renewability is similarly contentious. Cities such as Burlington, Vermont, have been \"100% renewable\" for years. But these cities often have small populations, occasionally still rely on fossil fuel energy and have significant renewable resources at their immediate disposal. Meanwhile, countries that manage to run off renewables typically do so thanks to extraordinary hydroelectric capabilities. Germany stands as the best case study for a large, industrialized country pushing into green energy. Chancellor Angela Merkel in 2011 announced Energiewende, an energy transition that would phase out nuclear and coal while phasing in renewables. Wind and solar power generation has increased over 400% since 2010, and renewables provided 46% of the country's electricity in 2019. But progress has halted in recent years. The instability of renewables doesn't just mean energy is often not produced at night, but also that solar and wind can overwhelm the grid during the day, forcing utilities to pay customers to use their electricity. Lagging grid infrastructure struggles to transport this overabundance of green energy from Germany's north to its industrial south, meaning many factories still run on coal and gas. The political limit has also been reached in some places, with citizens meeting the construction of new wind turbines with loud protests. The result is that Germany's greenhouse gas emissions have fallen by around 11.5% since 2010—slower than the EU average of 13.5%.",
       "questions": [
         {
           "id": "q51",
@@ -1061,7 +1055,7 @@
           "id": "q54",
           "stem": "What do we learn about Germany regarding renewable energy?",
           "options": [
-            "It has increased its wind and solar power generation four times over the last two decades. -- 9 of 10 --",
+            "It has increased its wind and solar power generation four times over the last two decades.",
             "It represents a good example of a major industrialized country promoting green energy.",
             "It relies on renewable energy to generate more than half of its electricity.",
             "It has succeeded in reaching the goal of energy transition set by Merkel."
@@ -1098,7 +1092,7 @@
       ],
       "examSet": "2024-06",
       "examPaper": 3,
-      "passage": "Sarcasm and jazz have something surprisingly in common: You know them when you hear them. Sarcasm is mostly understood through tone of voice, which is used to portray the opposite of the literal words. For example, when someone says, \"Well, that's exactly what I need right now,\" their tone can tell you it's not what they need at all. Most frequently, sarcasm highlights an irritation or is, quite simply, mean. If you want to be happier and improve your relationships, cut out sarcasm. Why? Because sarcasm is actually hostility disguised as humor. Despite smiling outwardly, many people who receive sarcastic comments feel put down and often think the sarcastic person is rude, or contemptible. Indeed, it's not surprising that the origin of the word sarcasm derives from the Greek word \"sarkazein\" which literally means \"to tear or strip the flesh off.\" Hence, it's no wonder that sarcasm is often preceded by the word \"cutting\" and that it hurts. What's more, since actions strongly determine thoughts and feelings, when a person consistently acts sarcastically it may only serve to heighten their underlying hostility and insecurity. After all, when you come right down to it, sarcasm can be used as a subtle form of bullying—and most bullies are angry, insecure, or cowardly. Alternatively, when a person stops voicing negative comments, especially sarcastic ones, they may soon start to feel happier and more self-confident. Also, other people in their life benefit even more because they no longer have to hear the emotionally hurtful language of sarcasm. Now, I'm not saying all sarcasm is bad. It may just be better used sparingly—like a potent spice in cooking. Too much of the spice, and the dish will be overwhelmed by it. Similarly, an occasional dash of sarcastic wit can spice up a chat and add an element of humor to it. But a big or steady serving of sarcasm will overwhelm the emotional flavor of any conversation and can taste very bitter to its recipient. So, tone down the sarcasm and work on clever wit instead, which is usually without any hostility and thus more appreciated by those you're communicating with. In essence, sarcasm is easy while true, harmless wit takes talent. Thus, the main difference between wit and sarcasm is that, as already stated, sarcasm is often hostility disguised as humor. It can be intended to hurt and is often bitter and biting. Witty statements are usually in response to someone's unhelpful remarks or behaviors, and the intent is to untangle and clarify the issue by emphasizing its absurdities. Sarcastic statements are expressed in a cutting manner; witty remarks are delivered with undisguised and harmless humor. 46. Why does the author say sarcasm and jazz have something surprisingly in common? A) Both are recognized when heard. C) Both mean the opposite of what they appear to. B) Both have exactly the same tone. D) Both have hidden in them an evident irritation. 47. How do many people feel when they hear sarcastic comments? A) They feel hostile towards the sarcastic person. B) They feel belittled and disrespected. C) They feel a strong urge to retaliate. D) They feel incapable of disguising their irritation. 48. What happens when a person consistently acts sarcastically? A) They feel their dignity greatly heightened. B) They feel increasingly insecure and hostile. C) They endure hostility under the disguise of humor. D) They taste bitterness even in pleasant interactions. 49. What does the author say about people quitting sarcastic comments? A) It makes others happier and more self-confident. B) It restrains them from being irritating and bullying. C) It benefits not only themselves but also those around them. D) It shields them from negative comments and outright hostility. 50. What is the chief difference between a speaker's wit and sarcasm? A) Their clarity. B) Their appreciation. C) Their emphasis. D) Their intention.",
+      "passage": "Sarcasm and jazz have something surprisingly in common: You know them when you hear them. Sarcasm is mostly understood through tone of voice, which is used to portray the opposite of the literal words. For example, when someone says, \"Well, that's exactly what I need right now,\" their tone can tell you it's not what they need at all. Most frequently, sarcasm highlights an irritation or is, quite simply, mean. If you want to be happier and improve your relationships, cut out sarcasm. Why? Because sarcasm is actually hostility disguised as humor. Despite smiling outwardly, many people who receive sarcastic comments feel put down and often think the sarcastic person is rude, or contemptible. Indeed, it's not surprising that the origin of the word sarcasm derives from the Greek word \"sarkazein\" which literally means \"to tear or strip the flesh off.\" Hence, it's no wonder that sarcasm is often preceded by the word \"cutting\" and that it hurts. What's more, since actions strongly determine thoughts and feelings, when a person consistently acts sarcastically it may only serve to heighten their underlying hostility and insecurity. After all, when you come right down to it, sarcasm can be used as a subtle form of bullying—and most bullies are angry, insecure, or cowardly. Alternatively, when a person stops voicing negative comments, especially sarcastic ones, they may soon start to feel happier and more self-confident. Also, other people in their life benefit even more because they no longer have to hear the emotionally hurtful language of sarcasm. Now, I'm not saying all sarcasm is bad. It may just be better used sparingly—like a potent spice in cooking. Too much of the spice, and the dish will be overwhelmed by it. Similarly, an occasional dash of sarcastic wit can spice up a chat and add an element of humor to it. But a big or steady serving of sarcasm will overwhelm the emotional flavor of any conversation and can taste very bitter to its recipient. So, tone down the sarcasm and work on clever wit instead, which is usually without any hostility and thus more appreciated by those you're communicating with. In essence, sarcasm is easy while true, harmless wit takes talent. Thus, the main difference between wit and sarcasm is that, as already stated, sarcasm is often hostility disguised as humor. It can be intended to hurt and is often bitter and biting. Witty statements are usually in response to someone's unhelpful remarks or behaviors, and the intent is to untangle and clarify the issue by emphasizing its absurdities. Sarcastic statements are expressed in a cutting manner; witty remarks are delivered with undisguised and harmless humor.",
       "questions": [
         {
           "id": "q46",
@@ -1116,7 +1110,7 @@
           "id": "q47",
           "stem": "How do many people feel when they hear sarcastic comments?",
           "options": [
-            "They feel hostile towards the sarcastic person. -- 5 of 8 --",
+            "They feel hostile towards the sarcastic person.",
             "They feel belittled and disrespected.",
             "They feel a strong urge to retaliate.",
             "They feel incapable of disguising their irritation."
@@ -1159,6 +1153,314 @@
           ],
           "answerIndex": 1,
           "explanation": "官方答案：B。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set1-read-paragraph",
+      "module": "reading",
+      "kind": "paragraph",
+      "title": "第1套 · 长篇匹配",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第1套",
+        "长篇匹配"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 1,
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "In the city of Athens, Georgia, there exists a rather curious local landmark—a large white oak that is almost universally stated to own itself. Because of this, it is considered one of the most famous trees in the world. So how did this tree come to own itself and the land around it?"
+        },
+        {
+          "label": "B",
+          "text": "Sometime in the 19th century a Georgian called Colonel William Jackson reportedly took a liking to the said tree and endeavored to protect it from any danger. As to why he loved it"
+        },
+        {
+          "label": "A",
+          "text": "alleviate F) inhibiting K) mandatory"
+        },
+        {
+          "label": "B",
+          "text": "clarity G) interrogation L) recover"
+        },
+        {
+          "label": "C",
+          "text": "cognitive H) intrinsically M) significantly"
+        },
+        {
+          "label": "D",
+          "text": "composers I) loose N) soothing"
+        },
+        {
+          "label": "E",
+          "text": "hurt J) majestic O) wards so, the earliest documented account of this story is an anonymously written front page article in the Athens Weekly Banner published on August 12, 1890. It states, \"Col. Jackson had watched the tree grow from his childhood, and grew to love it almost as he would a human. Its luxuriant leaves and sturdy limbs had often protected him from the heavy rains, and out of its highest branches he had many a time gotten the eggs of the feathered singers. He watched its growth, and when reaching a ripe old age he saw the tree standing in its magnificent proportions, he was pained to think that after his death it would fall into the hands of those who might destroy it.\""
+        },
+        {
+          "label": "C",
+          "text": "Towards this end, Jackson transferred by means of a deed ownership of the tree and a little land around it to the tree itself. The deed read, \"W. H. Jackson for and in consideration of the great affection which he bears the said tree, and his great desire to see it protected has conveyed unto the said oak tree entire possession of itself and of all land within eight feet of it on all sides.\""
+        },
+        {
+          "label": "D",
+          "text": "In time, the tree came to be something of a tourist attraction, known as The Tree That Owns Itself. However, in the early 20th century, the tree started showing signs of its slow death, with little that could be done about it. Father time comes for us all eventually, even our often long lived, tall and leafy fellow custodians (看管者) of Earth. Finally, on October 9, 1942, the over 30 meter tall and 200-400 year old tree fell, rumor has it, as a result of a severe windstorm and/or via having previously died and its roots rotted."
+        },
+        {
+          "label": "E",
+          "text": "About four years later, members of the Junior Ladies Garden Club (who'd tended to the tree before its unfortunate death) tracked down a small tree grown from a nut taken from the original tree. And so it was that on October 9, 1946, under the direction of Professor Roy Bowden of the College of Agriculture at the University of Georgia, this little tree was transplanted to the location of its ancestor. A couple of months later, an official ceremony was held featuring none other than the Mayor of Athens, Robert L McWhorter, to commemorate the occasion."
+        },
+        {
+          "label": "F",
+          "text": "This new tree became known as The Son of the Tree That Owns Itself and it was assumed that, as the original tree's heir, it naturally inherited the land it stood on. Of course, there are many dozens of other trees known to exist descending from the original, as people taking a nut from it to grow elsewhere was a certainty. That said, to date, none of the original tree's other children have petitioned the courts for their share of the land, so it seems all good. In any event, The Son of the Tree That Owns Itself still stands today, though often referred to simply as The Tree That Owns Itself."
+        },
+        {
+          "label": "G",
+          "text": "This all brings us around to whether Jackson ever actually gave legal ownership of the tree to itself in the first place and whether such a deed is legally binding."
+        },
+        {
+          "label": "H",
+          "text": "Well, to begin with, it turns out Jackson only spent about three years of his life in Athens, starting at the age of 43 from 1829 to 1832, sort of dismissing the idea that he loved the tree from spending time under it as a child and watching it grow, and then worrying about what would happen to it after he died. Further, an extensive search of land ownership records in Athens does not seem to indicate Jackson ever owned the land the tree sits on."
+        },
+        {
+          "label": "I",
+          "text": "He did live on a lot of land directly next to it for those three years, but whether he owned that land or not isn't clear. Whatever the case, in 1832 a four acre parcel, which included the land the tree was on and the neighboring land Jackson lived on, among others, was sold to University professor Malthus A Ward. In the transaction, Ward was required to pay Jackson a sum of $1,200 (about $31,000 today), either for the property itself or simply in compensation for improvements Jackson had made on the lot. In the end, whether he ever owned the neighboring lot or was simply allowed to use it while he allegedly worked at the University, he definitely never owned the lot the tree grew on, which is the most important bit for the topic at hand."
+        },
+        {
+          "label": "J",
+          "text": "After Professor Ward purchased the land, Jackson and his family purchased a 655 acre parcel a few miles away and moved there. Ten years later, in 1844, Jackson seemed to have come into financial difficulties and had his little plantation seized by the Clarke County Sheriff's office and auctioned off to settle the mortgage. Thus, had he owned some land in Athens itself, including the land the tree sat on, presumably he would have sold it to raise funds or otherwise had it taken as well."
+        },
+        {
+          "label": "K",
+          "text": "And whatever the case there, Jackson would have known property taxes needed to be paid on the deeded land for the tree to be truly secure in its future. Yet no account or record indicates any trust or the like was set up to facilitate this."
+        },
+        {
+          "label": "L",
+          "text": "On top of all this, there is no hard evidence such a deed ever existed, despite the fact that deed records in Athens go back many decades before Jackson's death in 1876 and that it was supposed to have existed in 1890 in the archives according to the original anonymous news reporter who claims to have seen it."
+        },
+        {
+          "label": "M",
+          "text": "As you might imagine from all of this, few give credit to this side of the story. So how did all of this come about then?"
+        },
+        {
+          "label": "N",
+          "text": "It is speculated to have been invented by the imagination of the said anonymous author at the Athens Weekly Banner in the aforementioned 1890 front page article titled \"Deeded to Itself\", which by the way contained several elements that are much more easily proved to be false. As to why the author would do this, it's speculated perhaps it was a 19th century version of a click-bait thought exercise on whether it would be legal for someone to deed such a non-conscious living thing to itself or not."
+        },
+        {
+          "label": "O",
+          "text": "Whatever the case, the next known instance of the Tree That Owns Itself being mentioned wasn't until 1901 in the Centennial Edition of that same paper, the Athens Weekly Banner. This featured another account very clearly just copying the original article published about a decade before, only slightly reworded. The next account was in 1906, again in the Athens Weekly Banner, again very clearly copying the original account, only slightly reworded, the 19th century equivalent of re-posts when the audience has forgotten about the original."
+        }
+      ],
+      "statements": [
+        {
+          "id": "s36",
+          "text": "Jackson was said to have transferred his ownership of the oak tree to itself in order to protect it from being destroyed.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s37",
+          "text": "No proof has been found from an extensive search that Jackson had ever owned the land where the oak tree grew.",
+          "answer": "I",
+          "explanation": "官方答案：段落 I。"
+        },
+        {
+          "id": "s38",
+          "text": "When it was raining heavily, Jackson often took shelter under a big tree that is said to own itself.",
+          "answer": "B",
+          "explanation": "官方答案：段落 B。"
+        },
+        {
+          "id": "s39",
+          "text": "There is no evidence that Jackson had made arrangements to pay property taxes for the land on which the oak tree sat.",
+          "answer": "D",
+          "explanation": "官方答案：段落 D。"
+        },
+        {
+          "id": "s40",
+          "text": "Professor Ward paid Jackson over one thousand dollars when purchasing a piece of land from him.",
+          "answer": "C",
+          "explanation": "官方答案：段落 C。"
+        },
+        {
+          "id": "s41",
+          "text": "It is said the tree that owned itself fell in a heavy windstorm.",
+          "answer": "O",
+          "explanation": "官方答案：段落 O。"
+        },
+        {
+          "id": "s42",
+          "text": "The story of the oak tree is suspected to have been invented as a thought exercise.",
+          "answer": "M",
+          "explanation": "官方答案：段落 M。"
+        },
+        {
+          "id": "s43",
+          "text": "Jackson's little plantation was auctioned off to settle his debt in the mid-19th century.",
+          "answer": "L",
+          "explanation": "官方答案：段落 L。"
+        },
+        {
+          "id": "s44",
+          "text": "An official ceremony was held to celebrate the transplanting of a small tree to where its ancestor had stood.",
+          "answer": "E",
+          "explanation": "官方答案：段落 E。"
+        },
+        {
+          "id": "s45",
+          "text": "The story of the Tree That Owns Itself appeared in the local paper several times, with slight alterations in wording.",
+          "answer": "N",
+          "explanation": "官方答案：段落 N。"
+        }
+      ]
+    },
+    {
+      "id": "2024-06-set2-read-paragraph",
+      "module": "reading",
+      "kind": "paragraph",
+      "title": "第2套 · 长篇匹配",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-06",
+        "第2套",
+        "长篇匹配"
+      ],
+      "examSet": "2024-06",
+      "examPaper": 2,
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "According to recent research, behavioral change involves physical changes in the brain. In the past decade, researchers have shown that when it comes to the duration of making a"
+        },
+        {
+          "label": "A",
+          "text": "adore F) cracks K) perpetually"
+        },
+        {
+          "label": "B",
+          "text": "appraise G) deported L) prescribed"
+        },
+        {
+          "label": "C",
+          "text": "assaults H) dismisses M) shrewd"
+        },
+        {
+          "label": "D",
+          "text": "chemistry I) illegally N) skeptical"
+        },
+        {
+          "label": "E",
+          "text": "coincidence J) lost O) strives new behavior a deep-rooted habit there is not a simple answer. Even for the most productive and disciplined among us, undoing something that has become an automatic part of who we are takes more than an overnight effort. Once we've successfully made that change, we then have to make other adjustments to our lives to ensure that we continue to maintain it, which is often a whole other challenge in itself."
+        },
+        {
+          "label": "B",
+          "text": "At its core, success in changing and maintaining a behavior rarely occurs without the introduction of some sort of system. When there isn't the right framework in place, we face a greater likelihood of derailing our hard-earned progress. To ensure success in changing and maintaining a behavior, we should stay away from some detrimental habits."
+        },
+        {
+          "label": "C",
+          "text": "The first one to avoid is relying on willpower. Think about the last time you vowed to resist a temptation. Perhaps you didn't want to check your phone every 15 minutes, or you were determined not to reach for a chocolate bar at 3 p.m. Think about how difficult it must have been not to glance at your phone when it was within reach, or not to walk to the vending machine when your afternoon slump hit."
+        },
+        {
+          "label": "D",
+          "text": "The research on whether we have finite or infinite willpower is inconclusive, but experts do generally agree that you can't change and sustain a habit if you rely on your willpower alone. The old military saying \"You never rise to the occasion, you only sink to the level of training\" also applies to behavior change. The idea is simple—you repeat something so many times that it becomes automatic."
+        },
+        {
+          "label": "E",
+          "text": "Think about what else you can change about your surrounding that makes it easier for you to perform this change on a daily basis. This is called your \"cue.\" Basically, it's a trigger to perform that particular habit. If you don't want to reach for a sugary treat at 3 p.m., have a box of herbal tea ready at your desk. When 3 p.m. comes around, that's your cue to pour yourself a cup of hot water and drink that tea, instead of walking to the vending machine."
+        },
+        {
+          "label": "F",
+          "text": "The second one to avoid is focusing on negative goals. Sometimes, it's not your process that lets you down, but the habit that you want to change in the first place. For starters, not eating chocolate to beat your afternoon slump is a harder goal than swapping chocolate for herbal tea when you reach the designated time. Your brain wants to find routines that have succeeded in the past and allow you to repeat those actions again in the future without having to think about them explicitly. However, this habit-learning system isn't so effective when it comes to learning not to do something. That's why rather than giving up something, think about introducing something in its place. Focus on actions you are going to take that will ultimately conflict with the behaviors you want to stop. When your attention is on doing something new, you give your habit system a chance to operate."
+        },
+        {
+          "label": "G",
+          "text": "The third one to avoid is using the same strategies in different circumstances. Because we are creatures of habit, it's natural to assume that when we do manage to adopt and sustain a desirable behavior, that same strategy will work when we want to make another behavior change. But that's not always the case. Sometimes, the system that got you to change one behavior might not work for another."
+        },
+        {
+          "label": "H",
+          "text": "Sometimes we become accustomed to relying on our guts when it comes to decision- making. This serves us well in certain situations, but can hinder us in others especially when we need to consider metrics and data, rather than letting our instinct override everything. For example, if you want to stop checking your email first thing in the morning, you might decide to substitute another activity in its place. But if you want to stop indulging in video games, simply deciding you will go for a run might not be as effective. You might need to introduce another reinforcement, such as meeting a friend and booking an exercise class together."
+        },
+        {
+          "label": "I",
+          "text": "The fourth one to avoid is not forgiving ourselves for slipping up. Of course, even the best- laid plans fail sometimes. You might have stuck to your screen-free nighttime routine for five days, and then a big project landed on your desk and you found yourself in bed with your laptop before you went to sleep. Or you prepared meals on Sunday and stuck to eating healthy dinners at home, but by Friday you found yourself so exhausted and opted to order greasy takeout. Life happens and even if your behavior change is small, every single day can prove pretty inflexible, and at some point your luck may run out, even if just for a day. The perfectionist in you might be screaming to abandon your goals altogether, but try to see it in the bigger picture. Just because you might have temporarily strayed off course doesn't mean you can't start afresh the next day."
+        },
+        {
+          "label": "J",
+          "text": "The final one to avoid is discounting small progress. There's a habit that many perfectionists tend to fall into when they try to establish a behavior change. They focus too much on the big goal and don't take the time to celebrate the small progress they make in the process. Your brain responds to rewards. The basal ganglia, the brain region linked to our performance of habits, is most active at the beginning of a behavior, when the habit is cued, and at the end, when it's rewarded. Say your goal is to run five miles three times a week, and this week you ran one mile on Monday, Wednesday, and Friday. Rather than focusing on how far you've gone toward your goal, think about how you can reward yourself for the progress you've made. It doesn't have to be big or expensive; it can be something as simple as making your favorite fruit juice after your run. Whatever your reward, it has to be more than just the activity itself to get you going."
+        },
+        {
+          "label": "K",
+          "text": "Initiating a new behavior usually seems like the hardest part of the process of change. However, people often fail to adequately prepare for maintaining it. One of the reasons for this is because we mistakenly believe the strategies we used to initiate the change will be equally effective in helping us continue the change. But they won't. Where changing a strongly deep-rooted habit requires changing our belief about that habit that penetrates deeply into our lives, continually manifesting that wisdom requires that we maintain a positive outlook. If our mood is low, the wisdom to behave differently seems to disappear and we go back to eating more and exercising less. The key, then, to maintaining new behaviors is to be happy! Which is why it's so hard to maintain new behaviors."
+        },
+        {
+          "label": "L",
+          "text": "Remember, overcoming the behavioral inertia that prevents us from implementing new changes, like eating a healthy diet or exercising, can benefit us in the long run and can improve our physical and mental health. No one was born with habits. They were all learned, and can all, therefore, be unlearned. The question is: how badly do you really want to change?"
+        }
+      ],
+      "statements": [
+        {
+          "id": "s36",
+          "text": "There is general consensus among experts that willpower alone cannot guarantee one's success in changing and maintaining a habit.",
+          "answer": "I",
+          "explanation": "官方答案：段落 I。"
+        },
+        {
+          "id": "s37",
+          "text": "One need not abandon their goals completely just because they missed their target temporarily; they can start anew.",
+          "answer": "O",
+          "explanation": "官方答案：段落 O。"
+        },
+        {
+          "id": "s38",
+          "text": "Research shows it is quite another challenge to maintain a behavioral change after you have initiated it.",
+          "answer": "H",
+          "explanation": "官方答案：段落 H。"
+        },
+        {
+          "id": "s39",
+          "text": "It is wrong to assume the strategies we use to start a change of behavior will work equally well in helping maintain it.",
+          "answer": "E",
+          "explanation": "官方答案：段落 E。"
+        },
+        {
+          "id": "s40",
+          "text": "Sometimes, it may not be successful to simply substitute one activity with another to effect a change of habit; you may need extra reinforcement.",
+          "answer": "G",
+          "explanation": "官方答案：段落 G。"
+        },
+        {
+          "id": "s41",
+          "text": "One should introduce something new to replace an old habit instead of simply kicking it.",
+          "answer": "N",
+          "explanation": "官方答案：段落 N。"
+        },
+        {
+          "id": "s42",
+          "text": "Perfectionists focus too much on their big target and neglect celebrating the small gains they make in the process.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s43",
+          "text": "It is of great benefit to us in the long term to conquer the inertia that stops us from making behavioral changes.",
+          "answer": "F",
+          "explanation": "官方答案：段落 F。"
+        },
+        {
+          "id": "s44",
+          "text": "The strategy that successfully changed one of your behaviors may not work for some other behavior of yours.",
+          "answer": "J",
+          "explanation": "官方答案：段落 J。"
+        },
+        {
+          "id": "s45",
+          "text": "Without a happy mood, it seems that our wisdom to adopt a different behavior vanishes.",
+          "answer": "D",
+          "explanation": "官方答案：段落 D。"
         }
       ]
     }
