@@ -6,10 +6,10 @@
   },
   "audioManifest": [
     {
-      "set": 1,
-      "file": "/audio/exams/2023-06/set-1.mp3",
-      "status": "ok",
-      "source": "E:\\BaiduNetdiskDownload\\2023.06第1套\\2023.06六级真题第1套听力音频.mp3"
+      "set": 3,
+      "file": "/audio/exams/2023-06/set-3.mp3",
+      "status": "missing",
+      "source": null
     }
   ],
   "gaps": [
@@ -18,7 +18,9 @@
     "第1套：Section B 长篇匹配未解析（可手动补 JSON）",
     "第1套：试卷 PDF 为扫描版，阅读/选词/写作/翻译请在纸质卷或详解 PDF 中完成",
     "第1套：答案 PDF 为扫描版，选择题答案需对照纸质详解",
-    "第1套：已导入听力录音；题目与选项请用纸质试卷作答"
+    "第1套：已导入听力录音；题目与选项请用纸质试卷作答",
+    "第2套：缺少 PDF / docx",
+    "第3套：缺少 PDF / docx"
   ],
   "listening": [
     {

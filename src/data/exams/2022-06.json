@@ -1,6 +1,12 @@
 {
-  "meta": { "id": "2022-06", "label": "2022年6月六级真题", "date": "2022-06" },
-  "gaps": ["请运行 node scripts/import-exam.mjs --exam-id 2022-06 --source <你的路径> 导入真题"],
+  "meta": {
+    "id": "2022-06",
+    "label": "2022年6月六级真题",
+    "date": "2022-06"
+  },
+  "gaps": [
+    "请运行 node scripts/import-exam.mjs --exam-id 2022-06 --source <你的路径> 导入真题"
+  ],
   "listening": [],
   "reading": [],
   "translation": [],

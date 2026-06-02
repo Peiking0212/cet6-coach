@@ -6,10 +6,10 @@
   },
   "audioManifest": [
     {
-      "set": 1,
-      "file": "/audio/exams/2022-12/set-1.mp3",
-      "status": "ok",
-      "source": "E:\\BaiduNetdiskDownload\\2022.12第1套\\2022.12六级真题第1套听力.mp3"
+      "set": 3,
+      "file": "/audio/exams/2022-12/set-3.mp3",
+      "status": "missing",
+      "source": null
     }
   ],
   "gaps": [
@@ -19,7 +19,9 @@
     "第1套：试卷 PDF 为扫描版，阅读/选词/写作/翻译请在纸质卷或详解 PDF 中完成",
     "第1套：答案 PDF 为扫描版，选择题答案需对照纸质详解",
     "第1套：从听力原文 docx 解析到 0/25 题（选项见纸质卷）",
-    "第1套：听力选项在试卷 PDF 上，答案请对照「答案及详解」"
+    "第1套：听力选项在试卷 PDF 上，答案请对照「答案及详解」",
+    "第2套：缺少 PDF / docx",
+    "第3套：缺少 PDF / docx"
   ],
   "listening": [
     {

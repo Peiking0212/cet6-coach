@@ -13,6 +13,8 @@
     "import:exam": "node scripts/import-exam.mjs",
     "import:exam:audio": "node scripts/import-all-exam-audio.mjs",
     "sanitize:exam": "node scripts/sanitize-exam-json.mjs",
+    "audit:exam": "node scripts/audit-exam-json.mjs",
+    "patch:exam": "node scripts/patch-exam-supplements.mjs",
     "import:exam:2024-06": "node scripts/import-exam.mjs --exam-id 2024-06",
     "import:exam:2024-12": "node scripts/import-exam.mjs --exam-id 2024-12",
     "build:android": "node scripts/build-android.mjs",

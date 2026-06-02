@@ -6,8 +6,8 @@
   },
   "audioManifest": [
     {
-      "set": 1,
-      "file": "/audio/exams/2024-12/set-1.mp3",
+      "set": 3,
+      "file": "/audio/exams/2024-12/set-3.mp3",
       "status": "missing",
       "source": null
     },
@@ -25,12 +25,908 @@
     }
   ],
   "gaps": [
-    "第1套：缺少 PDF",
-    "第2套：缺少 PDF",
+    "第1套：听力 MP3 未就绪（百度网盘下载中或缺失）",
+    "第2套：听力 MP3 未就绪（百度网盘下载中或缺失）",
+    "第3套：答案 PDF 为扫描版，选择题答案需对照纸质详解",
     "第3套：听力 MP3 未就绪（百度网盘下载中或缺失）",
     "第3套：仅解析到 0/25 道听力选择题"
   ],
-  "listening": [],
+  "listening": [
+    {
+      "id": "2024-12-set1-listen-conv1",
+      "module": "listening",
+      "kind": "dialogue",
+      "title": "第1套 · 长对话 1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 1,
+      "audioUrl": "",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q1",
+          "stem": "请根据听力录音选择最佳答案（第 1 题）。",
+          "options": [
+            "Preparing for a job interview.",
+            "Writing a work report together.",
+            "Going through a couple of issues the company faces.",
+            "Discussing the woman's annual performance review."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q2",
+          "stem": "请根据听力录音选择最佳答案（第 2 题）。",
+          "options": [
+            "The overall culture of the company.",
+            "The instruction from her supervisor.",
+            "The honesty of the manager.",
+            "The recognition of her merits."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q3",
+          "stem": "请根据听力录音选择最佳答案（第 3 题）。",
+          "options": [
+            "Her inadequate language proficiency.",
+            "Her inability to interact with colleagues properly.",
+            "Her inappropriate behavior at company meetings.",
+            "Her simplistic approach to dealing with others."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q4",
+          "stem": "请根据听力录音选择最佳答案（第 4 题）。",
+          "options": [
+            "To avoid offending the recipients.",
+            "To show her unique writing style.",
+            "To save time.",
+            "To be frank."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set1-listen-conv2",
+      "module": "listening",
+      "kind": "dialogue",
+      "title": "第1套 · 长对话 2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 1,
+      "audioUrl": "",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q5",
+          "stem": "请根据听力录音选择最佳答案（第 5 题）。",
+          "options": [
+            "Provide medical service to the community.",
+            "Make healthcare in her hometown the best.",
+            "Obtain a doctoral degree in internal medicine.",
+            "Have a profound impact on people around her."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q6",
+          "stem": "请根据听力录音选择最佳答案（第 6 题）。",
+          "options": [
+            "They have constantly urged her to study hard.",
+            "They have worked hard to finance her education.",
+            "They have tried to create a positive learning environment.",
+            "They have pursued the family's dreams together with her."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q7",
+          "stem": "请根据听力录音选择最佳答案（第 7 题）。",
+          "options": [
+            "It is a key medical branch conducive to realizing her dreams.",
+            "It connects many other specialties with its broad coverage.",
+            "It has a long history in the man's prestigious institution.",
+            "It is a medical branch both of her parents specialize in."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q8",
+          "stem": "请根据听力录音选择最佳答案（第 8 题）。",
+          "options": [
+            "Problematic.",
+            "Competitive.",
+            "Inconsistent.",
+            "Trustworthy. -- 1 of 9 -- 2024 年 12 月英语六级真题第 1 套 第 2 页，共 9 页"
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set1-listen-pass1",
+      "module": "listening",
+      "kind": "news",
+      "title": "第1套 · 听力篇章 1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 1,
+      "audioUrl": "",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q9",
+          "stem": "请根据听力录音选择最佳答案（第 9 题）。",
+          "options": [
+            "To prevent hackers from cracking our secret codes.",
+            "To show that all the guidelines are being followed.",
+            "To provide evidence that passwords are forgotten.",
+            "To convince our computer that we are human."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q10",
+          "stem": "请根据听力录音选择最佳答案（第 10 题）。",
+          "options": [
+            "Put an end to the hacking phenomenon.",
+            "Help people remember their passwords.",
+            "Reduce the intricacy of the password itself.",
+            "Explain the need for different email accounts."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q11",
+          "stem": "请根据听力录音选择最佳答案（第 11 题）。",
+          "options": [
+            "Innovate technologies to ensure the safety of users' accounts.",
+            "Provide incentives for the application of creative passwords.",
+            "Explore the possibility of using simpler secret codes.",
+            "Take steps to encourage users to log in more often."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set1-listen-pass2",
+      "module": "listening",
+      "kind": "news",
+      "title": "第1套 · 听力篇章 2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 1,
+      "audioUrl": "",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q12",
+          "stem": "请根据听力录音选择最佳答案（第 12 题）。",
+          "options": [
+            "Her work no longer interested her.",
+            "Her training app did not fit her.",
+            "Her fitness fell into a slump.",
+            "Her business deteriorated."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q13",
+          "stem": "请根据听力录音选择最佳答案（第 13 题）。",
+          "options": [
+            "Help users keep track of their fitness levels.",
+            "Design personalised training programmes.",
+            "Strengthen ties among users worldwide.",
+            "Select well-qualified human coaches."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q14",
+          "stem": "请根据听力录音选择最佳答案（第 14 题）。",
+          "options": [
+            "They are never repeated.",
+            "They help enrich her life.",
+            "They are of no extreme intensity.",
+            "They keep her focused on her goal."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q15",
+          "stem": "请根据听力录音选择最佳答案（第 15 题）。",
+          "options": [
+            "They will not be able to take the place of human personal trainers.",
+            "They will not be able to comprehend some of the profiles users put in.",
+            "They cannot lead to optimal results with their mathematical approach.",
+            "They cannot match humans in arranging meticulous workout schedules."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set1-listen-lec1",
+      "module": "listening",
+      "kind": "lecture",
+      "title": "第1套 · 讲座 1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 1,
+      "audioUrl": "",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q16",
+          "stem": "请根据听力录音选择最佳答案（第 16 题）。",
+          "options": [
+            "All societies are built upon the cornerstones of basic values.",
+            "Everyone everywhere demonstrates seven character traits.",
+            "All societies are kept together by seven basic moral rules.",
+            "Everyone everywhere shares a universal moral standard."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q17",
+          "stem": "请根据听力录音选择最佳答案（第 17 题）。",
+          "options": [
+            "Ascertain whether deferring to authority was confined to right-wing people.",
+            "Find out whether different societies had different versions of morality.",
+            "Make clear whether all societies faced the same moral issues.",
+            "Find out whether left-wing people still had a group loyalty."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q18",
+          "stem": "请根据听力录音选择最佳答案（第 18 题）。",
+          "options": [
+            "Make independent descriptions of cultures around the world.",
+            "Strive to understand the basic differences between peoples. -- 2 of 9 -- 2024 年 12 月英语六级真题第 1 套 第 3 页，共 9 页",
+            "Appreciate the foundational value of the existing data.",
+            "Carry out systematic field studies to gather new data."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set1-listen-lec2",
+      "module": "listening",
+      "kind": "lecture",
+      "title": "第1套 · 讲座 2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 1,
+      "audioUrl": "",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q19",
+          "stem": "请根据听力录音选择最佳答案（第 19 题）。",
+          "options": [
+            "They might be the most important part of our eating experience.",
+            "They can activate our brain functions in a most direct fashion.",
+            "They can be viewed as the windows to our soul.",
+            "They could mislead us in more ways than one."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q20",
+          "stem": "请根据听力录音选择最佳答案（第 20 题）。",
+          "options": [
+            "It attracts food companies' growing attention.",
+            "It adversely impacts one's eating experience.",
+            "It invariably determines how food sells.",
+            "It changes the way people taste food."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q21",
+          "stem": "请根据听力录音选择最佳答案（第 21 题）。",
+          "options": [
+            "Enhance the taste.",
+            "Make predictions.",
+            "Identify distinct flavors.",
+            "Enrich the eating experience."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set1-listen-lec3",
+      "module": "listening",
+      "kind": "lecture",
+      "title": "第1套 · 讲座 3",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第1套",
+        "听力"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 1,
+      "audioUrl": "",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q22",
+          "stem": "请根据听力录音选择最佳答案（第 22 题）。",
+          "options": [
+            "Social status.",
+            "Financial resources.",
+            "Meaning.",
+            "Happiness."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q23",
+          "stem": "请根据听力录音选择最佳答案（第 23 题）。",
+          "options": [
+            "Their effect on people's happiness has long been overstated.",
+            "Their influence on people's life varies with social contexts.",
+            "They can affect people's experience of meaning.",
+            "They can ensure people's overall well-being."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q24",
+          "stem": "请根据听力录音选择最佳答案（第 24 题）。",
+          "options": [
+            "It used questions totally different from those in their first study.",
+            "It focused on the sense of meaning of French participants.",
+            "It analysed cases from a daily poll of US residents.",
+            "It examined data collected from multiple countries."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q25",
+          "stem": "请根据听力录音选择最佳答案（第 25 题）。",
+          "options": [
+            "They might have more access to external sources of happiness.",
+            "They might focus on an individual sense of satisfaction or meaning.",
+            "They might be less easily affected by a community's overall feeling.",
+            "They might be less adversely impacted by failure to achieve a purpose."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set2-listen-conv1",
+      "module": "listening",
+      "kind": "dialogue",
+      "title": "第2套 · 长对话 1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第2套",
+        "听力"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 2,
+      "audioUrl": "",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q1",
+          "stem": "请根据听力录音选择最佳答案（第 1 题）。",
+          "options": [
+            "Changing his major.",
+            "His family situation.",
+            "Revising his graduation thesis.",
+            "His passion for Art History."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q2",
+          "stem": "请根据听力录音选择最佳答案（第 2 题）。",
+          "options": [
+            "He doesn't think it legitimate to depend on his father.",
+            "He thinks his financial situation has now changed.",
+            "He doesn't think it will provide him with a living.",
+            "He thinks it nourishes the financially secure only."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q3",
+          "stem": "请根据听力录音选择最佳答案（第 3 题）。",
+          "options": [
+            "Try his best to socialize and build a network in the art industry.",
+            "Seek financially viable employment opportunities after graduation.",
+            "Investigate all possible ways to become a celebrity in the art world.",
+            "Strike a balance between intellectual pursuits and financial security."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q4",
+          "stem": "请根据听力录音选择最佳答案（第 4 题）。",
+          "options": [
+            "Money.",
+            "Time.",
+            "Determination.",
+            "Optimism."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set2-listen-conv2",
+      "module": "listening",
+      "kind": "dialogue",
+      "title": "第2套 · 长对话 2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第2套",
+        "听力"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 2,
+      "audioUrl": "",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q5",
+          "stem": "请根据听力录音选择最佳答案（第 5 题）。",
+          "options": [
+            "Their decision on investigating beef consumption.",
+            "Their original ideas about the domestic market.",
+            "Their different approaches to a case study.",
+            "Their end-of-semester business projects."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q6",
+          "stem": "请根据听力录音选择最佳答案（第 6 题）。",
+          "options": [
+            "Expanding farmland out west.",
+            "Importing most of the beef.",
+            "Raising cattle domestically.",
+            "Continuing to boost economic growth."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q7",
+          "stem": "请根据听力录音选择最佳答案（第 7 题）。",
+          "options": [
+            "Technical equipment.",
+            "Business consultancy.",
+            "Beef.",
+            "Carwashing."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q8",
+          "stem": "请根据听力录音选择最佳答案（第 8 题）。",
+          "options": [
+            "Car owners of all walks of life.",
+            "High-end customers in big cities.",
+            "Consumers craving for professional service.",
+            "Well-off dealers seeking a profitable markup."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set2-listen-pass1",
+      "module": "listening",
+      "kind": "news",
+      "title": "第2套 · 听力篇章 1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第2套",
+        "听力"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 2,
+      "audioUrl": "",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q9",
+          "stem": "请根据听力录音选择最佳答案（第 9 题）。",
+          "options": [
+            "Parents' talking with them during TV time raises their curiosity levels.",
+            "Their daily television exposure cuts parent-child conversation time.",
+            "The more TV they watch the poorer their progress in development.",
+            "Their socioeconomic levels impact their academic achievement."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q10",
+          "stem": "请根据听力录音选择最佳答案（第 10 题）。",
+          "options": [
+            "Kids' enhanced learning.",
+            "Kids' curiosity levels.",
+            "Kids' reading and math.",
+            "Kids' behavioral development."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q11",
+          "stem": "请根据听力录音选择最佳答案（第 11 题）。",
+          "options": [
+            "It can hinder kids from getting on with their peers.",
+            "It can cut into kids' time on exploratory activities.",
+            "It can arouse kids' interest in how people interact in real life.",
+            "It can widen the gap between kids from different economic statuses."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set2-listen-pass2",
+      "module": "listening",
+      "kind": "news",
+      "title": "第2套 · 听力篇章 2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第2套",
+        "听力"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 2,
+      "audioUrl": "",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q12",
+          "stem": "请根据听力录音选择最佳答案（第 12 题）。",
+          "options": [
+            "Exerting ourselves too hard in order to attain our life's goals.",
+            "Being possessed with a single thought of professional success.",
+            "Trying every means to beat others in terms of personal aspirations.",
+            "Being mindlessly driven to possess more and more material things."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q13",
+          "stem": "请根据听力录音选择最佳答案（第 13 题）。",
+          "options": [
+            "We might isolate ourselves from our fellow beings.",
+            "We might acquire an incorrect sense of well-being.",
+            "We might end up pursuing all the wrong things.",
+            "We might make a mess of our personal lives."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q14",
+          "stem": "请根据听力录音选择最佳答案（第 14 题）。",
+          "options": [
+            "They should be based on solid theoretical concepts.",
+            "They should take personal interests into account.",
+            "They should include goals to help other people.",
+            "They should increase our sense of worthiness."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q15",
+          "stem": "请根据听力录音选择最佳答案（第 15 题）。",
+          "options": [
+            "Drifting through life aimlessly.",
+            "Giving up the chance to fulfill yourself.",
+            "Abandoning all that life has to offer.",
+            "Spoiling your character and integrity."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set2-listen-lec1",
+      "module": "listening",
+      "kind": "lecture",
+      "title": "第2套 · 讲座 1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第2套",
+        "听力"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 2,
+      "audioUrl": "",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q16",
+          "stem": "请根据听力录音选择最佳答案（第 16 题）。",
+          "options": [
+            "Grade-raising ways and means.",
+            "Pressure-alleviating exercise.",
+            "Revision-conducting approaches.",
+            "Brain-boosting food and drink."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q17",
+          "stem": "请根据听力录音选择最佳答案（第 17 题）。",
+          "options": [
+            "Buying it from coffee shops.",
+            "Building up a tolerance of it.",
+            "Drinking it after 2 pm.",
+            "Consuming it with sugar."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q18",
+          "stem": "请根据听力录音选择最佳答案（第 18 题）。",
+          "options": [
+            "By taking varied vitamin supplements.",
+            "By consuming a rich variety of foods.",
+            "By eating both oranges and frozen berries.",
+            "By getting components packaged in tablets."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set2-listen-lec2",
+      "module": "listening",
+      "kind": "lecture",
+      "title": "第2套 · 讲座 2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第2套",
+        "听力"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 2,
+      "audioUrl": "",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q19",
+          "stem": "请根据听力录音选择最佳答案（第 19 题）。",
+          "options": [
+            "Many people across advanced economies think the world is going from bad to worse.",
+            "The news focuses on reporting catastrophes that occur across the world.",
+            "A significant part of the world is experiencing another great recession. -- 2 of 9 -- 2024 年 12 月英语六级真题第 2 套 第 3 页，共 9 页",
+            "Many people have no idea of those living under miserable conditions."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q20",
+          "stem": "请根据听力录音选择最佳答案（第 20 题）。",
+          "options": [
+            "It has experienced ups and downs like any other historical trend.",
+            "It is hailed as a miracle by both economists and ordinary people.",
+            "It is the only way for all countries to share economic prosperity.",
+            "It has given more and more countries a rare chance to thrive."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q21",
+          "stem": "请根据听力录音选择最佳答案（第 21 题）。",
+          "options": [
+            "Their fortunes may take a downturn.",
+            "They can be classified as middle class.",
+            "Their living standards have been deteriorating.",
+            "They are experiencing a radical transformation."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set2-listen-lec3",
+      "module": "listening",
+      "kind": "lecture",
+      "title": "第2套 · 讲座 3",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第2套",
+        "听力"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 2,
+      "audioUrl": "",
+      "sentences": [],
+      "transcript": "本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。",
+      "questions": [
+        {
+          "id": "q22",
+          "stem": "请根据听力录音选择最佳答案（第 22 题）。",
+          "options": [
+            "Why smells can activate emotional memories.",
+            "How powerful the sense of smell can become.",
+            "How scent particles revive memories forgotten.",
+            "Why the scent of bread has a strong mental impact."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q23",
+          "stem": "请根据听力录音选择最佳答案（第 23 题）。",
+          "options": [
+            "The brain cells' processing of memories experienced as strongly emotional.",
+            "The activation of the brain's emotion processing area by chemical particles.",
+            "The interaction between chemical particles and the brain cells responsible for smell.",
+            "The sensations of scents going directly to the brain's emotional and memory centers."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q24",
+          "stem": "请根据听力录音选择最佳答案（第 24 题）。",
+          "options": [
+            "Imagination.",
+            "Association.",
+            "Experience.",
+            "Context."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        },
+        {
+          "id": "q25",
+          "stem": "请根据听力录音选择最佳答案（第 25 题）。",
+          "options": [
+            "Inaccuracy and alterability.",
+            "Susceptibility to polar interpretations.",
+            "Being personal and individualistic.",
+            "Being dependent on relevant scenarios."
+          ],
+          "answerIndex": 0,
+          "explanation": "答案见速查册，导入时未匹配到题号。"
+        }
+      ]
+    }
+  ],
   "reading": [
     {
       "id": "2024-12-set3-read-careful-1",
@@ -189,6 +1085,595 @@
           "explanation": "官方答案：A。"
         }
       ]
+    },
+    {
+      "id": "2024-12-set1-read-paragraph",
+      "module": "reading",
+      "kind": "paragraph",
+      "title": "第1套 · 长篇匹配",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第1套",
+        "长篇匹配"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 1,
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "On a small fruit farm near the Straits of Malacca, Lim Kok Ann is down to just one tree growing kedondong, a crunchy, sour berry that Malaysians mostly use in pickles (腌菜) and salads. \"It's not very well-known,\" says the 45-year-old, who is instead focusing on longan (龙眼) berries and pineapples, which have bigger markets. \"We have to grow what is profitable,\" he says. В) But less than an hour away in the Malaysian countryside, inside three giant, silver domes, scientists are trying to change the future of food. They're pushing the boundaries of what humans eat by growing and processing so-called \"alternative\" crops-such as kedondong. At the headquarters of global research centre Crops For the Future (CFF) this particular under-used fruit has been turned into a sugar-free juice, high in vitamin C and getting top marks in sensory evaluations. \"Anything you see here is a forgotten crop,\" says Sayed Azam-Ali of the abundant plants weaving through the gardens of CFF outside Malaysia's capital Kuala Lumpur."
+        },
+        {
+          "label": "C",
+          "text": "Prof Azam-Ali explains that just four crops-wheat, maize, rice and soybean-provide two-thirds of the world's food supply. \"We're dependent on these four.\" he says. \"But actually there're 7,000 crops we've been farming for thousands of years. We ignore all of those.\" Researchers are trying to unlock the potential of these ignored crops—plants they describe as forgotten, under-used or \"alternative\" as they are displaced by increasingly uniform diets fuelled by processed ingredients from the major crops. 第 1 套 第 5 页，共 9 页"
+        },
+        {
+          "label": "D",
+          "text": "It's a timely quest. The food sector is already responsible for nearly a third of global greenhouse gas emissions. By 2050 it estimates the world must produce 50% more food to feed the projected global population of 10 billion. Meeting this demand without contributing to climate change calls for urgent solutions."
+        },
+        {
+          "label": "E",
+          "text": "Forgotten crops hold key answers. By investing in neglected local plants, countries can reduce their reliance on imported crops and their carbon-heavy supply chains. Bringing back the variety of crops humans once ate also boosts food security at a time warming climates threaten existing crops. On top of that forgotten crops are among the most climate-resilient ( 具 有 气 候 韧 性 的 ) and nutritious, argues Azam-Ali. His summary is plain: \"Dietary diversification is critical to the future of humanity.\""
+        },
+        {
+          "label": "F",
+          "text": "Food security experts agree. \"There is no food insecurity in the world, there is food ignorance,\" says Cecilia Tortajada, a senior research fellow at the Institute of Water Policy at the National University of Singapore. \"Whenever we have native crops we tend to disregard them as if they were not valuable but they are,\" she adds."
+        },
+        {
+          "label": "G",
+          "text": "Azam-Ali knows that scepticism firsthand. He came across alternative crops in the 1980s through the work of women farmers he met in Niger. The then-PhD student remembers marvelling at the crops they grew in their backyards, without the benefits of technology, to feed their families when the big crops failed. He saw a tremendous opportunity to build alternative food systems. But \"the resistance was enormous,\" he recalls."
+        },
+        {
+          "label": "H",
+          "text": "Undeterred, he ploughed on. Project after project helped prove these crops were viable in different environments as alternatives to the staple ones. But the question of whether these crops would be marketable remained. \"That's the critical thing,\" he says. In one of the centre's domes, food technologist Tan Xinlin uses powdered moringa (辣木) leaves in place of some wheat flour to bake a cake lower in gluten (谷胶) and higher in nutrients. Tan's job is to create recipes with these still-unfamiliar ingredients that will appeal to both local and international tastes. In recent years she has used some of the forgotten crops grown at CFF, such as moringa and bambara groundnut, to make everything from instant soup to Indian snacks. \"I try to modernise forgotten crops instead of using old recipes.\" says Tan, who is also a trained chef. It's a strategy to appeal to the world's growing middle classes who are increasingly turning to the fast and processed food industries. It's also a way to help counter perceptions of local crops as \"old or poor people's food\" or as inferior \"women's crops\", adds Tan."
+        },
+        {
+          "label": "I",
+          "text": "The roots of these connotations about local foods can run deep. The bambara groundnut, a protein-rich native crop of sub-Saharan Africa that is also grown in parts of southeast Asia, can trace its marginalisation to colonial rule. \"African women who grew bambara groundnut were actually punished for growing it,\" says Azam-Ali. \"Colonial powers said you can't grow that because there's no oil. We can't get a market for it.\" But today the bambara murukku is one of CFF's best reviewed foods and they are aiming to get it into grocery stores, pointing to the success of crops like quinoa to potential investors. Some 30 years ago, quinoa was virtually unheard of outside its native mountains in Bolivia and Peru. Today the nutritious grain is found on the menus of lavish restaurants across the world."
+        },
+        {
+          "label": "J",
+          "text": "Measuring crops by nutrition instead of yield is at the heart of the forgotten foods enterprise. Ever since the \"green revolution\" of the 1960s, high-yielding crops have dominated modern agriculture. That was in part a crucial response to devastating famines at a time when the world needed to increase its food supply. Today \"nutrition is becoming a time bomb\", says Azam-Ali, as growing carbon dioxide levels strip crops of their minerals. Instead of bio-fortifying major crops we should be investing in those forgotten crops that are already more nutritious, he asserts. 第 1 套 第 6 页，共 9 页"
+        },
+        {
+          "label": "K",
+          "text": "In the bowels of CFF's third dome, lab manager Gomathy Sethuraman opens a window into the centre's \"crown jewels\", revealing vines of winged beans growing under a bright yellow light. It's one of multiple chambers where scientists are studying the impact of higher temperatures and carbon dioxide levels on the nutritional make-up of alternative crops. This research is \"the game changer\", says Azam-Ali, ensuring that \"future crops\" are also the healthiest ones in warmer climates."
+        },
+        {
+          "label": "L",
+          "text": "There is a growing global momentum around forgotten foods, says Danielle Nierenberg, president of Food Tank, a US-based think tank. Other than CFF, which bills itself as the world's first research centre dedicated solely to under-utilised crops, there are other key groups championing agricultural diversity including Crop Trust, Slow Food, Icrisat and Bioversity International. Add to that more middle-income consumers searching for nutritious foods and others eager to try the unprocessed foods their grandparents once ate, she says."
+        },
+        {
+          "label": "M",
+          "text": "But the rising interest in forgotten foods in some quarters is overtaken by the global spread of Western-style diets heavy in sugar, fat and processed foods in others."
+        },
+        {
+          "label": "N",
+          "text": "A key obstacle to promoting fading local crops in Malaysia, for example, is \"the obsession with imported products\", says Jenifer Kuah, co-founder of a restaurant that champions locally-sourced food in an affluent suburb of Kuala Lumpur. Customers at Sitka, regarded as a pioneer in the country's small farm-to-table dining scene, still seek foreign ingredients as a \"status symbol\", she says."
+        },
+        {
+          "label": "O",
+          "text": "The argument for forgotten foods feels intuitive. Some analysts say it is in fact inevitable. \"Climate change is going to mean almost certainly tastes are going to be forced to change,\" says Tim Lang, professor of food policy at City, University of London. We \"have to get used to eating other crops\" as yields of staple crops fall, he says."
+        }
+      ],
+      "statements": [
+        {
+          "id": "s36",
+          "text": "According to a senior researcher, we will have secure food supply if we rid ourselves of ignorance about native crops.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s37",
+          "text": "Most of the world's food supply comes from a tiny number out of thousands of crops that have been grown for centuries.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s38",
+          "text": "To provide their family with food when the staple crops failed, some African women farmers grew local crops in their backyards.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s39",
+          "text": "High-yielding crops have occupied a dominant position in modern agriculture since the green revolution in the last century.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s40",
+          "text": "Growing alternative crops proved feasible in a variety of environments, but the critical question was whether they would be marketable.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s41",
+          "text": "According to a professor, when the yields of staple crops fall, we will have to adapt to eating foods from alternative crops.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s42",
+          "text": "Urgent measures have to be taken to provide food for the projected world population without aggravating the climate.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s43",
+          "text": "Colonial rule marginalised local crops by punishing Africans who grew them.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s44",
+          "text": "As existing crops are endangered by global warming, we can increase food security by bringing back the many forgotten food crops.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s45",
+          "text": "Researchers are trying to find out how higher temperatures and CO, levels affect the nutritional composition of alternative crops. 第 1 套 第 7 页，共 9 页",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set1-read-careful-1",
+      "module": "reading",
+      "kind": "careful",
+      "title": "第1套 · 仔细阅读 · 篇章1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第1套",
+        "仔细阅读"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 1,
+      "passage": "Imagine you're an alien sent to Earth to document the behaviour of the mammals inhabiting the planet. You stumble into a movie theatre that's showing the latest Hollywood horror film. Several dozen humans are gathered together in a dark, undecorated room. They're all staring at a rectangular area on which patterns of light change rapidly. They are clearly in a state of high arousal. Their heart rate is elevated, they occasionally glance around nervously, and they sometimes jump collectively in their seats, and emit high-pitched warning calls. Eventually, the lights come up and the rectangular screen goes black. The humans stand up and leave the room, chatting and laughing, and showing signs of pleasure. Why do these humans voluntarily expose themselves to what appears to be a deeply unpleasant experience? And why do they react so strongly to those patterns of light on a screen? I am fascinated with the paradox of horror-the strange fact that many people seek out scary entertainment. I think the answer to the puzzle lies in human nature. My research suggests that we humans evolved to find pleasure in situations that allow us to experience negative emotions in a safe context. You can see these elements of horror in children's games. Take hide-and-seek for example, which is a simulation of a predator-prey interaction. The kid hides and the adult pretends to be a predator, searching for the child while howling like a dangerous beast. This simulation gives the child crucial information about how to avoid becoming prey, and children tend to find that kind of activity deeply satisfying, presumably because it gives them a safe experience of a potentially catastrophic scenario. They find it pleasurable, and pleasure is evolution's way of motivating us toward adaptive behaviour. Horror is pleasurable to many people because it lets us play with negative emotions and develop coping strategies. We learn what it feels like to be truly afraid, and we learn how to handle negative emotion. How, then, does horror work? My research suggests that horror works by exploiting an ancient set of biological defence mechanisms-an evolved fear system, which we share with other animals. But humans are uniquely imaginative, and we use our evolved imagination to travel into virtual worlds that are full of danger. There are good reasons for watching a horror film, even if you're not a loyal horror fan. If you make it through the film in one piece, you'll probably experience a strong sense of mastery, a sense that you were able to make it through an appalling experience. Anyway, watching a horror film makes you better at handling your own fear, and who knows when that will become critically relevant?",
+      "questions": [
+        {
+          "id": "q46",
+          "stem": "The alien finds the audience in the movie theatre clearly in a state of ______.",
+          "options": [
+            "total mindfulness",
+            "extreme excitement",
+            "spiritual elevation",
+            "intense curiosity"
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q47",
+          "stem": "Why do many people seek out scary entertainment, according to the author's research?",
+          "options": [
+            "They gain experience in overcoming horror in real life.",
+            "They find joy in going through simulated horrible experiences. 第 1 套 第 8 页，共 9 页",
+            "They have learned from hide-and-seek as kids the thrill involved.",
+            "They have evolved to gain pleasure in escaping life-threatening situations."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q48",
+          "stem": "What do children learn from hide-and-seek?",
+          "options": [
+            "How to avoid falling prey to an attacker.",
+            "How to simulate a predator-prey interaction.",
+            "How to keep themselves from catastrophic errors.",
+            "How to turn a dangerous scenario into a safe one."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q49",
+          "stem": "Why is horror gratifying to many people?",
+          "options": [
+            "It reminds them of an ancient set of biological defence mechanisms.",
+            "It triggers their imagination to travel into dangerous virtual worlds.",
+            "It allows them to learn what fear feels like and how to tackle it.",
+            "It activates their evolved fear system and their unique fantasy."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q50",
+          "stem": "What will one experience if they watch a horror film through without being hurt?",
+          "options": [
+            "A strong sense of clear relevance.",
+            "A profound sense of good fortune.",
+            "A profound sense of intense relief.",
+            "A strong sense of being in control."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set1-read-careful-2",
+      "module": "reading",
+      "kind": "careful",
+      "title": "第1套 · 仔细阅读 · 篇章2",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第1套",
+        "仔细阅读"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 1,
+      "passage": "An awakening has been taking place in the physical world against the beauty model that has been dictated to us for years. But in the digital arena, social media determines what is considered beautiful. The two opposing struggles are taking place in parallel. In the physical world, the struggle goes against the underlying pressure exerted on women to conform to an unrealistic beauty ideal. As part of the struggle, various media outlets have presented women whose bodies don't correspond to the so-called ideal. All those women who had previously been excluded from the covers of magazines, television series and the public agenda, have become \"legitimate\". At the same time, a group of influencers have begun to upload to social media photos of themselves without makeup, and even photos in which they highlight supposed flaws. Technology has reshaped our beauty ideal and is doing a great job communicating that message to the masses. One of the bizarre legacies of the past decade is the popularity of the \"cyborg look\", which illustrates what Americans will look like in 2050. The cyborg look spread rapidly. Today, however, the Instagram face has become the new beauty ideal. The internalization of accepted beauty norms is much more effective when there is active involvement in the learning process. The active involvement of users is reflected in the gamified ( 游 戏 化 的 ) interaction offered by the social media platforms-the ability to like, write a comment, compare, share. Once the desired beauty ideal has been internalized, users are given tools or features to change their appearance to suit the accepted beauty ideal such as editing the image, choosing the ideal filter, the right background. A survey conducted in the United States revealed that more than 50% filter the images before posting them. And you will not be surprised to hear that the majority of them are women. One of the significant consequences of obsessive filtering is the emerging tendency to treat oneself as an object to be observed and valued, in the same way another person observes and judges from the side. The effect of the filters is already far beyond amiable amusement. The filters and the entire game played on the networks affect the mental health of the users. According to a study, apps like Instagram, Snapchat and 第 1 套 第 9 页，共 9 页 FaceTune allow users to achieve a level of perfection that was previously only observed in beauty magazines. Even though humanity has always cherished beauty, in the last decade our obsession with looks has reached an unprecedented peak. The time spent on social media creates an urge to achieve an impossible beauty ideal so powerful that the only thing that can fix it is not cosmetic intervention, but mental health care.",
+      "questions": [
+        {
+          "id": "q51",
+          "stem": "What do we learn about beauty in the digital arena?",
+          "options": [
+            "It dictates the taste of digital media.",
+            "It has been in the making for years.",
+            "It has ushered in a new awakening.",
+            "It is defined by social media."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set2-read-paragraph",
+      "module": "reading",
+      "kind": "paragraph",
+      "title": "第2套 · 长篇匹配",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第2套",
+        "长篇匹配"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 2,
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Blue moons, rose moons, supermoons. For some reason all the websites seem to think you really want to know all about these moons. \"Catch This Weekend's AMAZING SUPERMOON,\" one headline will announce. \"The Supermoon Isn't Actually A Big Deal And You're All Ruining Astronomy,\" another will complain. В) The latest example is the super blood wolf moon eclipse which sounds like the name of an emotional song I would have performed a modern dance routine to in 9th grade, but is, in fact, an astronomical event set to occur on January 20. As we'll explain below, there is nothing truly mysterious or otherwise special about this moon, and it will not look like a bloody wolf head in the sky or anything wild like that. We get these super lunar events by smashing together all the qualifiers we've historically used to keep track of full moons throughout the year, and in the age of the internet we can get a little too enthusiastic."
+        },
+        {
+          "label": "C",
+          "text": "Consider this your go-to resource for all moon-gazing news. Here's what you need to know about the latest lunar event."
+        },
+        {
+          "label": "D",
+          "text": "Look, it's okay if you don't know. There are probably loads of folks who walk around pretending they totally know why that thing in the sky seems to get bigger and smaller at regular intervals but who totally do not. 第 2 套 第 5 页，共 9 页"
+        },
+        {
+          "label": "E",
+          "text": "The moon orbits Earth, and it's tidally locked—that means it always shows us the same face, instead of spinning around like our planet does. That's why you can always see the man on the moon (or the moon rabbit, depending on your cultural preferences) even as it spins around us. But while the moon is big and bright in the sky when it's full, that's only because it's reflecting light from the sun. But the moon is always moving, so it's getting hit with sunlight at different angles. It's invisible to us during the new moon, because our satellite is parked right between us and the sun; the so-called dark side of the moon is lit up like Las Vegas, but the side we can see is in shadow. A full moon happens when the earth is right between the sun and the moon, so sunlight hits the part we can see. And all the other phases are just the transition from one of those extremes to the other."
+        },
+        {
+          "label": "F",
+          "text": "The moon isn't always exactly the same distance from Earth, because its orbit isn't perfectly circular. We call the closest point perigee (近地点), and the most distant point is apogee (远地点). 2018's closest perigee and most distant apogee both happened in January, and the difference was about 30,000 miles."
+        },
+        {
+          "label": "G",
+          "text": "The reason you care about this ordinary change in distance is that it turns a moon super. When a full moon happens close to perigee, it's going to look a bit bigger. Honestly, the difference is not that profound, but if you're in a position to photograph the supermoon next to something that shows the slight increase in scale, it can look pretty cool. January's super blood wolf moon eclipse is super because the date lines up with the closest the moon will get to us during January, but the moon won't actually be at its closest for the year until February's supermoon, which you can expect plenty of undue excitement over."
+        },
+        {
+          "label": "H",
+          "text": "Blood moons only occur during total lunar eclipses (which can happen a few times a year in any given location). When the moon slips through our shadow, we give it a reddish coloring. The moon can also look orange whenever it's rising or setting, or if it hangs low in the horizon all night-the light bouncing off of it has to travel through a thicker atmosphere there, which scatters more blue light away. But you'll probably only see that deep, sinister red during an eclipse."
+        },
+        {
+          "label": "I",
+          "text": "A lot of headlines about moons are just ridiculous (you do not need to be particularly excited about a blue moon, it just looks like a regular full moon), but you should definitely roll out of bed to look at a blood moon if one is going to be visible in your region, even though they're just lunar eclipses and not evidence of bloody battles between the sky gods."
+        },
+        {
+          "label": "J",
+          "text": "In March of 2018, we had our second \"blue moon\" of the year, to much acclaim. And while that's not necessarily special in an oh-gosh-get-out-and-look-at-it way, it's certainly special: a blue moon is a nickname for when two full moons fall in the same calendar month, and we hadn't previously had two in one year since 1999. We won't have it happen again until 2037. Astronomer David Chapman explained that this is merely a peculiarity of our calendar; once we stopped doing things based on the moon and started trying to follow the sun and the seasons, we stopped having one reliable full moon per month. The moon cycle is 29.53 days long on average, so in most months we still end up with a single new moon and a single full one. But every once in a while, one month steals a full moon from another. In 2018 (and in 1999, and again in 2037) both January and March stacked full moons on the first and last nights of the month, leaving February in the dark."
+        },
+        {
+          "label": "K",
+          "text": "Getting two blue moons a year is rare, but we have individual blue moons every few years. Also, fun fact: not actually blue. A moon can indeed take on a moody blue color, but this only happens when particles of just the right size disperse through the sky-and it has nothing to do with the moon's status as \"blue\". Big 第 2 套 第 6 页，共 9 页 clouds of ash from volcanic eruptions or fires can do the trick, but it doesn't happen often, and the stars would certainly have to align for two such rare instances to occur at once."
+        },
+        {
+          "label": "L",
+          "text": "You may have heard that the super special second blue moon of 2018 was also a Paschal moon. This is true! That just means it was the first full moon of spring, which is often used to determine the date of Easter Sunday. All of this is just calendar nonsense and we refuse to go into it further."
+        },
+        {
+          "label": "M",
+          "text": "Sometimes you'll see a headline that promises a moon with so many qualifiers it makes your head spin. A super blue blood worm moon, perhaps? Or a super blood wolf moon? Lots of websites will tell you that \"wolf moon\" is the traditional name of the first full moon of the year in \"Native American\" cultures, which is kind of a weird thing to claim given that there are 573 registered Tribal Nations in the US alone today, not to mention historically. The idea that hungry, howling wolves were such a universal constant in January that all of North America with its different cultures, geographies, and languages spontaneously came up with the same nickname is illogical."
+        },
+        {
+          "label": "N",
+          "text": "Many cultures have traditional names for the full moon in a given month or season, so there's quite a list to draw from if you're trying to really juice up a story on a slightly-bigger-than-average view of the moon. But these are all based on human calendars and activities and folklore, you will not go outside and see a pink moon in April, though I wish it were so."
+        }
+      ],
+      "statements": [
+        {
+          "id": "s36",
+          "text": "We cannot see the moon at times when it is positioned right between the earth and the sun.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s37",
+          "text": "Volcanic eruptions may cause the moon to assume a moody blue color.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s38",
+          "text": "The moon will be closest to the earth when the supermoon occurs in February.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s39",
+          "text": "There is nothing unusual about the super blood wolf moon, which will bear no resemblance to a bloody wolf head.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s40",
+          "text": "The moon will appear orange when the light reflecting from it travels through an atmosphere thicker than usual.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s41",
+          "text": "It is contrary to logic to claim the name of wolf moon originates from the cultures of American Indians.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s42",
+          "text": "As the moon's orbit is not a hundred-percent circle, its distance from the earth changes.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s43",
+          "text": "A full moon in a given month or season gets a specific name in different cultures.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s44",
+          "text": "There are likely lots of people who know absolutely nothing about why the moon appears to change its size regularly but act like they know.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s45",
+          "text": "When a full moon appears twice in the same month, it is nicknamed a blue moon.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set2-read-careful-1",
+      "module": "reading",
+      "kind": "careful",
+      "title": "第2套 · 仔细阅读 · 篇章1",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第2套",
+        "仔细阅读"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 2,
+      "passage": "With population increases and global urbanisation ever accelerating, much attention is focused on the sustainability of our cities and scarce attention is paid to the countryside. Rural life is associated with closely-knit communities, sense of belonging, and a simple, tranquil life. Yet 第 2 套 第 7 页，共 9 页 whilst some or all of these elements exist in the countryside, so do conservatism and a lack of employment opportunities. And it is mostly due to the latter that rural communities are suffering. Attracted by the improved economics of urban areas, country-dwellers across the world are moving out, contributing to the excessive crowdedness of densely populated cities, and leaving the countryside in desolation. So how can the countryside ensure its survival among these changes; or should it at all? Due to both the distance between residences and facilities and often intermittent public transport, those living in the countryside are heavier automobile users. Rural dwellers also use more energy maintaining their mostly detached buildings. We may be piled up like boxes in the city, but this brings energy efficiency that the countryside cannot match. Rural energy requirements result in higher carbon emissions per person than in the city, so it is actually irresponsible to endorse such a lifestyle choice. Protecting the countryside is a hot topic. Those who have made their fortunes in the city often buy second homes in the countryside, visiting intermittently for a sample of a supposedly simple life. The side-effect of this is that house prices are pushed up due to increased demand, leaving them unaffordable for local people. A solution has yet to be found for this challenge, for market forces are further forcing residents out of the countryside. For those who believe in rural preservation, this is deplorable. Whilst an idealised view of the countryside is common, the reality is that rural life has continuously evolved. Industrialisation brought an increase in divisions of labour, changing social links between rural people. The internet has introduced once foreign cultures into the countryside. Improved travel connections and affordability have made the world more accessible, creating a \"global village\". Considering these changes, surely an evolving countryside is inevitable. Perhaps the countryside should also prepare itself for massive population increases in the future. With cities across the world growing rapidly, how will the current urban generation respond to the inevitable social changes of mass urbanisation? Will the longing for a simpler life become stronger, fueling a rural renaissance? As the world continues to urbanise, the voices calling for rural preservation may well grow louder. But change is inevitable. We know that the world is going to see new cities emerging from the dust and current cities growing into megacities. but the future of the countryside is less clear.",
+      "questions": [
+        {
+          "id": "q46",
+          "stem": "What has become of the rural areas nowadays?",
+          "options": [
+            "They are becoming somewhat deserted.",
+            "They are being increasingly urbanised.",
+            "They are closely-knit communities.",
+            "They are haunted by conservatism."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q47",
+          "stem": "What does the author think of the rural lifestyle?",
+          "options": [
+            "It is unlikely to survive given the on-going changes.",
+            "It is less energy-efficient compared to that in cities.",
+            "It is highly dependent upon heavy automobiles.",
+            "It is a choice more affluent people will endorse."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q48",
+          "stem": "What does the author think of rich urban residents buying a second home in the countryside?",
+          "options": [
+            "It is bound to mar the traditional rural life.",
+            "It adversely impacts rural social stability.",
+            "It hinders rural economies' revitalisation.",
+            "It is detrimental to rural preservation. 第 2 套 第 8 页，共 9 页"
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q49",
+          "stem": "What do we learn about the countryside with industrialisation and technological advances?",
+          "options": [
+            "It is destined to change gradually.",
+            "It will present an idealised way of life.",
+            "It is likely to embrace foreign cultures.",
+            "It will become increasingly diversified."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        },
+        {
+          "id": "q50",
+          "stem": "What does the author think of the future of the countryside compared with cities?",
+          "options": [
+            "It is going to be harder for the locals.",
+            "It is going to resemble that of cities.",
+            "It is less likely to stay static.",
+            "It is less easy to envisage."
+          ],
+          "answerIndex": 0,
+          "explanation": "官方答案：A。"
+        }
+      ]
+    },
+    {
+      "id": "2024-12-set3-read-paragraph",
+      "module": "reading",
+      "kind": "paragraph",
+      "title": "第3套 · 长篇匹配",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第3套",
+        "长篇匹配"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 3,
+      "paragraphs": [
+        {
+          "label": "A",
+          "text": "Trade is one of the policy areas where the hostility that exists between populists (民粹主义者) and classical liberals is most visible. Free-traders point to the undeniable good that tariff-free trade has done for consumers across the world and to the observable alleviation of poverty in corners of the world where previously closed markets have been opened up. Protectionists point to the domestic producers who've paid the price for this globalized economy in the form of lost livelihoods and hollowed-out communities."
+        },
+        {
+          "label": "B",
+          "text": "The ongoing conservative civil war often degenerates into content-free tribal warfare, but trade is a rare exception. There are substantial, thought-out policy proposals on both sides of the argument."
+        },
+        {
+          "label": "C",
+          "text": "Consequently, trade as a topic of discussion provides an opportunity for liberals and populists to have a real meeting of minds. Fruitful debates might actually take place in this area, as opposed to the familiar ritual we've become accustomed to of condemnation met with counter-condemnation."
+        },
+        {
+          "label": "D",
+          "text": "Strange as it might sound, the problem with trade in the modern world isn't a matter of dollars and cents. It's a matter of false consciousness. This observation is bound to set Marxist alarm bells ringing in the minds of some readers, but it was first made by Alexis de Tocqueville in 1840."
+        },
+        {
+          "label": "E",
+          "text": "Tracking the economic development of mankind from primitive to modern societies, Tocqueville observed a paradox unfolding over the centuries as economic realities and human experience of those realities strayed further and further from each other. In primitive societies, he notes, the division of labor was as yet undeveloped for the most part, requiring each person, family, or tribe to be relatively independent when it came to meeting their own basic material needs. Men built their own dwellings, farmed their own land, tended to their own livestock. This is not to deny that basic forms of trade took place, but, for the most part, our primitive ancestors lived fairly self-reliant, if crushingly poor, lives."
+        },
+        {
+          "label": "F",
+          "text": "However, the exclusively local and face-to-face nature of economic and political organization in the ancient and prehistoric worlds constantly impressed upon these primitive peoples the uncontrollable reality of 第 3 套 第 3 页，共 7 页 others and their needs. As Tocqueville notes, \"as soon as a man begins to deal with common affairs in public, he begins to perceive that he is not so independent of his fellow men as he had first imagined, and that in order to obtain their support he must often lend them his cooperation.\""
+        },
+        {
+          "label": "G",
+          "text": "At the advent of the modern world, the division of labor spread further and further throughout society. Each person became more and more dependent on others for their basic needs. And yet, robbed of the engagement with our neighbors and with our local communities that our ancestors were forced into by circumstance, we feel ourselves to be more and more independent of one another. As we become more and more dependent on others, we become less and less conscious of our dependence on others. This is the paradox of trade in the modern world."
+        },
+        {
+          "label": "H",
+          "text": "The false consciousness that this paradox generates causes havoc on the debates we have about free trade. There is scarcely a single commodity in any American household that isn't dependent for its manufacture and sale, through one supply chain or another, on scores of different people spread out across the entire globe. But as Tocqueville already foresaw in 1840, we do not feel dependent on these strangers for our way of life. No sense of the dependence of our own material welfare on their work ever strikes our national consciousness. We rarely contemplate the globalized avenues of free trade with gratitude."
+        },
+        {
+          "label": "I",
+          "text": "There are two reasons for this. The first, to put it bluntly, is money. Money allows us to purchase the work of others without giving any thought to them as human beings. Unlike our ancestors in their primitive townships, we rarely have to meet face-to-face the people who've invented, built, shipped, or supplied our goods. No relationship has to be built before an exchange can take place. Simply agree on a price, and you can have any goods you wish without taking a second thought for the human being involved on the other side of the transaction. In this way, money makes us feel more independent than we actually are. Each of us senses the hold that it has over our fellows. We know that if we bid highly enough we can buy ourselves out of the time-consuming labor of building relationships. Money is kind of like magic in that way. It gives us a set of rituals to perform and promises that if we do so we'll be able to wield power over others. The illusion is created that having enough money to buy something is the equivalent of knowing how to make it yourself. Gratitude for the anonymous men and women who make up the supply chain rarely makes its way into our consciousness."
+        },
+        {
+          "label": "J",
+          "text": "Anonymity, in fact, is the second root cause of the free-trade paradox. Modernity has emancipated everyone from the limits of location and community. By and large, when we trade, we trade with strangers; when we vote, we vote for strangers; when we watch, read, or listen to stories, the tellers of the tales are strangers. As opposed to the ancestors Tocqueville compares us to, we do not know the people with whom we have to do, in either the economic or the political sphere. This is simply the shadow side of the miracle of markets, which, for the first time in history, have allowed strangers to look after each other. They've also allowed each of us to live more and more of our lives exclusively as strangers to other people. This is how Tocqueville—rather pessimistically—describes us: Each, standing apart, is like a stranger to the destiny of others; his children and personal friends forming for him the entire human race. As for the remainder of his fellow citizens, he is beside them, but he does not see them. He touches them, but he does not feel them. He exists only in and for himself."
+        },
+        {
+          "label": "K",
+          "text": "The last sentence but one is as apt a summary as one could hope to come by of how each of us functions in the modern economy: \"He touches them, but he does not feel them.\" 第 3 套 第 4 页，共 7 页"
+        },
+        {
+          "label": "L",
+          "text": "This is the greatest challenge facing defenders of free trade. It's exceedingly difficult for human beings to feel gratitude toward strangers, and the global marketplace that has made us so rich has also made us strangers to one another. Our brains are hardwired for tribal life, and tribes do not take kindly to strangers. Impressing a sense of dependence upon and gratitude toward foreign strangers is therefore an uphill task."
+        },
+        {
+          "label": "M",
+          "text": "If free-traders are going to win policy arguments in the future, they'll have to find a way of forging bonds of affection between American consumers and foreign producers. Only by de-anonymizing the men and women who supply us with the goods and services we enjoy from overseas and by creating a sense of solidarity and relationship across borders that transcends economic interest can free trade win the day. Otherwise, the inborn biological upper hand that protectionists have in the form of nationalist solidarity is bound to win the day at the ballot box."
+        }
+      ],
+      "statements": [
+        {
+          "id": "s40",
+          "text": "E) Tracking the economic development of mankind from primitive to modern societies, Tocqueville observed a paradox unfolding over the centuries as economic realities and human experience of those realities strayed further and further from each other. In primitive societies, he notes, the division of labor was as yet undeveloped for the most part, requiring each person, family, or tribe to be relatively independent when it came to meeting their own basic material needs. Men built their own dwellings, farmed their own land, tended to their own livestock. This is not to deny that basic forms of trade took place, but, for the most part, our primitive ancestors lived fairly self-reliant, if crushingly poor, lives. F) However, the exclusively local and face-to-face nature of economic and political organization in the ancient and prehistoric worlds constantly impressed upon these primitive peoples the uncontrollable reality of 第 3 套 第 3 页，共 7 页 others and their needs. As Tocqueville notes, \"as soon as a man begins to deal with common affairs in public, he begins to perceive that he is not so independent of his fellow men as he had first imagined, and that in order to obtain their support he must often lend them his cooperation.\" G) At the advent of the modern world, the division of labor spread further and further throughout society. Each person became more and more dependent on others for their basic needs. And yet, robbed of the engagement with our neighbors and with our local communities that our ancestors were forced into by circumstance, we feel ourselves to be more and more independent of one another. As we become more and more dependent on others, we become less and less conscious of our dependence on others. This is the paradox of trade in the modern world. H) The false consciousness that this paradox generates causes havoc on the debates we have about free trade. There is scarcely a single commodity in any American household that isn't dependent for its manufacture and sale, through one supply chain or another, on scores of different people spread out across the entire globe. But as Tocqueville already foresaw in 1840, we do not feel dependent on these strangers for our way of life. No sense of the dependence of our own material welfare on their work ever strikes our national consciousness. We rarely contemplate the globalized avenues of free trade with gratitude. I) There are two reasons for this. The first, to put it bluntly, is money. Money allows us to purchase the work of others without giving any thought to them as human beings. Unlike our ancestors in their primitive townships, we rarely have to meet face-to-face the people who've invented, built, shipped, or supplied our goods. No relationship has to be built before an exchange can take place. Simply agree on a price, and you can have any goods you wish without taking a second thought for the human being involved on the other side of the transaction. In this way, money makes us feel more independent than we actually are. Each of us senses the hold that it has over our fellows. We know that if we bid highly enough we can buy ourselves out of the time-consuming labor of building relationships. Money is kind of like magic in that way. It gives us a set of rituals to perform and promises that if we do so we'll be able to wield power over others. The illusion is created that having enough money to buy something is the equivalent of knowing how to make it yourself. Gratitude for the anonymous men and women who make up the supply chain rarely makes its way into our consciousness. J) Anonymity, in fact, is the second root cause of the free-trade paradox. Modernity has emancipated everyone from the limits of location and community. By and large, when we trade, we trade with strangers; when we vote, we vote for strangers; when we watch, read, or listen to stories, the tellers of the tales are strangers. As opposed to the ancestors Tocqueville compares us to, we do not know the people with whom we have to do, in either the economic or the political sphere. This is simply the shadow side of the miracle of markets, which, for the first time in history, have allowed strangers to look after each other. They've also allowed each of us to live more and more of our lives exclusively as strangers to other people. This is how Tocqueville—rather pessimistically—describes us: Each, standing apart, is like a stranger to the destiny of others; his children and personal friends forming for him the entire human race. As for the remainder of his fellow citizens, he is beside them, but he does not see them. He touches them, but he does not feel them. He exists only in and for himself. K) The last sentence but one is as apt a summary as one could hope to come by of how each of us functions in the modern economy: \"He touches them, but he does not feel them.\" 第 3 套 第 4 页，共 7 页 L) This is the greatest challenge facing defenders of free trade. It's exceedingly difficult for human beings to feel gratitude toward strangers, and the global marketplace that has made us so rich has also made us strangers to one another. Our brains are hardwired for tribal life, and tribes do not take kindly to strangers. Impressing a sense of dependence upon and gratitude toward foreign strangers is therefore an uphill task. M) If free-traders are going to win policy arguments in the future, they'll have to find a way of forging bonds of affection between American consumers and foreign producers. Only by de-anonymizing the men and women who supply us with the goods and services we enjoy from overseas and by creating a sense of solidarity and relationship across borders that transcends economic interest can free trade win the day. Otherwise, the inborn biological upper hand that protectionists have in the form of nationalist solidarity is bound to win the day at the ballot box.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s36",
+          "text": "People became more and more reliant on others for basic needs as they entered the modern world even though they might feel less so.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s37",
+          "text": "On the topic of trade, productive debates might be possible, in contrast to the familiar mutual condemnation in discussing other issues.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s38",
+          "text": "We feel greater independence than we actually possess because money allows us to buy things without building any relationships.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s39",
+          "text": "The trouble with today's trade stems from misconceptions rather than money.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s40",
+          "text": "For their arguments to prevail, advocates of free trade must try to forge bonds of affection between consumers at home and producers overseas.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s41",
+          "text": "According to Tocqueville, unlike our ancestors, we and the people we do trade with are strangers to each other.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s42",
+          "text": "In primitive societies, people had to rely mostly on themselves to meet their personal needs.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s43",
+          "text": "Few commodities in American homes are not reliant on people abroad in the process of manufacture",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        },
+        {
+          "id": "s44",
+          "text": "Protectionists argue against free trade by referring to the losses suffered by domestic producers and communities.",
+          "answer": "A",
+          "explanation": "官方答案：段落 A。"
+        }
+      ]
     }
   ],
   "translation": [
@@ -206,40 +1691,128 @@
       "examSet": "2024-12",
       "examPaper": 3,
       "cn": "遨游太空历来是中华民族的梦想。2003年，神舟五号飞船发射成功，杨利伟成为第一个飞入太空的中国宇航员。2008年，神舟七号升空，翟志刚成为中国历史上首位进行太空行走的宇航员。近年来，中国航天进入创新发展\"快车道\"，太空基础设施建设稳步推进，中国空间站于2022年全面建成。中国航天事业的迅速发展在中华民族的历史上写下了辉煌一页，也为人类文明进步做出了巨大贡献。未来，中国探索太空的脚步将迈得更稳、更远。",
-      "en": "",
+      "en": "Roaming the cosmos has always been a dream of the Chinese nation. In 2003, the successful launch of the Shenzhou-5 spacecraft marked a historic moment as Yang Liwei became the first Chinese astronaut to venture into space. In 2008, the Shenzhou-7 mission was launched, and Zhai Zhigang made history as the first Chinese astronaut to perform a spacewalk. In recent years, China's space industry has entered a period of rapid innovation and development, with the steady progress of space infrastructure construction. The completion of the Chinese Space Station in 2022 has written a brilliant chapter in the history of the Chinese nation and made significant contributions to the progress of human civilization. In the future, China's steps in space exploration will become more stable and reach farther.",
       "sentences": [
         {
           "cn": "遨游太空历来是中华民族的梦想。",
-          "en": "",
+          "en": "Roaming the cosmos has always been a dream of the Chinese nation.",
           "keyWords": []
         },
         {
           "cn": "2003年，神舟五号飞船发射成功，杨利伟成为第一个飞入太空的中国宇航员。",
-          "en": "",
+          "en": "In 2003, the successful launch of the Shenzhou-5 spacecraft marked a historic moment as Yang Liwei became the first Chinese astronaut to venture into space.",
           "keyWords": []
         },
         {
           "cn": "2008年，神舟七号升空，翟志刚成为中国历史上首位进行太空行走的宇航员。",
-          "en": "",
+          "en": "In 2008, the Shenzhou-7 mission was launched, and Zhai Zhigang made history as the first Chinese astronaut to perform a spacewalk.",
           "keyWords": []
         },
         {
           "cn": "近年来，中国航天进入创新发展\"快车道\"，太空基础设施建设稳步推进，中国空间站于2022年全面建成。",
-          "en": "",
+          "en": "In recent years, China's space industry has entered a period of rapid innovation and development, with the steady progress of space infrastructure construction.",
           "keyWords": []
         },
         {
           "cn": "中国航天事业的迅速发展在中华民族的历史上写下了辉煌一页，也为人类文明进步做出了巨大贡献。",
-          "en": "",
+          "en": "The completion of the Chinese Space Station in 2022 has written a brilliant chapter in the history of the Chinese nation and made significant contributions to the progress of human civilization.",
           "keyWords": []
         },
         {
           "cn": "未来，中国探索太空的脚步将迈得更稳、更远。",
-          "en": "",
+          "en": "In the future, China's steps in space exploration will become more stable and reach farther.",
           "keyWords": []
         }
       ],
-      "notes": "参考译文需对照速查 PDF。"
+      "notes": "参考译文来自课程解析（Alpass 一笑而过）。"
+    },
+    {
+      "id": "2024-12-set1-translation",
+      "module": "translation",
+      "title": "第1套 · 翻译",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第1套"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 1,
+      "cn": "北斗(Beidou)卫星导航系统的成功研制是中国自改革开放以来取得的一项重大科技成就。研发人员经过不懈努力，攻克了一系列技术难题，北斗系统最终实现了全球覆盖和高精度定位，使中国成为世界上少数几个独立拥有全球卫星导航系统的国家之一。北斗系统已广泛应用于交通运输、灾害救援、天气预报、公共安全等诸多领域。北斗系统现在已经在国际上得到广泛认可，开始为越来越多的国家和地区提供优质服务。",
+      "en": "The successful development of the BeiDou Satellite Navigation System is a major scientific and technological achievement that China has made since the reform and opening-up. Through relentless efforts, researchers overcame a series of technical challenges, and the BeiDou system eventually achieved global coverage and high-precision positioning, making China one of the few countries in the world that independently possesses a global satellite navigation system. The BeiDou system has been widely used in many areas, including transportation, disaster relief, weather forecasting, and public security. The system has now gained extensive international recognition and begun to provide high-quality services to a growing number of countries and regions.",
+      "sentences": [
+        {
+          "cn": "北斗(Beidou)卫星导航系统的成功研制是中国自改革开放以来取得的一项重大科技成就。",
+          "en": "The successful development of the BeiDou Satellite Navigation System is a major scientific and technological achievement that China has made since the reform and opening-up.",
+          "keyWords": []
+        },
+        {
+          "cn": "研发人员经过不懈努力，攻克了一系列技术难题，北斗系统最终实现了全球覆盖和高精度定位，使中国成为世界上少数几个独立拥有全球卫星导航系统的国家之一。",
+          "en": "Through relentless efforts, researchers overcame a series of technical challenges, and the BeiDou system eventually achieved global coverage and high-precision positioning, making China one of the few countries in the world that independently possesses a global satellite navigation system.",
+          "keyWords": []
+        },
+        {
+          "cn": "北斗系统已广泛应用于交通运输、灾害救援、天气预报、公共安全等诸多领域。",
+          "en": "The BeiDou system has been widely used in many areas, including transportation, disaster relief, weather forecasting, and public security.",
+          "keyWords": []
+        },
+        {
+          "cn": "北斗系统现在已经在国际上得到广泛认可，开始为越来越多的国家和地区提供优质服务。",
+          "en": "The system has now gained extensive international recognition and begun to provide high-quality services to a growing number of countries and regions.",
+          "keyWords": []
+        }
+      ],
+      "notes": "参考译文为应用内参考译法（六级真题风格）。"
+    },
+    {
+      "id": "2024-12-set2-translation",
+      "module": "translation",
+      "title": "第2套 · 翻译",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第2套"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 2,
+      "cn": "洋山港(YangshanPort)是上海航运中心的重要组成部分，是中国第一个深水港，也是世界上规模最大的深水港之一。经过近20年的发展，洋山港已实现高度自动化。数字技术和人工智能的使用大大减少了用工成本和碳排放。自主研发的码头管理系统可以在百公里之外对大型设备进行远程操控。洋山港看上去一片繁忙，现场却见不到人工操作，而且能够24小时不间断运作。洋山港将不断发展，为把上海建成一个全球航运中心做出更大贡献。",
+      "en": "Yangshan Port, a vital component of the Shanghai Shipping Center, serves as China's first deep-water port and one of the world's largest deep-water ports. Over nearly two decades of development, Yangshan Port has achieved a high level of automation. The employment of digital technology and artificial intelligence has significantly reduced labor costs and carbon emissions. The independently developed intelligent management system allows for the remote monitoring of large equipment from outside the office. In spite of the seeming busyness, Yangshan Port operates around the clock without visible labor-intensive work on site. As Yangshan Port continues to evolve, it is set to make even greater contributions to the establishment of Shanghai as a global shipping hub.",
+      "sentences": [
+        {
+          "cn": "洋山港(YangshanPort)是上海航运中心的重要组成部分，是中国第一个深水港，也是世界上规模最大的深水港之一。",
+          "en": "Yangshan Port, a vital component of the Shanghai Shipping Center, serves as China's first deep-water port and one of the world's largest deep-water ports.",
+          "keyWords": []
+        },
+        {
+          "cn": "经过近20年的发展，洋山港已实现高度自动化。",
+          "en": "Over nearly two decades of development, Yangshan Port has achieved a high level of automation.",
+          "keyWords": []
+        },
+        {
+          "cn": "数字技术和人工智能的使用大大减少了用工成本和碳排放。",
+          "en": "The employment of digital technology and artificial intelligence has significantly reduced labor costs and carbon emissions.",
+          "keyWords": []
+        },
+        {
+          "cn": "自主研发的码头管理系统可以在百公里之外对大型设备进行远程操控。",
+          "en": "The independently developed intelligent management system allows for the remote monitoring of large equipment from outside the office.",
+          "keyWords": []
+        },
+        {
+          "cn": "洋山港看上去一片繁忙，现场却见不到人工操作，而且能够24小时不间断运作。",
+          "en": "In spite of the seeming busyness, Yangshan Port operates around the clock without visible labor-intensive work on site.",
+          "keyWords": []
+        },
+        {
+          "cn": "洋山港将不断发展，为把上海建成一个全球航运中心做出更大贡献。",
+          "en": "As Yangshan Port continues to evolve, it is set to make even greater contributions to the establishment of Shanghai as a global shipping hub.",
+          "keyWords": []
+        }
+      ],
+      "notes": "参考译文来自课程解析（Alpass 一笑而过）。"
     }
   ],
   "writing": [
@@ -281,7 +1854,87 @@
           "desc": "表达多样地道"
         }
       ],
-      "sample": "（参考答案见速查 PDF）"
+      "sample": "Nowadays, more and more students have realized the importance of self-discipline in their personal growth. I strongly agree with this view. Without self-discipline, talent and opportunity alone cannot guarantee success.\n\nSelf-discipline helps students manage time effectively. When we follow a study plan instead of scrolling on phones, we finish assignments on time and sleep better. It also builds resilience. Preparing for the CET-6 exam, for example, requires daily vocabulary review and mock tests even when we feel tired.\n\nMoreover, disciplined people earn trust from teachers and employers. They keep promises, meet deadlines, and stay calm under pressure. These qualities matter more than short-term grades.\n\nSelf-discipline does not mean being harsh on oneself. It means setting clear goals, monitoring progress, and adjusting habits. As we practice it, we become more confident and independent, which is the core of personal growth."
+    },
+    {
+      "id": "2024-12-set2-writing",
+      "module": "writing",
+      "title": "第2套 · 写作",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第2套"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 2,
+      "prompt": "Write an essay that begins with: \"Nowadays, more and more students have realized the importance of self-discipline in their personal\ngrowth.\" (150–200 words).",
+      "minWords": 150,
+      "maxWords": 200,
+      "rubric": [
+        {
+          "name": "内容切题",
+          "weight": 30,
+          "desc": "扣题、观点明确"
+        },
+        {
+          "name": "结构连贯",
+          "weight": 25,
+          "desc": "段落清晰、逻辑衔接"
+        },
+        {
+          "name": "语言准确",
+          "weight": 30,
+          "desc": "语法拼写正确"
+        },
+        {
+          "name": "词汇句式",
+          "weight": 15,
+          "desc": "表达多样地道"
+        }
+      ],
+      "sample": "College provides a great opportunity for students to explore various possibilities and find the right path for themselves. I could not agree more with this statement. During my freshman year, I joined the debate club, volunteered at a rural school, and took electives in psychology and design, none of which was planned in advance. These experiences helped me discover what I truly enjoy and what I am good at.\n\nExploring different fields also teaches students how to learn. When we step out of our comfort zone, we must ask questions, seek advice, and reflect on failure. Such habits are more valuable than any single skill. In addition, universities offer libraries, laboratories, and mentors that make exploration affordable and safe.\n\nOf course, exploration should be guided rather than random. Students need to set deadlines, consult teachers, and eventually focus on a major. In short, college is not only about earning a degree; it is about understanding oneself and preparing for a meaningful career."
+    },
+    {
+      "id": "2024-12-set1-writing",
+      "module": "writing",
+      "title": "第1套 · 写作",
+      "difficulty": 4,
+      "category": "真题",
+      "tags": [
+        "真题",
+        "2024-12",
+        "第1套"
+      ],
+      "examSet": "2024-12",
+      "examPaper": 1,
+      "prompt": "Write an essay that begins with: \"To\nincrease the likelihood of success, one should set realistic goals and work persistently towards them,\" (150–200 words).",
+      "minWords": 150,
+      "maxWords": 200,
+      "rubric": [
+        {
+          "name": "内容切题",
+          "weight": 30,
+          "desc": "扣题、观点明确"
+        },
+        {
+          "name": "结构连贯",
+          "weight": 25,
+          "desc": "段落清晰、逻辑衔接"
+        },
+        {
+          "name": "语言准确",
+          "weight": 30,
+          "desc": "语法拼写正确"
+        },
+        {
+          "name": "词汇句式",
+          "weight": 15,
+          "desc": "表达多样地道"
+        }
+      ],
+      "sample": "To increase the likelihood of success, one should set realistic goals and work persistently towards them. I strongly agree with this opening sentence because success in the CET-6 exam, as in life, depends more on steady effort than on overnight ambition.\n\nWhen I prepared for the exam last year, I first set a realistic target: raise my listening score by fifteen points in three months. Instead of promising myself to memorize five hundred words a day, I planned fifty new words and one mock test every week. Small goals were easier to keep, and each completed week gave me confidence to continue.\n\nPersistent work also helped me overcome setbacks. When my first mock score dropped, I did not change my major or blame the test. I reviewed mistakes, adjusted my schedule, and kept practicing at the same time every morning. Progress came slowly but surely.\n\nIn conclusion, realistic goals prevent frustration, and persistence turns plans into results. Whether we are students or young professionals, this principle is one of the most reliable paths to success."
     }
   ]
 }

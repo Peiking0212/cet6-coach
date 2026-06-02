@@ -6,6 +6,7 @@ import { batchExitLabel } from '@/engine/practiceAll'
 import { useStore } from '@/store/StoreProvider'
 import { useTimer } from '@/engine/useTimer'
 import { QuizBar } from '@/components/QuizBar'
+import { prepareTranslationItem } from '@/lib/sanitizeTranslationItem'
 import { buildBlanks, keywordCoverage, normalize } from './blanks'
 
 type Phase = 'words' | 'sentence' | 'full' | 'done'
@@ -28,6 +29,7 @@ export function TranslationRunner({
   const { state, record, setStars } = useStore()
   const [phase, setPhase] = useState<Phase>('words')
   const { ms, reset } = useTimer(phase !== 'done')
+  const prepared = useMemo(() => prepareTranslationItem(item), [item])
 
   return (
     <div className="runner">
@@ -35,13 +37,13 @@ export function TranslationRunner({
         <button className="btn btn-ghost runner-back" onClick={onExit}>
           ← 返回
         </button>
-        <div className="runner-title">{item.title}</div>
+        <div className="runner-title">{prepared.title}</div>
         {phase !== 'done' && <span className="pill">{PHASE_LABEL[phase]}</span>}
       </div>
 
       {phase === 'words' && (
         <WordsLevel
-          item={item}
+          item={prepared}
           timeMs={ms}
           combo={state.combo}
           onDone={(res, stars) => {
@@ -55,7 +57,7 @@ export function TranslationRunner({
 
       {phase === 'sentence' && (
         <SentenceLevel
-          item={item}
+          item={prepared}
           timeMs={ms}
           combo={state.combo}
           onDone={(res) => {
@@ -68,7 +70,7 @@ export function TranslationRunner({
 
       {phase === 'full' && (
         <FullLevel
-          item={item}
+          item={prepared}
           onDone={(res) => {
             record(res)
             setPhase('done')
@@ -80,7 +82,7 @@ export function TranslationRunner({
         <div className="done-card card fade-in">
           <div className="done-emoji">🏆</div>
           <h2>三关通关！</h2>
-          <p>《{item.title}》全部完成，继续保持～</p>
+          <p>《{prepared.title}》全部完成，继续保持～</p>
           <button className="btn btn-primary" onClick={onExit}>
             {batchExitLabel(batch)}
           </button>

@@ -13,6 +13,10 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import mammoth from 'mammoth'
 import { PDFParse } from 'pdf-parse'
+import {
+  extractAnswerLetterFromChunk,
+  parseAnalysisListeningAnswersFull,
+} from './lib/listening-answers.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const rootDir = path.resolve(__dirname, '..')
@@ -199,8 +203,13 @@ function cleanPdfArtifacts(text) {
       /\d{4}\s*年\s*\d{1,2}\s*月\s*英语六级真题[\s\S]*?(?:--\s*\d+\s+of\s+\d+\s*--)?/gi,
       ' ',
     )
+    .replace(/\d{4}(?:\s*\d)*\s*年(?:\s*\d)+\s*月\s*英语六级真题[\s\S]{0,100}?(?:页|共)/gi, ' ')
     .replace(/\d{4}\s*年\s*\d{1,2}\s*月英语六级真题第\d+[^.]*?(?:页|共)[^.]*/gi, ' ')
+    .replace(/20(?:\s*\d){2}\s*年(?:\s*\d)+\s*月\s*英语六级真题/gi, ' ')
+    .replace(/\d{4}年\d{1,2}月英语六级真题第\d+套第[^。]+页共[^。]+页/gi, ' ')
+    .replace(/第\s*\d+\s*套\s*第\s*[^\s.]{1,4}\s*页\s*共\s*[^\s.]+\s*页/gi, ' ')
     .replace(/第\s*\d+\s*套\s*第\s*\d+\s*页\s*共\s*[^\s.]+\s*页/gi, ' ')
+    .replace(/第\s*\d(?:\s*\d)*\s*套\s*第\s*\d(?:\s*\d)*\s*页\s*共\s*\d(?:\s*\d)*\s*页/gi, ' ')
     .replace(/\s+b\s*y\s*:\s*新一文化\s*/gi, ' ')
     .replace(/\s{2,}/g, ' ')
     .trim()
@@ -284,9 +293,76 @@ function parseListeningSentencesFromDocx(docxText) {
 
 function hasAnalysisListening(text) {
   return (
-    /Part\s*II[\s\S]*?Listening/i.test(text) &&
-    (/听力原文/.test(text) || /听\s*力\s*原\s*文/.test(text))
+    /听力原文|听\s*力\s*原\s*文/.test(text) ||
+    (/Part\s*(?:II|Ⅱ|2)[\s\S]{0,40}Listening/i.test(text) &&
+      (/听力原文|听\s*力\s*原\s*文/.test(text) || /Recording\s+One/i.test(text)))
   )
+}
+
+const LISTEN_SECTION_MARKERS = [
+  { id: 'conv2', re: /Conversation\s+Two/i },
+  { id: 'pass1', re: /Passage\s+One/i },
+  { id: 'pass2', re: /Passage\s+Two/i },
+  { id: 'lec1', re: /Recording\s+One/i },
+  { id: 'lec2', re: /Recording\s+Two/i },
+  { id: 'lec3', re: /Recording\s+Three/i },
+]
+
+function extractListeningDialogueLines(chunk) {
+  const lines = []
+  const senRe = /^([MW]):\s*(.+)$/gm
+  let sm
+  while ((sm = senRe.exec(chunk))) {
+    const line = sm[2].replace(/\s+/g, ' ').trim()
+    if (line.length > 2) lines.push(`${sm[1]}: ${line}`)
+  }
+  const brRe = /^\[(\d{1,2})\]\s*(.+)$/gm
+  while ((sm = brRe.exec(chunk))) {
+    const line = sm[2].replace(/\s+/g, ' ').trim()
+    if (line.length > 8) lines.push(`[${sm[1]}] ${line}`)
+  }
+  return lines
+}
+
+/** Split 解析 PDF 听力原文 into conv1–lec3 line arrays. */
+function findListeningTranscriptEnd(text, start) {
+  const after = text.slice(start)
+  const part3 = after.search(/Part\s*III[\s\S]*?Reading|阅读理解/i)
+  const rec3 = after.search(/Recording\s+Three/i)
+  let end = after.length
+  if (rec3 > 0) {
+    const tail = after.slice(rec3)
+    const ans = tail.search(/答\s*案\s*详\s*解|答案详解|(?:^|\n)\s*16\.\s*What/i)
+    if (ans > 0) end = rec3 + ans
+  } else {
+    const ans = after.search(/答\s*案\s*详\s*解|答案详解/i)
+    if (ans > 500) end = ans
+  }
+  if (part3 > 0 && part3 < end) end = part3
+  return start + end
+}
+
+function parseListeningSectionsFromAnalysis(text) {
+  const start = text.search(/听\s*力\s*原\s*文|听力原文/i)
+  if (start < 0) return null
+  const end = findListeningTranscriptEnd(text, start)
+  const section = text.slice(start, end)
+
+  const marks = [{ id: 'conv1', index: 0 }]
+  for (const { id, re } of LISTEN_SECTION_MARKERS) {
+    const m = section.match(re)
+    if (m?.index != null) marks.push({ id, index: m.index })
+  }
+  marks.sort((a, b) => a.index - b.index)
+
+  const sectionSentences = {}
+  for (let i = 0; i < marks.length; i++) {
+    const chunk = section.slice(marks[i].index, marks[i + 1]?.index ?? section.length)
+    const lines = extractListeningDialogueLines(chunk)
+    if (lines.length) sectionSentences[marks[i].id] = lines
+  }
+  const all = Object.values(sectionSentences).flat()
+  return { sectionSentences, sentences: all }
 }
 
 function englishListeningStem(raw) {
@@ -307,32 +383,22 @@ function extractChineseMcqOptions(block) {
   return opts.every((o) => o.length > 0) ? opts : null
 }
 
-function extractAnswerLetterFromChunk(chunk) {
-  const m =
-    chunk.match(/(?:故\s*)?([A-D])项与[^。\n]{0,80}相符/) ||
-    chunk.match(/(?:答案|正确答案)[：:]\s*([A-D])/i)
-  return m?.[1] ?? null
-}
-
 /**
  * 从「英语六级解析」PDF 提取听力原文、选择题与答案（常见于 2023.12 等详解册）。
  * @returns {{ sentences: string[], questions: { number, stem, options }[], answers: Map<number,string> }}
  */
 function parseListeningFromAnalysisPdf(text) {
-  const start = text.search(/Part\s*II[\s\S]*?Listening/i)
-  const end = text.search(/Part\s*III[\s\S]*?Reading|Part\s*IV[\s\S]*?Translation/i)
+  let start = text.search(/Part\s*(?:II|Ⅱ|2)[\s\S]{0,40}Listening/i)
+  if (start < 0) start = text.search(/听\s*力\s*原\s*文|听力原文/i)
+  const end = text.search(/Part\s*III[\s\S]*?Reading|Part\s*IV[\s\S]*?Translation|阅读理解/i)
   if (start < 0) {
-    return { sentences: [], questions: [], answers: new Map() }
+    return { sentences: [], sectionSentences: {}, questions: [], answers: new Map() }
   }
   const section = text.slice(start, end > start ? end : start + 80000)
 
-  const sentences = []
-  const senRe = /(?:^|\n)([MW]):\s*([^\n]+)/g
-  let sm
-  while ((sm = senRe.exec(section))) {
-    const line = sm[2].replace(/\s+/g, ' ').trim()
-    if (line.length > 2) sentences.push(`${sm[1]}: ${line}`)
-  }
+  const sectionParse = parseListeningSectionsFromAnalysis(text)
+  const sentences = sectionParse?.sentences ?? []
+  const sectionSentences = sectionParse?.sectionSentences ?? {}
 
   const answers = new Map()
   const questions = []
@@ -357,6 +423,7 @@ function parseListeningFromAnalysisPdf(text) {
   for (const q of questions) byNum.set(q.number, q)
   return {
     sentences,
+    sectionSentences,
     questions: [...byNum.values()].sort((a, b) => a.number - b.number),
     answers,
   }
@@ -521,6 +588,7 @@ function buildListeningItems(
   audioUrl,
   hasListening,
   docxSentences = [],
+  sectionSentences = null,
 ) {
   if (!hasListening) return []
   const groups = [
@@ -533,11 +601,26 @@ function buildListeningItems(
     { id: 'lec3', kind: 'lecture', title: '讲座 3', range: [22, 25] },
   ]
   const byNum = new Map(questions.map((q) => [q.number, q]))
-  const transcript = docxSentences.length
-    ? docxSentences.join('\n')
+  const allLines = docxSentences.length
+    ? docxSentences
+    : sectionSentences
+      ? Object.values(sectionSentences).flat()
+      : []
+  const transcript = allLines.length
+    ? allLines.join('\n')
     : '本题为官方真题听力，无公开文字稿。请播放录音作答，完成后对照选项与答案解析。'
   const items = []
   for (const g of groups) {
+    const useSections =
+      sectionSentences && Object.keys(sectionSentences).length > 0
+    const groupLines =
+      sectionSentences?.[g.id]?.length > 0
+        ? sectionSentences[g.id]
+        : useSections
+          ? []
+          : docxSentences.length
+            ? docxSentences
+            : []
     const qs = []
     for (let n = g.range[0]; n <= g.range[1]; n++) {
       const q = byNum.get(n)
@@ -545,7 +628,10 @@ function buildListeningItems(
       const letter = answers.get(n)
       qs.push({
         id: `q${n}`,
-        stem: q.stem ?? `Question ${n}`,
+        stem:
+          q.stem?.trim() && !/^Question\s+\d+$/i.test(q.stem)
+            ? q.stem
+            : `请根据听力录音选择最佳答案（第 ${n} 题）。`,
         options: q.options,
         answerIndex: letter ? (LETTER_INDEX[letter] ?? 0) : 0,
         explanation: letter
@@ -565,8 +651,12 @@ function buildListeningItems(
       examSet: examId,
       examPaper: setNum,
       audioUrl,
-      sentences: docxSentences.length ? docxSentences : [],
-      transcript,
+      sentences: groupLines,
+      transcript: groupLines.length
+        ? groupLines.join('\n')
+        : useSections
+          ? '本篇暂无解析 PDF 文字稿片段，请播放录音并对照纸质试卷。'
+          : transcript,
       questions: qs,
     })
   }
@@ -575,39 +665,125 @@ function buildListeningItems(
 
 function parseWriting(examText, answerText) {
   const promptMatch = examText.match(
-    /Part\s*I\s*Writing[\s\S]*?sentence\s*"([^"]+)"[\s\S]*?at least\s*(\d+)\s*words\s*but\s*no\s*more\s*than\s*(\d+)/i,
+    /Part\s*I\s*Writing[\s\S]*?sentence\s*"([\s\S]*?)"\s*You[\s\S]*?at\s+least\s*(\d+)\s*words\s*but\s*no\s*more\s*than\s*(\d+)/i,
   )
   const sampleMatch = answerText.match(
     /Part I Writing[\s\S]*?参考范文[：:]\s*([\s\S]*?)(?=Part\s*[ⅡI]{1,2}|$)/i,
   )
   if (!promptMatch) return null
   const prompt = `Write an essay that begins with: "${promptMatch[1].trim()}" (${promptMatch[2]}–${promptMatch[3]} words).`
-  const sample = (sampleMatch?.[1] ?? '')
-    .replace(/\s+/g, ' ')
-    .trim()
-    .slice(0, 4000)
+  const sample = cleanPdfArtifacts(
+    (sampleMatch?.[1] ?? '')
+      .split(/Part\s*[ⅢI]{1,3}\s*Reading/i)[0]
+      .split(/Part\s*[IVⅣ]+\s*Translation/i)[0]
+      .replace(/\s+\d{2}(\s+\d{2}){3,}[\s\S]*$/i, '')
+      .replace(/\s+/g, ' ')
+      .trim(),
+  ).slice(0, 4000)
   return { prompt, minWords: Number(promptMatch[2]), maxWords: Number(promptMatch[3]), sample }
+}
+
+function isTranslationFooter(cn) {
+  const t = cn.trim()
+  if (!t) return true
+  if (t.length > 80 && !/英语六级真题|页共|新一文化/i.test(t)) return false
+  return /英语六级真题|第\s*[^\s。]{1,4}\s*页\s*共|by\s*:\s*新一文化/i.test(t)
+}
+
+function splitEnglishSentences(en) {
+  return en
+    .split(/(?<=[.!?])\s+/)
+    .map((s) => s.trim())
+    .filter(Boolean)
+}
+
+function parseTranslationEn(answerText) {
+  const end =
+    '(?=六级\\s*[\\d.]+|六级\\s*\\d{4}|--\\s*\\d+\\s+of|202\\d年\\s*\\d+\\s*月大学|Part\\s*I\\s*Writing|译\\s*点\\s*精析|$)'
+  const patterns = [
+    new RegExp(
+      `Part\\s*[IVNⅣ@]+\\s*Translation[\\s\\S]*?参\\s*考\\s*译\\s*文\\s*[：:•·]?\\s*([\\s\\S]*?)${end}`,
+      'i',
+    ),
+    new RegExp(
+      `Part\\s*[IVNⅣ]+\\s*Translation[\\s\\S]*?参\\s*考\\s*译\\s*文\\s*[：:]\\s*([\\s\\S]*?)${end}`,
+      'i',
+    ),
+    new RegExp(
+      `Part\\s*[IVNⅣ]+\\s*Translation[\\s\\S]*?参考译文[：:]\\s*([\\s\\S]*?)${end}`,
+      'i',
+    ),
+    new RegExp(`参\\s*考\\s*译\\s*文\\s*[•·]?\\s*([\\s\\S]*?)${end}`, 'i'),
+    /Part\s*[IVⅣ]+\s*Translation[\s\S]*?参考译文[：:]\s*([\s\S]*?)(?=--|$)/i,
+  ]
+  for (const re of patterns) {
+    const m = answerText.match(re)
+    if (m?.[1]) {
+      const en = cleanPdfArtifacts(
+        m[1].replace(/\s+/g, ' ').replace(/--\s*\d+\s+of\s+\d+\s*--/gi, ' '),
+      )
+      if (en.length > 60 && /[a-z]/i.test(en)) {
+        return en
+          .split(/译\s*点\s*精\s*析/i)[0]
+          .replace(/\s*❺\s*[♦•·]?\s*译\s*点\s*精\s*析[\s\S]*$/i, '')
+          .replace(/\s*[•·♦❺]\s*1\s*\.\s*第[\s\S]*$/i, '')
+          .replace(/\s*六\s*级\s*\d{4}年[\s\S]*$/i, '')
+          .replace(/\s*--\s*\d+\s+of\s+\d+\s*--[\s\S]*$/gi, '')
+          .replace(/\s*❺[\s\S]*$/u, '')
+          .replace(/\s*[♦•·]\s*$/u, '')
+          .trim()
+      }
+    }
+  }
+  return ''
+}
+
+function finalizeTranslation({ cn, en, sentences }) {
+  const cleanCn = cleanPdfArtifacts(cn.replace(/\s+/g, ''))
+  const cleanEn = cleanPdfArtifacts(en.replace(/\s+/g, ' ').trim())
+  let sents = sentences
+    .map((s) => ({
+      ...s,
+      cn: cleanPdfArtifacts(s.cn.replace(/\s+/g, '')),
+      en: cleanPdfArtifacts((s.en ?? '').replace(/\s+/g, ' ').trim()),
+    }))
+    .filter((s) => s.cn && !isTranslationFooter(s.cn))
+
+  const enParts = cleanEn ? splitEnglishSentences(cleanEn) : []
+  if (enParts.length === sents.length) {
+    sents = sents.map((s, i) => ({
+      ...s,
+      en: enParts[i],
+      keyWords: s.keyWords?.length ? s.keyWords : [],
+    }))
+  } else if (cleanEn) {
+    sents = sents.map((s) => ({ ...s, en: s.en || cleanEn, keyWords: s.keyWords ?? [] }))
+  }
+  return { cn: cleanCn, en: cleanEn, sentences: sents }
 }
 
 function parseTranslation(examText, answerText) {
   const cnMatch = examText.match(
-    /Part IV Translation[\s\S]*?Sheet 2\.\s*([\s\S]*?)(?=--\s*\d+\s+of|$)/i,
-  )
-  const enMatch = answerText.match(
-    /Part\s*[IVⅣ]+\s*Translation[\s\S]*?参考译文[：:]\s*([\s\S]*?)(?=--|$)/i,
+    /Part\s*[IVⅣ]+\s*Translation[\s\S]*?Sheet\s*2\.\s*([\s\S]*?)(?=--\s*\d+\s+of|$)/i,
   )
   if (!cnMatch) return null
   const cn = cnMatch[1].replace(/\s+/g, '').trim()
-  const en = (enMatch?.[1] ?? '').replace(/\s+/g, ' ').trim()
+  let en = parseTranslationEn(answerText)
+  if (!en) {
+    const enMatch = answerText.match(
+      /Part\s*[IVⅣ]+\s*Translation[\s\S]*?参考译文[：:]\s*([\s\S]*?)(?=--|$)/i,
+    )
+    en = cleanPdfArtifacts((enMatch?.[1] ?? '').replace(/\s+/g, ' ').trim())
+  }
   const sentences = cn
     .split(/(?<=[。！？])/)
     .filter(Boolean)
-    .map((s, i) => ({
+    .map((s) => ({
       cn: s,
       en: '',
       keyWords: [],
     }))
-  return { cn, en, sentences }
+  return finalizeTranslation({ cn, en, sentences })
 }
 
 function parseReadingCloze(examText, answerText) {
@@ -836,7 +1012,7 @@ function mergeBundles(existing, incoming) {
   return {
     meta: incoming.meta,
     audioManifest: mergeList(existing.audioManifest ?? [], incoming.audioManifest ?? []),
-    gaps: [...new Set([...(existing.gaps ?? []), ...(incoming.gaps ?? [])])],
+    gaps: incoming.gaps?.length ? incoming.gaps : (existing.gaps ?? []),
     listening: mergeList(existing.listening ?? [], incoming.listening ?? []),
     reading: mergeList(existing.reading ?? [], incoming.reading ?? []),
     translation: mergeList(existing.translation ?? [], incoming.translation ?? []),
@@ -937,16 +1113,32 @@ async function main() {
       let lq = parseListeningFromDocx(docxText)
       let la = scanAnswer ? new Map() : parseListeningAnswers(answerText)
       let sentences = parseListeningSentencesFromDocx(docxText)
+      let sectionSentences = null
       if (hasAnalysisListening(answerText)) {
         const analysis = parseListeningFromAnalysisPdf(answerText)
         if (analysis.sentences.length > sentences.length) sentences = analysis.sentences
+        if (Object.keys(analysis.sectionSentences ?? {}).length > 0) {
+          sectionSentences = analysis.sectionSentences
+        }
         lq = mergeListeningQuestions(lq, analysis.questions)
         for (const [n, letter] of analysis.answers) {
           if (!la.has(n)) la.set(n, letter)
         }
+        for (const [n, letter] of parseAnalysisListeningAnswersFull(answerText)) {
+          if (!la.has(n)) la.set(n, letter)
+        }
       }
       listening.push(
-        ...buildListeningItems(examId, setNum, lq, la, audioUrl ?? '', true, sentences),
+        ...buildListeningItems(
+          examId,
+          setNum,
+          lq,
+          la,
+          audioUrl ?? '',
+          true,
+          sentences,
+          sectionSentences,
+        ),
       )
       if (!audioUrl) gaps.push(`第${setNum}套：听力 MP3 未就绪`)
       if (lq.length < 20) {
@@ -968,6 +1160,7 @@ async function main() {
           audioUrl,
           true,
           analysis.sentences,
+          analysis.sectionSentences,
         ),
       )
       if (analysis.questions.length < 20) {
@@ -993,6 +1186,7 @@ async function main() {
             audioUrl,
             true,
             analysis.sentences,
+            analysis.sectionSentences,
           ),
         )
         if (analysis.questions.length < 20) {
@@ -1002,12 +1196,34 @@ async function main() {
         listening.push(...buildListeningStubItems(examId, setNum, audioUrl))
         gaps.push(`第${setNum}套：已导入听力录音；试卷未解析出听力题，请用纸质卷或详解作答`)
       } else {
-        if (hasAnalysisListening(answerText) && la.size < 10) {
+        let finalLq = lq
+        let scriptLines = []
+        let sectionSentences = null
+        if (hasAnalysisListening(answerText)) {
           const analysis = parseListeningFromAnalysisPdf(answerText)
-          la = analysis.answers
+          for (const [n, letter] of analysis.answers) la.set(n, letter)
+          for (const [n, letter] of parseAnalysisListeningAnswersFull(answerText)) {
+            if (!la.has(n)) la.set(n, letter)
+          }
+          finalLq = mergeListeningQuestions(lq, analysis.questions)
+          scriptLines = analysis.sentences
+          sectionSentences = analysis.sectionSentences
+        } else if (answerText.length > 500) {
+          for (const [n, letter] of parseAnalysisListeningAnswersFull(answerText)) {
+            la.set(n, letter)
+          }
         }
         listening.push(
-          ...buildListeningItems(examId, setNum, lq, la, audioUrl ?? '', !noListening),
+          ...buildListeningItems(
+            examId,
+            setNum,
+            finalLq,
+            la,
+            audioUrl ?? '',
+            !noListening,
+            scriptLines,
+            sectionSentences,
+          ),
         )
         if (!audioUrl) gaps.push(`第${setNum}套：听力 MP3 未就绪（百度网盘下载中或缺失）`)
         if (lq.length < 20) gaps.push(`第${setNum}套：仅解析到 ${lq.length}/25 道听力选择题`)

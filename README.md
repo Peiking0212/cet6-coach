@@ -93,6 +93,32 @@ node scripts/import-exam.mjs --source "E:/BaiduNetdiskDownload/2024年6月六级
 
 **注意：** 需先在百度网盘客户端完成 MP3 下载（勿保留 `.baiduyun.p.downloading` 后缀）。第 3 套官方说明听力与第 2 套相同。长篇阅读段落匹配、部分选词填空需对照扫描图手动补全。
 
+导入后若缺参考译文、范文或听力官方答案，可再运行（会读取本机解析 PDF，不提交 PDF 到 git）：
+
+```bash
+npm run patch:exam      # 补全译文/范文/听力答案（见 scripts/patch-exam-supplements.mjs）
+npm run sanitize:exam   # 清理页码水印、对齐翻译逐句英文
+npm run audit:exam      # 检查缺答案、缺译文等
+```
+
+`patch:exam` 在重新 `import:exam` 之后需再执行一次，否则导入可能覆盖已补全的 2024-12 参考译文。
+
+**2024年12月** 若只有 `E:\BaiduNetdiskDownload\2024年12月` 这一目录，典型结构为：
+
+| 子目录 | 内容 | 应用中的效果 |
+|--------|------|----------------|
+| `01、真题PDF版（推荐使用）` | 三套可复制真题 PDF | 听力选项、阅读、写作题、翻译原文 |
+| `02、答案解析` | 目前常见仅第 3 套解析 PDF（多为扫描图） | 扫描版无法自动提取听力答案 |
+| `03、听力音频` | 需自行下载 MP3 | 下载后放入该目录，再 `npm run import:exam -- --exam-id 2024-12` |
+| `2024.12翻译` | 翻译参考图（jpg） | 第 2、3 套译文已在应用内补全；第 1 套北斗译文见 `patch:exam` |
+
+导入命令示例：
+
+```bash
+node scripts/import-exam.mjs --exam-id 2024-12 --source "E:\BaiduNetdiskDownload\2024年12月" --merge
+npm run patch:exam
+```
+
 ### 导入外部词库（个人学习材料）
 
 可将本地 `.doc` / `.pdf` 或手动导出的 CSV / JSON 合并进应用词库。导入脚本**不会修改**内置精选 `vocabulary.json`（152 词及记忆技巧），而是生成独立 deck 文件供应用选择。

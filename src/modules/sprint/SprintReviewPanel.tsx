@@ -8,6 +8,7 @@ import type {
 import { IconPlay } from '@/app/icons'
 import { useExamAudio } from '@/modules/listening/useExamAudio'
 import { sanitizeReadingItem } from '@/lib/sanitizeReadingItem'
+import { prepareTranslationItem } from '@/lib/sanitizeTranslationItem'
 import { resolveItemRefs } from '@/sprint/resolveItems'
 import { isPlaceholderTranscript } from '@/sprint/reviewRefs'
 import type { SprintItemRef } from '@/sprint/types'
@@ -152,20 +153,23 @@ function ReadingReviewBlock({ items }: { items: ReadingItem[] }) {
 function TranslationReviewBlock({ items }: { items: TranslationItem[] }) {
   return (
     <div className="sprint-review-block">
-      {items.map((item) => (
-        <section key={item.id} className="sprint-review-section">
-          <h3 className="sprint-review-section-title">{item.title}</h3>
-          <div className="sprint-review-transcript sprint-review-cn">
-            <p className="sprint-review-label">原文</p>
-            <p>{item.cn}</p>
-          </div>
-          <div className="sprint-review-transcript sprint-review-en">
-            <p className="sprint-review-label">参考译文</p>
-            <p>{item.en}</p>
-          </div>
-          {item.notes && <p className="sprint-review-muted">{item.notes}</p>}
-        </section>
-      ))}
+      {items.map((raw) => {
+        const item = prepareTranslationItem(raw)
+        return (
+          <section key={item.id} className="sprint-review-section">
+            <h3 className="sprint-review-section-title">{item.title}</h3>
+            <div className="sprint-review-transcript sprint-review-cn">
+              <p className="sprint-review-label">原文</p>
+              <p>{item.cn}</p>
+            </div>
+            <div className="sprint-review-transcript sprint-review-en">
+              <p className="sprint-review-label">参考译文</p>
+              <p>{item.en || '（暂无参考译文，请对照解析 PDF）'}</p>
+            </div>
+            {item.notes && <p className="sprint-review-muted">{item.notes}</p>}
+          </section>
+        )
+      })}
     </div>
   )
 }

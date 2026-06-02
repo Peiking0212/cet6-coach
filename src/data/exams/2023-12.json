@@ -60,16 +60,9 @@
         "W: Thafs not all. You should try and work less. Is there any way you can decrease your workload?",
         "M: Um, r d have to think about it. [4] I'm a restaurant manager and this industry is very competitive. There are many",
         "W: I recommend you think about delegating some responsibilities to someone else. Tm not asking you to retire. Just to",
-        "W: Today on People in the News, our guest is John Williams. The name may not sound familiar to you, but John was once",
-        "M: Meg, I loved being an athlete, but I didn't love being a celebrity. I was in the limelight when I was still a high",
-        "W: But walking away from millions of dollars at the height of your career, most people wouldn't be able to resist the",
-        "M: Not at all. It was hard to quit. I was tempted to stay in the game, because I love basketball and I loved my team.",
-        "W: [7] Okay, that was 20 years ago, and you're back in the news. You've created a foundation that works to get more",
-        "M: I went to university and I studied public health and learned about the seriousness of the obesity epidemic,",
-        "W: The foundation uses private donations to support basketball teams for girls and boys in primary school, right?",
-        "M: Actually, we support teams for secondary school students, too, and also have some public funding."
+        "[3] Fm going to prescribe some special sleeping pills fbr you. They have a soft, gentle effect and are made from"
       ],
-      "transcript": "M: Hello, doctor.\nW: Hello, please take a seat. I have your test results here, and it's good news. The blood test came back clear. [1]\nM: So then why do I feel so poorly all the time?\nW: It's probably due to overwork and stress.\nM: No, it can't be. Tve always been working hard, but Fve never felt stress. Other people suffering complain about\nW: What you have just described is a common sentiment. [2] Many people who suffer fhjm stress fail to recognise it.\nM: Yes, most days in fact. But Fve been doing that fbr about 20 years now.\nW: That doesn't matter. You could have been suffering from stress fbr 20 years without knowing it, and now ifs\nM: But what about my feeling tired all the time and not being able to sleep well at night?\nW: Those are common consequences of stress. And if you don't sleep well, then of course you will feel fatigued.\nM: Thank you, doctor.\nW: Thafs not all. You should try and work less. Is there any way you can decrease your workload?\nM: Um, r d have to think about it. [4] I'm a restaurant manager and this industry is very competitive. There are many\nW: I recommend you think about delegating some responsibilities to someone else. Tm not asking you to retire. Just to\nW: Today on People in the News, our guest is John Williams. The name may not sound familiar to you, but John was once\nM: Meg, I loved being an athlete, but I didn't love being a celebrity. I was in the limelight when I was still a high\nW: But walking away from millions of dollars at the height of your career, most people wouldn't be able to resist the\nM: Not at all. It was hard to quit. I was tempted to stay in the game, because I love basketball and I loved my team.\nW: [7] Okay, that was 20 years ago, and you're back in the news. You've created a foundation that works to get more\nM: I went to university and I studied public health and learned about the seriousness of the obesity epidemic,\nW: The foundation uses private donations to support basketball teams for girls and boys in primary school, right?\nM: Actually, we support teams for secondary school students, too, and also have some public funding.",
+      "transcript": "M: Hello, doctor.\nW: Hello, please take a seat. I have your test results here, and it's good news. The blood test came back clear. [1]\nM: So then why do I feel so poorly all the time?\nW: It's probably due to overwork and stress.\nM: No, it can't be. Tve always been working hard, but Fve never felt stress. Other people suffering complain about\nW: What you have just described is a common sentiment. [2] Many people who suffer fhjm stress fail to recognise it.\nM: Yes, most days in fact. But Fve been doing that fbr about 20 years now.\nW: That doesn't matter. You could have been suffering from stress fbr 20 years without knowing it, and now ifs\nM: But what about my feeling tired all the time and not being able to sleep well at night?\nW: Those are common consequences of stress. And if you don't sleep well, then of course you will feel fatigued.\nM: Thank you, doctor.\nW: Thafs not all. You should try and work less. Is there any way you can decrease your workload?\nM: Um, r d have to think about it. [4] I'm a restaurant manager and this industry is very competitive. There are many\nW: I recommend you think about delegating some responsibilities to someone else. Tm not asking you to retire. Just to\n[3] Fm going to prescribe some special sleeping pills fbr you. They have a soft, gentle effect and are made from",
       "questions": [
         {
           "id": "q1",
@@ -117,7 +110,7 @@
             "该行业充满了竞争。"
           ],
           "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "explanation": "官方答案：A。（摘自解析 PDF）"
         }
       ]
     },
@@ -138,20 +131,6 @@
       "examPaper": 1,
       "audioUrl": "/audio/exams/2023-12/set-1.mp3",
       "sentences": [
-        "M: Hello, doctor.",
-        "W: Hello, please take a seat. I have your test results here, and it's good news. The blood test came back clear. [1]",
-        "M: So then why do I feel so poorly all the time?",
-        "W: It's probably due to overwork and stress.",
-        "M: No, it can't be. Tve always been working hard, but Fve never felt stress. Other people suffering complain about",
-        "W: What you have just described is a common sentiment. [2] Many people who suffer fhjm stress fail to recognise it.",
-        "M: Yes, most days in fact. But Fve been doing that fbr about 20 years now.",
-        "W: That doesn't matter. You could have been suffering from stress fbr 20 years without knowing it, and now ifs",
-        "M: But what about my feeling tired all the time and not being able to sleep well at night?",
-        "W: Those are common consequences of stress. And if you don't sleep well, then of course you will feel fatigued.",
-        "M: Thank you, doctor.",
-        "W: Thafs not all. You should try and work less. Is there any way you can decrease your workload?",
-        "M: Um, r d have to think about it. [4] I'm a restaurant manager and this industry is very competitive. There are many",
-        "W: I recommend you think about delegating some responsibilities to someone else. Tm not asking you to retire. Just to",
         "W: Today on People in the News, our guest is John Williams. The name may not sound familiar to you, but John was once",
         "M: Meg, I loved being an athlete, but I didn't love being a celebrity. I was in the limelight when I was still a high",
         "W: But walking away from millions of dollars at the height of your career, most people wouldn't be able to resist the",
@@ -161,7 +140,7 @@
         "W: The foundation uses private donations to support basketball teams for girls and boys in primary school, right?",
         "M: Actually, we support teams for secondary school students, too, and also have some public funding."
       ],
-      "transcript": "M: Hello, doctor.\nW: Hello, please take a seat. I have your test results here, and it's good news. The blood test came back clear. [1]\nM: So then why do I feel so poorly all the time?\nW: It's probably due to overwork and stress.\nM: No, it can't be. Tve always been working hard, but Fve never felt stress. Other people suffering complain about\nW: What you have just described is a common sentiment. [2] Many people who suffer fhjm stress fail to recognise it.\nM: Yes, most days in fact. But Fve been doing that fbr about 20 years now.\nW: That doesn't matter. You could have been suffering from stress fbr 20 years without knowing it, and now ifs\nM: But what about my feeling tired all the time and not being able to sleep well at night?\nW: Those are common consequences of stress. And if you don't sleep well, then of course you will feel fatigued.\nM: Thank you, doctor.\nW: Thafs not all. You should try and work less. Is there any way you can decrease your workload?\nM: Um, r d have to think about it. [4] I'm a restaurant manager and this industry is very competitive. There are many\nW: I recommend you think about delegating some responsibilities to someone else. Tm not asking you to retire. Just to\nW: Today on People in the News, our guest is John Williams. The name may not sound familiar to you, but John was once\nM: Meg, I loved being an athlete, but I didn't love being a celebrity. I was in the limelight when I was still a high\nW: But walking away from millions of dollars at the height of your career, most people wouldn't be able to resist the\nM: Not at all. It was hard to quit. I was tempted to stay in the game, because I love basketball and I loved my team.\nW: [7] Okay, that was 20 years ago, and you're back in the news. You've created a foundation that works to get more\nM: I went to university and I studied public health and learned about the seriousness of the obesity epidemic,\nW: The foundation uses private donations to support basketball teams for girls and boys in primary school, right?\nM: Actually, we support teams for secondary school students, too, and also have some public funding.",
+      "transcript": "W: Today on People in the News, our guest is John Williams. The name may not sound familiar to you, but John was once\nM: Meg, I loved being an athlete, but I didn't love being a celebrity. I was in the limelight when I was still a high\nW: But walking away from millions of dollars at the height of your career, most people wouldn't be able to resist the\nM: Not at all. It was hard to quit. I was tempted to stay in the game, because I love basketball and I loved my team.\nW: [7] Okay, that was 20 years ago, and you're back in the news. You've created a foundation that works to get more\nM: I went to university and I studied public health and learned about the seriousness of the obesity epidemic,\nW: The foundation uses private donations to support basketball teams for girls and boys in primary school, right?\nM: Actually, we support teams for secondary school students, too, and also have some public funding.",
       "questions": [
         {
           "id": "q5",
@@ -196,8 +175,8 @@
             "他成为了一名篮球教练。",
             "他又上了新闻。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 1,
+          "explanation": "官方答案：B。（摘自解析 PDF）"
         },
         {
           "id": "q8",
@@ -230,30 +209,9 @@
       "examPaper": 1,
       "audioUrl": "/audio/exams/2023-12/set-1.mp3",
       "sentences": [
-        "M: Hello, doctor.",
-        "W: Hello, please take a seat. I have your test results here, and it's good news. The blood test came back clear. [1]",
-        "M: So then why do I feel so poorly all the time?",
-        "W: It's probably due to overwork and stress.",
-        "M: No, it can't be. Tve always been working hard, but Fve never felt stress. Other people suffering complain about",
-        "W: What you have just described is a common sentiment. [2] Many people who suffer fhjm stress fail to recognise it.",
-        "M: Yes, most days in fact. But Fve been doing that fbr about 20 years now.",
-        "W: That doesn't matter. You could have been suffering from stress fbr 20 years without knowing it, and now ifs",
-        "M: But what about my feeling tired all the time and not being able to sleep well at night?",
-        "W: Those are common consequences of stress. And if you don't sleep well, then of course you will feel fatigued.",
-        "M: Thank you, doctor.",
-        "W: Thafs not all. You should try and work less. Is there any way you can decrease your workload?",
-        "M: Um, r d have to think about it. [4] I'm a restaurant manager and this industry is very competitive. There are many",
-        "W: I recommend you think about delegating some responsibilities to someone else. Tm not asking you to retire. Just to",
-        "W: Today on People in the News, our guest is John Williams. The name may not sound familiar to you, but John was once",
-        "M: Meg, I loved being an athlete, but I didn't love being a celebrity. I was in the limelight when I was still a high",
-        "W: But walking away from millions of dollars at the height of your career, most people wouldn't be able to resist the",
-        "M: Not at all. It was hard to quit. I was tempted to stay in the game, because I love basketball and I loved my team.",
-        "W: [7] Okay, that was 20 years ago, and you're back in the news. You've created a foundation that works to get more",
-        "M: I went to university and I studied public health and learned about the seriousness of the obesity epidemic,",
-        "W: The foundation uses private donations to support basketball teams for girls and boys in primary school, right?",
-        "M: Actually, we support teams for secondary school students, too, and also have some public funding."
+        "[10] Whatever genre Atkinson writes in, her books touch OK the themes of love and loss and how to carry on."
       ],
-      "transcript": "M: Hello, doctor.\nW: Hello, please take a seat. I have your test results here, and it's good news. The blood test came back clear. [1]\nM: So then why do I feel so poorly all the time?\nW: It's probably due to overwork and stress.\nM: No, it can't be. Tve always been working hard, but Fve never felt stress. Other people suffering complain about\nW: What you have just described is a common sentiment. [2] Many people who suffer fhjm stress fail to recognise it.\nM: Yes, most days in fact. But Fve been doing that fbr about 20 years now.\nW: That doesn't matter. You could have been suffering from stress fbr 20 years without knowing it, and now ifs\nM: But what about my feeling tired all the time and not being able to sleep well at night?\nW: Those are common consequences of stress. And if you don't sleep well, then of course you will feel fatigued.\nM: Thank you, doctor.\nW: Thafs not all. You should try and work less. Is there any way you can decrease your workload?\nM: Um, r d have to think about it. [4] I'm a restaurant manager and this industry is very competitive. There are many\nW: I recommend you think about delegating some responsibilities to someone else. Tm not asking you to retire. Just to\nW: Today on People in the News, our guest is John Williams. The name may not sound familiar to you, but John was once\nM: Meg, I loved being an athlete, but I didn't love being a celebrity. I was in the limelight when I was still a high\nW: But walking away from millions of dollars at the height of your career, most people wouldn't be able to resist the\nM: Not at all. It was hard to quit. I was tempted to stay in the game, because I love basketball and I loved my team.\nW: [7] Okay, that was 20 years ago, and you're back in the news. You've created a foundation that works to get more\nM: I went to university and I studied public health and learned about the seriousness of the obesity epidemic,\nW: The foundation uses private donations to support basketball teams for girls and boys in primary school, right?\nM: Actually, we support teams for secondary school students, too, and also have some public funding.",
+      "transcript": "[10] Whatever genre Atkinson writes in, her books touch OK the themes of love and loss and how to carry on.",
       "questions": [
         {
           "id": "q10",
@@ -265,7 +223,7 @@
             "时尚圈的礼仪。"
           ],
           "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "explanation": "官方答案：A。（摘自解析 PDF）"
         },
         {
           "id": "q11",
@@ -276,8 +234,8 @@
             "他们经常得到奖励而不是受到惩罚。",
             "他们在社会上普遍被瞧不起。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 2,
+          "explanation": "官方答案：C。（摘自解析 PDF）"
         }
       ]
     },
@@ -297,31 +255,8 @@
       "examSet": "2023-12",
       "examPaper": 1,
       "audioUrl": "/audio/exams/2023-12/set-1.mp3",
-      "sentences": [
-        "M: Hello, doctor.",
-        "W: Hello, please take a seat. I have your test results here, and it's good news. The blood test came back clear. [1]",
-        "M: So then why do I feel so poorly all the time?",
-        "W: It's probably due to overwork and stress.",
-        "M: No, it can't be. Tve always been working hard, but Fve never felt stress. Other people suffering complain about",
-        "W: What you have just described is a common sentiment. [2] Many people who suffer fhjm stress fail to recognise it.",
-        "M: Yes, most days in fact. But Fve been doing that fbr about 20 years now.",
-        "W: That doesn't matter. You could have been suffering from stress fbr 20 years without knowing it, and now ifs",
-        "M: But what about my feeling tired all the time and not being able to sleep well at night?",
-        "W: Those are common consequences of stress. And if you don't sleep well, then of course you will feel fatigued.",
-        "M: Thank you, doctor.",
-        "W: Thafs not all. You should try and work less. Is there any way you can decrease your workload?",
-        "M: Um, r d have to think about it. [4] I'm a restaurant manager and this industry is very competitive. There are many",
-        "W: I recommend you think about delegating some responsibilities to someone else. Tm not asking you to retire. Just to",
-        "W: Today on People in the News, our guest is John Williams. The name may not sound familiar to you, but John was once",
-        "M: Meg, I loved being an athlete, but I didn't love being a celebrity. I was in the limelight when I was still a high",
-        "W: But walking away from millions of dollars at the height of your career, most people wouldn't be able to resist the",
-        "M: Not at all. It was hard to quit. I was tempted to stay in the game, because I love basketball and I loved my team.",
-        "W: [7] Okay, that was 20 years ago, and you're back in the news. You've created a foundation that works to get more",
-        "M: I went to university and I studied public health and learned about the seriousness of the obesity epidemic,",
-        "W: The foundation uses private donations to support basketball teams for girls and boys in primary school, right?",
-        "M: Actually, we support teams for secondary school students, too, and also have some public funding."
-      ],
-      "transcript": "M: Hello, doctor.\nW: Hello, please take a seat. I have your test results here, and it's good news. The blood test came back clear. [1]\nM: So then why do I feel so poorly all the time?\nW: It's probably due to overwork and stress.\nM: No, it can't be. Tve always been working hard, but Fve never felt stress. Other people suffering complain about\nW: What you have just described is a common sentiment. [2] Many people who suffer fhjm stress fail to recognise it.\nM: Yes, most days in fact. But Fve been doing that fbr about 20 years now.\nW: That doesn't matter. You could have been suffering from stress fbr 20 years without knowing it, and now ifs\nM: But what about my feeling tired all the time and not being able to sleep well at night?\nW: Those are common consequences of stress. And if you don't sleep well, then of course you will feel fatigued.\nM: Thank you, doctor.\nW: Thafs not all. You should try and work less. Is there any way you can decrease your workload?\nM: Um, r d have to think about it. [4] I'm a restaurant manager and this industry is very competitive. There are many\nW: I recommend you think about delegating some responsibilities to someone else. Tm not asking you to retire. Just to\nW: Today on People in the News, our guest is John Williams. The name may not sound familiar to you, but John was once\nM: Meg, I loved being an athlete, but I didn't love being a celebrity. I was in the limelight when I was still a high\nW: But walking away from millions of dollars at the height of your career, most people wouldn't be able to resist the\nM: Not at all. It was hard to quit. I was tempted to stay in the game, because I love basketball and I loved my team.\nW: [7] Okay, that was 20 years ago, and you're back in the news. You've created a foundation that works to get more\nM: I went to university and I studied public health and learned about the seriousness of the obesity epidemic,\nW: The foundation uses private donations to support basketball teams for girls and boys in primary school, right?\nM: Actually, we support teams for secondary school students, too, and also have some public funding.",
+      "sentences": [],
+      "transcript": "本篇暂无解析 PDF 文字稿片段，请播放录音并对照纸质试卷。",
       "questions": [
         {
           "id": "q12",
@@ -332,8 +267,8 @@
             "它有助于摆脱经济衰退。",
             "这是学习一项新任务的必要条件。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 1,
+          "explanation": "官方答案：B。（摘自解析 PDF）"
         },
         {
           "id": "q14",
@@ -344,8 +279,8 @@
             "人们的工作时间通常比较灵活。",
             "人们经常团队合作。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 3,
+          "explanation": "官方答案：D。（摘自解析 PDF）"
         }
       ]
     },
@@ -366,30 +301,9 @@
       "examPaper": 1,
       "audioUrl": "/audio/exams/2023-12/set-1.mp3",
       "sentences": [
-        "M: Hello, doctor.",
-        "W: Hello, please take a seat. I have your test results here, and it's good news. The blood test came back clear. [1]",
-        "M: So then why do I feel so poorly all the time?",
-        "W: It's probably due to overwork and stress.",
-        "M: No, it can't be. Tve always been working hard, but Fve never felt stress. Other people suffering complain about",
-        "W: What you have just described is a common sentiment. [2] Many people who suffer fhjm stress fail to recognise it.",
-        "M: Yes, most days in fact. But Fve been doing that fbr about 20 years now.",
-        "W: That doesn't matter. You could have been suffering from stress fbr 20 years without knowing it, and now ifs",
-        "M: But what about my feeling tired all the time and not being able to sleep well at night?",
-        "W: Those are common consequences of stress. And if you don't sleep well, then of course you will feel fatigued.",
-        "M: Thank you, doctor.",
-        "W: Thafs not all. You should try and work less. Is there any way you can decrease your workload?",
-        "M: Um, r d have to think about it. [4] I'm a restaurant manager and this industry is very competitive. There are many",
-        "W: I recommend you think about delegating some responsibilities to someone else. Tm not asking you to retire. Just to",
-        "W: Today on People in the News, our guest is John Williams. The name may not sound familiar to you, but John was once",
-        "M: Meg, I loved being an athlete, but I didn't love being a celebrity. I was in the limelight when I was still a high",
-        "W: But walking away from millions of dollars at the height of your career, most people wouldn't be able to resist the",
-        "M: Not at all. It was hard to quit. I was tempted to stay in the game, because I love basketball and I loved my team.",
-        "W: [7] Okay, that was 20 years ago, and you're back in the news. You've created a foundation that works to get more",
-        "M: I went to university and I studied public health and learned about the seriousness of the obesity epidemic,",
-        "W: The foundation uses private donations to support basketball teams for girls and boys in primary school, right?",
-        "M: Actually, we support teams for secondary school students, too, and also have some public funding."
+        "[16] What makes humans different fh) m other species? Some philosophers argue ifs morals or ethics, while some"
       ],
-      "transcript": "M: Hello, doctor.\nW: Hello, please take a seat. I have your test results here, and it's good news. The blood test came back clear. [1]\nM: So then why do I feel so poorly all the time?\nW: It's probably due to overwork and stress.\nM: No, it can't be. Tve always been working hard, but Fve never felt stress. Other people suffering complain about\nW: What you have just described is a common sentiment. [2] Many people who suffer fhjm stress fail to recognise it.\nM: Yes, most days in fact. But Fve been doing that fbr about 20 years now.\nW: That doesn't matter. You could have been suffering from stress fbr 20 years without knowing it, and now ifs\nM: But what about my feeling tired all the time and not being able to sleep well at night?\nW: Those are common consequences of stress. And if you don't sleep well, then of course you will feel fatigued.\nM: Thank you, doctor.\nW: Thafs not all. You should try and work less. Is there any way you can decrease your workload?\nM: Um, r d have to think about it. [4] I'm a restaurant manager and this industry is very competitive. There are many\nW: I recommend you think about delegating some responsibilities to someone else. Tm not asking you to retire. Just to\nW: Today on People in the News, our guest is John Williams. The name may not sound familiar to you, but John was once\nM: Meg, I loved being an athlete, but I didn't love being a celebrity. I was in the limelight when I was still a high\nW: But walking away from millions of dollars at the height of your career, most people wouldn't be able to resist the\nM: Not at all. It was hard to quit. I was tempted to stay in the game, because I love basketball and I loved my team.\nW: [7] Okay, that was 20 years ago, and you're back in the news. You've created a foundation that works to get more\nM: I went to university and I studied public health and learned about the seriousness of the obesity epidemic,\nW: The foundation uses private donations to support basketball teams for girls and boys in primary school, right?\nM: Actually, we support teams for secondary school students, too, and also have some public funding.",
+      "transcript": "[16] What makes humans different fh) m other species? Some philosophers argue ifs morals or ethics, while some",
       "questions": [
         {
           "id": "q16",
@@ -401,7 +315,7 @@
             "创造性何时成了一种生物学要求。"
           ],
           "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "explanation": "官方答案：A。（摘自解析 PDF）"
         },
         {
           "id": "q17",
@@ -412,8 +326,8 @@
             "它是只有天才能够做到的事情。",
             "它是每个人都能做的事情。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 3,
+          "explanation": "官方答案：D。（摘自解析 PDF）"
         },
         {
           "id": "q18",
@@ -424,8 +338,8 @@
             "它利用已有的想法创造新的想法。",
             "它定期重复先例。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 2,
+          "explanation": "官方答案：C。（摘自解析 PDF）"
         }
       ]
     },
@@ -446,30 +360,9 @@
       "examPaper": 1,
       "audioUrl": "/audio/exams/2023-12/set-1.mp3",
       "sentences": [
-        "M: Hello, doctor.",
-        "W: Hello, please take a seat. I have your test results here, and it's good news. The blood test came back clear. [1]",
-        "M: So then why do I feel so poorly all the time?",
-        "W: It's probably due to overwork and stress.",
-        "M: No, it can't be. Tve always been working hard, but Fve never felt stress. Other people suffering complain about",
-        "W: What you have just described is a common sentiment. [2] Many people who suffer fhjm stress fail to recognise it.",
-        "M: Yes, most days in fact. But Fve been doing that fbr about 20 years now.",
-        "W: That doesn't matter. You could have been suffering from stress fbr 20 years without knowing it, and now ifs",
-        "M: But what about my feeling tired all the time and not being able to sleep well at night?",
-        "W: Those are common consequences of stress. And if you don't sleep well, then of course you will feel fatigued.",
-        "M: Thank you, doctor.",
-        "W: Thafs not all. You should try and work less. Is there any way you can decrease your workload?",
-        "M: Um, r d have to think about it. [4] I'm a restaurant manager and this industry is very competitive. There are many",
-        "W: I recommend you think about delegating some responsibilities to someone else. Tm not asking you to retire. Just to",
-        "W: Today on People in the News, our guest is John Williams. The name may not sound familiar to you, but John was once",
-        "M: Meg, I loved being an athlete, but I didn't love being a celebrity. I was in the limelight when I was still a high",
-        "W: But walking away from millions of dollars at the height of your career, most people wouldn't be able to resist the",
-        "M: Not at all. It was hard to quit. I was tempted to stay in the game, because I love basketball and I loved my team.",
-        "W: [7] Okay, that was 20 years ago, and you're back in the news. You've created a foundation that works to get more",
-        "M: I went to university and I studied public health and learned about the seriousness of the obesity epidemic,",
-        "W: The foundation uses private donations to support basketball teams for girls and boys in primary school, right?",
-        "M: Actually, we support teams for secondary school students, too, and also have some public funding."
+        "[19] Many dog owners would tell you that their dog somehow knows when they're ill or upset, and according"
       ],
-      "transcript": "M: Hello, doctor.\nW: Hello, please take a seat. I have your test results here, and it's good news. The blood test came back clear. [1]\nM: So then why do I feel so poorly all the time?\nW: It's probably due to overwork and stress.\nM: No, it can't be. Tve always been working hard, but Fve never felt stress. Other people suffering complain about\nW: What you have just described is a common sentiment. [2] Many people who suffer fhjm stress fail to recognise it.\nM: Yes, most days in fact. But Fve been doing that fbr about 20 years now.\nW: That doesn't matter. You could have been suffering from stress fbr 20 years without knowing it, and now ifs\nM: But what about my feeling tired all the time and not being able to sleep well at night?\nW: Those are common consequences of stress. And if you don't sleep well, then of course you will feel fatigued.\nM: Thank you, doctor.\nW: Thafs not all. You should try and work less. Is there any way you can decrease your workload?\nM: Um, r d have to think about it. [4] I'm a restaurant manager and this industry is very competitive. There are many\nW: I recommend you think about delegating some responsibilities to someone else. Tm not asking you to retire. Just to\nW: Today on People in the News, our guest is John Williams. The name may not sound familiar to you, but John was once\nM: Meg, I loved being an athlete, but I didn't love being a celebrity. I was in the limelight when I was still a high\nW: But walking away from millions of dollars at the height of your career, most people wouldn't be able to resist the\nM: Not at all. It was hard to quit. I was tempted to stay in the game, because I love basketball and I loved my team.\nW: [7] Okay, that was 20 years ago, and you're back in the news. You've created a foundation that works to get more\nM: I went to university and I studied public health and learned about the seriousness of the obesity epidemic,\nW: The foundation uses private donations to support basketball teams for girls and boys in primary school, right?\nM: Actually, we support teams for secondary school students, too, and also have some public funding.",
+      "transcript": "[19] Many dog owners would tell you that their dog somehow knows when they're ill or upset, and according",
       "questions": [
         {
           "id": "q19",
@@ -481,7 +374,7 @@
             "当狗的人类同伴再也不能忍受它们时，狗会知道。"
           ],
           "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "explanation": "官方答案：A。（摘自解析 PDF）"
         },
         {
           "id": "q20",
@@ -492,8 +385,8 @@
             "它们对奇怪的气味特别敏感。",
             "它们有极其强大的嗅觉。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 3,
+          "explanation": "官方答案：D。（摘自解析 PDF）"
         },
         {
           "id": "q21",
@@ -504,8 +397,8 @@
             "养狗可以降低主人患癌症或糖尿病的风险。",
             "养狗可以提醒主人注意他们疾病的严重性。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 1,
+          "explanation": "官方答案：B。（摘自解析 PDF）"
         }
       ]
     },
@@ -525,31 +418,8 @@
       "examSet": "2023-12",
       "examPaper": 1,
       "audioUrl": "/audio/exams/2023-12/set-1.mp3",
-      "sentences": [
-        "M: Hello, doctor.",
-        "W: Hello, please take a seat. I have your test results here, and it's good news. The blood test came back clear. [1]",
-        "M: So then why do I feel so poorly all the time?",
-        "W: It's probably due to overwork and stress.",
-        "M: No, it can't be. Tve always been working hard, but Fve never felt stress. Other people suffering complain about",
-        "W: What you have just described is a common sentiment. [2] Many people who suffer fhjm stress fail to recognise it.",
-        "M: Yes, most days in fact. But Fve been doing that fbr about 20 years now.",
-        "W: That doesn't matter. You could have been suffering from stress fbr 20 years without knowing it, and now ifs",
-        "M: But what about my feeling tired all the time and not being able to sleep well at night?",
-        "W: Those are common consequences of stress. And if you don't sleep well, then of course you will feel fatigued.",
-        "M: Thank you, doctor.",
-        "W: Thafs not all. You should try and work less. Is there any way you can decrease your workload?",
-        "M: Um, r d have to think about it. [4] I'm a restaurant manager and this industry is very competitive. There are many",
-        "W: I recommend you think about delegating some responsibilities to someone else. Tm not asking you to retire. Just to",
-        "W: Today on People in the News, our guest is John Williams. The name may not sound familiar to you, but John was once",
-        "M: Meg, I loved being an athlete, but I didn't love being a celebrity. I was in the limelight when I was still a high",
-        "W: But walking away from millions of dollars at the height of your career, most people wouldn't be able to resist the",
-        "M: Not at all. It was hard to quit. I was tempted to stay in the game, because I love basketball and I loved my team.",
-        "W: [7] Okay, that was 20 years ago, and you're back in the news. You've created a foundation that works to get more",
-        "M: I went to university and I studied public health and learned about the seriousness of the obesity epidemic,",
-        "W: The foundation uses private donations to support basketball teams for girls and boys in primary school, right?",
-        "M: Actually, we support teams for secondary school students, too, and also have some public funding."
-      ],
-      "transcript": "M: Hello, doctor.\nW: Hello, please take a seat. I have your test results here, and it's good news. The blood test came back clear. [1]\nM: So then why do I feel so poorly all the time?\nW: It's probably due to overwork and stress.\nM: No, it can't be. Tve always been working hard, but Fve never felt stress. Other people suffering complain about\nW: What you have just described is a common sentiment. [2] Many people who suffer fhjm stress fail to recognise it.\nM: Yes, most days in fact. But Fve been doing that fbr about 20 years now.\nW: That doesn't matter. You could have been suffering from stress fbr 20 years without knowing it, and now ifs\nM: But what about my feeling tired all the time and not being able to sleep well at night?\nW: Those are common consequences of stress. And if you don't sleep well, then of course you will feel fatigued.\nM: Thank you, doctor.\nW: Thafs not all. You should try and work less. Is there any way you can decrease your workload?\nM: Um, r d have to think about it. [4] I'm a restaurant manager and this industry is very competitive. There are many\nW: I recommend you think about delegating some responsibilities to someone else. Tm not asking you to retire. Just to\nW: Today on People in the News, our guest is John Williams. The name may not sound familiar to you, but John was once\nM: Meg, I loved being an athlete, but I didn't love being a celebrity. I was in the limelight when I was still a high\nW: But walking away from millions of dollars at the height of your career, most people wouldn't be able to resist the\nM: Not at all. It was hard to quit. I was tempted to stay in the game, because I love basketball and I loved my team.\nW: [7] Okay, that was 20 years ago, and you're back in the news. You've created a foundation that works to get more\nM: I went to university and I studied public health and learned about the seriousness of the obesity epidemic,\nW: The foundation uses private donations to support basketball teams for girls and boys in primary school, right?\nM: Actually, we support teams for secondary school students, too, and also have some public funding.",
+      "sentences": [],
+      "transcript": "本篇暂无解析 PDF 文字稿片段，请播放录音并对照纸质试卷。",
       "questions": [
         {
           "id": "q22",
@@ -560,8 +430,8 @@
             "研究如何改革技术教育和职业教育。",
             "确保创意艺术专业的学生获得更高的性价比。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 1,
+          "explanation": "官方答案：B。（摘自解析 PDF）"
         },
         {
           "id": "q23",
@@ -572,8 +442,8 @@
             "极不合理。",
             "明显过分简单化。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 2,
+          "explanation": "官方答案：C。（摘自解析 PDF）"
         },
         {
           "id": "q24",
@@ -584,8 +454,8 @@
             "他们中40%的人年收入低于2.5万英镑。",
             "他们中的大多数人都有收入相当不错的工作。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 2,
+          "explanation": "官方答案：C。（摘自解析 PDF）"
         },
         {
           "id": "q25",
@@ -596,8 +466,8 @@
             "学生获得的特定学位。",
             "英国有缺陷的教育体系。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 2,
+          "explanation": "官方答案：C。（摘自解析 PDF）"
         }
       ]
     },
@@ -626,24 +496,9 @@
         "M: I'm warming up to the idea. Keep talking.",
         "W: Loads of people are committing to this trend full time. Check it out online. Lots of people stream videos of their",
         "M: Okay, we can consider it. As long as the basic needs like toilet and showers are covered, Tm definitely in. Do you",
-        "W: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first.",
-        "W: You wanted to see me?",
-        "M: Yes, r i l get straight to the point. [5] Over the past month or so, it has become apparent that your performance has",
-        "W: I'm sorry. [6] I'm going through some unfortunate family issues at the moment. It's a personal matter, so if you",
-        "M: Do you need some time off?",
-        "W: Actually, yes. Would it be possible to take the next two Mondays off? I was deliberating whether I should ask fbr",
-        "M: Sure thing. But if you needed some leave, why didn't you ask fbr it earlier?",
-        "W: I'm not sure why. I guess I kind of felt bad asking fbr it.",
-        "M: You shouldn't feel bad asking for leave, especially if you need it.",
-        "W: I know. You're right. Tm sorry.",
-        "M: Look, you've been with us almost five years [7] and I personally really value your proficiency at your job. It makes",
-        "W: Thank you.",
-        "M: [8] What I need is fbr you to be back at your 100%. Are you sure taking two Mondays off will suffice?",
-        "W: [8] It'll be enough. I'm sure of it.",
-        "M: [8] Okay, good. So this is what we're going to do. You will take those days off, and I expect that you will gradually",
-        "W: Sounds good. Thank you for your understanding."
+        "W: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first."
       ],
-      "transcript": "W: So, [1] I've been thinking, this summer, instead of our usual holiday rental, I'd like to try renting a camper van and\nM: A camper van? You mean to spend the summer living out of a car?\nW: Yes, a camper van. And no, ifs nothing like living out of a car. These are proper vans with full-size beds to sleep in.\nM: [2] I think my grandfather had a van like that. It doesn't sound that appealing to me.\nW: Today's camper vans are completely different. These days, they?re equipped with all the modem comforts. [3] Fve\nM: I'm warming up to the idea. Keep talking.\nW: Loads of people are committing to this trend full time. Check it out online. Lots of people stream videos of their\nM: Okay, we can consider it. As long as the basic needs like toilet and showers are covered, Tm definitely in. Do you\nW: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first.\nW: You wanted to see me?\nM: Yes, r i l get straight to the point. [5] Over the past month or so, it has become apparent that your performance has\nW: I'm sorry. [6] I'm going through some unfortunate family issues at the moment. It's a personal matter, so if you\nM: Do you need some time off?\nW: Actually, yes. Would it be possible to take the next two Mondays off? I was deliberating whether I should ask fbr\nM: Sure thing. But if you needed some leave, why didn't you ask fbr it earlier?\nW: I'm not sure why. I guess I kind of felt bad asking fbr it.\nM: You shouldn't feel bad asking for leave, especially if you need it.\nW: I know. You're right. Tm sorry.\nM: Look, you've been with us almost five years [7] and I personally really value your proficiency at your job. It makes\nW: Thank you.\nM: [8] What I need is fbr you to be back at your 100%. Are you sure taking two Mondays off will suffice?\nW: [8] It'll be enough. I'm sure of it.\nM: [8] Okay, good. So this is what we're going to do. You will take those days off, and I expect that you will gradually\nW: Sounds good. Thank you for your understanding.",
+      "transcript": "W: So, [1] I've been thinking, this summer, instead of our usual holiday rental, I'd like to try renting a camper van and\nM: A camper van? You mean to spend the summer living out of a car?\nW: Yes, a camper van. And no, ifs nothing like living out of a car. These are proper vans with full-size beds to sleep in.\nM: [2] I think my grandfather had a van like that. It doesn't sound that appealing to me.\nW: Today's camper vans are completely different. These days, they?re equipped with all the modem comforts. [3] Fve\nM: I'm warming up to the idea. Keep talking.\nW: Loads of people are committing to this trend full time. Check it out online. Lots of people stream videos of their\nM: Okay, we can consider it. As long as the basic needs like toilet and showers are covered, Tm definitely in. Do you\nW: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first.",
       "questions": [
         {
           "id": "q1",
@@ -666,8 +521,8 @@
             "他觉得度假屋没有吸引力。",
             "他不喜欢待在一个地方。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 1,
+          "explanation": "官方答案：B。（摘自解析 PDF）"
         },
         {
           "id": "q3",
@@ -678,8 +533,8 @@
             "通过电脑接收指令。",
             "自己发电。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 3,
+          "explanation": "官方答案：D。（摘自解析 PDF）"
         },
         {
           "id": "q4",
@@ -712,15 +567,6 @@
       "examPaper": 2,
       "audioUrl": "/audio/exams/2023-12/set-2.mp3",
       "sentences": [
-        "W: So, [1] I've been thinking, this summer, instead of our usual holiday rental, I'd like to try renting a camper van and",
-        "M: A camper van? You mean to spend the summer living out of a car?",
-        "W: Yes, a camper van. And no, ifs nothing like living out of a car. These are proper vans with full-size beds to sleep in.",
-        "M: [2] I think my grandfather had a van like that. It doesn't sound that appealing to me.",
-        "W: Today's camper vans are completely different. These days, they?re equipped with all the modem comforts. [3] Fve",
-        "M: I'm warming up to the idea. Keep talking.",
-        "W: Loads of people are committing to this trend full time. Check it out online. Lots of people stream videos of their",
-        "M: Okay, we can consider it. As long as the basic needs like toilet and showers are covered, Tm definitely in. Do you",
-        "W: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first.",
         "W: You wanted to see me?",
         "M: Yes, r i l get straight to the point. [5] Over the past month or so, it has become apparent that your performance has",
         "W: I'm sorry. [6] I'm going through some unfortunate family issues at the moment. It's a personal matter, so if you",
@@ -737,7 +583,7 @@
         "M: [8] Okay, good. So this is what we're going to do. You will take those days off, and I expect that you will gradually",
         "W: Sounds good. Thank you for your understanding."
       ],
-      "transcript": "W: So, [1] I've been thinking, this summer, instead of our usual holiday rental, I'd like to try renting a camper van and\nM: A camper van? You mean to spend the summer living out of a car?\nW: Yes, a camper van. And no, ifs nothing like living out of a car. These are proper vans with full-size beds to sleep in.\nM: [2] I think my grandfather had a van like that. It doesn't sound that appealing to me.\nW: Today's camper vans are completely different. These days, they?re equipped with all the modem comforts. [3] Fve\nM: I'm warming up to the idea. Keep talking.\nW: Loads of people are committing to this trend full time. Check it out online. Lots of people stream videos of their\nM: Okay, we can consider it. As long as the basic needs like toilet and showers are covered, Tm definitely in. Do you\nW: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first.\nW: You wanted to see me?\nM: Yes, r i l get straight to the point. [5] Over the past month or so, it has become apparent that your performance has\nW: I'm sorry. [6] I'm going through some unfortunate family issues at the moment. It's a personal matter, so if you\nM: Do you need some time off?\nW: Actually, yes. Would it be possible to take the next two Mondays off? I was deliberating whether I should ask fbr\nM: Sure thing. But if you needed some leave, why didn't you ask fbr it earlier?\nW: I'm not sure why. I guess I kind of felt bad asking fbr it.\nM: You shouldn't feel bad asking for leave, especially if you need it.\nW: I know. You're right. Tm sorry.\nM: Look, you've been with us almost five years [7] and I personally really value your proficiency at your job. It makes\nW: Thank you.\nM: [8] What I need is fbr you to be back at your 100%. Are you sure taking two Mondays off will suffice?\nW: [8] It'll be enough. I'm sure of it.\nM: [8] Okay, good. So this is what we're going to do. You will take those days off, and I expect that you will gradually\nW: Sounds good. Thank you for your understanding.",
+      "transcript": "W: You wanted to see me?\nM: Yes, r i l get straight to the point. [5] Over the past month or so, it has become apparent that your performance has\nW: I'm sorry. [6] I'm going through some unfortunate family issues at the moment. It's a personal matter, so if you\nM: Do you need some time off?\nW: Actually, yes. Would it be possible to take the next two Mondays off? I was deliberating whether I should ask fbr\nM: Sure thing. But if you needed some leave, why didn't you ask fbr it earlier?\nW: I'm not sure why. I guess I kind of felt bad asking fbr it.\nM: You shouldn't feel bad asking for leave, especially if you need it.\nW: I know. You're right. Tm sorry.\nM: Look, you've been with us almost five years [7] and I personally really value your proficiency at your job. It makes\nW: Thank you.\nM: [8] What I need is fbr you to be back at your 100%. Are you sure taking two Mondays off will suffice?\nW: [8] It'll be enough. I'm sure of it.\nM: [8] Okay, good. So this is what we're going to do. You will take those days off, and I expect that you will gradually\nW: Sounds good. Thank you for your understanding.",
       "questions": [
         {
           "id": "q5",
@@ -772,8 +618,8 @@
             "他迷人的个性。",
             "他的管理能力。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 2,
+          "explanation": "官方答案：C。（摘自解析 PDF）"
         },
         {
           "id": "q8",
@@ -805,33 +651,8 @@
       "examSet": "2023-12",
       "examPaper": 2,
       "audioUrl": "/audio/exams/2023-12/set-2.mp3",
-      "sentences": [
-        "W: So, [1] I've been thinking, this summer, instead of our usual holiday rental, I'd like to try renting a camper van and",
-        "M: A camper van? You mean to spend the summer living out of a car?",
-        "W: Yes, a camper van. And no, ifs nothing like living out of a car. These are proper vans with full-size beds to sleep in.",
-        "M: [2] I think my grandfather had a van like that. It doesn't sound that appealing to me.",
-        "W: Today's camper vans are completely different. These days, they?re equipped with all the modem comforts. [3] Fve",
-        "M: I'm warming up to the idea. Keep talking.",
-        "W: Loads of people are committing to this trend full time. Check it out online. Lots of people stream videos of their",
-        "M: Okay, we can consider it. As long as the basic needs like toilet and showers are covered, Tm definitely in. Do you",
-        "W: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first.",
-        "W: You wanted to see me?",
-        "M: Yes, r i l get straight to the point. [5] Over the past month or so, it has become apparent that your performance has",
-        "W: I'm sorry. [6] I'm going through some unfortunate family issues at the moment. It's a personal matter, so if you",
-        "M: Do you need some time off?",
-        "W: Actually, yes. Would it be possible to take the next two Mondays off? I was deliberating whether I should ask fbr",
-        "M: Sure thing. But if you needed some leave, why didn't you ask fbr it earlier?",
-        "W: I'm not sure why. I guess I kind of felt bad asking fbr it.",
-        "M: You shouldn't feel bad asking for leave, especially if you need it.",
-        "W: I know. You're right. Tm sorry.",
-        "M: Look, you've been with us almost five years [7] and I personally really value your proficiency at your job. It makes",
-        "W: Thank you.",
-        "M: [8] What I need is fbr you to be back at your 100%. Are you sure taking two Mondays off will suffice?",
-        "W: [8] It'll be enough. I'm sure of it.",
-        "M: [8] Okay, good. So this is what we're going to do. You will take those days off, and I expect that you will gradually",
-        "W: Sounds good. Thank you for your understanding."
-      ],
-      "transcript": "W: So, [1] I've been thinking, this summer, instead of our usual holiday rental, I'd like to try renting a camper van and\nM: A camper van? You mean to spend the summer living out of a car?\nW: Yes, a camper van. And no, ifs nothing like living out of a car. These are proper vans with full-size beds to sleep in.\nM: [2] I think my grandfather had a van like that. It doesn't sound that appealing to me.\nW: Today's camper vans are completely different. These days, they?re equipped with all the modem comforts. [3] Fve\nM: I'm warming up to the idea. Keep talking.\nW: Loads of people are committing to this trend full time. Check it out online. Lots of people stream videos of their\nM: Okay, we can consider it. As long as the basic needs like toilet and showers are covered, Tm definitely in. Do you\nW: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first.\nW: You wanted to see me?\nM: Yes, r i l get straight to the point. [5] Over the past month or so, it has become apparent that your performance has\nW: I'm sorry. [6] I'm going through some unfortunate family issues at the moment. It's a personal matter, so if you\nM: Do you need some time off?\nW: Actually, yes. Would it be possible to take the next two Mondays off? I was deliberating whether I should ask fbr\nM: Sure thing. But if you needed some leave, why didn't you ask fbr it earlier?\nW: I'm not sure why. I guess I kind of felt bad asking fbr it.\nM: You shouldn't feel bad asking for leave, especially if you need it.\nW: I know. You're right. Tm sorry.\nM: Look, you've been with us almost five years [7] and I personally really value your proficiency at your job. It makes\nW: Thank you.\nM: [8] What I need is fbr you to be back at your 100%. Are you sure taking two Mondays off will suffice?\nW: [8] It'll be enough. I'm sure of it.\nM: [8] Okay, good. So this is what we're going to do. You will take those days off, and I expect that you will gradually\nW: Sounds good. Thank you for your understanding.",
+      "sentences": [],
+      "transcript": "本篇暂无解析 PDF 文字稿片段，请播放录音并对照纸质试卷。",
       "questions": [
         {
           "id": "q9",
@@ -842,8 +663,8 @@
             "它可以显著改善我们的财务状况。",
             "它可以帮助我们取得更好的工作业绩。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 1,
+          "explanation": "官方答案：B。（摘自解析 PDF）"
         },
         {
           "id": "q10",
@@ -854,8 +675,8 @@
             "一个人的配偶越富有，这个人就越健康。",
             "配偶的受教育程度会影响一个人的健康状况。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 3,
+          "explanation": "官方答案：D。（摘自解析 PDF）"
         },
         {
           "id": "q11",
@@ -866,8 +687,8 @@
             "他们和自己的配偶有很多共同之处。",
             "他们比自己的配偶受过更多教育。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 2,
+          "explanation": "官方答案：C。（摘自解析 PDF）"
         }
       ]
     },
@@ -887,33 +708,8 @@
       "examSet": "2023-12",
       "examPaper": 2,
       "audioUrl": "/audio/exams/2023-12/set-2.mp3",
-      "sentences": [
-        "W: So, [1] I've been thinking, this summer, instead of our usual holiday rental, I'd like to try renting a camper van and",
-        "M: A camper van? You mean to spend the summer living out of a car?",
-        "W: Yes, a camper van. And no, ifs nothing like living out of a car. These are proper vans with full-size beds to sleep in.",
-        "M: [2] I think my grandfather had a van like that. It doesn't sound that appealing to me.",
-        "W: Today's camper vans are completely different. These days, they?re equipped with all the modem comforts. [3] Fve",
-        "M: I'm warming up to the idea. Keep talking.",
-        "W: Loads of people are committing to this trend full time. Check it out online. Lots of people stream videos of their",
-        "M: Okay, we can consider it. As long as the basic needs like toilet and showers are covered, Tm definitely in. Do you",
-        "W: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first.",
-        "W: You wanted to see me?",
-        "M: Yes, r i l get straight to the point. [5] Over the past month or so, it has become apparent that your performance has",
-        "W: I'm sorry. [6] I'm going through some unfortunate family issues at the moment. It's a personal matter, so if you",
-        "M: Do you need some time off?",
-        "W: Actually, yes. Would it be possible to take the next two Mondays off? I was deliberating whether I should ask fbr",
-        "M: Sure thing. But if you needed some leave, why didn't you ask fbr it earlier?",
-        "W: I'm not sure why. I guess I kind of felt bad asking fbr it.",
-        "M: You shouldn't feel bad asking for leave, especially if you need it.",
-        "W: I know. You're right. Tm sorry.",
-        "M: Look, you've been with us almost five years [7] and I personally really value your proficiency at your job. It makes",
-        "W: Thank you.",
-        "M: [8] What I need is fbr you to be back at your 100%. Are you sure taking two Mondays off will suffice?",
-        "W: [8] It'll be enough. I'm sure of it.",
-        "M: [8] Okay, good. So this is what we're going to do. You will take those days off, and I expect that you will gradually",
-        "W: Sounds good. Thank you for your understanding."
-      ],
-      "transcript": "W: So, [1] I've been thinking, this summer, instead of our usual holiday rental, I'd like to try renting a camper van and\nM: A camper van? You mean to spend the summer living out of a car?\nW: Yes, a camper van. And no, ifs nothing like living out of a car. These are proper vans with full-size beds to sleep in.\nM: [2] I think my grandfather had a van like that. It doesn't sound that appealing to me.\nW: Today's camper vans are completely different. These days, they?re equipped with all the modem comforts. [3] Fve\nM: I'm warming up to the idea. Keep talking.\nW: Loads of people are committing to this trend full time. Check it out online. Lots of people stream videos of their\nM: Okay, we can consider it. As long as the basic needs like toilet and showers are covered, Tm definitely in. Do you\nW: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first.\nW: You wanted to see me?\nM: Yes, r i l get straight to the point. [5] Over the past month or so, it has become apparent that your performance has\nW: I'm sorry. [6] I'm going through some unfortunate family issues at the moment. It's a personal matter, so if you\nM: Do you need some time off?\nW: Actually, yes. Would it be possible to take the next two Mondays off? I was deliberating whether I should ask fbr\nM: Sure thing. But if you needed some leave, why didn't you ask fbr it earlier?\nW: I'm not sure why. I guess I kind of felt bad asking fbr it.\nM: You shouldn't feel bad asking for leave, especially if you need it.\nW: I know. You're right. Tm sorry.\nM: Look, you've been with us almost five years [7] and I personally really value your proficiency at your job. It makes\nW: Thank you.\nM: [8] What I need is fbr you to be back at your 100%. Are you sure taking two Mondays off will suffice?\nW: [8] It'll be enough. I'm sure of it.\nM: [8] Okay, good. So this is what we're going to do. You will take those days off, and I expect that you will gradually\nW: Sounds good. Thank you for your understanding.",
+      "sentences": [],
+      "transcript": "本篇暂无解析 PDF 文字稿片段，请播放录音并对照纸质试卷。",
       "questions": [
         {
           "id": "q14",
@@ -924,8 +720,8 @@
             "实时预测湍急的洪水。",
             "对处理过的洪水数据进行分类。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 2,
+          "explanation": "官方答案：C。（摘自解析 PDF）"
         },
         {
           "id": "q15",
@@ -937,7 +733,7 @@
             "他们在现场观察了洪水流动的方向。"
           ],
           "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "explanation": "官方答案：A。（摘自解析 PDF）"
         }
       ]
     },
@@ -958,32 +754,10 @@
       "examPaper": 2,
       "audioUrl": "/audio/exams/2023-12/set-2.mp3",
       "sentences": [
-        "W: So, [1] I've been thinking, this summer, instead of our usual holiday rental, I'd like to try renting a camper van and",
-        "M: A camper van? You mean to spend the summer living out of a car?",
-        "W: Yes, a camper van. And no, ifs nothing like living out of a car. These are proper vans with full-size beds to sleep in.",
-        "M: [2] I think my grandfather had a van like that. It doesn't sound that appealing to me.",
-        "W: Today's camper vans are completely different. These days, they?re equipped with all the modem comforts. [3] Fve",
-        "M: I'm warming up to the idea. Keep talking.",
-        "W: Loads of people are committing to this trend full time. Check it out online. Lots of people stream videos of their",
-        "M: Okay, we can consider it. As long as the basic needs like toilet and showers are covered, Tm definitely in. Do you",
-        "W: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first.",
-        "W: You wanted to see me?",
-        "M: Yes, r i l get straight to the point. [5] Over the past month or so, it has become apparent that your performance has",
-        "W: I'm sorry. [6] I'm going through some unfortunate family issues at the moment. It's a personal matter, so if you",
-        "M: Do you need some time off?",
-        "W: Actually, yes. Would it be possible to take the next two Mondays off? I was deliberating whether I should ask fbr",
-        "M: Sure thing. But if you needed some leave, why didn't you ask fbr it earlier?",
-        "W: I'm not sure why. I guess I kind of felt bad asking fbr it.",
-        "M: You shouldn't feel bad asking for leave, especially if you need it.",
-        "W: I know. You're right. Tm sorry.",
-        "M: Look, you've been with us almost five years [7] and I personally really value your proficiency at your job. It makes",
-        "W: Thank you.",
-        "M: [8] What I need is fbr you to be back at your 100%. Are you sure taking two Mondays off will suffice?",
-        "W: [8] It'll be enough. I'm sure of it.",
-        "M: [8] Okay, good. So this is what we're going to do. You will take those days off, and I expect that you will gradually",
-        "W: Sounds good. Thank you for your understanding."
+        "[16] Now, it's become something of a ritual to debate the value of a college degree, but as Current Population",
+        "[18] They identiHed two new potential explanations: the first being the tremendous decline in marriage among"
       ],
-      "transcript": "W: So, [1] I've been thinking, this summer, instead of our usual holiday rental, I'd like to try renting a camper van and\nM: A camper van? You mean to spend the summer living out of a car?\nW: Yes, a camper van. And no, ifs nothing like living out of a car. These are proper vans with full-size beds to sleep in.\nM: [2] I think my grandfather had a van like that. It doesn't sound that appealing to me.\nW: Today's camper vans are completely different. These days, they?re equipped with all the modem comforts. [3] Fve\nM: I'm warming up to the idea. Keep talking.\nW: Loads of people are committing to this trend full time. Check it out online. Lots of people stream videos of their\nM: Okay, we can consider it. As long as the basic needs like toilet and showers are covered, Tm definitely in. Do you\nW: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first.\nW: You wanted to see me?\nM: Yes, r i l get straight to the point. [5] Over the past month or so, it has become apparent that your performance has\nW: I'm sorry. [6] I'm going through some unfortunate family issues at the moment. It's a personal matter, so if you\nM: Do you need some time off?\nW: Actually, yes. Would it be possible to take the next two Mondays off? I was deliberating whether I should ask fbr\nM: Sure thing. But if you needed some leave, why didn't you ask fbr it earlier?\nW: I'm not sure why. I guess I kind of felt bad asking fbr it.\nM: You shouldn't feel bad asking for leave, especially if you need it.\nW: I know. You're right. Tm sorry.\nM: Look, you've been with us almost five years [7] and I personally really value your proficiency at your job. It makes\nW: Thank you.\nM: [8] What I need is fbr you to be back at your 100%. Are you sure taking two Mondays off will suffice?\nW: [8] It'll be enough. I'm sure of it.\nM: [8] Okay, good. So this is what we're going to do. You will take those days off, and I expect that you will gradually\nW: Sounds good. Thank you for your understanding.",
+      "transcript": "[16] Now, it's become something of a ritual to debate the value of a college degree, but as Current Population\n[18] They identiHed two new potential explanations: the first being the tremendous decline in marriage among",
       "questions": [
         {
           "id": "q16",
@@ -995,7 +769,7 @@
             "比较没有大学文凭的男性和有大学文凭的男性。"
           ],
           "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "explanation": "官方答案：A。"
         },
         {
           "id": "q18",
@@ -1006,8 +780,8 @@
             "现在更多的工作要求任职者拥有大学文凭。",
             "没有大学文凭的男性结婚率急剧下降。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 3,
+          "explanation": "官方答案：D。（摘自解析 PDF）"
         }
       ]
     },
@@ -1028,32 +802,9 @@
       "examPaper": 2,
       "audioUrl": "/audio/exams/2023-12/set-2.mp3",
       "sentences": [
-        "W: So, [1] I've been thinking, this summer, instead of our usual holiday rental, I'd like to try renting a camper van and",
-        "M: A camper van? You mean to spend the summer living out of a car?",
-        "W: Yes, a camper van. And no, ifs nothing like living out of a car. These are proper vans with full-size beds to sleep in.",
-        "M: [2] I think my grandfather had a van like that. It doesn't sound that appealing to me.",
-        "W: Today's camper vans are completely different. These days, they?re equipped with all the modem comforts. [3] Fve",
-        "M: I'm warming up to the idea. Keep talking.",
-        "W: Loads of people are committing to this trend full time. Check it out online. Lots of people stream videos of their",
-        "M: Okay, we can consider it. As long as the basic needs like toilet and showers are covered, Tm definitely in. Do you",
-        "W: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first.",
-        "W: You wanted to see me?",
-        "M: Yes, r i l get straight to the point. [5] Over the past month or so, it has become apparent that your performance has",
-        "W: I'm sorry. [6] I'm going through some unfortunate family issues at the moment. It's a personal matter, so if you",
-        "M: Do you need some time off?",
-        "W: Actually, yes. Would it be possible to take the next two Mondays off? I was deliberating whether I should ask fbr",
-        "M: Sure thing. But if you needed some leave, why didn't you ask fbr it earlier?",
-        "W: I'm not sure why. I guess I kind of felt bad asking fbr it.",
-        "M: You shouldn't feel bad asking for leave, especially if you need it.",
-        "W: I know. You're right. Tm sorry.",
-        "M: Look, you've been with us almost five years [7] and I personally really value your proficiency at your job. It makes",
-        "W: Thank you.",
-        "M: [8] What I need is fbr you to be back at your 100%. Are you sure taking two Mondays off will suffice?",
-        "W: [8] It'll be enough. I'm sure of it.",
-        "M: [8] Okay, good. So this is what we're going to do. You will take those days off, and I expect that you will gradually",
-        "W: Sounds good. Thank you for your understanding."
+        "[21] However, it is unclear whether these new products can be considered ethical. The debate over durability, crop"
       ],
-      "transcript": "W: So, [1] I've been thinking, this summer, instead of our usual holiday rental, I'd like to try renting a camper van and\nM: A camper van? You mean to spend the summer living out of a car?\nW: Yes, a camper van. And no, ifs nothing like living out of a car. These are proper vans with full-size beds to sleep in.\nM: [2] I think my grandfather had a van like that. It doesn't sound that appealing to me.\nW: Today's camper vans are completely different. These days, they?re equipped with all the modem comforts. [3] Fve\nM: I'm warming up to the idea. Keep talking.\nW: Loads of people are committing to this trend full time. Check it out online. Lots of people stream videos of their\nM: Okay, we can consider it. As long as the basic needs like toilet and showers are covered, Tm definitely in. Do you\nW: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first.\nW: You wanted to see me?\nM: Yes, r i l get straight to the point. [5] Over the past month or so, it has become apparent that your performance has\nW: I'm sorry. [6] I'm going through some unfortunate family issues at the moment. It's a personal matter, so if you\nM: Do you need some time off?\nW: Actually, yes. Would it be possible to take the next two Mondays off? I was deliberating whether I should ask fbr\nM: Sure thing. But if you needed some leave, why didn't you ask fbr it earlier?\nW: I'm not sure why. I guess I kind of felt bad asking fbr it.\nM: You shouldn't feel bad asking for leave, especially if you need it.\nW: I know. You're right. Tm sorry.\nM: Look, you've been with us almost five years [7] and I personally really value your proficiency at your job. It makes\nW: Thank you.\nM: [8] What I need is fbr you to be back at your 100%. Are you sure taking two Mondays off will suffice?\nW: [8] It'll be enough. I'm sure of it.\nM: [8] Okay, good. So this is what we're going to do. You will take those days off, and I expect that you will gradually\nW: Sounds good. Thank you for your understanding.",
+      "transcript": "[21] However, it is unclear whether these new products can be considered ethical. The debate over durability, crop",
       "questions": [
         {
           "id": "q19",
@@ -1064,8 +815,8 @@
             "越来越多的人要求释放被关在笼子里的动物。",
             "越来越多的人追随成为素食主义者的最新趋势。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 1,
+          "explanation": "官方答案：B。（摘自解析 PDF）"
         },
         {
           "id": "q20",
@@ -1077,7 +828,7 @@
             "使用蘑菇制成的丝绸替代品。"
           ],
           "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "explanation": "官方答案：A。（摘自解析 PDF）"
         },
         {
           "id": "q21",
@@ -1088,8 +839,8 @@
             "它们是否可以被认为是可持续的。",
             "它们是否可以被视为是道德产品。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 3,
+          "explanation": "官方答案：D。（摘自解析 PDF）"
         }
       ]
     },
@@ -1110,32 +861,11 @@
       "examPaper": 2,
       "audioUrl": "/audio/exams/2023-12/set-2.mp3",
       "sentences": [
-        "W: So, [1] I've been thinking, this summer, instead of our usual holiday rental, I'd like to try renting a camper van and",
-        "M: A camper van? You mean to spend the summer living out of a car?",
-        "W: Yes, a camper van. And no, ifs nothing like living out of a car. These are proper vans with full-size beds to sleep in.",
-        "M: [2] I think my grandfather had a van like that. It doesn't sound that appealing to me.",
-        "W: Today's camper vans are completely different. These days, they?re equipped with all the modem comforts. [3] Fve",
-        "M: I'm warming up to the idea. Keep talking.",
-        "W: Loads of people are committing to this trend full time. Check it out online. Lots of people stream videos of their",
-        "M: Okay, we can consider it. As long as the basic needs like toilet and showers are covered, Tm definitely in. Do you",
-        "W: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first.",
-        "W: You wanted to see me?",
-        "M: Yes, r i l get straight to the point. [5] Over the past month or so, it has become apparent that your performance has",
-        "W: I'm sorry. [6] I'm going through some unfortunate family issues at the moment. It's a personal matter, so if you",
-        "M: Do you need some time off?",
-        "W: Actually, yes. Would it be possible to take the next two Mondays off? I was deliberating whether I should ask fbr",
-        "M: Sure thing. But if you needed some leave, why didn't you ask fbr it earlier?",
-        "W: I'm not sure why. I guess I kind of felt bad asking fbr it.",
-        "M: You shouldn't feel bad asking for leave, especially if you need it.",
-        "W: I know. You're right. Tm sorry.",
-        "M: Look, you've been with us almost five years [7] and I personally really value your proficiency at your job. It makes",
-        "W: Thank you.",
-        "M: [8] What I need is fbr you to be back at your 100%. Are you sure taking two Mondays off will suffice?",
-        "W: [8] It'll be enough. I'm sure of it.",
-        "M: [8] Okay, good. So this is what we're going to do. You will take those days off, and I expect that you will gradually",
-        "W: Sounds good. Thank you for your understanding."
+        "[23] In a 2015 survey fbr YouGov, 65% of British people and 81% of the French said they thought the world was",
+        "[24] Our prevailing mood of despair is irrational. It says more about us than it does about how things really are.",
+        "[25] In our evolutionary past, it was a very good thing that our attention could be easily seized by negative"
       ],
-      "transcript": "W: So, [1] I've been thinking, this summer, instead of our usual holiday rental, I'd like to try renting a camper van and\nM: A camper van? You mean to spend the summer living out of a car?\nW: Yes, a camper van. And no, ifs nothing like living out of a car. These are proper vans with full-size beds to sleep in.\nM: [2] I think my grandfather had a van like that. It doesn't sound that appealing to me.\nW: Today's camper vans are completely different. These days, they?re equipped with all the modem comforts. [3] Fve\nM: I'm warming up to the idea. Keep talking.\nW: Loads of people are committing to this trend full time. Check it out online. Lots of people stream videos of their\nM: Okay, we can consider it. As long as the basic needs like toilet and showers are covered, Tm definitely in. Do you\nW: Slow down. Glad you're excited about it. Lefs start by looking at whafs available first.\nW: You wanted to see me?\nM: Yes, r i l get straight to the point. [5] Over the past month or so, it has become apparent that your performance has\nW: I'm sorry. [6] I'm going through some unfortunate family issues at the moment. It's a personal matter, so if you\nM: Do you need some time off?\nW: Actually, yes. Would it be possible to take the next two Mondays off? I was deliberating whether I should ask fbr\nM: Sure thing. But if you needed some leave, why didn't you ask fbr it earlier?\nW: I'm not sure why. I guess I kind of felt bad asking fbr it.\nM: You shouldn't feel bad asking for leave, especially if you need it.\nW: I know. You're right. Tm sorry.\nM: Look, you've been with us almost five years [7] and I personally really value your proficiency at your job. It makes\nW: Thank you.\nM: [8] What I need is fbr you to be back at your 100%. Are you sure taking two Mondays off will suffice?\nW: [8] It'll be enough. I'm sure of it.\nM: [8] Okay, good. So this is what we're going to do. You will take those days off, and I expect that you will gradually\nW: Sounds good. Thank you for your understanding.",
+      "transcript": "[23] In a 2015 survey fbr YouGov, 65% of British people and 81% of the French said they thought the world was\n[24] Our prevailing mood of despair is irrational. It says more about us than it does about how things really are.\n[25] In our evolutionary past, it was a very good thing that our attention could be easily seized by negative",
       "questions": [
         {
           "id": "q22",
@@ -1147,7 +877,7 @@
             "\"世界将走向地狱\"的观念不那么普遍了。"
           ],
           "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "explanation": "官方答案：A。（摘自解析 PDF）"
         },
         {
           "id": "q23",
@@ -1158,8 +888,8 @@
             "他们不希望生活在上个世纪。",
             "他们相信提供给他们的统计数据。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 1,
+          "explanation": "官方答案：B。（摘自解析 PDF）"
         },
         {
           "id": "q24",
@@ -1170,8 +900,8 @@
             "我们的心理偏差。",
             "我们祖先的影响。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 2,
+          "explanation": "官方答案：C。（摘自解析 PDF）"
         },
         {
           "id": "q25",
@@ -1182,8 +912,8 @@
             "预测我们生存所面临的致命风险。",
             "关注负面信息。"
           ],
-          "answerIndex": 0,
-          "explanation": "答案见速查册，导入时未匹配到题号。"
+          "answerIndex": 3,
+          "explanation": "官方答案：D。（摘自解析 PDF）"
         }
       ]
     },
@@ -1210,10 +940,10 @@
           "id": "q1",
           "stem": "Question 1（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1222,10 +952,10 @@
           "id": "q2",
           "stem": "Question 2（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1234,10 +964,10 @@
           "id": "q3",
           "stem": "Question 3（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1246,10 +976,10 @@
           "id": "q4",
           "stem": "Question 4（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1279,10 +1009,10 @@
           "id": "q5",
           "stem": "Question 5（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1291,10 +1021,10 @@
           "id": "q6",
           "stem": "Question 6（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1303,10 +1033,10 @@
           "id": "q7",
           "stem": "Question 7（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1315,10 +1045,10 @@
           "id": "q8",
           "stem": "Question 8（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1348,10 +1078,10 @@
           "id": "q9",
           "stem": "Question 9（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1360,10 +1090,10 @@
           "id": "q10",
           "stem": "Question 10（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1372,10 +1102,10 @@
           "id": "q11",
           "stem": "Question 11（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1405,10 +1135,10 @@
           "id": "q12",
           "stem": "Question 12（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1417,10 +1147,10 @@
           "id": "q13",
           "stem": "Question 13（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1429,10 +1159,10 @@
           "id": "q14",
           "stem": "Question 14（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1441,10 +1171,10 @@
           "id": "q15",
           "stem": "Question 15（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1474,10 +1204,10 @@
           "id": "q16",
           "stem": "Question 16（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1486,10 +1216,10 @@
           "id": "q17",
           "stem": "Question 17（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1498,10 +1228,10 @@
           "id": "q18",
           "stem": "Question 18（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1531,10 +1261,10 @@
           "id": "q19",
           "stem": "Question 19（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1543,10 +1273,10 @@
           "id": "q20",
           "stem": "Question 20（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1555,10 +1285,10 @@
           "id": "q21",
           "stem": "Question 21（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1588,10 +1318,10 @@
           "id": "q22",
           "stem": "Question 22（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1600,10 +1330,10 @@
           "id": "q23",
           "stem": "Question 23（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1612,10 +1342,10 @@
           "id": "q24",
           "stem": "Question 24（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1624,10 +1354,10 @@
           "id": "q25",
           "stem": "Question 25（见纸质试卷）",
           "options": [
-            "A. 见试卷选项 A",
-            "B. 见试卷选项 B",
-            "C. 见试卷选项 C",
-            "D. 见试卷选项 D"
+            "见试卷选项 A",
+            "见试卷选项 B",
+            "见试卷选项 C",
+            "见试卷选项 D"
           ],
           "answerIndex": 0,
           "explanation": "请对照本套「答案及详解」PDF 或纸质卷核对。"
@@ -1654,7 +1384,7 @@
       "paragraphs": [
         {
           "label": "A",
-          "text": "On the hills of central Kenya, almost lime-green with the sparkle of tea bushes in the sunlight, farmers know all about climate change. \"The rainy season is no longer 2023年 1 2 月英语六级真题第1 套 第 4 页 共 1 0 页 predictable,says one. \"When it is supposed to rain it doesn't, then it all comes at once.^^ Climate change is an issue that will affect everyone on the planet. For Africans its consequences will be particularly bitter: whereas other regions were able to grow rich by burning coal and oil, Africa will pay much of the human price without having enjoyed the benefits. \"Africa only represents 2% of global greenhouse-gas emissions but it is the continent that is expected to suffer the most from climate impacts/9 says Mafalda Duarte, who runs the World Bank's $8bn Climate Investment Funds."
+          "text": "On the hills of central Kenya, almost lime-green with the sparkle of tea bushes in the sunlight, farmers know all about climate change. \"The rainy season is no longer 共 1 0 页 predictable,says one. \"When it is supposed to rain it doesn't, then it all comes at once.^^ Climate change is an issue that will affect everyone on the planet. For Africans its consequences will be particularly bitter: whereas other regions were able to grow rich by burning coal and oil, Africa will pay much of the human price without having enjoyed the benefits. \"Africa only represents 2% of global greenhouse-gas emissions but it is the continent that is expected to suffer the most from climate impacts/9 says Mafalda Duarte, who runs the World Bank's $8bn Climate Investment Funds."
         },
         {
           "label": "B",
@@ -1674,7 +1404,7 @@
         },
         {
           "label": "F",
-          "text": "One reason is that in the first few decades of independence, many African governments neglected farming as they focused on industrialising their economies. Others damaged it by pushing down the prices that state monopolies paid for their crops in order to subsidise workers in cities with cheap food. Ghana taxed cocoa ( 可 可 粉 ) exports so heavily that production collapsed by half between the 1960s and 1980s, despite a jump in the global price of cocoa. Yet over the past two decades or so governments and \" 第1 套 第 5 页 共 1 0 页 donors have begun to look again at farming as a way of providing jobs for the 13 million young people entering the workforce each year. Much of the focus has been on getting small farmers to use fertiliser and, more important, better seeds. The results can be impressive. Improved varieties of sorghum (鬲 粱)，for instance, can produce a crop that is 40% larger than the usual variety. Infrastructure is important. A World Bank irrigation project in Ethiopia helped fanners increase their potato harvest from about 8 tonnes per hectare to 35 tonnes."
+          "text": "One reason is that in the first few decades of independence, many African governments neglected farming as they focused on industrialising their economies. Others damaged it by pushing down the prices that state monopolies paid for their crops in order to subsidise workers in cities with cheap food. Ghana taxed cocoa ( 可 可 粉 ) exports so heavily that production collapsed by half between the 1960s and 1980s, despite a jump in the global price of cocoa. Yet over the past two decades or so governments and \" donors have begun to look again at farming as a way of providing jobs for the 13 million young people entering the workforce each year. Much of the focus has been on getting small farmers to use fertiliser and, more important, better seeds. The results can be impressive. Improved varieties of sorghum (鬲 粱)，for instance, can produce a crop that is 40% larger than the usual variety. Infrastructure is important. A World Bank irrigation project in Ethiopia helped fanners increase their potato harvest from about 8 tonnes per hectare to 35 tonnes."
         },
         {
           "label": "G",
@@ -1700,7 +1430,7 @@
       "statements": [
         {
           "id": "s36",
-          "text": "It is said that agricultural productivity in many African countries has remained low for a century. 第1 套 第 6 页 共 1 0 页",
+          "text": "It is said that agricultural productivity in many African countries has remained low for a century.",
           "answer": "A",
           "explanation": "官方答案：段落 A。"
         },
@@ -1802,7 +1532,7 @@
         },
         {
           "label": "G",
-          "text": "In May 2016, a salvor named Bobby Pritchett, president of Global Marine Exploration 第2 套 第 5 页 共 1 0 页 (GME) in Tampa, Florida, announced that he had discovered scattered remains of a ship buried a kilometer off Cape Canaveral. Over the prior three years, he and his crew had obtained 14 state permits to survey a nearly 260-square-kilometer area off the cape; they worked 250 days a year, backed by investor funds of, he claims, US $4 million. It was hard work. Crew members were up at dawn, dragging sensors from their expedition vessels back and forth, day in and day out, year after year, to detect metal of any kind. Using computer technology, Pritchett and his crew created intricate, color-coded maps marked with the GPS coordinates of thousands of finds, all invisible under a meter of sand."
+          "text": "In May 2016, a salvor named Bobby Pritchett, president of Global Marine Exploration (GME) in Tampa, Florida, announced that he had discovered scattered remains of a ship buried a kilometer off Cape Canaveral. Over the prior three years, he and his crew had obtained 14 state permits to survey a nearly 260-square-kilometer area off the cape; they worked 250 days a year, backed by investor funds of, he claims, US $4 million. It was hard work. Crew members were up at dawn, dragging sensors from their expedition vessels back and forth, day in and day out, year after year, to detect metal of any kind. Using computer technology, Pritchett and his crew created intricate, color-coded maps marked with the GPS coordinates of thousands of finds, all invisible under a meter of sand."
         },
         {
           "label": "H",
@@ -1822,7 +1552,7 @@
         },
         {
           "label": "L",
-          "text": "George Bass is one of the pioneers of under-water archaeology, and a researcher at Texas A&M University. He has testified in court against treasure hunters, but says archaeology is not without its own serious problems. He believes archaeologists need to do a better job themselves instead of routinely criticizing treasure hunters. \"Archaeology has a terrible reputation for not publishing enough on its excavations (发 掘 ) and finds,\" he says. Gathering data, unearthing and meticulously preserving and 第2 套 第 6 页 共 1 0 页 examining finds, verifying identity and origin, piecing together the larger story, and writing and publishing a comprehensive paper or book can take decades. A bit cynically, Bass describes colleagues who never published because they waited so long they became ill or died. Who is more at fault, Bass asks, the professional archaeologist who carefully excavates a site and never publishes on it or the treasure hunter who locates a submerged wreck, salvages part, conserves part, and publishes a book on the operation?"
+          "text": "George Bass is one of the pioneers of under-water archaeology, and a researcher at Texas A&M University. He has testified in court against treasure hunters, but says archaeology is not without its own serious problems. He believes archaeologists need to do a better job themselves instead of routinely criticizing treasure hunters. \"Archaeology has a terrible reputation for not publishing enough on its excavations (发 掘 ) and finds,\" he says. Gathering data, unearthing and meticulously preserving and examining finds, verifying identity and origin, piecing together the larger story, and writing and publishing a comprehensive paper or book can take decades. A bit cynically, Bass describes colleagues who never published because they waited so long they became ill or died. Who is more at fault, Bass asks, the professional archaeologist who carefully excavates a site and never publishes on it or the treasure hunter who locates a submerged wreck, salvages part, conserves part, and publishes a book on the operation?"
         },
         {
           "label": "M",
@@ -1918,7 +1648,7 @@
         },
         {
           "label": "C",
-          "text": "The idea that dementia can be prevented is based on the comparison of the brain to a muscle. When people talk about the brain, they sometimes say things like \"It is important to exercise your brain^^ or \"To stay mentally fit, you have to give your brain a workout.Although these are colorful analogies, in reality the brain is not a muscle. Unlike muscles, the brain is always active and works even during periods of rest and sleep. In addition, although some muscle cells have a lifespan of only a few days, brain cells last a lifetime. Not only that, but it has been shown that new brain cells are being 2023年 1 2 月英语六级真题 created throughout one's lifespan."
+          "text": "The idea that dementia can be prevented is based on the comparison of the brain to a muscle. When people talk about the brain, they sometimes say things like \"It is important to exercise your brain^^ or \"To stay mentally fit, you have to give your brain a workout.Although these are colorful analogies, in reality the brain is not a muscle. Unlike muscles, the brain is always active and works even during periods of rest and sleep. In addition, although some muscle cells have a lifespan of only a few days, brain cells last a lifetime. Not only that, but it has been shown that new brain cells are being 共 8 页 created throughout one's lifespan."
         },
         {
           "label": "D",
@@ -1938,7 +1668,7 @@
         },
         {
           "label": "H",
-          "text": "If the benefits of being bilingual spill over to other aspects of cognition, then we would expect to see a lower incidence of Alzheimer's disease in bilinguals than in monolinguals, or at least a later onset of Alzheimer's for bilinguals. In fact, there is evidence to support this claim. The psychologist Ellen Bialystok and her colleagues obtained the histories of 184 individuals who had made use of a memory clinic in 202 3 年 1 2 月英语六级真题 Toronto. For those who showed signs of dementia, the monolinguals in the sample had an average age of 71.4 years at time of onset. The bilinguals, in contrast, received their diagnosis at 75.5 years, on average. In a study of this sort, a difference of four years is highly significant, and could not be explained by other systematic differences between the two groups. For example, the monolinguals reported, on average, a year and a half more schooling than their bilingual counterparts, so the effect was clearly not due to formal education."
+          "text": "If the benefits of being bilingual spill over to other aspects of cognition, then we would expect to see a lower incidence of Alzheimer's disease in bilinguals than in monolinguals, or at least a later onset of Alzheimer's for bilinguals. In fact, there is evidence to support this claim. The psychologist Ellen Bialystok and her colleagues obtained the histories of 184 individuals who had made use of a memory clinic in Toronto. For those who showed signs of dementia, the monolinguals in the sample had an average age of 71.4 years at time of onset. The bilinguals, in contrast, received their diagnosis at 75.5 years, on average. In a study of this sort, a difference of four years is highly significant, and could not be explained by other systematic differences between the two groups. For example, the monolinguals reported, on average, a year and a half more schooling than their bilingual counterparts, so the effect was clearly not due to formal education."
         },
         {
           "label": "I",
@@ -1984,7 +1714,7 @@
         },
         {
           "id": "s40",
-          "text": "There is evidence that learning foreign languages might be beneficial to boosting one's 202 3 年 1 2 月英语六级真题 cognitive abilities.",
+          "text": "There is evidence that learning foreign languages might be beneficial to boosting one's cognitive abilities.",
           "answer": "A",
           "explanation": "官方答案：段落 A。"
         },
@@ -2035,41 +1765,36 @@
       ],
       "examSet": "2023-12",
       "examPaper": 1,
-      "cn": "在中国，随着老龄化社会的到来，养老受到普遍关注。人们谈论最多的是应当采取什么样的养老模式。多数人认为，养老模式需要多元化。可以通过政府引导和社会参与，建立更多更好的养老服务机构，改进社区服务中心，鼓励居家自助养老，还可以推行家庭养老与社会养老相结合的模式。随着政府和社会对养老服务事业投入的持续增加，养老设施将不断升级，服务质量逐步改进,老年人的生活将会更加方便舒适、健康快乐。2023年12月英语六级真题第1套第10页共10页by:新一文化",
-      "en": "",
+      "cn": "在中国，随着老龄化社会的到来，养老受到普遍关注。人们谈论最多的是应当采取什么样的养老模式。多数人认为，养老模式需要多元化。可以通过政府引导和社会参与，建立更多更好的养老服务机构，改进社区服务中心，鼓励居家自助养老，还可以推行家庭养老与社会养老相结合的模式。随着政府和社会对养老服务事业投入的持续增加，养老设施将不断升级，服务质量逐步改进,老年人的生活将会更加方便舒适、健康快乐。",
+      "en": "In China, with the arrival of an aging society, the elderly care has received widespread attention. What people talk about the most is what kind of elderly care model should be adopted. Most people believe that the elderly care model needs to be diversified. Through government guidance and social participation, we can establish more and better elderly care service institutions, improve community service centers, encourage home-based self-help elderly care, and promote a model combining family and social elderly care. With the increasing investment in elderly care services from the government and society, elderly care facilities will continue to be upgraded, service quality will be gradually improved, and the elderly will live a more convenient, more comfortable, healthier and happier life.",
       "sentences": [
         {
           "cn": "在中国，随着老龄化社会的到来，养老受到普遍关注。",
-          "en": "",
+          "en": "In China, with the arrival of an aging society, the elderly care has received widespread attention.",
           "keyWords": []
         },
         {
           "cn": "人们谈论最多的是应当采取什么样的养老模式。",
-          "en": "",
+          "en": "What people talk about the most is what kind of elderly care model should be adopted.",
           "keyWords": []
         },
         {
           "cn": "多数人认为，养老模式需要多元化。",
-          "en": "",
+          "en": "Most people believe that the elderly care model needs to be diversified.",
           "keyWords": []
         },
         {
           "cn": "可以通过政府引导和社会参与，建立更多更好的养老服务机构，改进社区服务中心，鼓励居家自助养老，还可以推行家庭养老与社会养老相结合的模式。",
-          "en": "",
+          "en": "Through government guidance and social participation, we can establish more and better elderly care service institutions, improve community service centers, encourage home-based self-help elderly care, and promote a model combining family and social elderly care.",
           "keyWords": []
         },
         {
           "cn": "随着政府和社会对养老服务事业投入的持续增加，养老设施将不断升级，服务质量逐步改进,老年人的生活将会更加方便舒适、健康快乐。",
-          "en": "",
-          "keyWords": []
-        },
-        {
-          "cn": "2023年12月英语六级真题第1套第10页共10页by:新一文化",
-          "en": "",
+          "en": "With the increasing investment in elderly care services from the government and society, elderly care facilities will continue to be upgraded, service quality will be gradually improved, and the elderly will live a more convenient, more comfortable, healthier and happier life.",
           "keyWords": []
         }
       ],
-      "notes": "参考译文需对照速查 PDF。"
+      "notes": "参考译文来自官方速查。"
     },
     {
       "id": "2023-12-set2-translation",
@@ -2084,46 +1809,41 @@
       ],
       "examSet": "2023-12",
       "examPaper": 2,
-      "cn": "随着经济与社会的发展，中国人口结构发生了显著变化，逐渐步入老龄化社会。中国老年人口将持续增加，人口老龄化趋势将更加明显。为了应对人口老龄化带来的种种挑战，国家正积极采取措施，加大对养老的支持。通过改革社会保障(socialsecurity)制度，政府不断增加社会保障经费,逐步扩大社会保障覆盖范围，使更多老年人受益。政府还鼓励各种社会团体为老年人提供服务。在政府和社会团体的共同努力下，老年人将生活得更加幸福。2023年12月英语六级真题第2套第10页共10页by:新一文化",
-      "en": "",
+      "cn": "随着经济与社会的发展，中国人口结构发生了显著变化，逐渐步入老龄化社会。中国老年人口将持续增加，人口老龄化趋势将更加明显。为了应对人口老龄化带来的种种挑战，国家正积极采取措施，加大对养老的支持。通过改革社会保障(socialsecurity)制度，政府不断增加社会保障经费,逐步扩大社会保障覆盖范围，使更多老年人受益。政府还鼓励各种社会团体为老年人提供服务。在政府和社会团体的共同努力下，老年人将生活得更加幸福。",
+      "en": "With the development of the economy and society, China's population structure has undergone significant changes, and the country is gradually entering an aging society. The elderly population in China will continue to increase, and the trend of population aging will become more apparent. In order to address the various challenges brought by population aging, the country is actively taking measures to increase support for elderly care. By reforming the social security system, the government continuously increases social security funds and gradually expands the coverage of social security to benefit more elderly people. The government also encourages various social organizations to provide services fbr the elderly. With the joint efforts of the government and social organizations, the elderly will live a happier life.",
       "sentences": [
         {
           "cn": "随着经济与社会的发展，中国人口结构发生了显著变化，逐渐步入老龄化社会。",
-          "en": "",
+          "en": "With the development of the economy and society, China's population structure has undergone significant changes, and the country is gradually entering an aging society.",
           "keyWords": []
         },
         {
           "cn": "中国老年人口将持续增加，人口老龄化趋势将更加明显。",
-          "en": "",
+          "en": "The elderly population in China will continue to increase, and the trend of population aging will become more apparent.",
           "keyWords": []
         },
         {
           "cn": "为了应对人口老龄化带来的种种挑战，国家正积极采取措施，加大对养老的支持。",
-          "en": "",
+          "en": "In order to address the various challenges brought by population aging, the country is actively taking measures to increase support for elderly care.",
           "keyWords": []
         },
         {
           "cn": "通过改革社会保障(socialsecurity)制度，政府不断增加社会保障经费,逐步扩大社会保障覆盖范围，使更多老年人受益。",
-          "en": "",
+          "en": "By reforming the social security system, the government continuously increases social security funds and gradually expands the coverage of social security to benefit more elderly people.",
           "keyWords": []
         },
         {
           "cn": "政府还鼓励各种社会团体为老年人提供服务。",
-          "en": "",
+          "en": "The government also encourages various social organizations to provide services fbr the elderly.",
           "keyWords": []
         },
         {
           "cn": "在政府和社会团体的共同努力下，老年人将生活得更加幸福。",
-          "en": "",
-          "keyWords": []
-        },
-        {
-          "cn": "2023年12月英语六级真题第2套第10页共10页by:新一文化",
-          "en": "",
+          "en": "With the joint efforts of the government and social organizations, the elderly will live a happier life.",
           "keyWords": []
         }
       ],
-      "notes": "参考译文需对照速查 PDF。"
+      "notes": "参考译文来自官方速查。"
     },
     {
       "id": "2023-12-set3-translation",
@@ -2138,51 +1858,46 @@
       ],
       "examSet": "2023-12",
       "examPaper": 3,
-      "cn": "近年来，中国老龄人口持续增长。中国政府正采取各种措施，推进养老服务体系建设，使老年人晚年生活健康幸福。全国兴建了各类养老服务机构。为了提升养老机构的服务质量，政府颁布了一系列标准，加强对养老机构的监管。许多城市为方便老年人用餐，开设了社区食堂，为他们提供价格实惠的饭菜。行动不便的老年人还能享受上门送餐服务。同时，中国还在积极探索居家和社区养老等其他养老模式，以确保所有老年人老有所养。2023年12月英语六级真题第3套第8页共8页by:新一文化",
-      "en": "",
+      "cn": "近年来，中国老龄人口持续增长。中国政府正采取各种措施，推进养老服务体系建设，使老年人晚年生活健康幸福。全国兴建了各类养老服务机构。为了提升养老机构的服务质量，政府颁布了一系列标准，加强对养老机构的监管。许多城市为方便老年人用餐，开设了社区食堂，为他们提供价格实惠的饭菜。行动不便的老年人还能享受上门送餐服务。同时，中国还在积极探索居家和社区养老等其他养老模式，以确保所有老年人老有所养。",
+      "en": "In recent years, the elderly population in China has continued to grow. The Chinese government is taking various measures to promote the construction of the elderly care service system, so that the elderly can live a healthy and happy life in their later years. Various elderly care service institutions have been built nationwide. In order to improve the service quality of elderly care institutions, the government has issued a series of standards to strengthen the supervision of elderly care institutions. Many cities have opened community canteens to facilitate dining for the elderly, providing them with affordable meals. Elderly people with limited mobility can also enjoy door-to-door meal delivery services. At the same time, China is actively exploring other elderly care models such as home- and community-based elderly care to ensure that all elderly people are supported in old age. ⑨",
       "sentences": [
         {
           "cn": "近年来，中国老龄人口持续增长。",
-          "en": "",
+          "en": "In recent years, the elderly population in China has continued to grow. The Chinese government is taking various measures to promote the construction of the elderly care service system, so that the elderly can live a healthy and happy life in their later years. Various elderly care service institutions have been built nationwide. In order to improve the service quality of elderly care institutions, the government has issued a series of standards to strengthen the supervision of elderly care institutions. Many cities have opened community canteens to facilitate dining for the elderly, providing them with affordable meals. Elderly people with limited mobility can also enjoy door-to-door meal delivery services. At the same time, China is actively exploring other elderly care models such as home- and community-based elderly care to ensure that all elderly people are supported in old age. ⑨",
           "keyWords": []
         },
         {
           "cn": "中国政府正采取各种措施，推进养老服务体系建设，使老年人晚年生活健康幸福。",
-          "en": "",
+          "en": "In recent years, the elderly population in China has continued to grow. The Chinese government is taking various measures to promote the construction of the elderly care service system, so that the elderly can live a healthy and happy life in their later years. Various elderly care service institutions have been built nationwide. In order to improve the service quality of elderly care institutions, the government has issued a series of standards to strengthen the supervision of elderly care institutions. Many cities have opened community canteens to facilitate dining for the elderly, providing them with affordable meals. Elderly people with limited mobility can also enjoy door-to-door meal delivery services. At the same time, China is actively exploring other elderly care models such as home- and community-based elderly care to ensure that all elderly people are supported in old age. ⑨",
           "keyWords": []
         },
         {
           "cn": "全国兴建了各类养老服务机构。",
-          "en": "",
+          "en": "In recent years, the elderly population in China has continued to grow. The Chinese government is taking various measures to promote the construction of the elderly care service system, so that the elderly can live a healthy and happy life in their later years. Various elderly care service institutions have been built nationwide. In order to improve the service quality of elderly care institutions, the government has issued a series of standards to strengthen the supervision of elderly care institutions. Many cities have opened community canteens to facilitate dining for the elderly, providing them with affordable meals. Elderly people with limited mobility can also enjoy door-to-door meal delivery services. At the same time, China is actively exploring other elderly care models such as home- and community-based elderly care to ensure that all elderly people are supported in old age. ⑨",
           "keyWords": []
         },
         {
           "cn": "为了提升养老机构的服务质量，政府颁布了一系列标准，加强对养老机构的监管。",
-          "en": "",
+          "en": "In recent years, the elderly population in China has continued to grow. The Chinese government is taking various measures to promote the construction of the elderly care service system, so that the elderly can live a healthy and happy life in their later years. Various elderly care service institutions have been built nationwide. In order to improve the service quality of elderly care institutions, the government has issued a series of standards to strengthen the supervision of elderly care institutions. Many cities have opened community canteens to facilitate dining for the elderly, providing them with affordable meals. Elderly people with limited mobility can also enjoy door-to-door meal delivery services. At the same time, China is actively exploring other elderly care models such as home- and community-based elderly care to ensure that all elderly people are supported in old age. ⑨",
           "keyWords": []
         },
         {
           "cn": "许多城市为方便老年人用餐，开设了社区食堂，为他们提供价格实惠的饭菜。",
-          "en": "",
+          "en": "In recent years, the elderly population in China has continued to grow. The Chinese government is taking various measures to promote the construction of the elderly care service system, so that the elderly can live a healthy and happy life in their later years. Various elderly care service institutions have been built nationwide. In order to improve the service quality of elderly care institutions, the government has issued a series of standards to strengthen the supervision of elderly care institutions. Many cities have opened community canteens to facilitate dining for the elderly, providing them with affordable meals. Elderly people with limited mobility can also enjoy door-to-door meal delivery services. At the same time, China is actively exploring other elderly care models such as home- and community-based elderly care to ensure that all elderly people are supported in old age. ⑨",
           "keyWords": []
         },
         {
           "cn": "行动不便的老年人还能享受上门送餐服务。",
-          "en": "",
+          "en": "In recent years, the elderly population in China has continued to grow. The Chinese government is taking various measures to promote the construction of the elderly care service system, so that the elderly can live a healthy and happy life in their later years. Various elderly care service institutions have been built nationwide. In order to improve the service quality of elderly care institutions, the government has issued a series of standards to strengthen the supervision of elderly care institutions. Many cities have opened community canteens to facilitate dining for the elderly, providing them with affordable meals. Elderly people with limited mobility can also enjoy door-to-door meal delivery services. At the same time, China is actively exploring other elderly care models such as home- and community-based elderly care to ensure that all elderly people are supported in old age. ⑨",
           "keyWords": []
         },
         {
           "cn": "同时，中国还在积极探索居家和社区养老等其他养老模式，以确保所有老年人老有所养。",
-          "en": "",
-          "keyWords": []
-        },
-        {
-          "cn": "2023年12月英语六级真题第3套第8页共8页by:新一文化",
-          "en": "",
+          "en": "In recent years, the elderly population in China has continued to grow. The Chinese government is taking various measures to promote the construction of the elderly care service system, so that the elderly can live a healthy and happy life in their later years. Various elderly care service institutions have been built nationwide. In order to improve the service quality of elderly care institutions, the government has issued a series of standards to strengthen the supervision of elderly care institutions. Many cities have opened community canteens to facilitate dining for the elderly, providing them with affordable meals. Elderly people with limited mobility can also enjoy door-to-door meal delivery services. At the same time, China is actively exploring other elderly care models such as home- and community-based elderly care to ensure that all elderly people are supported in old age. ⑨",
           "keyWords": []
         }
       ],
-      "notes": "参考译文需对照速查 PDF。"
+      "notes": "参考译文来自官方速查。"
     }
   ],
   "writing": [
@@ -2224,7 +1939,7 @@
           "desc": "表达多样地道"
         }
       ],
-      "sample": "（参考答案见速查 PDF）"
+      "sample": "With their valuable skills and experience, elderly people can continue to make significant contributions to society. This opening sentence reflects a trend we should welcome rather than ignore. Many retirees today are healthier and more educated than previous generations, and they still have much to offer. First, elderly professionals can mentor young workers and pass on practical knowledge that cannot be learned from textbooks. In schools, hospitals, and community centers, senior volunteers often provide patient guidance and emotional support. Second, their life experience helps them handle complex social issues calmly, which is especially useful in mediation, charity work, and family services. Of course, society should remove barriers that prevent older adults from participating. Flexible working hours, accessible public transport, and anti-age discrimination policies are essential. In return, communities gain wisdom, stability, and continuity. Supporting elderly people's active role is not only fair but also beneficial to social development."
     }
   ]
 }
