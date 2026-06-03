@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import type { VocabWord } from '@/data/types'
 import { useStore } from '@/store/StoreProvider'
+import { useEncourage } from '@/components/EncourageProvider'
 import { useTimer, formatTime } from '@/engine/useTimer'
 import { ResultSummary } from '@/components/ResultSummary'
 import { IconFlame } from '@/app/icons'
@@ -20,6 +21,7 @@ export function MatchRunner({
   onExit: () => void
 }) {
   const { record, vocabGrade, setStars } = useStore()
+  const { onCorrect } = useEncourage()
   const round = useMemo(() => shuffle(words).slice(0, Math.min(PAIRS, words.length)), [words])
   const leftItems = useMemo(() => shuffle(round), [round])
   const rightItems = useMemo(() => shuffle(round), [round])
@@ -38,7 +40,7 @@ export function MatchRunner({
     record({
       module: 'vocabulary',
       refId: deckId,
-      refTitle: `词义速配 · ${deckLabel}`,
+      refTitle: `词义连连看 · ${deckLabel}`,
       level: 'match',
       correct: m.size,
       total: round.length,
@@ -55,7 +57,10 @@ export function MatchRunner({
       m.add(leftId)
       setMatched(m)
       vocabGrade(leftId, 'know')
-      setCombo((c) => c + 1)
+      setCombo((c) => {
+        onCorrect(c + 1)
+        return c + 1
+      })
       setSelLeft(null)
       if (m.size === round.length) finishGame(m)
     } else {
@@ -94,7 +99,7 @@ export function MatchRunner({
         <button className="btn btn-ghost runner-back" onClick={onExit}>
           ← 返回
         </button>
-        <div className="runner-title">词义速配 · {deckLabel}</div>
+        <div className="runner-title">连连看 · {deckLabel}</div>
       </div>
 
       <div className="challenge-bar card">

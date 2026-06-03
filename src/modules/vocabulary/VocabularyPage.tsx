@@ -7,21 +7,48 @@ import { VOCAB_SOURCES } from '@/data'
 import { moduleCounts } from '@/engine/practiceAll'
 import { useStore } from '@/store/StoreProvider'
 import { buildDecks } from './vocab'
+import { CASES } from './detectiveCases'
 import { VocabMemoryAids } from './VocabMemoryAids'
 import { FlashcardRunner } from './FlashcardRunner'
 import { ChoiceRunner } from './ChoiceRunner'
 import { SpellingRunner } from './SpellingRunner'
 import { ChallengeRunner } from './ChallengeRunner'
 import { DetectiveRunner } from './DetectiveRunner'
+import { MemoryRunner } from './MemoryRunner'
+import { MatchRunner } from './MatchRunner'
+import { ChainRunner } from './ChainRunner'
 
-type Mode = 'flashcard' | 'choice' | 'spelling' | 'challenge' | 'detective'
+type Mode =
+  | 'flashcard'
+  | 'choice'
+  | 'spelling'
+  | 'challenge'
+  | 'detective'
+  | 'memory'
+  | 'link'
+  | 'chain'
 
-const MODES: { key: Mode; emoji: string; title: string; desc: string; cls: string }[] = [
-  { key: 'flashcard', emoji: '🃏', title: '学习卡片', desc: '翻卡认词 · TTS 发音 · 标记复习', cls: 'm-flash' },
-  { key: 'choice', emoji: '🔤', title: '中英选择', desc: '看词选义 / 看义选词', cls: 'm-choice' },
-  { key: 'spelling', emoji: '✍️', title: '拼写听写', desc: '听发音，拼出单词', cls: 'm-spell' },
-  { key: 'challenge', emoji: '⚡', title: '闯关挑战', desc: '45 秒极速连击', cls: 'm-challenge' },
-  { key: 'detective', emoji: '🔍', title: '侦探游戏', desc: '解锁线索破案', cls: 'm-detective' },
+type ModeGroup = 'learn' | 'game'
+
+interface ModeDef {
+  key: Mode
+  emoji: string
+  title: string
+  desc: string
+  cls: string
+  group: ModeGroup
+  needsSingleWord?: boolean
+}
+
+const MODES: ModeDef[] = [
+  { key: 'flashcard', emoji: '🃏', title: '学习卡片', desc: '翻卡认词 · TTS · 标记复习', cls: 'm-flash', group: 'learn' },
+  { key: 'choice', emoji: '🔤', title: '中英选择', desc: '看词选义 / 看义选词', cls: 'm-choice', group: 'learn' },
+  { key: 'spelling', emoji: '✍️', title: '拼写听写', desc: '听发音，拼出单词', cls: 'm-spell', group: 'learn', needsSingleWord: true },
+  { key: 'detective', emoji: '🔍', title: '侦探游戏', desc: '选案破案 · 五条线索', cls: 'm-detective', group: 'game', needsSingleWord: true },
+  { key: 'challenge', emoji: '⚡', title: '闯关挑战', desc: '45 秒极速连击', cls: 'm-challenge', group: 'game' },
+  { key: 'memory', emoji: '🎴', title: '翻翻乐', desc: '翻牌配对词与释义', cls: 'm-memory', group: 'game', needsSingleWord: true },
+  { key: 'link', emoji: '🔗', title: '连连看', desc: '点词点义 · 连击加分', cls: 'm-link', group: 'game', needsSingleWord: true },
+  { key: 'chain', emoji: '🐍', title: '单词接龙', desc: '尾字母接龙 · 八环闯关', cls: 'm-chain', group: 'game', needsSingleWord: true },
 ]
 
 const ALL = 'all'
@@ -116,24 +143,87 @@ export function VocabularyPage() {
       )
     if (mode === 'challenge')
       return <ChallengeRunner words={selectedWords} pool={activeWords} onExit={exit} />
+    if (mode === 'memory')
+      return (
+        <MemoryRunner
+          words={selectedWords}
+          deckId={deckKey}
+          deckLabel={label}
+          onExit={exit}
+        />
+      )
+    if (mode === 'link')
+      return (
+        <MatchRunner
+          words={selectedWords}
+          deckId={deckKey}
+          deckLabel={label}
+          onExit={exit}
+        />
+      )
+    if (mode === 'chain')
+      return (
+        <ChainRunner
+          words={selectedWords}
+          pool={activeWords}
+          deckId={deckKey}
+          deckLabel={label}
+          onExit={exit}
+        />
+      )
     return null
   }
 
   const masteredPct = mastery.total ? Math.round((mastery.mastered / mastery.total) * 100) : 0
-  const detectiveStars = state.progress.vocabulary.stars['vocab-detective'] ?? 0
-  const phraseHidden = (key: Mode) => isPhraseDeck && (key === 'spelling' || key === 'detective')
-  const visibleModes = MODES.filter((m) => !phraseHidden(m.key))
+  const detectiveStars = useMemo(
+    () => Math.max(0, ...CASES.map((c) => state.progress.vocabulary.stars[`detective-${c.id}`] ?? 0)),
+    [state.progress.vocabulary.stars],
+  )
+
+  const modeVisible = (m: ModeDef) => !(isPhraseDeck && m.needsSingleWord)
+  const visibleModes = MODES.filter(modeVisible)
+  const learnModes = visibleModes.filter((m) => m.group === 'learn')
+  const gameModes = visibleModes.filter((m) => m.group === 'game')
+
+  const modeStars = (key: Mode) => {
+    if (key === 'detective') return detectiveStars
+    const deckKey = deckId === ALL ? `${sourceId}:all` : deckId
+    if (key === 'memory') return state.progress.vocabulary.stars[`${deckKey}:memory`] ?? 0
+    if (key === 'chain') return state.progress.vocabulary.stars[`${deckKey}:chain`] ?? 0
+    if (key === 'link') return state.progress.vocabulary.stars[deckKey] ?? 0
+    return 0
+  }
 
   useEffect(() => {
     if (params.get('practiceAll') === '1' && !mode) startMode('choice', true)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [params])
 
+  const renderModeGrid = (list: ModeDef[]) => (
+    <div className="mode-grid">
+      {list.map((m) => (
+        <button key={m.key} className={`mode-card card ${m.cls}`} onClick={() => startMode(m.key)}>
+          <span className="mode-emoji">{m.emoji}</span>
+          <div className="mode-info">
+            <div className="mode-title">
+              {m.title}
+              {modeStars(m.key) > 0 && <Stars value={modeStars(m.key)} size={11} />}
+            </div>
+            <div className="mode-desc">{m.desc}</div>
+          </div>
+          <span className="mode-range">
+            {sourceLabel} · {selectedLabel}
+          </span>
+        </button>
+      ))}
+    </div>
+  )
+
   return (
     <div>
       <PageHeader
         title="单词"
-        subtitle={`${sourceLabel} · ${mastery.total} 条 · 五种玩法 · TTS 发音`}
+        subtitle={`${sourceLabel} · ${mastery.total} 条 · 八种玩法 · TTS 发音`}
       />
 
       <PracticeAllBanner
@@ -255,32 +345,18 @@ export function VocabularyPage() {
         })}
       </div>
 
-      <h2 className="section-title">玩法</h2>
-      <div className="mode-grid">
-        {visibleModes.map((m) => (
-          <button key={m.key} className={`mode-card card ${m.cls}`} onClick={() => startMode(m.key)}>
-            <span className="mode-emoji">{m.emoji}</span>
-            <div className="mode-info">
-              <div className="mode-title">
-                {m.title}
-                {m.key === 'detective' && detectiveStars > 0 && (
-                  <Stars value={detectiveStars} size={11} />
-                )}
-              </div>
-              <div className="mode-desc">{m.desc}</div>
-            </div>
-            <span className="mode-range">
-              {sourceLabel} · {selectedLabel}
-            </span>
-          </button>
-        ))}
-      </div>
+      <h2 className="section-title vocab-mode-section">学习</h2>
+      {renderModeGrid(learnModes)}
+
+      <h2 className="section-title vocab-mode-section">游戏</h2>
+      {isPhraseDeck && gameModes.length < MODES.filter((m) => m.group === 'game').length && (
+        <p className="vocab-preview-note">词组库仅保留不限「单词形态」的玩法（侦探 / 翻翻乐等需单词库）。</p>
+      )}
+      {renderModeGrid(gameModes)}
 
       <h2 className="section-title">全部练习</h2>
       <div className="vocab-practice-all-row">
-        {visibleModes
-          .filter((m) => m.key !== 'challenge' && m.key !== 'detective')
-          .map((m) => (
+        {learnModes.map((m) => (
           <button
             key={`all-${m.key}`}
             className="btn btn-ghost vocab-practice-all-btn"

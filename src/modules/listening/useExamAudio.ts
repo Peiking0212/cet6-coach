@@ -1,3 +1,5 @@
+import { isNativeApp } from '@/lib/isNativeApp'
+import { useExamAudioNative } from './useExamAudioNative'
 import { useExamAudioWeb } from './useExamAudioWeb'
 
 /**
@@ -6,5 +8,8 @@ import { useExamAudioWeb } from './useExamAudioWeb'
  * assets on Android and shows a stuck notification with no sound.
  */
 export function useExamAudio(audioUrl?: string) {
-  return useExamAudioWeb(audioUrl)
+  const native = isNativeApp()
+  const web = useExamAudioWeb(native ? undefined : audioUrl)
+  const nat = useExamAudioNative(native ? audioUrl : undefined)
+  return native ? nat : web
 }
