@@ -1,4 +1,5 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
+import { ErrorBoundary } from '@/components/ErrorBoundary'
 import { Layout } from './Layout'
 import { useApplyTheme } from './useTheme'
 import { HomePage } from '@/pages/HomePage'
@@ -27,7 +28,14 @@ export function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/micro" element={<MicroLearnPage />} />
-            <Route path="/vocabulary" element={<VocabularyPage />} />
+            <Route
+              path="/vocabulary"
+              element={
+                <ErrorBoundary label="单词">
+                  <VocabularyPage />
+                </ErrorBoundary>
+              }
+            />
             <Route path="/listening" element={<ListeningPage />} />
             <Route path="/translation" element={<TranslationPage />} />
             <Route path="/reading" element={<ReadingPage />} />

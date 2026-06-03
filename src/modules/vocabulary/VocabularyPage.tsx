@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { PageHeader } from '@/components/PageHeader'
 import { Stars } from '@/components/Stars'
@@ -9,14 +9,31 @@ import { useStore } from '@/store/StoreProvider'
 import { buildDecks } from './vocab'
 import { CASES } from './detectiveCases'
 import { VocabMemoryAids } from './VocabMemoryAids'
-import { FlashcardRunner } from './FlashcardRunner'
-import { ChoiceRunner } from './ChoiceRunner'
-import { SpellingRunner } from './SpellingRunner'
-import { ChallengeRunner } from './ChallengeRunner'
-import { DetectiveRunner } from './DetectiveRunner'
-import { MemoryRunner } from './MemoryRunner'
-import { MatchRunner } from './MatchRunner'
-import { ChainRunner } from './ChainRunner'
+
+const FlashcardRunner = lazy(() =>
+  import('./FlashcardRunner').then((m) => ({ default: m.FlashcardRunner })),
+)
+const ChoiceRunner = lazy(() =>
+  import('./ChoiceRunner').then((m) => ({ default: m.ChoiceRunner })),
+)
+const SpellingRunner = lazy(() =>
+  import('./SpellingRunner').then((m) => ({ default: m.SpellingRunner })),
+)
+const ChallengeRunner = lazy(() =>
+  import('./ChallengeRunner').then((m) => ({ default: m.ChallengeRunner })),
+)
+const DetectiveRunner = lazy(() =>
+  import('./DetectiveRunner').then((m) => ({ default: m.DetectiveRunner })),
+)
+const MemoryRunner = lazy(() =>
+  import('./MemoryRunner').then((m) => ({ default: m.MemoryRunner })),
+)
+const MatchRunner = lazy(() =>
+  import('./MatchRunner').then((m) => ({ default: m.MatchRunner })),
+)
+const ChainRunner = lazy(() =>
+  import('./ChainRunner').then((m) => ({ default: m.ChainRunner })),
+)
 
 type Mode =
   | 'flashcard'
@@ -55,6 +72,14 @@ const ALL = 'all'
 const MIXED = 'mixed'
 const DEFAULT_SOURCE = VOCAB_SOURCES[0]?.id ?? 'curated'
 
+function ModeLoading() {
+  return (
+    <div className="card" style={{ padding: 24, textAlign: 'center' }}>
+      加载玩法中…
+    </div>
+  )
+}
+
 export function VocabularyPage() {
   const { state } = useStore()
   const [params] = useSearchParams()
@@ -88,18 +113,23 @@ export function VocabularyPage() {
   const previewTruncated = deckId === ALL && selectedWords.length > previewWords.length
   const isPhraseDeck = !isMixed && (sourceId === 'phrases-gift' || sourceId === 'bbdc')
 
-  const onSourceChange = (id: string) => {
+  const exitMode = useCallback(() => {
+    setMode(null)
+    setPracticeAll(false)
+  }, [])
+
+  const startMode = useCallback((m: Mode, all = false) => {
+    setPracticeAll(all)
+    setMode(m)
+  }, [])
+
+  const onSourceChange = useCallback((id: string) => {
     setSourceId(id)
     setDeckId(ALL)
     setExpandedWordId(null)
     setMode(null)
     setPracticeAll(false)
-  }
-
-  const startMode = (m: Mode, all = false) => {
-    setPracticeAll(all)
-    setMode(m)
-  }
+  }, [])
 
   const masteredPct = mastery.total ? Math.round((mastery.mastered / mastery.total) * 100) : 0
   const detectiveStars = useMemo(
@@ -112,92 +142,81 @@ export function VocabularyPage() {
   const learnModes = visibleModes.filter((m) => m.group === 'learn')
   const gameModes = visibleModes.filter((m) => m.group === 'game')
 
-  const modeStars = (key: Mode) => {
-    if (key === 'detective') return detectiveStars
-    const deckKey = deckId === ALL ? `${sourceId}:all` : deckId
-    if (key === 'memory') return state.progress.vocabulary.stars[`${deckKey}:memory`] ?? 0
-    if (key === 'chain') return state.progress.vocabulary.stars[`${deckKey}:chain`] ?? 0
-    if (key === 'link') return state.progress.vocabulary.stars[deckKey] ?? 0
-    return 0
-  }
+  const modeStars = useCallback(
+    (key: Mode) => {
+      if (key === 'detective') return detectiveStars
+      const deckKey = deckId === ALL ? `${sourceId}:all` : deckId
+      if (key === 'memory') return state.progress.vocabulary.stars[`${deckKey}:memory`] ?? 0
+      if (key === 'chain') return state.progress.vocabulary.stars[`${deckKey}:chain`] ?? 0
+      if (key === 'link') return state.progress.vocabulary.stars[deckKey] ?? 0
+      return 0
+    },
+    [deckId, detectiveStars, sourceId, state.progress.vocabulary.stars],
+  )
 
   useEffect(() => {
     if (params.get('practiceAll') === '1' && !mode) startMode('choice', true)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [params])
+  }, [params, mode, startMode])
 
-  if (mode) {
-    const exit = () => {
-      setMode(null)
-      setPracticeAll(false)
+  const deckKey = practiceAll ? `${deckId}:all` : deckId
+  const runnerLabel = `${sourceLabel} · ${selectedLabel}${practiceAll ? ' · 全部' : ''}`
+
+  const modeRunner = useMemo(() => {
+    if (!mode) return null
+    switch (mode) {
+      case 'flashcard':
+        return (
+          <FlashcardRunner words={selectedWords} deckId={deckKey} deckLabel={runnerLabel} onExit={exitMode} />
+        )
+      case 'choice':
+        return (
+          <ChoiceRunner
+            words={selectedWords}
+            pool={activeWords}
+            deckId={deckKey}
+            deckLabel={runnerLabel}
+            practiceAll={practiceAll}
+            onExit={exitMode}
+          />
+        )
+      case 'spelling':
+        return (
+          <SpellingRunner words={selectedWords} deckId={deckKey} deckLabel={runnerLabel} onExit={exitMode} />
+        )
+      case 'detective':
+        return <DetectiveRunner words={selectedWords} pool={activeWords} onExit={exitMode} />
+      case 'challenge':
+        return <ChallengeRunner words={selectedWords} pool={activeWords} onExit={exitMode} />
+      case 'memory':
+        return (
+          <MemoryRunner words={selectedWords} deckId={deckKey} deckLabel={runnerLabel} onExit={exitMode} />
+        )
+      case 'link':
+        return (
+          <MatchRunner words={selectedWords} deckId={deckKey} deckLabel={runnerLabel} onExit={exitMode} />
+        )
+      case 'chain':
+        return (
+          <ChainRunner
+            words={selectedWords}
+            pool={activeWords}
+            deckId={deckKey}
+            deckLabel={runnerLabel}
+            onExit={exitMode}
+          />
+        )
+      default:
+        return null
     }
-    const deckKey = practiceAll ? `${deckId}:all` : deckId
-    const label = `${sourceLabel} · ${selectedLabel}${practiceAll ? ' · 全部' : ''}`
-    if (mode === 'flashcard')
-      return (
-        <FlashcardRunner
-          words={selectedWords}
-          deckId={deckKey}
-          deckLabel={label}
-          onExit={exit}
-        />
-      )
-    if (mode === 'choice')
-      return (
-        <ChoiceRunner
-          words={selectedWords}
-          pool={activeWords}
-          deckId={deckKey}
-          deckLabel={label}
-          practiceAll={practiceAll}
-          onExit={exit}
-        />
-      )
-    if (mode === 'spelling')
-      return (
-        <SpellingRunner
-          words={selectedWords}
-          deckId={deckKey}
-          deckLabel={label}
-          onExit={exit}
-        />
-      )
-    if (mode === 'detective')
-      return (
-        <DetectiveRunner words={selectedWords} pool={activeWords} onExit={exit} />
-      )
-    if (mode === 'challenge')
-      return <ChallengeRunner words={selectedWords} pool={activeWords} onExit={exit} />
-    if (mode === 'memory')
-      return (
-        <MemoryRunner
-          words={selectedWords}
-          deckId={deckKey}
-          deckLabel={label}
-          onExit={exit}
-        />
-      )
-    if (mode === 'link')
-      return (
-        <MatchRunner
-          words={selectedWords}
-          deckId={deckKey}
-          deckLabel={label}
-          onExit={exit}
-        />
-      )
-    if (mode === 'chain')
-      return (
-        <ChainRunner
-          words={selectedWords}
-          pool={activeWords}
-          deckId={deckKey}
-          deckLabel={label}
-          onExit={exit}
-        />
-      )
-    return null
-  }
+  }, [
+    mode,
+    selectedWords,
+    deckKey,
+    runnerLabel,
+    exitMode,
+    activeWords,
+    practiceAll,
+  ])
 
   const renderModeGrid = (list: ModeDef[]) => (
     <div className="mode-grid">
@@ -218,6 +237,10 @@ export function VocabularyPage() {
       ))}
     </div>
   )
+
+  if (mode) {
+    return <Suspense fallback={<ModeLoading />}>{modeRunner}</Suspense>
+  }
 
   return (
     <div>

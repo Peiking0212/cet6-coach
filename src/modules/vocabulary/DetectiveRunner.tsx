@@ -434,7 +434,7 @@ function AiStory({ theCase, words }: { theCase: DetectiveCase; words: string[] }
   const { state } = useStore()
   const [text, setText] = useState('')
   const [loading, setLoading] = useState(false)
-  if (!aiConfigured(state.ai)) return null
+  const enabled = aiConfigured(state.ai)
 
   const run = async () => {
     setLoading(true)
@@ -449,6 +449,8 @@ function AiStory({ theCase, words }: { theCase: DetectiveCase; words: string[] }
       setLoading(false)
     }
   }
+
+  if (!enabled) return null
 
   return (
     <div className="dt-ai-story">
