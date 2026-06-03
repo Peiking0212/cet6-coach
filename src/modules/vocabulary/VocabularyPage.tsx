@@ -12,14 +12,16 @@ import { FlashcardRunner } from './FlashcardRunner'
 import { ChoiceRunner } from './ChoiceRunner'
 import { SpellingRunner } from './SpellingRunner'
 import { ChallengeRunner } from './ChallengeRunner'
+import { DetectiveRunner } from './DetectiveRunner'
 
-type Mode = 'flashcard' | 'choice' | 'spelling' | 'challenge'
+type Mode = 'flashcard' | 'choice' | 'spelling' | 'challenge' | 'detective'
 
 const MODES: { key: Mode; emoji: string; title: string; desc: string; cls: string }[] = [
   { key: 'flashcard', emoji: '🃏', title: '学习卡片', desc: '翻卡认词 · TTS 发音 · 标记复习', cls: 'm-flash' },
   { key: 'choice', emoji: '🔤', title: '中英选择', desc: '看词选义 / 看义选词', cls: 'm-choice' },
   { key: 'spelling', emoji: '✍️', title: '拼写听写', desc: '听发音，拼出单词', cls: 'm-spell' },
   { key: 'challenge', emoji: '⚡', title: '闯关挑战', desc: '45 秒极速连击', cls: 'm-challenge' },
+  { key: 'detective', emoji: '🔍', title: '侦探游戏', desc: '解锁线索破案', cls: 'm-detective' },
 ]
 
 const ALL = 'all'
@@ -108,10 +110,19 @@ export function VocabularyPage() {
           onExit={exit}
         />
       )
-    return <ChallengeRunner words={selectedWords} pool={activeWords} onExit={exit} />
+    if (mode === 'detective')
+      return (
+        <DetectiveRunner words={selectedWords} pool={activeWords} onExit={exit} />
+      )
+    if (mode === 'challenge')
+      return <ChallengeRunner words={selectedWords} pool={activeWords} onExit={exit} />
+    return null
   }
 
   const masteredPct = mastery.total ? Math.round((mastery.mastered / mastery.total) * 100) : 0
+  const detectiveStars = state.progress.vocabulary.stars['vocab-detective'] ?? 0
+  const phraseHidden = (key: Mode) => isPhraseDeck && (key === 'spelling' || key === 'detective')
+  const visibleModes = MODES.filter((m) => !phraseHidden(m.key))
 
   useEffect(() => {
     if (params.get('practiceAll') === '1' && !mode) startMode('choice', true)
@@ -122,7 +133,7 @@ export function VocabularyPage() {
     <div>
       <PageHeader
         title="单词"
-        subtitle={`${sourceLabel} · ${mastery.total} 条 · 四种玩法 · TTS 发音`}
+        subtitle={`${sourceLabel} · ${mastery.total} 条 · 五种玩法 · TTS 发音`}
       />
 
       <PracticeAllBanner
@@ -246,11 +257,16 @@ export function VocabularyPage() {
 
       <h2 className="section-title">玩法</h2>
       <div className="mode-grid">
-        {MODES.filter((m) => !(isPhraseDeck && m.key === 'spelling')).map((m) => (
+        {visibleModes.map((m) => (
           <button key={m.key} className={`mode-card card ${m.cls}`} onClick={() => startMode(m.key)}>
             <span className="mode-emoji">{m.emoji}</span>
             <div className="mode-info">
-              <div className="mode-title">{m.title}</div>
+              <div className="mode-title">
+                {m.title}
+                {m.key === 'detective' && detectiveStars > 0 && (
+                  <Stars value={detectiveStars} size={11} />
+                )}
+              </div>
               <div className="mode-desc">{m.desc}</div>
             </div>
             <span className="mode-range">
@@ -262,7 +278,9 @@ export function VocabularyPage() {
 
       <h2 className="section-title">全部练习</h2>
       <div className="vocab-practice-all-row">
-        {MODES.filter((m) => m.key !== 'challenge' && !(isPhraseDeck && m.key === 'spelling')).map((m) => (
+        {visibleModes
+          .filter((m) => m.key !== 'challenge' && m.key !== 'detective')
+          .map((m) => (
           <button
             key={`all-${m.key}`}
             className="btn btn-ghost vocab-practice-all-btn"
