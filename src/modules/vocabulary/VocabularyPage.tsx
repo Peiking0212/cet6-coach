@@ -101,6 +101,31 @@ export function VocabularyPage() {
     setMode(m)
   }
 
+  const masteredPct = mastery.total ? Math.round((mastery.mastered / mastery.total) * 100) : 0
+  const detectiveStars = useMemo(
+    () => Math.max(0, ...CASES.map((c) => state.progress.vocabulary.stars[`detective-${c.id}`] ?? 0)),
+    [state.progress.vocabulary.stars],
+  )
+
+  const modeVisible = (m: ModeDef) => !(isPhraseDeck && m.needsSingleWord)
+  const visibleModes = MODES.filter(modeVisible)
+  const learnModes = visibleModes.filter((m) => m.group === 'learn')
+  const gameModes = visibleModes.filter((m) => m.group === 'game')
+
+  const modeStars = (key: Mode) => {
+    if (key === 'detective') return detectiveStars
+    const deckKey = deckId === ALL ? `${sourceId}:all` : deckId
+    if (key === 'memory') return state.progress.vocabulary.stars[`${deckKey}:memory`] ?? 0
+    if (key === 'chain') return state.progress.vocabulary.stars[`${deckKey}:chain`] ?? 0
+    if (key === 'link') return state.progress.vocabulary.stars[deckKey] ?? 0
+    return 0
+  }
+
+  useEffect(() => {
+    if (params.get('practiceAll') === '1' && !mode) startMode('choice', true)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [params])
+
   if (mode) {
     const exit = () => {
       setMode(null)
@@ -173,31 +198,6 @@ export function VocabularyPage() {
       )
     return null
   }
-
-  const masteredPct = mastery.total ? Math.round((mastery.mastered / mastery.total) * 100) : 0
-  const detectiveStars = useMemo(
-    () => Math.max(0, ...CASES.map((c) => state.progress.vocabulary.stars[`detective-${c.id}`] ?? 0)),
-    [state.progress.vocabulary.stars],
-  )
-
-  const modeVisible = (m: ModeDef) => !(isPhraseDeck && m.needsSingleWord)
-  const visibleModes = MODES.filter(modeVisible)
-  const learnModes = visibleModes.filter((m) => m.group === 'learn')
-  const gameModes = visibleModes.filter((m) => m.group === 'game')
-
-  const modeStars = (key: Mode) => {
-    if (key === 'detective') return detectiveStars
-    const deckKey = deckId === ALL ? `${sourceId}:all` : deckId
-    if (key === 'memory') return state.progress.vocabulary.stars[`${deckKey}:memory`] ?? 0
-    if (key === 'chain') return state.progress.vocabulary.stars[`${deckKey}:chain`] ?? 0
-    if (key === 'link') return state.progress.vocabulary.stars[deckKey] ?? 0
-    return 0
-  }
-
-  useEffect(() => {
-    if (params.get('practiceAll') === '1' && !mode) startMode('choice', true)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [params])
 
   const renderModeGrid = (list: ModeDef[]) => (
     <div className="mode-grid">

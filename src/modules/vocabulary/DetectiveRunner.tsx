@@ -47,6 +47,8 @@ function blankExample(word: VocabWord): string {
   return re.test(word.example) ? word.example.replace(re, '_____') : `（${word.meaning}）`
 }
 
+const MIN_WORDS = 5
+
 function buildChallenges(theCase: DetectiveCase, words: VocabWord[], pool: VocabWord[]): Challenge[] {
   const source = words.length >= theCase.clues.length ? words : pool
   const picks = shuffle(source).slice(0, theCase.clues.length)
@@ -73,14 +75,17 @@ export function DetectiveRunner({
 }) {
   const { record, vocabGrade, setStars, state } = useStore()
   const { onCorrect } = useEncourage()
+  const wordPool = pool.length >= MIN_WORDS ? pool : words
+  const deckReady = words.length >= MIN_WORDS && wordPool.length >= MIN_WORDS
+
   const [caseId, setCaseId] = useState<string | null>(null)
   const theCase = useMemo(
     () => (caseId ? CASES.find((c) => c.id === caseId) : null),
     [caseId],
   )
   const challenges = useMemo(
-    () => (theCase ? buildChallenges(theCase, words, pool) : []),
-    [theCase, words, pool],
+    () => (theCase && deckReady ? buildChallenges(theCase, words, wordPool) : []),
+    [theCase, words, wordPool, deckReady],
   )
 
   const [phase, setPhase] = useState<Phase>('pick')
@@ -114,6 +119,25 @@ export function DetectiveRunner({
     setPhaseAnim('dt-phase-in')
   }
 
+  if (!deckReady) {
+    return (
+      <div className="runner">
+        <Head title="侦探游戏" onExit={onExit} />
+        <div className="card done-card fade-in">
+          <div className="done-emoji">🔍</div>
+          <h2>词库不够开案</h2>
+          <p className="dt-brief">
+            侦探游戏需要至少 {MIN_WORDS} 个单词（当前 {words.length} 个）。
+            请切换到单词库、选择「全部」或更大的分组后再试。
+          </p>
+          <button className="btn btn-primary runner-next" onClick={onExit}>
+            返回选词
+          </button>
+        </div>
+      </div>
+    )
+  }
+
   if (phase === 'pick' || !theCase) {
     return (
       <div className="runner">
@@ -137,6 +161,20 @@ export function DetectiveRunner({
   }
 
   const ch = challenges[ci]
+  if (phase === 'investigate' && !ch) {
+    return (
+      <div className="runner">
+        <Head title="侦探游戏" onExit={onExit} />
+        <div className="card done-card fade-in">
+          <p className="dt-brief">线索生成失败，请返回重新选案。</p>
+          <button className="btn btn-primary" onClick={() => goPhase('pick')}>
+            重新选案
+          </button>
+        </div>
+      </div>
+    )
+  }
+
   const solvedCount = solved.filter(Boolean).length
 
   const answer = (i: number) => {
